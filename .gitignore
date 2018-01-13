@@ -1,0 +1,39 @@
+src/*.exe
+src/murfcoin
+src/murfcoind
+src/test_murfcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.murfcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+murfcoin-qt
+Murfcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+murfcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
+alertkey.hex
+alertkey.pem
+*.hex
+genesiscoinbase.pem
+testnetalert.pem
