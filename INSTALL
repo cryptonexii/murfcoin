@@ -1,9 +1,0 @@
-Building Murfcoin
-
-See doc/readme-qt.rst for instructions on building Murfcoin-Qt,
-the intended-for-end-users, nice-graphical-interface, reference
-implementation of Murfcoin.
-
-See doc/build-*.txt for instructions on building murfcoind,
-the intended-for-services, no-graphical-interface, reference
-implementation of Murfcoin.

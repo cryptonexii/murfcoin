@@ -1,0 +1,2 @@
+# List of fixed seed nodes for testnet
+13.59.200.226:17333

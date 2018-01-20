@@ -1,2937 +1,3133 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="he" version="2.0">
-<defaultcodec>UTF-8</defaultcodec>
-<context>
-    <name>AboutDialog</name>
-    <message>
-        <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Murfcoin</source>
-        <translation>×�×•×“×•×ª ×œ×™×™×˜×§×•×™×Ÿ</translation>
-    </message>
-    <message>
-        <location line="+39"/>
-        <source>&lt;b&gt;Murfcoin&lt;/b&gt; version</source>
-        <translation>×’×¨×¡×ª &lt;b&gt;×œ×™×™×˜×§×•×™×Ÿ&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location line="+57"/>
-        <source>
-This is experimental software.
-
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>
-×–×•×”×™ ×ª×•×›× ×” × ×™×¡×™×•× ×™×ª.
-
-×ž×•×¤×¦×ª ×ª×—×ª ×¨×™×©×™×•×Ÿ ×”×ª×•×›× ×” MIT/X11, ×¨×�×” ×�×ª ×”×§×•×‘×¥ ×”×ž×¦×•×¨×£ COPYING ×�×• http://www.opensource.org/licenses/mit-license.php.
-
-×”×ž×•×¦×¨ ×”×–×” ×›×•×œ×œ ×ª×•×›× ×” ×©×¤×•×ª×—×” ×¢&quot;×™ ×¤×¨×•×™×§×˜ OpenSSL ×œ×©×™×ž×•×© ×‘×ª×™×‘×ª ×”×›×œ×™×� OpenSSL (http://www.openssl.org/) ×•×ª×•×›× ×” ×§×¨×™×¤×˜×•×’×¨×¤×™×ª ×©× ×›×ª×‘×” ×¢&quot;×™ ×�×¨×™×§ ×™×�× ×’ (eay@cryptsoft.com) ×•×ª×•×›× ×ª UPnP ×©× ×›×ª×‘×” ×¢&quot;×™ ×ª×•×ž×¡ ×‘×¨× ×¨×“.</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="+14"/>
-        <source>Copyright</source>
-        <translation>×–×›×•×™×•×ª ×™×•×¦×¨×™×�</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>The Murfcoin developers</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+<TS language="he" version="2.1">
 <context>
     <name>AddressBookPage</name>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>Address Book</source>
-        <translation>×¤× ×§×¡ ×›×ª×•×‘×•×ª</translation>
+        <source>Right-click to edit address or label</source>
+        <translation>יש ללחוץ עם הכפתור הימני כדי לערוך כתובת או תווית</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>Double-click to edit address or label</source>
-        <translation>×œ×—×¥ ×œ×—×™×¦×” ×›×¤×•×œ×” ×œ×¢×¨×•×š ×›×ª×•×‘×ª ×�×• ×ª×•×™×ª</translation>
-    </message>
-    <message>
-        <location line="+27"/>
         <source>Create a new address</source>
-        <translation>×™×¦×™×¨×ª ×›×ª×•×‘×ª ×—×“×©×”</translation>
+        <translation>יצירת כתובת חדשה</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <source>&amp;New</source>
+        <translation>&amp;חדש</translation>
+    </message>
+    <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>×”×¢×ª×§ ×�×ª ×”×›×ª×•×‘×ª ×”×ž×¡×•×ž× ×ª ×œ×œ×•×— ×”×¢×¨×™×›×”</translation>
+        <translation>העתקת הכתובת המסומנת ללוח הגזירים</translation>
     </message>
     <message>
-        <location line="-11"/>
-        <source>&amp;New Address</source>
-        <translation>×›×ª×•×‘×ª ×—×“×©×”</translation>
+        <source>&amp;Copy</source>
+        <translation>ה&amp;עתקה</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Murfcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>×�×œ×” ×›×ª×•×‘×ª ×”×œ×™×™×˜×§×•×™×Ÿ ×©×œ×š ×¢×‘×•×¨ ×§×‘×œ×ª ×ª×©×œ×•×ž×™×�. ×™×™×ª×›×Ÿ ×•×ª×¨×¦×” ×œ×ª×ª ×›×ª×•×‘×ª ×©×•× ×” ×œ×›×œ ×©×•×œ×— ×›×“×™ ×©×ª×•×›×œ ×œ×¢×§×•×‘ ×�×—×¨ ×ž×™ ×ž×©×œ×� ×œ×š.</translation>
+        <source>C&amp;lose</source>
+        <translation>סגירה</translation>
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>&amp;Copy Address</source>
-        <translation>×”×¢×ª×§ ×›×ª×•×‘×ª</translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>Show &amp;QR Code</source>
-        <translation>×”×¦×’ &amp;×§×•×“ QR</translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>Sign a message to prove you own a Murfcoin address</source>
-        <translation>×—×ª×•×� ×¢×œ ×”×•×“×¢×” ×‘×›×“×™ ×œ×”×•×›×™×— ×›×™ ×�×ª×” ×”×‘×¢×œ×™×� ×©×œ ×›×ª×•×‘×ª ×œ×™×™×˜×§×•×™×Ÿ.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Sign &amp;Message</source>
-        <translation>×—×ª×•×� ×¢×œ ×”×•×“×¢×”</translation>
-    </message>
-    <message>
-        <location line="+25"/>
         <source>Delete the currently selected address from the list</source>
-        <translation>×ž×—×§ ×�×ª ×”×›×ª×•×‘×ª ×©× ×‘×—×¨×” ×ž×”×¨×©×™×ž×”</translation>
+        <translation>מחיקת הכתובת שנבחרה מהרשימה</translation>
     </message>
     <message>
-        <location line="+27"/>
         <source>Export the data in the current tab to a file</source>
-        <translation>×™×¦×•×� ×”× ×ª×•× ×™×� ×‘×˜×�×‘ ×”× ×•×›×—×™ ×œ×§×•×‘×¥</translation>
+        <translation>יצוא הנתונים מהלשונית הנוכחית לקובץ</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Export</source>
-        <translation type="unfinished"/>
+        <translation>י&amp;צוא</translation>
     </message>
     <message>
-        <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Murfcoin address</source>
-        <translation>×�×ž×ª ×”×•×“×¢×” ×‘×›×“×™ ×œ×”×‘×˜×™×— ×©×”×™×� × ×—×ª×ž×” ×¢×� ×›×ª×•×‘×ª ×œ×™×™×˜×§×•×™×Ÿ ×ž×¡×•×™×ž×ª.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Verify Message</source>
-        <translation>×�×ž×ª ×”×•×“×¢×”</translation>
-    </message>
-    <message>
-        <location line="+14"/>
         <source>&amp;Delete</source>
-        <translation>×ž×—×§</translation>
+        <translation>מ&amp;חיקה</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="-5"/>
+        <source>Choose the address to send coins to</source>
+        <translation>נא לבחור את הכתובת אליה ברצונך לשלוח את המטבעות</translation>
+    </message>
+    <message>
+        <source>Choose the address to receive coins with</source>
+        <translation>נא לבחור את הכתובת לקבלת המטבעות</translation>
+    </message>
+    <message>
+        <source>C&amp;hoose</source>
+        <translation>&amp;בחירה</translation>
+    </message>
+    <message>
+        <source>Sending addresses</source>
+        <translation>כתובת לשליחה</translation>
+    </message>
+    <message>
+        <source>Receiving addresses</source>
+        <translation>כתובות לקבלה</translation>
+    </message>
+    <message>
         <source>These are your Murfcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>×�×œ×” ×›×ª×•×‘×ª ×”×œ×™×™×˜×§×•×™×Ÿ ×©×œ×š ×¢×‘×•×¨ ×©×œ×™×—×ª ×ª×©×œ×•×ž×™×�. ×ª×ž×™×“ ×‘×“×•×§ ×�×ª ×ž×¡×¤×¨ ×•×�×ª ×›×ª×•×‘×•×ª ×ž×§×‘×œ×™ ×”×ª×©×œ×•×ž×™×� ×œ×¤× ×™ ×©×œ×™×—×ª ×ž×˜×‘×¢×•×ª.</translation>
+        <translation>אלו הן כתובות לייטקוין שלך לשליחת תשלומים. חשוב לבדוק את כמות הכתובות המקבלות לפני שליחת מטבעות.</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <source>These are your Murfcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>אלו הן כתובות לייטקוין שלך לקבלת תשלומים. מומלץ להשתמש בכתובת חדשה לכל העברה.</translation>
+    </message>
+    <message>
+        <source>&amp;Copy Address</source>
+        <translation>ה&amp;עתקת כתובת</translation>
+    </message>
+    <message>
         <source>Copy &amp;Label</source>
-        <translation>×”×¢×ª×§ ×ª×•×™×ª</translation>
+        <translation>העתקת &amp;תוית</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>&amp;Edit</source>
-        <translation>×¢×¨×™×›×”</translation>
+        <translation>&amp;עריכה</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Send &amp;Coins</source>
-        <translation>×©×œ×— ×ž×˜×‘×¢×•×ª</translation>
+        <source>Export Address List</source>
+        <translation>יצוא רשימת הכתובות</translation>
     </message>
     <message>
-        <location line="+260"/>
-        <source>Export Address Book Data</source>
-        <translation>×™×¦×•×� × ×ª×•× ×™ ×¤× ×§×¡ ×›×ª×•×‘×•×ª</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>×§×•×‘×¥ ×ž×•×¤×¨×“ ×‘×¤×¡×™×§×™×� (*.csv)</translation>
+        <translation>קובץ מופרד בפסיקים (‎*.csv)</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>Error exporting</source>
-        <translation>×©×’×™×�×” ×‘×™×¦×•×�</translation>
+        <source>Exporting Failed</source>
+        <translation>יצוא נכשל</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Could not write to file %1.</source>
-        <translation>×œ×� ×ž×¡×•×’×œ ×œ×›×ª×•×‘ ×œ×§×•×‘×¥ %1.</translation>
+        <source>There was an error trying to save the address list to %1. Please try again.</source>
+        <translation>אירעה שגיאה בעת הניסיון לשמור את רשימת הכתובת אל %1. נא לנסות שוב.</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
-        <location filename="../addresstablemodel.cpp" line="+144"/>
         <source>Label</source>
-        <translation>×ª×•×™×ª</translation>
+        <translation>תווית</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Address</source>
-        <translation>×›×ª×•×‘×ª</translation>
+        <translation>כתובת</translation>
     </message>
     <message>
-        <location line="+36"/>
         <source>(no label)</source>
-        <translation>(×œ×œ×� ×ª×•×™×ª)</translation>
+        <translation>(ללא תוית)</translation>
     </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
         <source>Passphrase Dialog</source>
-        <translation>×©×™×— ×¡×™×¡×ž×�</translation>
+        <translation>דו־שיח מילת צופן</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>Enter passphrase</source>
-        <translation>×”×›× ×¡ ×¡×™×¡×ž×�</translation>
+        <translation>נא להזין מילת צופן</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>New passphrase</source>
-        <translation>×¡×™×¡×ž×” ×—×“×©×”</translation>
+        <translation>מילת צופן חדשה</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Repeat new passphrase</source>
-        <translation>×—×–×•×¨ ×¢×œ ×”×¡×™×¡×ž×” ×”×—×“×©×”</translation>
+        <translation>נא לחזור על מילת הצופן החדשה</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="+33"/>
-        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>×”×›× ×¡ ×�×ª ×”×¡×™×¡×ž×” ×”×—×“×©×” ×œ×�×¨× ×§. &lt;br/&gt;×�× ×� ×”×©×ª×ž×© ×‘×¡×™×¡×ž×” ×”×ž×›×™×œ×” &lt;b&gt;10 ×ª×•×™×� ×�×§×¨×�×™×™×� ×�×• ×™×•×ª×¨&lt;/b&gt;, ×�×• &lt;b&gt;×©×ž×•× ×” ×ž×™×œ×™×� ×�×• ×™×•×ª×¨&lt;/b&gt;.</translation>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>נא להזין את מילת הצופן לארנק.&lt;br/&gt;נא להשתמש במילת צופן המורכבת מ&lt;b&gt;עשרה או יותר תווים אקראיים&lt;/b&gt;, או &lt;b&gt;שמונה מילים ומעלה&lt;/b&gt;.</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Encrypt wallet</source>
-        <translation>×”×¦×¤×Ÿ ×�×¨× ×§</translation>
+        <translation>הצפנת הארנק</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>×”×¤×¢×•×œ×” ×”×–×• ×“×•×¨×©×ª ×�×ª ×¡×™×¡×ž×ª ×”×�×¨× ×§ ×©×œ×š ×‘×©×‘×™×œ ×œ×¤×ª×•×— ×�×ª ×”×�×¨× ×§.</translation>
+        <translation>פעולה זו דורשת את מילת הצופן של הארנק שלך כדי לשחרר את הארנק.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Unlock wallet</source>
-        <translation>×¤×ª×™×—×ª ×�×¨× ×§</translation>
+        <translation>שחרור הארנק</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>×”×¤×¢×•×œ×” ×”×–×• ×“×•×¨×©×ª ×�×ª ×¡×™×¡×ž×ª ×”×�×¨× ×§ ×©×œ×š ×‘×©×‘×™×œ ×œ×¤×¢× ×— ×�×ª ×”×�×¨× ×§.</translation>
+        <translation>פעולה זו דורשת את מילת הצופן של הארנק שלך כדי לפענח את הארנק.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Decrypt wallet</source>
-        <translation>×¤×¢× ×•×— ×�×¨× ×§</translation>
+        <translation>פענוח הארנק</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Change passphrase</source>
-        <translation>×©×™× ×•×™ ×¡×™×¡×ž×”</translation>
+        <translation>החלפת מילת הצופן</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>×”×›× ×¡ ×�×ª ×”×¡×™×¡×ž×•×ª ×”×™×©× ×” ×•×”×—×“×©×” ×œ×�×¨× ×§.</translation>
+        <source>Enter the old passphrase and new passphrase to the wallet.</source>
+        <translation>נא להזין את מילת הצופן הישנה וחדשה לארנק</translation>
     </message>
     <message>
-        <location line="+46"/>
         <source>Confirm wallet encryption</source>
-        <translation>×�×©×¨ ×”×¦×¤× ×ª ×�×¨× ×§</translation>
+        <translation>אימות הצפנת הארנק</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FLUFF&lt;/b&gt;!</source>
-        <translation>×�×–×”×¨×”: ×�×� ×�×ª×” ×ž×¦×¤×™×Ÿ ×�×ª ×”×�×¨× ×§ ×•×ž×�×‘×“ ×�×ª ×”×¡×™×¡×ž×�, ×�×ª×” &lt;b&gt;×ª×�×‘×“ ×�×ª ×›×œ ×”×œ×™×™×˜×§×•×™× ×™×� ×©×œ×š&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MURFCOINS&lt;/b&gt;!</source>
+        <translation>אזהרה: איבוד מילת הצופן לאחר הצפנת הארנק עשויה לגרום לכך &lt;b&gt;שכל הביטקוינים שלך יאבדו&lt;/b&gt;!</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>×”×�×� ×�×ª×” ×‘×˜×•×— ×©×‘×¨×¦×•× ×š ×œ×”×¦×¤×™×Ÿ ×�×ª ×”×�×¨× ×§?</translation>
+        <translation>להצפין את הארנק?</translation>
     </message>
     <message>
-        <location line="+15"/>
-        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>×—×©×•×‘! ×›×œ ×’×™×‘×•×™ ×§×•×“×� ×©×¢×©×™×ª ×œ×�×¨× ×§ ×©×œ×š ×™×© ×œ×”×—×œ×™×£ ×¢×� ×§×•×‘×¥ ×”×�×¨× ×§ ×”×ž×•×¦×¤×Ÿ ×©×–×” ×¢×ª×” × ×•×¦×¨. ×ž×¡×™×‘×•×ª ×�×‘×˜×—×”, ×’×™×‘×•×™×™×� ×§×•×“×ž×™×� ×©×œ ×§×•×‘×¥ ×”×�×¨× ×§ ×”×œ×�-×ž×•×¦×¤×Ÿ ×™×”×¤×›×• ×œ×—×¡×¨×™ ×©×™×ž×•×© ×‘×¨×’×¢ ×©×ª×ª×—×™×œ ×œ×”×©×ª×ž×© ×‘×�×¨× ×§ ×”×—×“×© ×”×ž×•×¦×¤×Ÿ.</translation>
-    </message>
-    <message>
-        <location line="+100"/>
-        <location line="+24"/>
-        <source>Warning: The Caps Lock key is on!</source>
-        <translation>×–×”×™×¨×•×ª: ×ž×§×© Caps Lock ×ž×•×¤×¢×œ!</translation>
-    </message>
-    <message>
-        <location line="-130"/>
-        <location line="+58"/>
         <source>Wallet encrypted</source>
-        <translation>×”×�×¨× ×§ ×”×•×¦×¤×Ÿ</translation>
+        <translation>הארנק מוצפן</translation>
     </message>
     <message>
-        <location line="-56"/>
-        <source>Murfcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your murfcoins from being stolen by malware infecting your computer.</source>
-        <translation>×œ×™×™×˜×§×•×™×Ÿ ×™×™×¡×’×¨ ×¢×›×©×™×• ×›×“×™ ×œ×”×©×œ×™×� ×�×ª ×ª×”×œ×™×š ×”×”×¦×¤× ×”. ×–×›×•×¨ ×©×”×¦×¤× ×ª ×”×�×¨× ×§ ×©×œ×š ×�×™× ×• ×™×›×•×œ ×œ×”×’×Ÿ ×‘×�×•×¤×Ÿ ×ž×œ×� ×¢×œ ×”×œ×™×™×˜×§×•×™× ×™×� ×©×œ×š ×ž×ª×•×›× ×•×ª ×–×“×•× ×™×•×ª ×”×ž×•×©×ª×œ×•×ª ×¢×œ ×”×ž×—×©×‘.</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your murfcoins from being stolen by malware infecting your computer.</source>
+        <translation>%1 ייסגר כעת כדי לסיים את תהליך ההצפנה. נא לשים לב כי הצפנת הארנק שלך לא יכול להגן על הביטקוינים שלך מפני גניבה או נוזקה שתוקפת את מחשבך.</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <location line="+7"/>
-        <location line="+42"/>
-        <location line="+6"/>
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>חשוב: כל הגיבויים הקודמים שערכת לארנק שלך אמורים להתחלף עם קובץ הארנק המוצפן שנוצר כרגע. מטעמי אבטחה, הגיבויים הקודמים של קובץ הארנק שאינו מוגן הופכים לחסרי תועלת ברגע התחלת השימוש בארנק החדש והמוצפן.</translation>
+    </message>
+    <message>
         <source>Wallet encryption failed</source>
-        <translation>×”×¦×¤× ×ª ×”×�×¨× ×§ × ×›×©×œ×”</translation>
+        <translation>הצפנת הארנק נכשלה</translation>
     </message>
     <message>
-        <location line="-54"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>×”×¦×¤× ×ª ×”×�×¨× ×§ × ×›×©×œ×” ×¢×§×‘ ×©×’×™×�×” ×¤× ×™×ž×™×ª. ×”×�×¨× ×§ ×©×œ×š ×œ×� ×”×•×¦×¤×Ÿ.</translation>
+        <translation>הצפנת הארנק נכשלה עקב תקלה פנימית. הארנק שלך לא הוצפן.</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <location line="+48"/>
         <source>The supplied passphrases do not match.</source>
-        <translation>×”×¡×™×¡×ž×•×ª ×©× ×™×ª× ×• ×�×™× ×Ÿ ×ª×•×�×ž×•×ª.</translation>
+        <translation>מילות הצופן שסופקו אינן תואמות.</translation>
     </message>
     <message>
-        <location line="-37"/>
         <source>Wallet unlock failed</source>
-        <translation>×¤×ª×™×—×ª ×”×�×¨× ×§ × ×›×©×œ×”</translation>
+        <translation>שחרור האנרק נכשל</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <location line="+11"/>
-        <location line="+19"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>×”×¡×™×¡×ž×” ×©×”×•×›× ×¡×” ×œ×¤×¢× ×•×— ×”×�×¨× ×§ ×©×’×•×™×”.</translation>
+        <translation>מילת הצופן שהוזנה לצורך פענוח הארנק שגויה.</translation>
     </message>
     <message>
-        <location line="-20"/>
         <source>Wallet decryption failed</source>
-        <translation>×¤×¢× ×•×— ×”×�×¨× ×§ × ×›×©×œ</translation>
+        <translation>פענוח הארנק נכשל</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>×¡×™×¡×ž×ª ×”×�×¨× ×§ ×©×•× ×ª×” ×‘×”×¦×œ×—×”.</translation>
+        <translation>מילת הצופן של הארנק הוחלפה בהצלחה.</translation>
+    </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>אזהרה: מקש ה־Caps Lock פעיל!</translation>
+    </message>
+</context>
+<context>
+    <name>BanTableModel</name>
+    <message>
+        <source>IP/Netmask</source>
+        <translation>IP/מסכת רשת</translation>
+    </message>
+    <message>
+        <source>Banned Until</source>
+        <translation>חסום עד</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+233"/>
         <source>Sign &amp;message...</source>
-        <translation>×—×ª×•×� ×¢×œ ×”×•×“×¢×”</translation>
+        <translation>&amp;חתימה על הודעה…</translation>
     </message>
     <message>
-        <location line="+280"/>
         <source>Synchronizing with network...</source>
-        <translation>×ž×¡×ª× ×›×¨×Ÿ ×¢×� ×”×¨×©×ª...</translation>
+        <translation>בסנכרון עם הרשת…</translation>
     </message>
     <message>
-        <location line="-349"/>
         <source>&amp;Overview</source>
-        <translation>&amp;×¡×§×™×¨×”</translation>
+        <translation>&amp;סקירה</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>Node</source>
+        <translation>מפרק</translation>
+    </message>
+    <message>
         <source>Show general overview of wallet</source>
-        <translation>×”×¦×’ ×¡×§×™×¨×” ×›×œ×œ×™×ª ×©×œ ×”×�×¨× ×§</translation>
+        <translation>הצגת סקירה כללית של הארנק</translation>
     </message>
     <message>
-        <location line="+20"/>
         <source>&amp;Transactions</source>
-        <translation>&amp;×¤×¢×•×œ×•×ª</translation>
+        <translation>ה&amp;עברות</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Browse transaction history</source>
-        <translation>×“×¤×“×£ ×‘×”×™×¡×˜×•×¨×™×™×ª ×”×¤×¢×•×œ×•×ª</translation>
+        <translation>עיון בהיסטוריית ההעברות</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Edit the list of stored addresses and labels</source>
-        <translation>×¢×¨×•×š ×�×ª ×¨×©×™×ž×ª ×”×›×ª×•×‘×•×ª ×•×”×ª×•×™×•×ª</translation>
-    </message>
-    <message>
-        <location line="-14"/>
-        <source>Show the list of addresses for receiving payments</source>
-        <translation>×”×¦×’ ×�×ª ×¨×©×™×ž×ª ×”×›×ª×•×‘×•×ª ×œ×§×‘×œ×ª ×ª×©×œ×•×ž×™×�</translation>
-    </message>
-    <message>
-        <location line="+31"/>
         <source>E&amp;xit</source>
-        <translation>×™&amp;×¦×™×�×”</translation>
+        <translation>י&amp;ציאה</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Quit application</source>
-        <translation>×¡×’×•×¨ ×ª×•×›× ×”</translation>
+        <translation>יציאה מהתכנית</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Show information about Murfcoin</source>
-        <translation>×”×¦×’ ×ž×™×“×¢ ×¢×œ ×œ×™×™×˜×§×•×™×Ÿ</translation>
+        <source>&amp;About %1</source>
+        <translation>&amp;אודות %1</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <source>Show information about %1</source>
+        <translation>הצג מידע על %1</translation>
+    </message>
+    <message>
         <source>About &amp;Qt</source>
-        <translation>×�×•×“×•×ª Qt</translation>
+        <translation>על אודות Qt</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show information about Qt</source>
-        <translation>×”×¦×’ ×ž×™×“×¢ ×¢×œ Qt</translation>
+        <translation>הצגת מידע על Qt</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Options...</source>
-        <translation>&amp;×�×¤×©×¨×•×™×•×ª</translation>
+        <translation>&amp;אפשרויות…</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <source>Modify configuration options for %1</source>
+        <translation>שינוי אפשרויות התצורה עבור %1</translation>
+    </message>
+    <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>×”×¦×¤×Ÿ ×�×¨× ×§</translation>
+        <translation>ה&amp;צפנת הארנק…</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Backup Wallet...</source>
-        <translation>×’×™×‘×•×™ ×�×¨× ×§</translation>
+        <translation>&amp;גיבוי הארנק…</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
-        <translation>×©× ×” ×¡×™×¡×ž×�</translation>
+        <translation>ה&amp;חלפת מילת הצופן…</translation>
     </message>
     <message>
-        <location line="+285"/>
-        <source>Importing blocks from disk...</source>
-        <translation>×ž×™×™×‘×� ×‘×œ×•×§×™×� ×ž×”×“×™×¡×§...</translation>
+        <source>&amp;Sending addresses...</source>
+        <translation>כתובת ה&amp;שליחה…</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <source>&amp;Receiving addresses...</source>
+        <translation>כתובות ה&amp;קבלה…</translation>
+    </message>
+    <message>
+        <source>Open &amp;URI...</source>
+        <translation>פתיחת &amp;כתובת משאב…</translation>
+    </message>
+    <message>
+        <source>Click to disable network activity.</source>
+        <translation>יש ללחוץ כדי לנטרל פעילות רשת.</translation>
+    </message>
+    <message>
+        <source>Network activity disabled.</source>
+        <translation>פעילות הרשת נוטרלה.</translation>
+    </message>
+    <message>
+        <source>Click to enable network activity again.</source>
+        <translation>יש ללחוץ כדי להפעיל את פעילות הרשת מחדש.</translation>
+    </message>
+    <message>
+        <source>Syncing Headers (%1%)...</source>
+        <translation>הכותרות מתעדכנות (%1%)...</translation>
+    </message>
+    <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>×ž×—×“×© ×�×ª ×�×™× ×“×§×¡ ×”×‘×œ×•×§×™×� ×‘×“×™×¡×§...</translation>
+        <translation>המקטעים נוספים למפתח בכונן…</translation>
     </message>
     <message>
-        <location line="-347"/>
         <source>Send coins to a Murfcoin address</source>
-        <translation>×©×œ×— ×ž×˜×‘×¢×•×ª ×œ×›×ª×•×‘×ª ×œ×™×™×˜×§×•×™×Ÿ</translation>
+        <translation>שליחת מטבעות לכתובת לייטקוין</translation>
     </message>
     <message>
-        <location line="+49"/>
-        <source>Modify configuration options for Murfcoin</source>
-        <translation>×©× ×” ×�×¤×©×¨×•×™×•×ª ×ª×¦×•×¨×” ×¢×‘×•×¨ ×œ×™×™×˜×§×•×™×Ÿ</translation>
-    </message>
-    <message>
-        <location line="+9"/>
         <source>Backup wallet to another location</source>
-        <translation>×’×™×‘×•×™ ×”×�×¨× ×§ ×œ×ž×§×•×� ×�×—×¨</translation>
+        <translation>גיבוי הארנק למיקום אחר</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>×©× ×” ×�×ª ×”×¡×™×¡×ž×” ×œ×”×¦×¤× ×ª ×”×�×¨× ×§</translation>
+        <translation>החלפת מילת הצופן להצפנת הארנק</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Debug window</source>
-        <translation>×—×œ×•×Ÿ × ×™×¤×•×™</translation>
+        <translation>חלון &amp;ניפוי</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Open debugging and diagnostic console</source>
-        <translation>×¤×ª×— ×�×ª ×œ×•×— ×”×‘×§×¨×” ×œ×�×‘×—×•×Ÿ ×•× ×™×¤×•×™</translation>
+        <translation>פתיחת לוח הבקרה לאבחון ולניפוי</translation>
     </message>
     <message>
-        <location line="-4"/>
         <source>&amp;Verify message...</source>
-        <translation>×�×ž×ª ×”×•×“×¢×”...</translation>
+        <translation>&amp;אימות הודעה…</translation>
     </message>
     <message>
-        <location line="-165"/>
-        <location line="+530"/>
         <source>Murfcoin</source>
-        <translation>×œ×™×™×˜×§×•×™×Ÿ</translation>
+        <translation>לייטקוין</translation>
     </message>
     <message>
-        <location line="-530"/>
         <source>Wallet</source>
-        <translation>×�×¨× ×§</translation>
+        <translation>ארנק</translation>
     </message>
     <message>
-        <location line="+101"/>
         <source>&amp;Send</source>
-        <translation>×•×©×œ×—</translation>
+        <translation>&amp;שליחה</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Receive</source>
-        <translation>×•×§×‘×œ</translation>
+        <translation>&amp;קבלה</translation>
     </message>
     <message>
-        <location line="+14"/>
-        <source>&amp;Addresses</source>
-        <translation>×•×›×ª×•×‘×•×ª</translation>
-    </message>
-    <message>
-        <location line="+22"/>
-        <source>&amp;About Murfcoin</source>
-        <translation>×�×•×“×•×ª ×œ×™×™×˜×§×•×™×Ÿ</translation>
-    </message>
-    <message>
-        <location line="+9"/>
         <source>&amp;Show / Hide</source>
-        <translation>×”×¦×’ / ×”×¡×ª×¨</translation>
+        <translation>ה&amp;צגה / הסתרה</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show or hide the main Window</source>
-        <translation>×”×¦×’ ×�×• ×”×¡×ª×¨ ×�×ª ×”×—×œ×•×Ÿ ×”×¨×�×©×™</translation>
+        <translation>הצגה או הסתרה של החלון הראשי</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>×”×¦×¤×Ÿ ×�×ª ×”×ž×¤×ª×—×•×ª ×”×¤×¨×˜×™×™×� ×©×©×™×™×›×™×� ×œ×�×¨× ×§ ×©×œ×š</translation>
+        <translation>הצפנת המפתחות הפרטיים ששייכים לארנק שלך</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Sign messages with your Murfcoin addresses to prove you own them</source>
-        <translation>×—×ª×•×� ×¢×œ ×”×•×“×¢×•×ª ×¢×� ×›×ª×•×‘×•×ª ×”×œ×™×™×˜×§×•×™×Ÿ ×©×œ×š ×›×“×™ ×œ×”×•×›×™×— ×©×”×Ÿ ×‘×‘×¢×œ×•×ª×š</translation>
+        <translation>חתום על הודעות עם כתובות לייטקוין שלך כדי להוכיח שהן בבעלותך</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Verify messages to ensure they were signed with specified Murfcoin addresses</source>
-        <translation>×�×ž×ª ×”×•×“×¢×•×ª ×›×“×™ ×œ×”×‘×˜×™×— ×©×”×Ÿ × ×—×ª×ž×• ×¢×� ×›×ª×•×‘×ª ×œ×™×™×˜×§×•×™×Ÿ ×ž×¡×•×™×ž×•×ª</translation>
+        <translation>אמת הודעות כדי להבטיח שהן נחתמו עם כתובת לייטקוין מסוימות</translation>
     </message>
     <message>
-        <location line="+28"/>
         <source>&amp;File</source>
-        <translation>&amp;×§×•×‘×¥</translation>
+        <translation>&amp;קובץ</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Settings</source>
-        <translation>×”&amp;×’×“×¨×•×ª</translation>
+        <translation>ה&amp;גדרות</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Help</source>
-        <translation>&amp;×¢×–×¨×”</translation>
+        <translation>ע&amp;זרה</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Tabs toolbar</source>
-        <translation>×¡×¨×’×œ ×›×œ×™×� ×˜×�×‘×™×�</translation>
+        <translation>סרגל כלים לשוניות</translation>
     </message>
     <message>
-        <location line="+17"/>
-        <location line="+10"/>
-        <source>[testnet]</source>
-        <translation>[×¨×©×ª-×‘×“×™×§×”]</translation>
+        <source>Request payments (generates QR codes and murfcoin: URIs)</source>
+        <translation>בקשת תשלומים (יצירה של קודים מסוג QR וסכימות כתובות משאב של :murfcoin)</translation>
     </message>
     <message>
-        <location line="+47"/>
-        <source>Murfcoin client</source>
-        <translation>×ª×•×›× ×ª ×œ×™×™×˜×§×•×™×Ÿ</translation>
+        <source>Show the list of used sending addresses and labels</source>
+        <translation>הצג את רשימת הכתובות לשליחה שהיו בשימוש לרבות התוויות</translation>
+    </message>
+    <message>
+        <source>Show the list of used receiving addresses and labels</source>
+        <translation>הצגת רשימת הכתובות והתוויות הנמצאות בשימוש</translation>
+    </message>
+    <message>
+        <source>Open a murfcoin: URI or payment request</source>
+        <translation>פתיחת לייטקוין: כתובת משאב או בקשת תשלום</translation>
+    </message>
+    <message>
+        <source>&amp;Command-line options</source>
+        <translation>אפשרויות &amp;שורת הפקודה</translation>
     </message>
     <message numerus="yes">
-        <location line="+141"/>
         <source>%n active connection(s) to Murfcoin network</source>
-        <translation><numerusform>×—×™×‘×•×¨ ×¤×¢×™×œ ×�×—×“ ×œ×¨×©×ª ×”×œ×™×™×˜×§×•×™×Ÿ</numerusform><numerusform>%n ×—×™×‘×•×¨×™×� ×¤×¢×™×œ×™×� ×œ×¨×©×ª ×”×œ×™×™×˜×§×•×™×Ÿ</numerusform></translation>
+        <translation><numerusform>חיבור אחד פעיל לרשת לייטקוין</numerusform><numerusform>%n חיבורים פעילים לרשת לייטקוין</numerusform></translation>
     </message>
     <message>
-        <location line="+22"/>
-        <source>No block source available...</source>
-        <translation type="unfinished"/>
+        <source>Processing blocks on disk...</source>
+        <translation>מעבד בלוקים על הדיסק...</translation>
     </message>
     <message>
-        <location line="+12"/>
-        <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
-        <translation>1% ×ž×ª×•×š 2% (×ž×©×•×¢×¨) ×‘×œ×•×§×™×� ×©×œ ×”×¡×˜×•×¨×™×™×ª ×¤×¢×•×œ×ª ×¢×•×‘×“×• </translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Processed %1 blocks of transaction history.</source>
-        <translation>×”×•×©×œ×� ×¢×™×‘×•×“ ×©×œ %1 ×‘×œ×•×§×™×� ×©×œ ×”×™×¡×˜×•×¨×™×™×ª ×¤×¢×•×œ×•×ª.</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+20"/>
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n ×©×¢×”</numerusform><numerusform>%n ×©×¢×•×ª</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <location line="+4"/>
-        <source>%n day(s)</source>
-        <translation><numerusform>%n ×™×•×�</numerusform><numerusform>%n ×™×ž×™×�</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <location line="+4"/>
-        <source>%n week(s)</source>
-        <translation><numerusform>%n ×©×‘×•×¢</numerusform><numerusform>%n ×©×‘×•×¢×•×ª</numerusform></translation>
-    </message>
-    <message>
-        <location line="+4"/>
         <source>%1 behind</source>
-        <translation>1% ×ž×�×—×•×¨</translation>
+        <translation>%1 מאחור</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Last received block was generated %1 ago.</source>
-        <translation>×”×‘×œ×•×§ ×”×�×—×¨×•×Ÿ ×©×”×ª×§×‘×œ × ×•×¦×¨ ×œ×¤× ×™ %1</translation>
+        <translation>המקטע האחרון שהתקבל נוצר לפני %1.</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>×œ×�×—×¨ ×–×�×ª ×¤×¢×•×œ×•×ª × ×¡×¤×•×ª ×˜×¨×� ×™×”×™×• ×’×œ×•×™×•×ª</translation>
+        <translation>ההעברות שבוצעו לאחר העברה זו לא יופיעו.</translation>
     </message>
     <message>
-        <location line="+22"/>
         <source>Error</source>
-        <translation>×©×’×™×�×”</translation>
+        <translation>שגיאה</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Warning</source>
-        <translation>×�×–×”×¨×”</translation>
+        <translation>אזהרה</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Information</source>
-        <translation>×ž×™×“×¢</translation>
+        <translation>מידע</translation>
     </message>
     <message>
-        <location line="+70"/>
-        <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation>×¤×¢×•×œ×” ×–×• ×—×•×¨×’×ª ×ž×’×‘×•×œ×•×ª ×”×’×•×“×œ. ×¢×“×™×™×Ÿ ×‘×�×¤×©×¨×•×ª×š ×œ×©×œ×•×— ×�×•×ª×” ×ª×ž×•×¨×ª ×¢×ž×œ×” ×©×œ %1, ×”×ž×™×•×¢×“×ª ×œ×¦×ž×ª×™×� ×©×ž×¢×‘×“×™×� ×�×ª ×”×¤×¢×•×œ×” ×©×œ×š ×•×¢×•×–×¨×ª ×œ×ª×ž×•×š ×‘×¨×©×ª. ×”×�×� ×‘×¨×¦×•× ×š ×œ×©×œ×� ×�×ª ×”×¢×ž×œ×”?</translation>
-    </message>
-    <message>
-        <location line="-140"/>
         <source>Up to date</source>
-        <translation>×¢×“×›× ×™</translation>
+        <translation>עדכני</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <source>Show the %1 help message to get a list with possible Murfcoin command-line options</source>
+        <translation>יש להציג את הודעת העזרה של %1 כדי להציג רשימה עם אפשרויות שורת פקודה לייטקוין</translation>
+    </message>
+    <message>
+        <source>%1 client</source>
+        <translation>לקוח %1</translation>
+    </message>
+    <message>
+        <source>Connecting to peers...</source>
+        <translation>מתבצעת התחברות לעמיתים…</translation>
+    </message>
+    <message>
         <source>Catching up...</source>
-        <translation>×ž×ª×¢×“×›×Ÿ...</translation>
+        <translation>מתבצע עדכון…</translation>
     </message>
     <message>
-        <location line="+113"/>
-        <source>Confirm transaction fee</source>
-        <translation>×�×©×¨ ×¢×ž×œ×ª ×¤×¢×•×œ×”</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Sent transaction</source>
-        <translation>×¤×¢×•×œ×” ×©× ×©×œ×—×”</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Incoming transaction</source>
-        <translation>×¤×¢×•×œ×” ×©×”×ª×§×‘×œ×”</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Date: %1
-Amount: %2
-Type: %3
-Address: %4
 </source>
-        <translation>×ª×�×¨×™×š: %1
-×›×ž×•×ª: %2
-×¡×•×’: %3
-×›×ª×•×‘×ª: %4</translation>
+        <translation>תאריך: %1
+</translation>
     </message>
     <message>
-        <location line="+33"/>
-        <location line="+23"/>
-        <source>URI handling</source>
-        <translation>×ª×¤×¢×•×œ URI</translation>
+        <source>Amount: %1
+</source>
+        <translation>כמות: %1
+</translation>
     </message>
     <message>
-        <location line="-23"/>
-        <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Murfcoin address or malformed URI parameters.</source>
-        <translation>×œ×� × ×™×ª×Ÿ ×œ× ×ª×— URI! ×–×” ×™×›×•×œ ×œ×”×™×’×¨×� ×›×ª×•×¦×�×” ×ž×›×ª×•×‘×ª ×œ×™×™×˜×§×•×™×Ÿ ×œ×� ×ª×§×™× ×” ×�×• ×¤×¨×ž×˜×¨×™ URI ×—×¡×¨×™ ×¦×•×¨×” ×ª×§×™× ×”.</translation>
+        <source>Type: %1
+</source>
+        <translation>סוג: %1
+</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <source>Label: %1
+</source>
+        <translation>תווית: %1
+</translation>
+    </message>
+    <message>
+        <source>Address: %1
+</source>
+        <translation>כתובת: %1
+</translation>
+    </message>
+    <message>
+        <source>Sent transaction</source>
+        <translation>העברת שליחה</translation>
+    </message>
+    <message>
+        <source>Incoming transaction</source>
+        <translation>העברת קבלה</translation>
+    </message>
+    <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>×”×�×¨× ×§ &lt;b&gt;×ž×•×¦×¤×Ÿ&lt;/b&gt; ×•×›×¨×’×¢ &lt;b&gt;×¤×ª×•×—&lt;/b&gt;</translation>
+        <translation>הארנק &lt;b&gt;מוצפן&lt;/b&gt; ו&lt;b&gt;פתוח&lt;/b&gt; כרגע</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>×”×�×¨× ×§ &lt;b&gt;×ž×•×¦×¤×Ÿ&lt;/b&gt; ×•×›×¨×’×¢ &lt;b&gt;× ×¢×•×œ&lt;/b&gt;</translation>
+        <translation>הארנק &lt;b&gt;מוצפן&lt;/b&gt; ו&lt;b&gt;נעול&lt;/b&gt; כרגע</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="+111"/>
         <source>A fatal error occurred. Murfcoin can no longer continue safely and will quit.</source>
-        <translation>×©×’×™×�×” ×¡×•×¤× ×™×ª ×�×™×¨×¢×”. ×œ×™×™×˜×§×•×™×Ÿ ×�×™× ×• ×™×›×•×œ ×œ×”×ž×©×™×š ×œ×¤×¢×•×œ ×‘×‘×˜×—×” ×•×œ×›×Ÿ ×™×™×¡×’×¨.</translation>
+        <translation>אירעה שגיאה חמורה. אין אפשרות להשתמש עוד בלייטקוין באופן מאובטח והיישום ייסגר.</translation>
     </message>
 </context>
 <context>
-    <name>ClientModel</name>
+    <name>CoinControlDialog</name>
     <message>
-        <location filename="../clientmodel.cpp" line="+104"/>
-        <source>Network Alert</source>
-        <translation>×�×–×¢×§×ª ×¨×©×ª</translation>
+        <source>Coin Selection</source>
+        <translation>בחירת מטבע</translation>
     </message>
-</context>
+    <message>
+        <source>Quantity:</source>
+        <translation>כמות:</translation>
+    </message>
+    <message>
+        <source>Bytes:</source>
+        <translation>בתים:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>סכום:</translation>
+    </message>
+    <message>
+        <source>Fee:</source>
+        <translation>עמלה:</translation>
+    </message>
+    <message>
+        <source>Dust:</source>
+        <translation>אבק:</translation>
+    </message>
+    <message>
+        <source>After Fee:</source>
+        <translation>לאחר עמלה:</translation>
+    </message>
+    <message>
+        <source>Change:</source>
+        <translation>עודף:</translation>
+    </message>
+    <message>
+        <source>(un)select all</source>
+        <translation>ביטול/אישור הבחירה</translation>
+    </message>
+    <message>
+        <source>Tree mode</source>
+        <translation>מצב עץ</translation>
+    </message>
+    <message>
+        <source>List mode</source>
+        <translation>מצב רשימה</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>כמות</translation>
+    </message>
+    <message>
+        <source>Received with label</source>
+        <translation>התקבל עם תווית</translation>
+    </message>
+    <message>
+        <source>Received with address</source>
+        <translation>התקבל עם כתובת</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>תאריך</translation>
+    </message>
+    <message>
+        <source>Confirmations</source>
+        <translation>אישורים</translation>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>מאושר</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>העתקת הכתובת</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>העתקת התווית</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>העתקת הסכום</translation>
+    </message>
+    <message>
+        <source>Copy transaction ID</source>
+        <translation>העתקת מזהה ההעברה</translation>
+    </message>
+    <message>
+        <source>Lock unspent</source>
+        <translation>נעילת יתרה</translation>
+    </message>
+    <message>
+        <source>Unlock unspent</source>
+        <translation>פתיחת יתרה</translation>
+    </message>
+    <message>
+        <source>Copy quantity</source>
+        <translation>העתקת הכמות</translation>
+    </message>
+    <message>
+        <source>Copy fee</source>
+        <translation>העתקת העמלה</translation>
+    </message>
+    <message>
+        <source>Copy after fee</source>
+        <translation>העתקה אחרי העמלה</translation>
+    </message>
+    <message>
+        <source>Copy bytes</source>
+        <translation>העתקת בתים</translation>
+    </message>
+    <message>
+        <source>Copy dust</source>
+        <translation>העתקת אבק</translation>
+    </message>
+    <message>
+        <source>Copy change</source>
+        <translation>העתקת השינוי</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>כן</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>לא</translation>
+    </message>
+    <message>
+        <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
+        <translation>תווית זו הופכת לאדומה אם מישהו מהנמענים מקבל סכום נמוך יותר מסף האבק הנוכחי.</translation>
+    </message>
+    <message>
+        <source>Can vary +/- %1 satoshi(s) per input.</source>
+        <translation>יכול להשתנות במגמה של +/- %1 סנטושי לקלט.</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(ללא תוית)</translation>
+    </message>
+    </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="+14"/>
         <source>Edit Address</source>
-        <translation>×¢×¨×•×š ×›×ª×•×‘×ª</translation>
+        <translation>עריכת כתובת</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>&amp;Label</source>
-        <translation>×ª&amp;×•×™×ª</translation>
+        <translation>ת&amp;ווית</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>The label associated with this address book entry</source>
-        <translation>×”×ª×•×™×ª ×”×ž×©×•×™×›×ª ×œ×¨×©×•×ž×” ×”×–×• ×‘×¤× ×§×¡ ×”×›×ª×•×‘×•×ª</translation>
+        <source>The label associated with this address list entry</source>
+        <translation>התווית המשויכת לרשומה הזו ברשימת הכתובות</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
+        <translation>הכתובת המשויכת עם רשומה זו ברשימת הכתובות. ניתן לשנות זאת רק עבור כתובות לשליחה.</translation>
+    </message>
+    <message>
         <source>&amp;Address</source>
-        <translation>&amp;×›×ª×•×‘×ª</translation>
+        <translation>&amp;כתובת</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>×”×›×ª×•×‘×ª ×”×ž×©×•×™×›×ª ×œ×¨×©×•×ž×” ×–×• ×‘×¤× ×§×¡ ×”×›×ª×•×‘×•×ª. × ×™×ª×Ÿ ×œ×©× ×•×ª ×–×�×ª ×¨×§ ×¢×‘×•×¨ ×›×ª×•×‘×•×ª ×œ×©×œ×™×—×”.</translation>
-    </message>
-    <message>
-        <location filename="../editaddressdialog.cpp" line="+21"/>
         <source>New receiving address</source>
-        <translation>×›×ª×•×‘×ª ×—×“×©×” ×œ×§×‘×œ×”</translation>
+        <translation>כתובת קבלה חדשה</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>New sending address</source>
-        <translation>×›×ª×•×‘×ª ×—×“×©×” ×œ×©×œ×™×—×”</translation>
+        <translation>כתובת שליחה חדשה</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Edit receiving address</source>
-        <translation>×¢×¨×•×š ×›×ª×•×‘×ª ×œ×§×‘×œ×”</translation>
+        <translation>עריכת כתובת הקבלה</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Edit sending address</source>
-        <translation>×¢×¨×•×š ×›×ª×•×‘×ª ×œ×©×œ×™×—×”</translation>
+        <translation>עריכת כתובת השליחה</translation>
     </message>
     <message>
-        <location line="+76"/>
-        <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>×”×›×ª×•×‘×ª ×©×”×›× ×¡×ª &quot;%1&quot; ×›×‘×¨ × ×ž×¦×�×ª ×‘×¤× ×§×¡ ×”×›×ª×•×‘×•×ª.</translation>
+        <source>The entered address "%1" is not a valid Murfcoin address.</source>
+        <translation>הכתובת שהוקלדה „%1” היא אינה כתובת לייטקוין תקנית.</translation>
     </message>
     <message>
-        <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Murfcoin address.</source>
-        <translation>×”×›×ª×•×‘×ª ×©×”×•×›× ×¡×” &quot;%1&quot; ×�×™× ×” ×›×ª×•×‘×ª ×œ×™×™×˜×§×•×™×Ÿ ×ª×§×™× ×”.</translation>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>הכתובת שהוקלדה „%1” כבר נמצאת בספר הכתובות.</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Could not unlock wallet.</source>
-        <translation>×¤×ª×™×—×ª ×”×�×¨× ×§ × ×›×©×œ×”.</translation>
+        <translation>לא ניתן לשחרר את הארנק.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>New key generation failed.</source>
-        <translation>×™×¦×™×¨×ª ×ž×¤×ª×— ×—×“×© × ×›×©×œ×”.</translation>
+        <translation>יצירת המפתח החדש נכשלה.</translation>
     </message>
 </context>
 <context>
-    <name>GUIUtil::HelpMessageBox</name>
+    <name>FreespaceChecker</name>
     <message>
-        <location filename="../guiutil.cpp" line="+424"/>
-        <location line="+12"/>
-        <source>Murfcoin-Qt</source>
-        <translation>Murfcoin-Qt</translation>
+        <source>A new data directory will be created.</source>
+        <translation>תיקיית נתונים חדשה תיווצר.</translation>
     </message>
     <message>
-        <location line="-12"/>
+        <source>name</source>
+        <translation>שם</translation>
+    </message>
+    <message>
+        <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
+        <translation>התיקייה כבר קיימת. ניתן להוסיף %1 אם יש ליצור תיקייה חדשה כאן.</translation>
+    </message>
+    <message>
+        <source>Path already exists, and is not a directory.</source>
+        <translation>הנתיב כבר קיים ואינו מצביע על תיקייה.</translation>
+    </message>
+    <message>
+        <source>Cannot create data directory here.</source>
+        <translation>לא ניתן ליצור כאן תיקיית נתונים.</translation>
+    </message>
+</context>
+<context>
+    <name>HelpMessageDialog</name>
+    <message>
         <source>version</source>
-        <translation>×’×¨×¡×”</translation>
+        <translation>גרסה</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <source>(%1-bit)</source>
+        <translation>(%1-סיביות)</translation>
+    </message>
+    <message>
+        <source>About %1</source>
+        <translation>על אודות %1</translation>
+    </message>
+    <message>
+        <source>Command-line options</source>
+        <translation>אפשרויות שורת פקודה</translation>
+    </message>
+    <message>
         <source>Usage:</source>
-        <translation>×©×™×ž×•×©:</translation>
+        <translation>שימוש:</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>command-line options</source>
-        <translation>×�×¤×©×¨×•×™×•×ª ×©×•×¨×ª ×¤×§×•×“×”</translation>
+        <translation>אפשרויות שורת פקודה</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>UI options</source>
-        <translation>×�×¤×©×¨×•×™×•×ª ×ž×ž×©×§</translation>
+        <source>UI Options:</source>
+        <translation>אפשרויות ממשק</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation>×§×‘×¢ ×©×¤×”, ×œ×ž×©×œ &quot;he_il&quot; (×‘×¨×™×¨×ª ×ž×—×“×œ: ×©×¤×ª ×”×ž×¢×¨×›×ª)</translation>
+        <source>Choose data directory on startup (default: %u)</source>
+        <translation>נא לבחור תיקיית נתונים עם הפתיחה (בררת מחדל: %u)</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>הגדרת השפה, לדוגמה „he_IL” (בררת מחדל: שפת העמרכת)</translation>
+    </message>
+    <message>
         <source>Start minimized</source>
-        <translation>×”×ª×—×œ ×ž×ž×•×–×¢×¨</translation>
+        <translation>התחל ממוזער</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Show splash screen on startup (default: 1)</source>
-        <translation>×”×¦×’ ×ž×¡×š ×¤×ª×™×—×” ×‘×¢×ª ×”×¤×¢×œ×” (×‘×¨×™×¨×ª ×ž×—×“×œ: 1)</translation>
+        <source>Set SSL root certificates for payment request (default: -system-)</source>
+        <translation>הגדרת אישורי בסיס SSL לבקשות תשלומים (בררת מחדל: -מערכת-)</translation>
+    </message>
+    <message>
+        <source>Show splash screen on startup (default: %u)</source>
+        <translation>הצג מסך פתיחה בעת הפעלה (ברירת מחדל: %u)</translation>
+    </message>
+    <message>
+        <source>Reset all settings changed in the GUI</source>
+        <translation>איפוס כל שינויי הגדרות התצוגה</translation>
+    </message>
+</context>
+<context>
+    <name>Intro</name>
+    <message>
+        <source>Welcome</source>
+        <translation>ברוך בואך</translation>
+    </message>
+    <message>
+        <source>Welcome to %1.</source>
+        <translation>ברוך הבא ל %1.</translation>
+    </message>
+    <message>
+        <source>As this is the first time the program is launched, you can choose where %1 will store its data.</source>
+        <translation>כיוון שזו ההפעלה הראשונה של התכנית, ניתן לבחור היכן יאוחסן המידע של %1.</translation>
+    </message>
+    <message>
+        <source>Use the default data directory</source>
+        <translation>שימוש בבררת המחדל של תיקיית הנתונים.</translation>
+    </message>
+    <message>
+        <source>Use a custom data directory:</source>
+        <translation>שימוש בתיקיית נתונים מותאמת אישית:</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" cannot be created.</source>
+        <translation>שגיאה: לא ניתן ליצור את תיקיית הנתונים שצוינה „%1“.</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>שגיאה</translation>
+    </message>
+    </context>
+<context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>טופס</translation>
+    </message>
+    <message>
+        <source>Number of blocks left</source>
+        <translation>מספר מקטעים שנותרו</translation>
+    </message>
+    <message>
+        <source>Unknown...</source>
+        <translation>לא ידוע...</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>זמן המקטע האחרון</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>התקדמות</translation>
+    </message>
+    <message>
+        <source>Progress increase per hour</source>
+        <translation>התקדמות לפי שעה</translation>
+    </message>
+    <message>
+        <source>calculating...</source>
+        <translation>נערך חישוב…</translation>
+    </message>
+    <message>
+        <source>Estimated time left until synced</source>
+        <translation>הזמן המוערך שנותר עד הסנכרון</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>הסתר</translation>
+    </message>
+    <message>
+        <source>Unknown. Syncing Headers (%1)...</source>
+        <translation>לא ידוע. הכותרות מתעדכנות (%1)…</translation>
+    </message>
+</context>
+<context>
+    <name>OpenURIDialog</name>
+    <message>
+        <source>Open URI</source>
+        <translation>פתיחת כתובת משאב</translation>
+    </message>
+    <message>
+        <source>Open payment request from URI or file</source>
+        <translation>פתיחת בקשת תשלום מכתובת משאב או מקובץ</translation>
+    </message>
+    <message>
+        <source>URI:</source>
+        <translation>כתובת משאב:</translation>
+    </message>
+    <message>
+        <source>Select payment request file</source>
+        <translation>בחירת קובץ בקשת תשלום</translation>
+    </message>
+    <message>
+        <source>Select payment request file to open</source>
+        <translation>בחירת קובץ בקשת תשלום לפתיחה</translation>
     </message>
 </context>
 <context>
     <name>OptionsDialog</name>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="+14"/>
         <source>Options</source>
-        <translation>×�×¤×©×¨×•×™×•×ª</translation>
+        <translation>אפשרויות</translation>
     </message>
     <message>
-        <location line="+16"/>
         <source>&amp;Main</source>
-        <translation>×¨×�×©×™</translation>
+        <translation>&amp;ראשי</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
-        <translation type="unfinished"/>
+        <source>Automatically start %1 after logging in to the system.</source>
+        <translation>להפעיל את %1 אוטומטית לאחר הכניסה למערכת.</translation>
     </message>
     <message>
-        <location line="+15"/>
-        <source>Pay transaction &amp;fee</source>
-        <translation>×©×œ×� &amp;×¢×ž×œ×ª ×¤×¢×•×œ×”</translation>
+        <source>&amp;Start %1 on system login</source>
+        <translation>ה&amp;פעלת %1 עם הכניסה למערכת</translation>
     </message>
     <message>
-        <location line="+31"/>
-        <source>Automatically start Murfcoin after logging in to the system.</source>
-        <translation>×”×¤×¢×œ ×�×ª ×œ×™×™×˜×§×•×™×Ÿ ×‘×�×•×¤×Ÿ ×¢×¦×ž×�×™ ×œ×�×—×¨ ×”×ª×—×‘×¨×•×ª ×œ×ž×¢×¨×›×ª.</translation>
+        <source>Size of &amp;database cache</source>
+        <translation>גודל מ&amp;טמון מסד הנתונים</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Start Murfcoin on system login</source>
-        <translation>×”×ª×—×œ ×�×ª ×œ×™×™×˜×§×•×™×Ÿ ×‘×¢×ª ×”×ª×—×‘×¨×•×ª ×œ×ž×¢×¨×›×ª</translation>
+        <source>MB</source>
+        <translation>מ״ב</translation>
     </message>
     <message>
-        <location line="+35"/>
+        <source>Number of script &amp;verification threads</source>
+        <translation>מספר תהליכי ה&amp;אימות של הסקריפט</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside</source>
+        <translation>קבלת חיבורים מבחוץ</translation>
+    </message>
+    <message>
+        <source>Allow incoming connections</source>
+        <translation>לאפשר חיבורים נכנסים</translation>
+    </message>
+    <message>
+        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
+        <translation>כתובת ה־IP של המתווך (לדוגמה IPv4: 127.0.0.1‏ / IPv6: ::1)</translation>
+    </message>
+    <message>
+        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
+        <translation>כתובות צד־שלישי (כגון: סייר מקטעים) שמופיעים בלשונית ההעברות בתור פריטים בתפריט ההקשר. %s בכתובת מוחלף בגיבוב ההעברה. מספר כתובות יופרדו בפס אנכי |.</translation>
+    </message>
+    <message>
+        <source>Third party transaction URLs</source>
+        <translation>כתובות העברה צד־שלישי</translation>
+    </message>
+    <message>
+        <source>Active command-line options that override above options:</source>
+        <translation>אפשרויות פעילות בשורת הפקודה שדורסות את האפשרויות שלהלן:</translation>
+    </message>
+    <message>
         <source>Reset all client options to default.</source>
-        <translation>×�×¤×¡ ×›×œ ×�×¤×©×¨×•×™×•×ª ×”×ª×•×›× ×” ×œ×‘×¨×™×¨×ª ×”×ž×—×“×œ.</translation>
+        <translation>איפוס כל אפשרויות התכנית לבררת המחדל.</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Reset Options</source>
-        <translation>×�×™×¤×•×¡ ×�×¤×©×¨×•×™×•×ª</translation>
+        <translation>&amp;איפוס אפשרויות</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>&amp;Network</source>
-        <translation>×¨×©×ª</translation>
+        <translation>&amp;רשת</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <source>(0 = auto, &lt;0 = leave that many cores free)</source>
+        <translation>(0 = אוטומטי, &lt;0 = להשאיר כזאת כמות של ליבות חופשיות)</translation>
+    </message>
+    <message>
+        <source>W&amp;allet</source>
+        <translation>&amp;ארנק</translation>
+    </message>
+    <message>
+        <source>Expert</source>
+        <translation>מומחה</translation>
+    </message>
+    <message>
+        <source>Enable coin &amp;control features</source>
+        <translation>הפעלת תכונות &amp;בקרת מטבעות</translation>
+    </message>
+    <message>
+        <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
+        <translation>אם אפשרות ההשקעה של עודף בלתי מאושר תנוטרל, לא ניתן יהיה להשתמש בעודף מההעברה עד שלהעברה יהיה לפחות אישור אחד. פעולה זו גם משפיעה על חישוב המאזן שלך.</translation>
+    </message>
+    <message>
+        <source>&amp;Spend unconfirmed change</source>
+        <translation>עודף &amp;בלתי מאושר מההשקעה</translation>
+    </message>
+    <message>
         <source>Automatically open the Murfcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>×¤×ª×— ×�×ª ×¤×•×¨×˜ ×œ×™×™×˜×§×•×™×Ÿ ×‘× ×ª×‘ ×‘×�×•×¤×Ÿ ×�×•×˜×•×ž×˜×™. ×¢×•×‘×“ ×¨×§ ×�×� UPnP ×ž×�×•×¤×©×¨ ×•× ×ª×ž×š ×¢&quot;×™ ×”× ×ª×‘.</translation>
+        <translation>פתיחת הפתחה של לייטקוין בנתב באופן אוטומטי. עובד רק אם UPnP מופעל ונתמך בנתב.</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Map port using &amp;UPnP</source>
-        <translation>×ž×™×¤×•×™ ×¤×•×¨×˜ ×‘×�×ž×¦×¢×•×ª UPnP</translation>
+        <translation>מיפוי פתחה באמצעות UPnP</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Connect to the Murfcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>×”×ª×—×‘×¨ ×œ×¨×©×ª ×”×œ×™×™×˜×§×•×™×Ÿ ×“×¨×š ×¤×¨×•×§×¡×™ SOCKS (×œ×ž×©×œ ×‘×¢×ª ×”×ª×—×‘×¨×•×ª ×“×¨×š Tor).</translation>
+        <source>Connect to the Murfcoin network through a SOCKS5 proxy.</source>
+        <translation>התחבר לרשת לייטקוין דרך פרוקסי SOCKS5.</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Connect through SOCKS proxy:</source>
-        <translation>×”×ª×—×‘×¨ ×“×¨×š ×¤×¨×•×§×¡×™ SOCKS</translation>
-    </message>
-    <message>
-        <location line="+9"/>
         <source>Proxy &amp;IP:</source>
-        <translation>×›×ª×•×‘×ª IP ×©×œ ×¤×¨×•×§×¡×™:</translation>
+        <translation>כתובת ה־IP של המ&amp;תווך:</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>IP address of the proxy (e.g. 127.0.0.1)</source>
-        <translation>×›×ª×•×‘×ª ×”×�×™× ×˜×¨× ×˜ ×©×œ ×”×¤×¨×•×§×¡×™ (×œ×ž×©×œ 127.0.0.1)</translation>
-    </message>
-    <message>
-        <location line="+7"/>
         <source>&amp;Port:</source>
-        <translation>×¤×•×¨×˜:</translation>
+        <translation>&amp;פתחה:</translation>
     </message>
     <message>
-        <location line="+19"/>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>×”×¤×•×¨×˜ ×©×œ ×”×¤×¨×•×§×¡×™ (×œ×ž×©×œ 9050)</translation>
+        <translation>הפתחה של המתווך (למשל 9050)</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>SOCKS &amp;Version:</source>
-        <translation>×’×¨×¡×ª SOCKS:</translation>
+        <source>IPv4</source>
+        <translation>IPv4</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>SOCKS version of the proxy (e.g. 5)</source>
-        <translation>×’×¨×¡×ª SOCKS ×©×œ ×”×¤×¨×•×§×¡×™ (×œ×ž×©×œ 5)</translation>
+        <source>IPv6</source>
+        <translation>IPv6</translation>
     </message>
     <message>
-        <location line="+36"/>
+        <source>Tor</source>
+        <translation>Tor</translation>
+    </message>
+    <message>
         <source>&amp;Window</source>
-        <translation>×—×œ×•×Ÿ</translation>
+        <translation>&amp;חלון</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <source>&amp;Hide the icon from the system tray.</source>
+        <translation>ה&amp;סתרת הסמל ממגש המערכת.</translation>
+    </message>
+    <message>
+        <source>Hide tray icon</source>
+        <translation>הסתרת הסמל במגש המערכת</translation>
+    </message>
+    <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>×”×¦×’ ×¡×ž×œ ×ž×’×© ×‘×œ×‘×“ ×œ×�×—×¨ ×ž×–×¢×•×¨ ×”×—×œ×•×Ÿ.</translation>
+        <translation>הצג סמל מגש בלבד לאחר מזעור החלון.</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>×ž&amp;×–×¢×¨ ×œ×ž×’×© ×‘×ž×§×•×� ×œ×©×•×¨×ª ×”×ž×©×™×ž×•×ª</translation>
+        <translation>מ&amp;זעור למגש במקום לשורת המשימות</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>×ž×–×¢×¨ ×�×ª ×”×ª×•×›× ×” ×‘×ž×§×•×� ×œ×¦×�×ª ×ž×ž× ×” ×›×©×”×—×œ×•×Ÿ × ×¡×’×¨. ×›×©×�×¤×©×¨×•×ª ×–×• ×¤×¢×™×œ×”, ×”×ª×•×›× ×” ×ª×™×¡×’×¨ ×¨×§ ×œ×�×—×¨ ×‘×—×™×¨×ª ×™×¦×™×�×” ×ž×”×ª×¤×¨×™×˜.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>M&amp;inimize on close</source>
-        <translation>×ž×–×¢×¨ ×‘×¢×ª ×¡×’×™×¨×”</translation>
+        <translation>מ&amp;זעור עם סגירה</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>&amp;Display</source>
-        <translation>×ª×¦×•×’×”</translation>
+        <translation>ת&amp;צוגה</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>User Interface &amp;language:</source>
-        <translation>×©×¤×ª ×ž×ž×©×§ ×”×ž×©×ª×ž×©:</translation>
+        <translation>&amp;שפת מנשק המשתמש:</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Murfcoin.</source>
-        <translation>× ×™×ª×Ÿ ×œ×§×‘×•×¢ ×›×�×Ÿ ×�×ª ×©×¤×ª ×ž×ž×©×§ ×”×ž×©×ª×ž×©. ×”×’×“×¨×” ×–×• ×ª×—×•×œ ×œ×�×—×¨ ×”×¤×¢×œ×” ×ž×—×“×© ×©×œ ×œ×™×™×˜×§×•×™×Ÿ.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting %1.</source>
+        <translation>ניתן להגדיר כאן את שפת מנשק המשתמש. הגדרה זו תיכנס לתוקף לאחר הפעלה של %1 מחדש.</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>×™×—×™×“×ª ×ž×“×™×“×” ×œ×”×¦×’×ª ×›×ž×•×™×•×ª:</translation>
+        <translation>י&amp;חידת מידה להצגת כמויות:</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>×‘×—×¨ ×�×ª ×‘×¨×™×¨×ª ×”×ž×—×“×œ ×œ×™×—×™×“×ª ×”×—×œ×•×§×” ×�×©×¨ ×ª×•×¦×’ ×‘×ž×ž×©×§ ×•×‘×¢×ª ×©×œ×™×—×ª ×ž×˜×‘×¢×•×ª.</translation>
+        <translation>ניתן לבחור את בררת המחדל ליחידת החלוקה שתוצג במנשק ובעת שליחת מטבעות.</translation>
     </message>
     <message>
-        <location line="+9"/>
-        <source>Whether to show Murfcoin addresses in the transaction list or not.</source>
-        <translation>×”×�×� ×œ×”×¦×™×’ ×›×ª×•×‘×•×ª ×œ×™×™×˜×§×•×™×Ÿ ×‘×¨×©×™×ž×ª ×”×¤×¢×•×œ×•×ª ×�×• ×œ×�.</translation>
+        <source>Whether to show coin control features or not.</source>
+        <translation>האם להציג תכונות שליטת מטבע או לא.</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Display addresses in transaction list</source>
-        <translation>×”×¦×’ ×›×ª×•×‘×•×ª ×‘×¨×©×™×ž×ª ×”×¤×¢×•×œ×•×ª</translation>
-    </message>
-    <message>
-        <location line="+71"/>
         <source>&amp;OK</source>
-        <translation>×�×™×©×•×¨</translation>
+        <translation>&amp;אישור</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Cancel</source>
-        <translation>×‘×™×˜×•×œ</translation>
+        <translation>&amp;ביטול</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>&amp;Apply</source>
-        <translation>×™×™×©×•×�</translation>
-    </message>
-    <message>
-        <location filename="../optionsdialog.cpp" line="+53"/>
         <source>default</source>
-        <translation>×‘×¨×™×¨×ª ×ž×—×“×œ</translation>
+        <translation>בררת מחדל</translation>
     </message>
     <message>
-        <location line="+130"/>
+        <source>none</source>
+        <translation>ללא</translation>
+    </message>
+    <message>
         <source>Confirm options reset</source>
-        <translation>×�×©×¨ ×�×ª ×�×™×¤×•×¡ ×”×�×¤×©×¨×•×™×•×ª</translation>
+        <translation>אישור איפוס האפשרויות</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Some settings may require a client restart to take effect.</source>
-        <translation>×›×ž×” ×ž×”×”×’×“×¨×•×ª ×¢×©×•×™×•×ª ×œ×“×¨×•×© ×�×ª×—×•×œ ×”×ª×•×›× ×” ×›×“×™ ×œ×”×™×›× ×¡ ×œ×¤×•×¢×œ.</translation>
+        <source>Client restart required to activate changes.</source>
+        <translation>נדרשת הפעלה מחדש של הלקוח כדי להפעיל את השינויים.</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Do you want to proceed?</source>
-        <translation>×”×�×� ×‘×¨×¦×•× ×š ×œ×”×ž×©×™×š?</translation>
+        <source>Client will be shut down. Do you want to proceed?</source>
+        <translation>הלקוח יכבה. להמשיך?</translation>
     </message>
     <message>
-        <location line="+42"/>
-        <location line="+9"/>
-        <source>Warning</source>
-        <translation>×�×–×”×¨×”</translation>
+        <source>This change would require a client restart.</source>
+        <translation>שינוי זה ידרוש הפעלה מחדש של תכנית הלקוח.</translation>
     </message>
     <message>
-        <location line="-9"/>
-        <location line="+9"/>
-        <source>This setting will take effect after restarting Murfcoin.</source>
-        <translation>×”×’×“×¨×” ×–×• ×ª×—×•×œ ×œ×�×—×¨ ×”×¤×¢×œ×” ×ž×—×“×© ×©×œ ×œ×™×™×˜×§×•×™×Ÿ.</translation>
-    </message>
-    <message>
-        <location line="+29"/>
         <source>The supplied proxy address is invalid.</source>
-        <translation>×›×ª×•×‘×ª ×”×¤×¨×•×§×¡×™ ×©×¡×•×¤×§×” ×�×™× ×” ×ª×§×™× ×”.</translation>
+        <translation>כתובת המתווך שסופקה אינה תקינה.</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
-        <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
-        <translation>×˜×•×¤×¡</translation>
+        <translation>טופס</translation>
     </message>
     <message>
-        <location line="+50"/>
-        <location line="+166"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Murfcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>×”×ž×™×“×¢ ×”×ž×•×¦×’ ×¢×©×•×™ ×œ×”×™×•×ª ×ž×™×•×©×Ÿ. ×”×�×¨× ×§ ×©×œ×š ×ž×¡×ª× ×›×¨×Ÿ ×‘×�×•×¤×Ÿ ×�×•×˜×•×ž×˜×™ ×¢×� ×¨×©×ª ×”×œ×™×™×˜×§×•×™×Ÿ ×œ×�×—×¨ ×›×™× ×•×Ÿ ×—×™×‘×•×¨, ×�×š ×”×ª×”×œ×™×š ×˜×¨×� ×”×¡×ª×™×™×�.</translation>
+        <translation>המידע המוצג עשוי להיות מיושן. הארנק שלך מסתנכרן באופן אוטומטי עם רשת לייטקוין לאחר יצירת החיבור, אך התהליך טרם הסתיים.</translation>
     </message>
     <message>
-        <location line="-124"/>
-        <source>Balance:</source>
-        <translation>×™×ª×¨×”:</translation>
+        <source>Watch-only:</source>
+        <translation>צפייה בלבד:</translation>
     </message>
     <message>
-        <location line="+29"/>
-        <source>Unconfirmed:</source>
-        <translation>×ž×ž×ª×™×Ÿ ×œ×�×™×©×•×¨:</translation>
+        <source>Available:</source>
+        <translation>זמין:</translation>
     </message>
     <message>
-        <location line="-78"/>
-        <source>Wallet</source>
-        <translation>×�×¨× ×§</translation>
+        <source>Your current spendable balance</source>
+        <translation>היתרה הזמינה הנוכחית</translation>
     </message>
     <message>
-        <location line="+107"/>
+        <source>Pending:</source>
+        <translation>בהמתנה:</translation>
+    </message>
+    <message>
+        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
+        <translation>הסכום הכולל של העברות שטרם אושרו ועדיין אינן נספרות בחישוב היתרה הזמינה</translation>
+    </message>
+    <message>
         <source>Immature:</source>
-        <translation>×œ×� ×‘×©×œ:</translation>
+        <translation>לא בשל:</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Mined balance that has not yet matured</source>
-        <translation>×ž×�×–×Ÿ ×©× ×›×¨×” ×•×˜×¨×� ×”×‘×©×™×œ</translation>
+        <translation>מאזן שנכרה וטרם הבשיל</translation>
     </message>
     <message>
-        <location line="+46"/>
-        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;×¤×¢×•×œ×•×ª ×�×—×¨×•× ×•×ª&lt;/b&gt;</translation>
+        <source>Balances</source>
+        <translation>מאזנים</translation>
     </message>
     <message>
-        <location line="-101"/>
-        <source>Your current balance</source>
-        <translation>×”×™×ª×¨×” ×”× ×•×›×—×™×ª ×©×œ×š</translation>
+        <source>Total:</source>
+        <translation>סך הכול:</translation>
     </message>
     <message>
-        <location line="+29"/>
-        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>×”×¡×›×•×� ×”×›×•×œ×œ ×©×œ ×¤×¢×•×œ×•×ª ×©×˜×¨×� ×�×•×©×¨×•, ×•×¢×•×“ ×�×™× ×Ÿ × ×¡×¤×¨×•×ª ×‘×—×™×©×•×‘ ×”×™×ª×¨×” ×”× ×•×›×—×™×ª</translation>
+        <source>Your current total balance</source>
+        <translation>סך כל היתרה הנוכחית שלך</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="+116"/>
-        <location line="+1"/>
-        <source>out of sync</source>
-        <translation>×œ×� ×ž×¡×•× ×›×¨×Ÿ</translation>
+        <source>Your current balance in watch-only addresses</source>
+        <translation>המאזן הנוכחי שלך בכתובות לקריאה בלבד</translation>
+    </message>
+    <message>
+        <source>Spendable:</source>
+        <translation>ניתנים לבזבוז</translation>
+    </message>
+    <message>
+        <source>Recent transactions</source>
+        <translation>העברות אחרונות</translation>
+    </message>
+    <message>
+        <source>Unconfirmed transactions to watch-only addresses</source>
+        <translation>העברות בלתי מאושרות לכתובות לצפייה בלבד</translation>
+    </message>
+    <message>
+        <source>Mined balance in watch-only addresses that has not yet matured</source>
+        <translation>מאזן לאחר כרייה בכתובות לצפייה בלבד שעדיין לא הבשילו</translation>
+    </message>
+    <message>
+        <source>Current total balance in watch-only addresses</source>
+        <translation>המאזן הכולל הנוכחי בכתובות לצפייה בלבד</translation>
     </message>
 </context>
 <context>
     <name>PaymentServer</name>
     <message>
-        <location filename="../paymentserver.cpp" line="+107"/>
+        <source>Payment request error</source>
+        <translation>שגיאת בקשת תשלום</translation>
+    </message>
+    <message>
         <source>Cannot start murfcoin: click-to-pay handler</source>
-        <translation>×œ×� × ×™×ª×Ÿ ×œ×”×ª×—×™×œ ×�×ª ×œ×™×™×˜×§×•×™×Ÿ: ×ž×¤×¢×™×œ ×œ×—×¥-×œ×ª×©×œ×•×� </translation>
+        <translation>לא ניתן להפעיל את המקשר murfcoin: click-to-pay</translation>
+    </message>
+    <message>
+        <source>URI handling</source>
+        <translation>טיפול בכתובות</translation>
+    </message>
+    <message>
+        <source>Invalid payment address %1</source>
+        <translation>כתובת תשלום שגויה %1</translation>
+    </message>
+    <message>
+        <source>Payment request rejected</source>
+        <translation>בקשת התשלום נדחתה</translation>
+    </message>
+    <message>
+        <source>Payment request network doesn't match client network.</source>
+        <translation>רשת בקשת התשלום אינה תואמת לרשת הלקוח.</translation>
+    </message>
+    <message>
+        <source>Payment request expired.</source>
+        <translation>בקשת התשלום פגה.</translation>
+    </message>
+    <message>
+        <source>Payment request is not initialized.</source>
+        <translation>בקשת התשלום לא הופעלה.</translation>
+    </message>
+    <message>
+        <source>Unverified payment requests to custom payment scripts are unsupported.</source>
+        <translation>בקשות תשלום לתסריטי תשלום מותאמים אישית שלא עברו וידוא אינן נתמכות.</translation>
+    </message>
+    <message>
+        <source>Invalid payment request.</source>
+        <translation>בקשת תשלום שגויה.</translation>
+    </message>
+    <message>
+        <source>Refund from %1</source>
+        <translation>זיכוי מאת %1</translation>
+    </message>
+    <message>
+        <source>Error communicating with %1: %2</source>
+        <translation>שגיאה בעת יצירת קשר עם %1:‏ %2</translation>
+    </message>
+    <message>
+        <source>Payment request cannot be parsed!</source>
+        <translation>לא ניתן לפענח את בקשת התשלום!</translation>
+    </message>
+    <message>
+        <source>Bad response from server %1</source>
+        <translation>תגובה שגויה מהשרת %1</translation>
+    </message>
+    <message>
+        <source>Network request error</source>
+        <translation>שגיאת בקשת רשת</translation>
+    </message>
+    <message>
+        <source>Payment acknowledged</source>
+        <translation>התשלום אושר</translation>
     </message>
 </context>
 <context>
-    <name>QRCodeDialog</name>
+    <name>PeerTableModel</name>
     <message>
-        <location filename="../forms/qrcodedialog.ui" line="+14"/>
-        <source>QR Code Dialog</source>
-        <translation>×©×™×— ×§×•×“ QR</translation>
+        <source>User Agent</source>
+        <translation>סוכן משתמש</translation>
+    </message>
+    </context>
+<context>
+    <name>QObject</name>
+    <message>
+        <source>Amount</source>
+        <translation>כמות</translation>
     </message>
     <message>
-        <location line="+59"/>
-        <source>Request Payment</source>
-        <translation>×‘×§×© ×ª×©×œ×•×�</translation>
+        <source>Enter a Murfcoin address (e.g. %1)</source>
+        <translation>נא להזין כתובת לייטקוין (למשל: %1)</translation>
     </message>
     <message>
-        <location line="+56"/>
-        <source>Amount:</source>
-        <translation>×›×ž×•×ª:</translation>
+        <source>%1 d</source>
+        <translation>%1 ימים</translation>
     </message>
     <message>
-        <location line="-44"/>
-        <source>Label:</source>
-        <translation>×ª×•×™×ª:</translation>
+        <source>%1 h</source>
+        <translation>%1 שעות</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>Message:</source>
-        <translation>×”×•×“×¢×”:</translation>
+        <source>%1 m</source>
+        <translation>%1 דקות</translation>
     </message>
     <message>
-        <location line="+71"/>
-        <source>&amp;Save As...</source>
-        <translation>&amp;×©×ž×•×¨ ×‘×©×�...</translation>
+        <source>%1 s</source>
+        <translation>%1 שניות</translation>
     </message>
     <message>
-        <location filename="../qrcodedialog.cpp" line="+62"/>
-        <source>Error encoding URI into QR Code.</source>
-        <translation>×©×’×™×�×” ×‘×§×™×“×•×“ URI ×œ×§×•×“ QR</translation>
+        <source>None</source>
+        <translation>ללא</translation>
     </message>
     <message>
-        <location line="+40"/>
-        <source>The entered amount is invalid, please check.</source>
-        <translation>×”×›×ž×•×ª ×©×”×•×›× ×¡×” ×�×™× ×” ×ª×§×™× ×”, ×�× ×� ×•×“×�.</translation>
+        <source>N/A</source>
+        <translation>לא זמין</translation>
     </message>
     <message>
-        <location line="+23"/>
-        <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>×”×ž×–×”×” ×”×ž×ª×§×‘×œ ×�×¨×•×š ×ž×“×™, × ×¡×” ×œ×”×¤×—×™×ª ×�×ª ×”×˜×§×¡×˜ ×‘×ª×•×™×ª / ×”×•×“×¢×”.</translation>
+        <source>%1 ms</source>
+        <translation>%1 מילישניות</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n second(s)</source>
+        <translation><numerusform>שנייה אחת</numerusform><numerusform>%n שניות</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n minute(s)</source>
+        <translation><numerusform>דקה אחת</numerusform><numerusform>%n דקות</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>שעה אחת</numerusform><numerusform>%n שעות</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>יום אחד</numerusform><numerusform>%n ימים</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>שבוע אחד</numerusform><numerusform>%n שבועות</numerusform></translation>
     </message>
     <message>
-        <location line="+25"/>
+        <source>%1 and %2</source>
+        <translation>%1 ו%2</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>שנה אחת</numerusform><numerusform>%n שנים</numerusform></translation>
+    </message>
+    <message>
+        <source>%1 didn't yet exit safely...</source>
+        <translation>הסגירה של %1 לא הושלמה בהצלחה עדיין…</translation>
+    </message>
+</context>
+<context>
+    <name>QObject::QObject</name>
+    <message>
+        <source>Error: Specified data directory "%1" does not exist.</source>
+        <translation>שגיאה: תיקיית הנתונים שצוינה „%1” אינה קיימת.</translation>
+    </message>
+    <message>
+        <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
+        <translation>שגיאה: לא ניתן לפענח את התצורה: %1. יש להשתמש אך ורק בתחביר מפתח=ערך.</translation>
+    </message>
+    <message>
+        <source>Error: %1</source>
+        <translation>שגיאה: %1</translation>
+    </message>
+</context>
+<context>
+    <name>QRImageWidget</name>
+    <message>
+        <source>&amp;Save Image...</source>
+        <translation>&amp;שמירת תמונה…</translation>
+    </message>
+    <message>
+        <source>&amp;Copy Image</source>
+        <translation>העתקת ת&amp;מונה</translation>
+    </message>
+    <message>
         <source>Save QR Code</source>
-        <translation>×©×ž×•×¨ ×§×•×“ QR</translation>
+        <translation>שמירת קוד QR</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>PNG Images (*.png)</source>
-        <translation>×ª×ž×•× ×•×ª PNG (*.png)</translation>
+        <source>PNG Image (*.png)</source>
+        <translation>תמונת PNG (‏‎*.png)</translation>
     </message>
 </context>
 <context>
     <name>RPCConsole</name>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="+46"/>
-        <source>Client name</source>
-        <translation>×©×� ×ž×ž×©×§</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <location line="+23"/>
-        <location line="+26"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+36"/>
-        <location line="+53"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location filename="../rpcconsole.cpp" line="+339"/>
         <source>N/A</source>
-        <translation>N/A</translation>
+        <translation>לא זמין</translation>
     </message>
     <message>
-        <location line="-217"/>
         <source>Client version</source>
-        <translation>×’×¨×¡×ª ×ž×ž×©×§</translation>
+        <translation>גרסת מנשק</translation>
     </message>
     <message>
-        <location line="-45"/>
         <source>&amp;Information</source>
-        <translation>×ž×™×“×¢</translation>
+        <translation>מי&amp;דע</translation>
     </message>
     <message>
-        <location line="+68"/>
-        <source>Using OpenSSL version</source>
-        <translation>×ž×©×ª×ž×© ×‘-OpenSSL ×’×¨×¡×”</translation>
+        <source>Debug window</source>
+        <translation>חלון ניפוי</translation>
     </message>
     <message>
-        <location line="+49"/>
+        <source>General</source>
+        <translation>כללי</translation>
+    </message>
+    <message>
+        <source>Using BerkeleyDB version</source>
+        <translation>שימוש ב־BerkeleyDB גרסה</translation>
+    </message>
+    <message>
+        <source>Datadir</source>
+        <translation>Datadir</translation>
+    </message>
+    <message>
         <source>Startup time</source>
-        <translation>×–×ž×Ÿ ×�×ª×—×•×œ</translation>
+        <translation>זמן עלייה</translation>
     </message>
     <message>
-        <location line="+29"/>
         <source>Network</source>
-        <translation>×¨×©×ª</translation>
+        <translation>רשת</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <source>Name</source>
+        <translation>שם</translation>
+    </message>
+    <message>
         <source>Number of connections</source>
-        <translation>×ž×¡×¤×¨ ×—×™×‘×•×¨×™×�</translation>
+        <translation>מספר חיבורים</translation>
     </message>
     <message>
-        <location line="+23"/>
-        <source>On testnet</source>
-        <translation>×‘×¨×©×ª ×”×‘×“×™×§×”</translation>
-    </message>
-    <message>
-        <location line="+23"/>
         <source>Block chain</source>
-        <translation>×©×¨×©×¨×ª ×”×‘×œ×•×§×™×�</translation>
+        <translation>שרשרת מקטעים</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Current number of blocks</source>
-        <translation>×ž×¡×¤×¨ ×”×‘×œ×•×§×™×� ×”× ×•×›×—×™</translation>
+        <translation>מספר המקטעים הנוכחי</translation>
     </message>
     <message>
-        <location line="+23"/>
-        <source>Estimated total blocks</source>
-        <translation>×ž×¡×¤×¨ ×›×•×œ×œ ×ž×©×•×¢×¨ ×©×œ ×‘×œ×•×§×™×�</translation>
+        <source>Memory Pool</source>
+        <translation>מאגר זכרון</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <source>Current number of transactions</source>
+        <translation>מספר הפעולה הנוכחי</translation>
+    </message>
+    <message>
+        <source>Memory usage</source>
+        <translation>שימוש בזכרון</translation>
+    </message>
+    <message>
+        <source>Received</source>
+        <translation>התקבלו</translation>
+    </message>
+    <message>
+        <source>Sent</source>
+        <translation>נשלחו</translation>
+    </message>
+    <message>
+        <source>&amp;Peers</source>
+        <translation>&amp;עמיתים</translation>
+    </message>
+    <message>
+        <source>Banned peers</source>
+        <translation>משתמשים חסומים</translation>
+    </message>
+    <message>
+        <source>Select a peer to view detailed information.</source>
+        <translation>נא לבחור בעמית כדי להציג מידע מפורט.</translation>
+    </message>
+    <message>
+        <source>Whitelisted</source>
+        <translation>ברשימה הלבנה</translation>
+    </message>
+    <message>
+        <source>Direction</source>
+        <translation>כיוון</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>גרסה</translation>
+    </message>
+    <message>
+        <source>Starting Block</source>
+        <translation>בלוק התחלה</translation>
+    </message>
+    <message>
+        <source>Synced Headers</source>
+        <translation>כותרות עדכניות</translation>
+    </message>
+    <message>
+        <source>Synced Blocks</source>
+        <translation>בלוקים מסונכרנים</translation>
+    </message>
+    <message>
+        <source>User Agent</source>
+        <translation>סוכן משתמש</translation>
+    </message>
+    <message>
+        <source>Decrease font size</source>
+        <translation>הקטן גודל גופן</translation>
+    </message>
+    <message>
+        <source>Increase font size</source>
+        <translation>הגדל גודל גופן</translation>
+    </message>
+    <message>
+        <source>Services</source>
+        <translation>שירותים</translation>
+    </message>
+    <message>
+        <source>Ban Score</source>
+        <translation>דירוג חסימה</translation>
+    </message>
+    <message>
+        <source>Connection Time</source>
+        <translation>זמן החיבור</translation>
+    </message>
+    <message>
+        <source>Last Send</source>
+        <translation>שליחה אחרונה</translation>
+    </message>
+    <message>
+        <source>Last Receive</source>
+        <translation>קבלה אחרונה</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>זמן המענה</translation>
+    </message>
+    <message>
+        <source>Time Offset</source>
+        <translation>הפרש זמן</translation>
+    </message>
+    <message>
         <source>Last block time</source>
-        <translation>×–×ž×Ÿ ×”×‘×œ×•×§ ×”×�×—×¨×•×Ÿ</translation>
+        <translation>זמן המקטע האחרון</translation>
     </message>
     <message>
-        <location line="+52"/>
         <source>&amp;Open</source>
-        <translation>×¤×ª×—</translation>
+        <translation>&amp;פתיחה</translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>Command-line options</source>
-        <translation>×�×¤×©×¨×•×™×•×ª ×©×•×¨×ª ×¤×§×•×“×”</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Show the Murfcoin-Qt help message to get a list with possible Murfcoin command-line options.</source>
-        <translation>×”×¦×’ ×�×ª ×”×•×“×¢×” ×”×¢×–×¨×” ×©×œ murfcoin-qt ×›×“×™ ×œ×§×‘×œ ×¨×©×™×ž×” ×©×œ ×�×¤×©×¨×•×™×•×ª ×©×•×¨×ª ×¤×§×•×“×” ×©×œ ×œ×™×™×˜×§×•×™×Ÿ.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Show</source>
-        <translation>×”×¦×’</translation>
-    </message>
-    <message>
-        <location line="+24"/>
         <source>&amp;Console</source>
-        <translation>×œ×•×— ×‘×§×¨×”</translation>
+        <translation>מ&amp;סוף בקרה</translation>
     </message>
     <message>
-        <location line="-260"/>
-        <source>Build date</source>
-        <translation>×ª×�×¨×™×š ×‘× ×™×”</translation>
+        <source>&amp;Network Traffic</source>
+        <translation>&amp;תעבורת רשת</translation>
     </message>
     <message>
-        <location line="-104"/>
-        <source>Murfcoin - Debug window</source>
-        <translation>×œ×™×™×˜×§×•×™×Ÿ - ×—×œ×•×Ÿ × ×™×¤×•×™</translation>
+        <source>&amp;Clear</source>
+        <translation>&amp;ניקוי</translation>
     </message>
     <message>
-        <location line="+25"/>
-        <source>Murfcoin Core</source>
-        <translation>×œ×™×‘×ª ×œ×™×™×˜×§×•×™×Ÿ</translation>
+        <source>Totals</source>
+        <translation>סכומים</translation>
     </message>
     <message>
-        <location line="+279"/>
+        <source>In:</source>
+        <translation>נכנס:</translation>
+    </message>
+    <message>
+        <source>Out:</source>
+        <translation>יוצא:</translation>
+    </message>
+    <message>
         <source>Debug log file</source>
-        <translation>×§×•×‘×¥ ×™×•×ž×Ÿ × ×™×¤×•×™</translation>
+        <translation>קובץ יומן ניפוי</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Open the Murfcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>×¤×ª×— ×�×ª ×§×•×‘×¥ ×™×•×ž×Ÿ ×”× ×™×¤×•×™ ×ž×ª×™×§×™×™×ª ×”× ×ª×•× ×™×� ×”× ×•×›×—×™×ª. ×–×” ×¢×©×•×™ ×œ×§×—×ª ×ž×¡×¤×¨ ×©× ×™×•×ª ×¢×‘×•×¨ ×§×•×‘×¦×™ ×™×•×ž×Ÿ ×’×“×•×œ×™×�.</translation>
-    </message>
-    <message>
-        <location line="+102"/>
         <source>Clear console</source>
-        <translation>× ×§×” ×œ×•×— ×‘×§×¨×”</translation>
+        <translation>ניקוי מסוף הבקרה</translation>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Murfcoin RPC console.</source>
-        <translation>×‘×¨×•×›×™×� ×”×‘×�×™×� ×œ×œ×•×— ×‘×§×¨×ª RPC ×©×œ ×œ×™×™×˜×§×•×™×Ÿ</translation>
+        <source>1 &amp;hour</source>
+        <translation>1 שעה</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>1 &amp;day</source>
+        <translation>1&amp; יום</translation>
+    </message>
+    <message>
+        <source>1 &amp;week</source>
+        <translation>1 &amp; שבוע</translation>
+    </message>
+    <message>
+        <source>1 &amp;year</source>
+        <translation>1 &amp; שנה</translation>
+    </message>
+    <message>
+        <source>&amp;Disconnect</source>
+        <translation>&amp;ניתוק</translation>
+    </message>
+    <message>
+        <source>Ban for</source>
+        <translation>חסימה למשך</translation>
+    </message>
+    <message>
+        <source>&amp;Unban</source>
+        <translation>&amp;שחרור חסימה</translation>
+    </message>
+    <message>
+        <source>Welcome to the %1 RPC console.</source>
+        <translation>ברוך בואך למסוף ה־RPC של %1.</translation>
+    </message>
+    <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>×”×©×ª×ž×© ×‘×—×™×¦×™×� ×œ×ž×¢×œ×” ×•×œ×ž×˜×” ×›×“×™ ×œ× ×•×•×˜ ×‘×”×™×¡×˜×•×¨×™×”, ×•- &lt;b&gt;Ctrl-L&lt;/b&gt; ×›×“×™ ×œ× ×§×•×ª ×�×ª ×”×ž×¡×š.</translation>
+        <translation>יש להשתמש בחצים למעלה ולמטה כדי לנווט בהיסטוריה, וב־&lt;b&gt;Ctrl-L&lt;/b&gt; כדי לנקות את המסך.</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>×”×§×œ×“ &lt;b&gt;help&lt;/b&gt; ×‘×©×‘×™×œ ×¡×§×™×¨×” ×©×œ ×”×¤×§×•×“×•×ª ×”×–×ž×™× ×•×ª.</translation>
+        <translation>ניתן להקליד &lt;b&gt;help&lt;/b&gt; לקבלת סקירה של הפקודות הזמינות.</translation>
+    </message>
+    <message>
+        <source>Network activity disabled</source>
+        <translation>פעילות הרשת נוטרלה</translation>
+    </message>
+    <message>
+        <source>%1 B</source>
+        <translation>%1 ב׳</translation>
+    </message>
+    <message>
+        <source>%1 KB</source>
+        <translation>%1 ק״ב</translation>
+    </message>
+    <message>
+        <source>%1 MB</source>
+        <translation>%1 מ״ב</translation>
+    </message>
+    <message>
+        <source>%1 GB</source>
+        <translation>%1 ג״ב</translation>
+    </message>
+    <message>
+        <source>via %1</source>
+        <translation>דרך %1</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>לעולם לא</translation>
+    </message>
+    <message>
+        <source>Inbound</source>
+        <translation>תעבורה נכנסת</translation>
+    </message>
+    <message>
+        <source>Outbound</source>
+        <translation>תעבורה יוצאת</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>כן</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>לא</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>לא ידוע</translation>
     </message>
 </context>
 <context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Amount:</source>
+        <translation>&amp;סכום:</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>ת&amp;ווית:</translation>
+    </message>
+    <message>
+        <source>&amp;Message:</source>
+        <translation>הו&amp;דעה:</translation>
+    </message>
+    <message>
+        <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
+        <translation>ניתן להשתמש שוב באחת מכתובות הקבלה שכבר נעשה בהן שימוש. לשימוש חוזר בכתובות ישנן השלכות אבטחה ופרטיות. מומלץ שלא להשתמש באפשרות זו למעט יצירה מחדש של בקשת תשלום שנוצרה בעבר.</translation>
+    </message>
+    <message>
+        <source>R&amp;euse an existing receiving address (not recommended)</source>
+        <translation>ש&amp;ימוש &amp;חוזר בכתובת קבלה קיימת (לא מומלץ)</translation>
+    </message>
+    <message>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Murfcoin network.</source>
+        <translation>הודעת רשות לצירוף לבקשת התשלום שתוצג בעת פתיחת הבקשה. לתשומת לבך: ההודעה לא תישלח עם התשלום ברשת לייטקוין.</translation>
+    </message>
+    <message>
+        <source>An optional label to associate with the new receiving address.</source>
+        <translation>תווית רשות לשיוך עם כתובת הקבלה החדשה.</translation>
+    </message>
+    <message>
+        <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
+        <translation>יש להשתמש בטופס זה כדי לבקש תשלומים. כל השדות הם בגדר &lt;b&gt;רשות&lt;/b&gt;.</translation>
+    </message>
+    <message>
+        <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
+        <translation>סכום כרשות לבקשה. ניתן להשאיר זאת ריק כדי לא לבקש סכום מסוים.</translation>
+    </message>
+    <message>
+        <source>Clear all fields of the form.</source>
+        <translation>ניקוי של כל השדות בטופס.</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>ניקוי</translation>
+    </message>
+    <message>
+        <source>Requested payments history</source>
+        <translation>היסטוריית בקשות תשלום</translation>
+    </message>
+    <message>
+        <source>&amp;Request payment</source>
+        <translation>&amp;בקשת תשלום</translation>
+    </message>
+    <message>
+        <source>Show the selected request (does the same as double clicking an entry)</source>
+        <translation>הצגת בקשות נבחרות (דומה ללחיצה כפולה על רשומה)</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>הצגה</translation>
+    </message>
+    <message>
+        <source>Remove the selected entries from the list</source>
+        <translation>הסרת הרשומות הנבחרות מהרשימה</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>הסרה</translation>
+    </message>
+    <message>
+        <source>Copy URI</source>
+        <translation>העתקת כתובת</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>העתקת התווית</translation>
+    </message>
+    <message>
+        <source>Copy message</source>
+        <translation>העתקת הודעה</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>העתקת הסכום</translation>
+    </message>
+</context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>QR Code</source>
+        <translation>קוד QR</translation>
+    </message>
+    <message>
+        <source>Copy &amp;URI</source>
+        <translation>העתקת &amp;כתובת משאב</translation>
+    </message>
+    <message>
+        <source>Copy &amp;Address</source>
+        <translation>העתקת &amp;כתובת</translation>
+    </message>
+    <message>
+        <source>&amp;Save Image...</source>
+        <translation>&amp;שמירת תמונה…</translation>
+    </message>
+    <message>
+        <source>Request payment to %1</source>
+        <translation>בקשת תשלום אל %1</translation>
+    </message>
+    <message>
+        <source>Payment information</source>
+        <translation>פרטי תשלום</translation>
+    </message>
+    <message>
+        <source>URI</source>
+        <translation>כתובת</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>כתובת</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>סכום</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>תוית</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>הודעה</translation>
+    </message>
+    <message>
+        <source>Resulting URI too long, try to reduce the text for label / message.</source>
+        <translation>הכתובת שנוצרה ארוכה מדי, כדאי לנסות לקצר את הטקסט של התווית / הודעה.</translation>
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>תאריך</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>תוית</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>הודעה</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(ללא תוית)</translation>
+    </message>
+    <message>
+        <source>(no message)</source>
+        <translation>(אין הודעה)</translation>
+    </message>
+    <message>
+        <source>(no amount requested)</source>
+        <translation>(לא התבקש סכום)</translation>
+    </message>
+    </context>
+<context>
     <name>SendCoinsDialog</name>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
-        <location filename="../sendcoinsdialog.cpp" line="+124"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+6"/>
-        <location line="+5"/>
-        <location line="+5"/>
         <source>Send Coins</source>
-        <translation>×©×œ×— ×ž×˜×‘×¢×•×ª</translation>
+        <translation>שליחת מטבעות</translation>
     </message>
     <message>
-        <location line="+50"/>
+        <source>Coin Control Features</source>
+        <translation>תכונות בקרת מטבעות</translation>
+    </message>
+    <message>
+        <source>Inputs...</source>
+        <translation>קלטים…</translation>
+    </message>
+    <message>
+        <source>automatically selected</source>
+        <translation>בבחירה אוטומטית</translation>
+    </message>
+    <message>
+        <source>Insufficient funds!</source>
+        <translation>אין מספיק כספים!</translation>
+    </message>
+    <message>
+        <source>Quantity:</source>
+        <translation>כמות:</translation>
+    </message>
+    <message>
+        <source>Bytes:</source>
+        <translation>בתים:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>סכום:</translation>
+    </message>
+    <message>
+        <source>Fee:</source>
+        <translation>עמלה:</translation>
+    </message>
+    <message>
+        <source>After Fee:</source>
+        <translation>לאחר עמלה:</translation>
+    </message>
+    <message>
+        <source>Change:</source>
+        <translation>עודף:</translation>
+    </message>
+    <message>
+        <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
+        <translation>אם אפשרות זו מופעלת אך כתובת העודף ריקה או שגויה, העודף יישלח לכתובת חדשה שתיווצר.</translation>
+    </message>
+    <message>
+        <source>Custom change address</source>
+        <translation>כתובת לעודף מותאמת אישית</translation>
+    </message>
+    <message>
+        <source>Transaction Fee:</source>
+        <translation>עמלת העברה:</translation>
+    </message>
+    <message>
+        <source>Choose...</source>
+        <translation>בחר...</translation>
+    </message>
+    <message>
+        <source>collapse fee-settings</source>
+        <translation>צמצום הגדרות עמלה</translation>
+    </message>
+    <message>
+        <source>per kilobyte</source>
+        <translation>עבור קילו-בית</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>הסתר</translation>
+    </message>
+    <message>
+        <source>total at least</source>
+        <translation>סה''כ לפחות</translation>
+    </message>
+    <message>
+        <source>Recommended:</source>
+        <translation>מומלץ:</translation>
+    </message>
+    <message>
+        <source>Custom:</source>
+        <translation>מותאם אישית:</translation>
+    </message>
+    <message>
+        <source>normal</source>
+        <translation>רגיל</translation>
+    </message>
+    <message>
+        <source>fast</source>
+        <translation>מהיר</translation>
+    </message>
+    <message>
         <source>Send to multiple recipients at once</source>
-        <translation>×©×œ×— ×œ×ž×¡×¤×¨ ×ž×§×‘×œ×™×� ×‘×•-×–×ž× ×™×ª</translation>
+        <translation>שליחה למספר מוטבים בו־זמנית</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Add &amp;Recipient</source>
-        <translation>×”×•×¡×£ ×ž×§×‘×œ</translation>
+        <translation>הוספת &amp;מוטב</translation>
     </message>
     <message>
-        <location line="+20"/>
-        <source>Remove all transaction fields</source>
-        <translation>×”×¡×¨ ×�×ª ×›×œ ×”×©×“×•×ª ×‘×¤×¢×•×œ×”</translation>
+        <source>Clear all fields of the form.</source>
+        <translation>ניקוי של כל השדות בטופס.</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <source>Dust:</source>
+        <translation>אבק:</translation>
+    </message>
+    <message>
         <source>Clear &amp;All</source>
-        <translation>× ×§×” ×”×›×œ</translation>
+        <translation>&amp;ניקוי הכול</translation>
     </message>
     <message>
-        <location line="+22"/>
         <source>Balance:</source>
-        <translation>×™×ª×¨×”:</translation>
+        <translation>מאזן:</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>123.456 BTC</source>
-        <translation>123.456 ×œ×™×™×˜×§×•×™×Ÿ</translation>
-    </message>
-    <message>
-        <location line="+31"/>
         <source>Confirm the send action</source>
-        <translation>×�×©×¨ ×�×ª ×¤×¢×•×œ×ª ×”×©×œ×™×—×”</translation>
+        <translation>אישור פעולת השליחה</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>S&amp;end</source>
-        <translation>×©×œ×—</translation>
+        <translation>&amp;שליחה</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="-59"/>
-        <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt; ×œ- %2 (%3)</translation>
+        <source>Copy quantity</source>
+        <translation>העתקת הכמות</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <source>Copy amount</source>
+        <translation>העתקת הסכום</translation>
+    </message>
+    <message>
+        <source>Copy fee</source>
+        <translation>העתקת העמלה</translation>
+    </message>
+    <message>
+        <source>Copy after fee</source>
+        <translation>העתקה אחרי העמלה</translation>
+    </message>
+    <message>
+        <source>Copy bytes</source>
+        <translation>העתקת בתים</translation>
+    </message>
+    <message>
+        <source>Copy dust</source>
+        <translation>העתקת אבק</translation>
+    </message>
+    <message>
+        <source>Copy change</source>
+        <translation>העתקת השינוי</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to send?</source>
+        <translation>לשלוח?</translation>
+    </message>
+    <message>
+        <source>added as transaction fee</source>
+        <translation>נוספה עמלת העברה</translation>
+    </message>
+    <message>
+        <source>Total Amount %1</source>
+        <translation>סכום כולל %1</translation>
+    </message>
+    <message>
+        <source>or</source>
+        <translation>או</translation>
+    </message>
+    <message>
         <source>Confirm send coins</source>
-        <translation>×�×©×¨ ×©×œ×™×—×ª ×ž×˜×‘×¢×•×ª</translation>
+        <translation>אימות שליחת מטבעות</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Are you sure you want to send %1?</source>
-        <translation>×”×�×� ×�×ª×” ×‘×˜×•×— ×©×‘×¨×¦×•× ×š ×œ×©×œ×•×— %1?</translation>
+        <source>The recipient address is not valid. Please recheck.</source>
+        <translation>כתובת הנמען שגויה. נא לבדוק שוב.</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source> and </source>
-        <translation> ×•- </translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>The recipient address is not valid, please recheck.</source>
-        <translation>×›×ª×•×‘×ª ×”×ž×§×‘×œ ×�×™× ×” ×ª×§×™× ×”, ×�× ×� ×‘×“×•×§ ×©× ×™×ª.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>×”×›×ž×•×ª ×œ×©×œ×� ×—×™×™×‘×ª ×œ×”×™×•×ª ×’×“×•×œ×” ×ž-0.</translation>
+        <translation>הסכום לתשלום צריך להיות גדול מ־0.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>The amount exceeds your balance.</source>
-        <translation>×”×›×ž×•×ª ×¢×•×œ×” ×¢×œ ×”×ž×�×–×Ÿ ×©×œ×š.</translation>
+        <translation>הסכום חורג מהמאזן שלך.</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>×”×›×ž×•×ª ×”×›×•×œ×œ×ª, ×•×‘×›×œ×œ×” ×¢×ž×œ×ª ×¤×¢×•×œ×” ×‘×¡×š %1, ×¢×•×œ×” ×¢×œ ×”×ž×�×–×Ÿ ×©×œ×š.</translation>
+        <source>Duplicate address found: addresses should only be used once each.</source>
+        <translation>נמצאה כתובת כפולה: יש להשתמש בכל כתובת פעם אחת בלבד.</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>×›×ª×•×‘×ª ×›×¤×•×œ×” × ×ž×¦×�×”, × ×™×ª×Ÿ ×œ×©×œ×•×— ×œ×›×œ ×›×ª×•×‘×ª ×¨×§ ×¤×¢×� ×�×—×ª ×‘×›×œ ×¤×¢×•×œ×ª ×©×œ×™×—×”.</translation>
+        <source>Transaction creation failed!</source>
+        <translation>יצירת ההעברה נכשלה!</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Error: Transaction creation failed!</source>
-        <translation>×©×’×™×�×”: ×™×¦×™×¨×ª ×”×¤×¢×•×œ×” × ×›×©×œ×”!</translation>
+        <source>The transaction was rejected with the following reason: %1</source>
+        <translation>ההעברה נדחתה מהסיבות הבאות: %1</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>×©×’×™×�×”: ×”×¤×¢×•×œ×” × ×“×—×ª×”. ×–×” ×¢×©×•×™ ×œ×§×¨×•×ª ×¢×� ×—×œ×§ ×ž×”×ž×˜×‘×¢×•×ª ×‘×�×¨× ×§ ×©×œ×š ×›×‘×¨ × ×•×¦×œ×•, ×œ×ž×©×œ ×�×� ×”×©×ª×ž×©×ª ×‘×¢×•×ª×§ ×©×œ wallet.dat ×•×ž×˜×‘×¢×•×ª × ×•×¦×œ×• ×‘×¢×•×ª×§ ×�×š ×œ×� ×¡×•×ž× ×• ×›×ž× ×•×¦×œ×•×ª ×›×�×Ÿ.</translation>
+        <source>A fee higher than %1 is considered an absurdly high fee.</source>
+        <translation>עמלה מעל לסכום של %1 נחשבת לעמלה גבוהה באופן מוגזם.</translation>
+    </message>
+    <message>
+        <source>Payment request expired.</source>
+        <translation>בקשת התשלום פגה.</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n block(s)</source>
+        <translation><numerusform>מקטע אחד</numerusform><numerusform>%n מקטעים</numerusform></translation>
+    </message>
+    <message>
+        <source>Pay only the required fee of %1</source>
+        <translation>תשלום של העמלה הנדרשת בלבד על סך %1</translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Murfcoin address</source>
+        <translation>אזהרה: כתובת ביטקיון שגויה</translation>
+    </message>
+    <message>
+        <source>Warning: Unknown change address</source>
+        <translation>אזהרה: כתובת החלפה בלתי ידועה</translation>
+    </message>
+    <message>
+        <source>Confirm custom change address</source>
+        <translation>אימות כתובת החלפה בהתאמה אישית</translation>
+    </message>
+    <message>
+        <source>The address you selected for change is not part of this wallet. Any or all funds in your wallet may be sent to this address. Are you sure?</source>
+        <translation>הכתובת שבחרת עבור ההחלפה אינה חלק מארנק זה. כל ההסכום שבארנק שלך עשוי להישלח לכתובת זו. מקובל עליך?</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(ללא תוית)</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="+14"/>
-        <source>Form</source>
-        <translation>×˜×•×¤×¡</translation>
-    </message>
-    <message>
-        <location line="+15"/>
         <source>A&amp;mount:</source>
-        <translation>×›&amp;×ž×•×ª:</translation>
+        <translation>&amp;כמות:</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Pay &amp;To:</source>
-        <translation>×©×œ×� &amp;×œ:</translation>
+        <translation>לשלם ל&amp;טובת:</translation>
     </message>
     <message>
-        <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>×”×›×ª×•×‘×ª ×©×�×œ×™×” ×™×©×œ×— ×”×ª×©×œ×•×� (×œ×ž×©×œ Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="+60"/>
-        <location filename="../sendcoinsentry.cpp" line="+26"/>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>×”×›× ×¡ ×ª×•×™×ª ×œ×›×ª×•×‘×ª ×”×–×�×ª ×›×“×™ ×œ×”×›× ×™×¡ ×œ×¤× ×§×¡ ×”×›×ª×•×‘×•×ª</translation>
-    </message>
-    <message>
-        <location line="-78"/>
         <source>&amp;Label:</source>
-        <translation>×ª&amp;×•×™×ª:</translation>
+        <translation>ת&amp;ווית:</translation>
     </message>
     <message>
-        <location line="+28"/>
-        <source>Choose address from address book</source>
-        <translation>×‘×—×¨ ×›×ª×•×‘×ª ×ž×¤× ×§×¡ ×”×›×ª×•×‘×•×ª</translation>
+        <source>Choose previously used address</source>
+        <translation>בחירת כתובת שהייתה בשימוש</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <source>This is a normal payment.</source>
+        <translation>זהו תשלום רגיל.</translation>
+    </message>
+    <message>
+        <source>The Murfcoin address to send the payment to</source>
+        <translation>כתובת לייטקוין של המוטב</translation>
+    </message>
+    <message>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Paste address from clipboard</source>
-        <translation>×”×“×‘×¨ ×›×ª×•×‘×ª ×ž×”×œ×•×—</translation>
+        <translation>הדבקת כתובת מלוח הגזירים</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Remove this recipient</source>
-        <translation>×”×¡×¨ ×�×ª ×”×ž×§×‘×œ ×”×–×”</translation>
+        <source>Remove this entry</source>
+        <translation>הסרת רשומה זו</translation>
     </message>
     <message>
-        <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Murfcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>×”×›× ×¡ ×›×ª×•×‘×ª ×œ×™×™×˜×§×•×™×Ÿ (×œ×ž×©×œ Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less murfcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>העמלה תנוכה מהסכום שנשלח. הנמען יקבל פחות ביטקוינים ממה שהזנת בשדה הסכום. אם נבחרו מספר נמענים, העמלה תחולק באופן שווה.</translation>
+    </message>
+    <message>
+        <source>S&amp;ubtract fee from amount</source>
+        <translation>ה&amp;חסרת העמלה מהסכום</translation>
+    </message>
+    <message>
+        <source>Message:</source>
+        <translation>הודעה:</translation>
+    </message>
+    <message>
+        <source>This is an authenticated payment request.</source>
+        <translation>זוהי בקשה מאומתת לתשלום.</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to the list of used addresses</source>
+        <translation>יש להזין תווית עבור כתובת זו כדי להוסיף אותה לרשימת הכתובות בשימוש</translation>
+    </message>
+    <message>
+        <source>A message that was attached to the murfcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Murfcoin network.</source>
+        <translation>הודעה שצורפה לייטקוין: כתובת שתאוחסן בהעברה לצורך מעקב מצדך. לתשומת לבך: הודעה זו לא תישלח ברשת לייטקוין.</translation>
+    </message>
+    <message>
+        <source>Pay To:</source>
+        <translation>תשלום לטובת:</translation>
+    </message>
+    <message>
+        <source>Memo:</source>
+        <translation>תזכורת:</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>נא להזין תווית לכתובת זו כדי להוסיף אותה לספר הכתובות שלך</translation>
+    </message>
+</context>
+<context>
+    <name>SendConfirmationDialog</name>
+    <message>
+        <source>Yes</source>
+        <translation>כן</translation>
+    </message>
+</context>
+<context>
+    <name>ShutdownWindow</name>
+    <message>
+        <source>Do not shut down the computer until this window disappears.</source>
+        <translation>אין לכבות את המחשב עד שחלון זה נעלם.</translation>
     </message>
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="+14"/>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>×—×ª×™×ž×•×ª - ×—×ª×•×� ×�×• ×�×ž×ª ×”×•×“×¢×”</translation>
+        <translation>חתימות - חתימה או אימות של הודעה</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>&amp;Sign Message</source>
-        <translation>×—×ª×•×� ×¢×œ ×”×•&amp;×“×¢×”</translation>
+        <translation>חתימה על הו&amp;דעה</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>×�×ª×” ×™×›×•×œ ×œ×—×ª×•×� ×¢×œ ×”×•×“×¢×•×ª ×¢×� ×”×›×ª×•×‘×•×ª ×©×œ×š ×›×“×™ ×œ×”×•×›×™×— ×©×”×Ÿ ×‘×‘×¢×œ×•×ª×š. ×”×™×–×”×¨ ×œ×� ×œ×—×ª×•×� ×¢×œ ×ž×©×”×• ×ž×¢×•×¨×¤×œ, ×©×›×Ÿ ×”×ª×§×¤×•×ª ×¤×™×©×™× ×’ ×¢×©×•×™×•×ª ×œ×’×¨×•×� ×œ×š ×‘×¢×•×¨×ž×” ×œ×ž×¡×•×¨ ×�×ª ×–×”×•×ª×š. ×—×ª×•×� ×¨×§ ×¢×œ ×�×ž×¨×•×ª ×ž×¤×•×¨×˜×•×ª ×œ×—×œ×•×˜×™×Ÿ ×©×�×ª×” ×ž×¡×›×™×� ×¢×™×ž×Ÿ.</translation>
+        <source>The Murfcoin address to sign the message with</source>
+        <translation>כתובת לייטקוין אתה לחתום אתה את ההודעה</translation>
     </message>
     <message>
-        <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>×”×›×ª×•×‘×ª ×�×™×ª×” ×œ×—×ª×•×� ×¢×œ ×”×”×•×“×¢×” (×œ×ž×©×œ Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Choose previously used address</source>
+        <translation>בחירת כתובת שהייתה בשימוש</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <location line="+213"/>
-        <source>Choose an address from the address book</source>
-        <translation>×‘×—×¨ ×›×ª×•×‘×ª ×ž×¤× ×§×¡ ×”×›×ª×•×‘×•×ª</translation>
-    </message>
-    <message>
-        <location line="-203"/>
-        <location line="+213"/>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
     <message>
-        <location line="-203"/>
         <source>Paste address from clipboard</source>
-        <translation>×”×“×‘×§ ×›×ª×•×‘×ª ×ž×”×œ×•×—</translation>
+        <translation>הדבקת כתובת מלוח הגזירים</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <location line="+12"/>
         <source>Enter the message you want to sign here</source>
-        <translation>×”×›× ×¡ ×›×�×Ÿ ×�×ª ×”×”×•×“×¢×” ×©×¢×œ×™×š ×‘×¨×¦×•× ×š ×œ×—×ª×•×�</translation>
+        <translation>יש להוסיף כאן את ההודעה עליה לחתום</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Signature</source>
-        <translation>×—×ª×™×ž×”</translation>
+        <translation>חתימה</translation>
     </message>
     <message>
-        <location line="+27"/>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>×”×¢×ª×§ ×�×ª ×”×—×ª×™×ž×” ×”× ×•×›×—×™×ª ×œ×œ×•×— ×”×ž×¢×¨×›×ª</translation>
+        <translation>העתקת החתימה הנוכחית ללוח הגזירים</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>Sign the message to prove you own this Murfcoin address</source>
-        <translation>×—×ª×•×� ×¢×œ ×”×”×•×“×¢×” ×›×“×™ ×œ×”×•×›×™×— ×©×›×ª×•×‘×ª ×”×œ×™×™×˜×§×•×™×Ÿ ×”×–×• ×‘×‘×¢×œ×•×ª×š.</translation>
+        <translation>ניתן לחתום על ההודעה כדי להוכיח שכתובת לייטקוין הזו בבעלותך.</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Sign &amp;Message</source>
-        <translation>×—×ª×•×� ×¢×œ ×”×•×“×¢×”</translation>
+        <translation>&amp;חתימה על הודעה</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Reset all sign message fields</source>
-        <translation>×�×¤×¡ ×�×ª ×›×œ ×©×“×•×ª ×”×—×ª×™×ž×” ×¢×œ ×”×•×“×¢×”</translation>
+        <translation>איפוס כל שדות החתימה על הודעה</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <location line="+146"/>
         <source>Clear &amp;All</source>
-        <translation>× ×§×” ×”×›×œ</translation>
+        <translation>&amp;ניקוי הכול</translation>
     </message>
     <message>
-        <location line="-87"/>
         <source>&amp;Verify Message</source>
-        <translation>×�×ž×ª ×”×•×“×¢×”</translation>
+        <translation>&amp;אימות הודעה</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
-        <translation>×”×›× ×¡ ×œ×ž×˜×” ×�×ª ×”×›×ª×•×‘×ª ×”×—×•×ª×ž×ª, ×”×”×•×“×¢×” (×•×“×� ×©×�×ª×” ×ž×¢×ª×™×§ ×ž×¢×‘×¨×™ ×©×•×¨×”, ×¨×•×•×—×™×�, ×˜×�×‘×™×� ×•×›×•&apos; ×‘×�×•×¤×Ÿ ×ž×“×•×™×§) ×•×”×—×ª×™×ž×” ×›×“×™ ×œ×�×ž×ª ×�×ª ×”×”×•×“×¢×”. ×”×™×–×”×¨ ×œ×� ×œ×¤×¨×© ×�×ª ×”×—×ª×™×ž×” ×›×™×•×ª×¨ ×ž×ž×” ×©×ž×•×¤×™×¢ ×‘×”×•×“×¢×” ×”×—×ª×•×ž×” ×‘×¢×¦×ž×”, ×›×“×™ ×œ×”×™×ž× ×¢ ×ž×œ×™×¤×•×œ ×§×•×¨×‘×Ÿ ×œ×ž×ª×§×¤×ª ×�×™×©-×‘×�×ž×¦×¢.</translation>
+        <source>The Murfcoin address the message was signed with</source>
+        <translation>כתובת לייטקוין שאתה נחתמה ההודעה</translation>
     </message>
     <message>
-        <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>×”×›×ª×•×‘×ª ×�×™×ª×” ×”×”×•×“×¢×” × ×—×ª×ž×” (×œ×ž×©×œ Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="+40"/>
         <source>Verify the message to ensure it was signed with the specified Murfcoin address</source>
-        <translation>×�×ž×ª ×�×ª ×”×”×•×“×¢×” ×›×“×™ ×œ×”×‘×˜×™×— ×©×”×™×� × ×—×ª×ž×” ×¢×� ×›×ª×•×‘×ª ×”×œ×™×™×˜×§×•×™×Ÿ ×”× ×ª×•× ×”</translation>
+        <translation>ניתן לאמת את ההודעה כדי להבטיח שהיא נחתמה עם כתובת לייטקוין הנתונה</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Verify &amp;Message</source>
-        <translation>×�×™×ž×•×ª ×”×•×“×¢×”</translation>
+        <translation>&amp;אימות הודעה</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Reset all verify message fields</source>
-        <translation>×�×¤×¡ ×�×ª ×›×œ ×©×“×•×ª ×�×™×ž×•×ª ×”×•×“×¢×”</translation>
+        <translation>איפוס כל שדות אימות ההודעה</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="+27"/>
-        <location line="+3"/>
-        <source>Enter a Murfcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>×”×›× ×¡ ×›×ª×•×‘×ª ×œ×™×™×˜×§×•×™×Ÿ (×œ×ž×©×œ Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>יש ללחוץ על „חתימת ההודעה“ כדי לייצר חתימה</translation>
     </message>
     <message>
-        <location line="-2"/>
-        <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation>×œ×—×¥ &quot;×—×ª×•×� ×¢×œ ×”×”×•×“×¢×”&quot; ×›×“×™ ×œ×—×•×œ×œ ×—×ª×™×ž×”</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Enter Murfcoin signature</source>
-        <translation>×”×›× ×¡ ×—×ª×™×ž×ª ×œ×™×™×˜×§×•×™×Ÿ</translation>
-    </message>
-    <message>
-        <location line="+82"/>
-        <location line="+81"/>
         <source>The entered address is invalid.</source>
-        <translation>×”×›×ª×•×‘×ª ×©×”×•×›× ×¡×” ×�×™× ×” ×ª×§×™× ×”.</translation>
+        <translation>הכתובת שהוזנה שגויה.</translation>
     </message>
     <message>
-        <location line="-81"/>
-        <location line="+8"/>
-        <location line="+73"/>
-        <location line="+8"/>
         <source>Please check the address and try again.</source>
-        <translation>×�× ×� ×‘×“×•×§ ×�×ª ×”×›×ª×•×‘×ª ×•× ×¡×” ×©× ×™×ª.</translation>
+        <translation>נא לבדוק את הכתובת ולנסות שוב.</translation>
     </message>
     <message>
-        <location line="-81"/>
-        <location line="+81"/>
         <source>The entered address does not refer to a key.</source>
-        <translation>×”×›×ª×•×‘×ª ×©×”×•×›× ×¡×” ×�×™× ×” ×ž×ª×™×™×—×¡×ª ×œ×ž×¤×ª×—.</translation>
+        <translation>הכתובת שהוזנה לא מתייחסת למפתח.</translation>
     </message>
     <message>
-        <location line="-73"/>
         <source>Wallet unlock was cancelled.</source>
-        <translation>×¤×ª×™×—×ª ×”×�×¨× ×§ ×‘×•×˜×œ×”.</translation>
+        <translation>שחרור הארנק בוטל.</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Private key for the entered address is not available.</source>
-        <translation>×”×ž×¤×ª×— ×”×¤×¨×˜×™ ×¢×‘×•×¨ ×”×›×ª×•×‘×ª ×©×”×•×›× ×¡×” ×�×™× ×• ×–×ž×™×Ÿ.</translation>
+        <translation>המפתח הפרטי לכתובת שהוכנסה אינו זמין.</translation>
     </message>
     <message>
-        <location line="+12"/>
         <source>Message signing failed.</source>
-        <translation>×”×—×ª×™×ž×” ×¢×œ ×”×”×•×“×¢×” × ×›×©×œ×”.</translation>
+        <translation>חתימת ההודעה נכשלה.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Message signed.</source>
-        <translation>×”×”×•×“×¢×” × ×—×ª×ž×”.</translation>
+        <translation>ההודעה נחתמה.</translation>
     </message>
     <message>
-        <location line="+59"/>
         <source>The signature could not be decoded.</source>
-        <translation>×œ×� × ×™×ª×Ÿ ×œ×¤×¢× ×— ×�×ª ×”×—×ª×™×ž×”.</translation>
+        <translation>לא ניתן לפענח את החתימה.</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <location line="+13"/>
         <source>Please check the signature and try again.</source>
-        <translation>×�× ×� ×‘×“×•×§ ×�×ª ×”×—×ª×™×ž×” ×•× ×¡×” ×©× ×™×ª.</translation>
+        <translation>נא לבדוק את החתימה ולנסות שוב.</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>The signature did not match the message digest.</source>
-        <translation>×”×—×ª×™×ž×” ×œ×� ×ª×•×�×ž×ª ×�×ª ×ª×§×¦×™×¨ ×”×”×•×“×¢×”.</translation>
+        <translation>החתימה לא תואמת את תקציר ההודעה.</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Message verification failed.</source>
-        <translation>×�×™×ž×•×ª ×”×”×•×“×¢×” × ×›×©×œ.</translation>
+        <translation>וידוא ההודעה נכשל.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Message verified.</source>
-        <translation>×”×”×•×“×¢×” ×�×•×ž×ª×”.</translation>
+        <translation>ההודעה עברה וידוא.</translation>
     </message>
 </context>
 <context>
     <name>SplashScreen</name>
     <message>
-        <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Murfcoin developers</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>[testnet]</source>
-        <translation>[×¨×©×ª-×‘×“×™×§×”]</translation>
+        <translation>[רשת-בדיקה]</translation>
+    </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
+    <message>
+        <source>KB/s</source>
+        <translation>ק״ב/ש׳</translation>
     </message>
 </context>
 <context>
     <name>TransactionDesc</name>
     <message>
-        <location filename="../transactiondesc.cpp" line="+20"/>
-        <source>Open until %1</source>
-        <translation>×¤×ª×•×— ×¢×“ %1</translation>
+        <source>in memory pool</source>
+        <translation>במאגר הזיכרון</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>%1/offline</source>
-        <translation>%1/×ž× ×•×ª×§</translation>
+        <source>not in memory pool</source>
+        <translation>לא במאגר הזיכרון</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>%1/unconfirmed</source>
-        <translation>%1/×ž×ž×ª×™×Ÿ ×œ×�×™×©×•×¨</translation>
+        <source>abandoned</source>
+        <translation>ננטש</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>%1 confirmations</source>
-        <translation>%1 ×�×™×©×•×¨×™×�</translation>
-    </message>
-    <message>
-        <location line="+18"/>
         <source>Status</source>
-        <translation>×ž×¦×‘</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+7"/>
-        <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, ×”×•×¤×¥ ×“×¨×š ×¦×•×ž×ª ×�×—×“</numerusform><numerusform>, ×”×•×¤×¥ ×“×¨×š %n ×¦×ž×ª×™×�</numerusform></translation>
+        <translation>מצב</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Date</source>
-        <translation>×ª×�×¨×™×š</translation>
+        <translation>תאריך</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Source</source>
-        <translation>×ž×§×•×¨</translation>
+        <translation>מקור</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Generated</source>
-        <translation>× ×•×¦×¨</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <location line="+17"/>
         <source>From</source>
-        <translation>×ž×�×ª</translation>
+        <translation>מאת</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <location line="+22"/>
-        <location line="+58"/>
-        <source>To</source>
-        <translation>×�×œ</translation>
-    </message>
-    <message>
-        <location line="-77"/>
-        <location line="+2"/>
-        <source>own address</source>
-        <translation>×›×ª×•×‘×ª ×¢×¦×ž×™×ª</translation>
-    </message>
-    <message>
-        <location line="-2"/>
-        <source>label</source>
-        <translation>×ª×•×™×ª</translation>
-    </message>
-    <message>
-        <location line="+37"/>
-        <location line="+12"/>
-        <location line="+45"/>
-        <location line="+17"/>
-        <location line="+30"/>
-        <source>Credit</source>
-        <translation>×–×™×›×•×™</translation>
-    </message>
-    <message numerus="yes">
-        <location line="-102"/>
-        <source>matures in %n more block(s)</source>
-        <translation><numerusform>×ž×‘×©×™×œ ×‘×¢×•×“ ×‘×œ×•×§ ×�×—×“</numerusform><numerusform>×ž×‘×©×™×œ ×‘×¢×•×“ %n ×‘×œ×•×§×™×�</numerusform></translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>not accepted</source>
-        <translation>×œ×� ×”×ª×§×‘×œ</translation>
-    </message>
-    <message>
-        <location line="+44"/>
-        <location line="+8"/>
-        <location line="+15"/>
-        <location line="+30"/>
-        <source>Debit</source>
-        <translation>×—×™×•×‘</translation>
-    </message>
-    <message>
-        <location line="-39"/>
-        <source>Transaction fee</source>
-        <translation>×¢×ž×œ×ª ×¤×¢×•×œ×”</translation>
-    </message>
-    <message>
-        <location line="+16"/>
-        <source>Net amount</source>
-        <translation>×›×ž×•×ª × ×§×™×”</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Message</source>
-        <translation>×”×•×“×¢×”</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Comment</source>
-        <translation>×”×¢×¨×”</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Transaction ID</source>
-        <translation>×–×™×”×•×™ ×¤×¢×•×œ×”</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>×ž×˜×‘×¢×•×ª ×©× ×•×¦×¨×™×� ×—×™×™×‘×™×� ×œ×”×‘×©×™×œ ×œ×ž×©×š 120 ×‘×œ×•×§×™×� ×œ×¤× ×™ ×©× ×™×ª×Ÿ ×œ× ×¦×œ ×�×•×ª×�. ×›×©×™×¦×¨×ª ×�×ª ×”×‘×œ×•×§ ×”×–×”, ×”×•×� ×”×•×¤×¥ ×œ×¨×©×ª ×›×“×™ ×œ×”×ª×•×•×¡×£ ×œ×©×¨×©×¨×ª ×”×‘×œ×•×§×™×�. ×�×� ×”×•×� ×�×™× ×• ×ž×¦×œ×™×— ×œ×‘×™×¢ ×œ×©×¨×©×¨×ª, ×”×ž×¦×‘ ×©×œ×• ×™×©×ª× ×” ×œ&quot;×œ×� ×”×ª×§×‘×œ&quot; ×•×œ×� × ×™×ª×Ÿ ×™×”×™×” ×œ× ×¦×œ ×�×•×ª×•. ×–×” ×¢×©×•×™ ×œ×§×¨×•×ª ×ž×¢×ª ×œ×¢×ª ×�×� ×¦×•×ž×ª ×�×—×¨ ×™×•×¦×¨ ×‘×œ×•×§ ×‘×˜×•×•×— ×©×œ ×ž×¡×¤×¨ ×©× ×™×•×ª ×ž×”×‘×œ×•×§ ×©×œ×š.</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Debug information</source>
-        <translation>×ž×™×“×¢ × ×™×¤×•×™</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Transaction</source>
-        <translation>×¤×¢×•×œ×”</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Inputs</source>
-        <translation>×§×œ×˜×™×�</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Amount</source>
-        <translation>×›×ž×•×ª</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>true</source>
-        <translation>×�×ž×ª</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>false</source>
-        <translation>×©×§×¨</translation>
-    </message>
-    <message>
-        <location line="-209"/>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>, ×˜×¨×� ×©×•×“×¨ ×‘×”×¦×œ×—×”</translation>
-    </message>
-    <message numerus="yes">
-        <location line="-35"/>
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>×¤×ª×— ×œ×ž×©×š ×‘×œ×•×§ %n ×™×•×ª×¨</numerusform><numerusform>×¤×ª×— ×œ×ž×©×š %n ×‘×œ×•×§×™×� × ×•×¡×¤×™×�</numerusform></translation>
-    </message>
-    <message>
-        <location line="+70"/>
         <source>unknown</source>
-        <translation>×œ×� ×™×“×•×¢</translation>
+        <translation>לא ידוע</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>אל</translation>
+    </message>
+    <message>
+        <source>own address</source>
+        <translation>כתובת עצמית</translation>
+    </message>
+    <message>
+        <source>watch-only</source>
+        <translation>צפייה בלבד</translation>
+    </message>
+    <message>
+        <source>label</source>
+        <translation>תווית</translation>
+    </message>
+    <message>
+        <source>Credit</source>
+        <translation>אשראי</translation>
+    </message>
+    <message>
+        <source>Debit</source>
+        <translation>חיוב</translation>
+    </message>
+    <message>
+        <source>Total debit</source>
+        <translation>חיוב כולל</translation>
+    </message>
+    <message>
+        <source>Total credit</source>
+        <translation>אשראי כול</translation>
+    </message>
+    <message>
+        <source>Transaction fee</source>
+        <translation>עמלת העברה</translation>
+    </message>
+    <message>
+        <source>Net amount</source>
+        <translation>סכום נטו</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>הודעה</translation>
+    </message>
+    <message>
+        <source>Comment</source>
+        <translation>הערה</translation>
+    </message>
+    <message>
+        <source>Transaction ID</source>
+        <translation>מזהה העברה</translation>
+    </message>
+    <message>
+        <source>Transaction total size</source>
+        <translation>גודל ההעברה הכללי</translation>
+    </message>
+    <message>
+        <source>Output index</source>
+        <translation>מפתח פלט</translation>
+    </message>
+    <message>
+        <source>Debug information</source>
+        <translation>פרטי ניפוי שגיאות</translation>
+    </message>
+    <message>
+        <source>Transaction</source>
+        <translation>העברה</translation>
+    </message>
+    <message>
+        <source>Inputs</source>
+        <translation>אמצעי קלט</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>סכום</translation>
+    </message>
+    <message>
+        <source>true</source>
+        <translation>אמת</translation>
+    </message>
+    <message>
+        <source>false</source>
+        <translation>שקר</translation>
     </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
-        <location filename="../forms/transactiondescdialog.ui" line="+14"/>
-        <source>Transaction details</source>
-        <translation>×¤×¨×˜×™ ×”×¤×¢×•×œ×”</translation>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>חלונית זו מציגה תיאור מפורט של ההעברה</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>This pane shows a detailed description of the transaction</source>
-        <translation>×—×œ×•× ×™×ª ×–×• ×ž×¦×™×’×” ×ª×™×�×•×¨ ×ž×¤×•×¨×˜ ×©×œ ×”×¤×¢×•×œ×”</translation>
+        <source>Details for %1</source>
+        <translation>פרטים עבור %1</translation>
     </message>
 </context>
 <context>
     <name>TransactionTableModel</name>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="+225"/>
         <source>Date</source>
-        <translation>×ª×�×¨×™×š</translation>
+        <translation>תאריך</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Type</source>
-        <translation>×¡×•×’</translation>
+        <translation>סוג</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Address</source>
-        <translation>×›×ª×•×‘×ª</translation>
+        <source>Label</source>
+        <translation>תוית</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Amount</source>
-        <translation>×›×ž×•×ª</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+57"/>
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>×¤×ª×— ×œ×ž×©×š ×‘×œ×•×§ %n ×™×•×ª×¨</numerusform><numerusform>×¤×ª×— ×œ×ž×©×š %n ×‘×œ×•×§×™×� × ×•×¡×¤×™×�</numerusform></translation>
+        <source>Abandoned</source>
+        <translation>ננטש</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Open until %1</source>
-        <translation>×¤×ª×•×— ×¢×“ %1</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Offline (%1 confirmations)</source>
-        <translation>×œ×� ×ž×—×•×‘×¨ (%1 ×�×™×©×•×¨×™×�)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Unconfirmed (%1 of %2 confirmations)</source>
-        <translation>×ž×ž×ª×™×Ÿ ×œ×�×™×©×•×¨ (%1 ×ž×ª×•×š %2 ×�×™×©×•×¨×™×�)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Confirmed (%1 confirmations)</source>
-        <translation>×ž×�×•×©×¨ (%1 ×�×™×©×•×¨×™×�)</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+8"/>
-        <source>Mined balance will be available when it matures in %n more block(s)</source>
-        <translation><numerusform>×”×ž×�×–×Ÿ ×©× ×›×¨×” ×™×”×™×” ×–×ž×™×Ÿ ×›×©×”×•×� ×ž×‘×©×™×œ ×‘×¢×•×“ ×‘×œ×•×§ ×�×—×“</numerusform><numerusform>×”×ž×�×–×Ÿ ×©× ×›×¨×” ×™×”×™×” ×–×ž×™×Ÿ ×›×©×”×•×� ×ž×‘×©×™×œ ×‘×¢×•×“ %n ×‘×œ×•×§×™×�</numerusform></translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>×”×‘×œ×•×§ ×”×–×” ×œ×� × ×§×œ×˜ ×¢×œ ×™×“×™ ×�×£ ×¦×•×ž×ª ×�×—×¨, ×•×›× ×¨×�×” ×œ×� ×™×ª×§×‘×œ!</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Generated but not accepted</source>
-        <translation>× ×•×¦×¨ ×�×š ×œ×� ×”×ª×§×‘×œ</translation>
-    </message>
-    <message>
-        <location line="+43"/>
         <source>Received with</source>
-        <translation>×”×ª×§×‘×œ ×¢×�</translation>
+        <translation>התקבל עם</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Received from</source>
-        <translation>×”×ª×§×‘×œ ×ž×�×ª</translation>
+        <translation>התקבל מאת</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Sent to</source>
-        <translation>× ×©×œ×— ×œ</translation>
+        <translation>נשלח אל</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Payment to yourself</source>
-        <translation>×ª×©×œ×•×� ×œ×¢×¦×ž×š</translation>
+        <translation>תשלום לעצמך</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Mined</source>
-        <translation>× ×›×¨×”</translation>
+        <translation>נכרו</translation>
     </message>
     <message>
-        <location line="+38"/>
+        <source>watch-only</source>
+        <translation>צפייה בלבד</translation>
+    </message>
+    <message>
         <source>(n/a)</source>
-        <translation>(n/a)</translation>
+        <translation>(לא זמין)</translation>
     </message>
     <message>
-        <location line="+199"/>
-        <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>×ž×¦×‘ ×”×¤×¢×•×œ×”. ×”×©×”×” ×�×ª ×”×¡×ž×Ÿ ×ž×¢×œ ×©×“×” ×–×” ×›×“×™ ×œ×¨×�×•×ª ×�×ª ×ž×¡×¤×¨ ×”×�×™×©×•×¨×™×�.</translation>
+        <source>(no label)</source>
+        <translation>(ללא תוית)</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Date and time that the transaction was received.</source>
-        <translation>×”×ª×�×¨×™×š ×•×”×©×¢×” ×‘×” ×”×¤×¢×•×œ×” ×”×–×�×ª ×”×ª×§×‘×œ×”.</translation>
-    </message>
-    <message>
-        <location line="+2"/>
         <source>Type of transaction.</source>
-        <translation>×¡×•×’ ×”×¤×¢×•×œ×”.</translation>
+        <translation>סוג ההעברה.</translation>
     </message>
-    <message>
-        <location line="+2"/>
-        <source>Destination address of transaction.</source>
-        <translation>×›×ª×•×‘×ª ×”×™×¢×“ ×©×œ ×”×¤×¢×•×œ×”.</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Amount removed from or added to balance.</source>
-        <translation>×”×›×ž×•×ª ×©×”×ª×•×•×¡×¤×” ×�×• ×”×•×¡×¨×” ×ž×”×™×ª×¨×”.</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>TransactionView</name>
     <message>
-        <location filename="../transactionview.cpp" line="+52"/>
-        <location line="+16"/>
         <source>All</source>
-        <translation>×”×›×œ</translation>
+        <translation>הכול</translation>
     </message>
     <message>
-        <location line="-15"/>
         <source>Today</source>
-        <translation>×”×™×•×�</translation>
+        <translation>היום</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>This week</source>
-        <translation>×”×©×‘×•×¢</translation>
+        <translation>השבוע</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>This month</source>
-        <translation>×”×—×•×“×©</translation>
+        <translation>החודש</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Last month</source>
-        <translation>×”×—×•×“×© ×©×¢×‘×¨</translation>
+        <translation>חודש שעבר</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>This year</source>
-        <translation>×”×©× ×”</translation>
+        <translation>השנה הזאת</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Range...</source>
-        <translation>×˜×•×•×—...</translation>
+        <translation>טווח…</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>Received with</source>
-        <translation>×”×ª×§×‘×œ ×¢×�</translation>
+        <translation>התקבל עם</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Sent to</source>
-        <translation>× ×©×œ×— ×œ</translation>
+        <translation>נשלח אל</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>To yourself</source>
-        <translation>×œ×¢×¦×ž×š</translation>
+        <translation>לעצמך</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Mined</source>
-        <translation>× ×›×¨×”</translation>
+        <translation>נכרו</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Other</source>
-        <translation>×�×—×¨</translation>
+        <translation>אחר</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Enter address or label to search</source>
-        <translation>×”×›× ×¡ ×›×ª×•×‘×ª ×�×• ×ª×•×™×ª ×œ×—×¤×©</translation>
+        <translation>נא להזין כתובת או תווית לחיפוש</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Min amount</source>
-        <translation>×›×ž×•×ª ×ž×–×¢×¨×™×ª</translation>
+        <translation>סכום מזערי</translation>
     </message>
     <message>
-        <location line="+34"/>
+        <source>Abandon transaction</source>
+        <translation>נטישת העברה</translation>
+    </message>
+    <message>
         <source>Copy address</source>
-        <translation>×”×¢×ª×§ ×›×ª×•×‘×ª</translation>
+        <translation>העתקת הכתובת</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Copy label</source>
-        <translation>×”×¢×ª×§ ×ª×•×™×ª</translation>
+        <translation>העתקת התווית</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Copy amount</source>
-        <translation>×”×¢×ª×§ ×›×ž×•×ª</translation>
+        <translation>העתקת הסכום</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Copy transaction ID</source>
-        <translation>×”×¢×ª×§ ×ž×–×”×” ×¤×¢×•×œ×”</translation>
+        <translation>העתקת מזהה ההעברה</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>Copy raw transaction</source>
+        <translation>העתקת העברה גולמית</translation>
+    </message>
+    <message>
+        <source>Copy full transaction details</source>
+        <translation>העתקת פרטי ההעברה המלאים</translation>
+    </message>
+    <message>
         <source>Edit label</source>
-        <translation>×¢×¨×•×š ×ª×•×™×ª</translation>
+        <translation>עריכת תווית</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show transaction details</source>
-        <translation>×”×¦×’ ×¤×¨×˜×™ ×¤×¢×•×œ×”</translation>
+        <translation>הצגת פרטי העברה</translation>
     </message>
     <message>
-        <location line="+139"/>
-        <source>Export Transaction Data</source>
-        <translation>×™×¦×•×� × ×ª×•× ×™ ×¤×¢×•×œ×•×ª</translation>
+        <source>Export Transaction History</source>
+        <translation>יצוא היסטוריית העברה</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>×§×•×‘×¥ ×ž×•×¤×¨×“ ×‘×¤×¡×™×§×™×� (*.csv)</translation>
+        <translation>קובץ מופרד בפסיקים (‎*.csv)</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>Confirmed</source>
-        <translation>×ž×�×•×©×¨</translation>
+        <source>Watch-only</source>
+        <translation>צפייה בלבד</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Date</source>
-        <translation>×ª×�×¨×™×š</translation>
+        <translation>תאריך</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Type</source>
-        <translation>×¡×•×’</translation>
+        <translation>סוג</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Label</source>
-        <translation>×ª×•×™×ª</translation>
+        <translation>תוית</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Address</source>
-        <translation>×›×ª×•×‘×ª</translation>
+        <translation>כתובת</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Amount</source>
-        <translation>×›×ž×•×ª</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>ID</source>
-        <translation>×ž×–×”×”</translation>
+        <translation>מזהה</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Error exporting</source>
-        <translation>×©×’×™×�×” ×‘×™×¦×•×�</translation>
+        <source>Exporting Failed</source>
+        <translation>יצוא נכשל</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Could not write to file %1.</source>
-        <translation>×œ×� ×ž×¡×•×’×œ ×œ×›×ª×•×‘ ×œ×§×•×‘×¥ %1.</translation>
+        <source>There was an error trying to save the transaction history to %1.</source>
+        <translation>אירעה שגיאה בעת ניסיון שמירת היסטוריית ההעברות אל %1.</translation>
     </message>
     <message>
-        <location line="+100"/>
+        <source>Exporting Successful</source>
+        <translation>הייצוא נכשל</translation>
+    </message>
+    <message>
+        <source>The transaction history was successfully saved to %1.</source>
+        <translation>היסטוריית ההעברות נשמרה בהצלחה אל %1.</translation>
+    </message>
+    <message>
         <source>Range:</source>
-        <translation>×˜×•×•×—:</translation>
+        <translation>טווח:</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>to</source>
-        <translation>×�×œ</translation>
+        <translation>עד</translation>
+    </message>
+</context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    <message>
+        <source>Unit to show amounts in. Click to select another unit.</source>
+        <translation>יחידת המידה להצגת הסכומים. יש ללחוץ כדי לבחור ביחידת מידה אחרת.</translation>
+    </message>
+</context>
+<context>
+    <name>WalletFrame</name>
+    <message>
+        <source>No wallet has been loaded.</source>
+        <translation>לא נטען ארנק.</translation>
     </message>
 </context>
 <context>
     <name>WalletModel</name>
     <message>
-        <location filename="../walletmodel.cpp" line="+193"/>
         <source>Send Coins</source>
-        <translation>×©×œ×— ×ž×˜×‘×¢×•×ª</translation>
+        <translation>שליחת מטבעות</translation>
     </message>
 </context>
 <context>
     <name>WalletView</name>
     <message>
-        <location filename="../walletview.cpp" line="+42"/>
         <source>&amp;Export</source>
-        <translation type="unfinished"/>
+        <translation>&amp;יצוא</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Export the data in the current tab to a file</source>
-        <translation>×™×¦×•×� ×”× ×ª×•× ×™×� ×‘×˜×�×‘ ×”× ×•×›×—×™ ×œ×§×•×‘×¥</translation>
+        <translation>יצוא הנתונים בלשונית הנוכחית לקובץ</translation>
     </message>
     <message>
-        <location line="+193"/>
         <source>Backup Wallet</source>
-        <translation>×’×‘×” ×�×¨× ×§</translation>
+        <translation>גיבוי הארנק</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Wallet Data (*.dat)</source>
-        <translation>× ×ª×•× ×™ ×�×¨× ×§ (*.dat)</translation>
+        <translation>נתוני ארנק (‎*.dat)</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Backup Failed</source>
-        <translation>×’×™×‘×•×™ × ×›×©×œ</translation>
+        <translation>הגיבוי נכשל</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>There was an error trying to save the wallet data to the new location.</source>
-        <translation>×”×™×™×ª×” ×©×’×™×�×” ×‘× ×¡×™×•×Ÿ ×œ×©×ž×•×¨ ×�×ª ×”×ž×™×“×¢ ×”×�×¨× ×§ ×œ×ž×™×§×•×� ×”×—×“×©.</translation>
+        <source>There was an error trying to save the wallet data to %1.</source>
+        <translation>אירעה שגיאה בעת הניסיון לשמור את נתוני הארנק אל %1.</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Backup Successful</source>
-        <translation>×’×™×‘×•×™ ×”×•×©×œ×� ×‘×”×¦×œ×—×”</translation>
+        <translation>הגיבוי הצליח</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>The wallet data was successfully saved to the new location.</source>
-        <translation>× ×ª×•× ×™ ×”×�×¨× ×§ × ×©×ž×¨×• ×‘×”×¦×œ×—×” ×‘×ž×§×•×� ×”×—×“×©.</translation>
+        <source>The wallet data was successfully saved to %1.</source>
+        <translation>נתוני הארנק נשמרו בהצלחה אל %1.</translation>
     </message>
 </context>
 <context>
     <name>bitcoin-core</name>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Murfcoin version</source>
-        <translation>×’×¨×¡×ª ×œ×™×™×˜×§×•×™×Ÿ</translation>
-    </message>
-    <message>
-        <location line="+102"/>
-        <source>Usage:</source>
-        <translation>×©×™×ž×•×©:</translation>
-    </message>
-    <message>
-        <location line="-29"/>
-        <source>Send command to -server or murfcoind</source>
-        <translation>×©×œ×— ×¤×§×•×“×” ×œ -server ×�×• murfcoind</translation>
-    </message>
-    <message>
-        <location line="-23"/>
-        <source>List commands</source>
-        <translation>×¨×©×™×ž×ª ×¤×§×•×“×•×ª</translation>
-    </message>
-    <message>
-        <location line="-12"/>
-        <source>Get help for a command</source>
-        <translation>×§×‘×œ ×¢×–×¨×” ×¢×‘×•×¨ ×¤×§×•×“×”</translation>
-    </message>
-    <message>
-        <location line="+24"/>
         <source>Options:</source>
-        <translation>×�×¤×©×¨×•×™×•×ª:</translation>
+        <translation>אפשרויות:</translation>
     </message>
     <message>
-        <location line="+24"/>
-        <source>Specify configuration file (default: murfcoin.conf)</source>
-        <translation>×¦×™×™×Ÿ ×§×•×‘×¥ ×”×’×“×¨×•×ª (×‘×¨×™×¨×ª ×ž×—×“×œ: murfcoin.conf)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Specify pid file (default: murfcoind.pid)</source>
-        <translation>×¦×™×™×Ÿ ×§×•×‘×¥ pid (×‘×¨×™×¨×ª ×ž×—×“×œ: murfcoind.pid)</translation>
-    </message>
-    <message>
-        <location line="-1"/>
         <source>Specify data directory</source>
-        <translation>×¦×™×™×Ÿ ×ª×™×§×™×™×ª × ×ª×•× ×™×�</translation>
+        <translation>ציון תיקיית נתונים</translation>
     </message>
     <message>
-        <location line="-9"/>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>×§×‘×¢ ×�×ª ×’×•×“×œ ×”×ž×˜×ž×•×Ÿ ×©×œ ×ž×¡×“ ×”× ×ª×•× ×™×� ×‘×ž×’×”×‘×™×™×˜ (×‘×¨×™×¨×ª ×ž×—×“×œ: 25)</translation>
-    </message>
-    <message>
-        <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 7333 or testnet: 17333)</source>
-        <translation>×”×�×–×Ÿ ×œ×—×™×‘×•×¨×™×� ×‘&lt;×¤×•×¨×˜&gt; (×‘×¨×™×¨×ª ×ž×—×“×œ: 7333 ×�×• ×‘×¨×©×ª ×”×‘×“×™×§×”: 17333)</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>×”×—×–×§ ×œ×›×œ ×”×™×•×ª×¨ &lt;n&gt; ×—×™×‘×•×¨×™×� ×œ×¢×ž×™×ª×™×� (×‘×¨×™×¨×ª ×ž×—×“×œ: 125)</translation>
-    </message>
-    <message>
-        <location line="-48"/>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>×”×ª×—×‘×¨ ×œ×¦×•×ž×ª ×›×“×™ ×œ×“×œ×•×ª ×›×ª×•×‘×•×ª ×¢×ž×™×ª×™×�, ×•×�×– ×”×ª× ×ª×§</translation>
+        <translation>יש להתחבר למפרק כדי לדלות כתובות עמיתים ואז להתנתק</translation>
     </message>
     <message>
-        <location line="+82"/>
         <source>Specify your own public address</source>
-        <translation>×¦×™×™×Ÿ ×�×ª ×”×›×ª×•×‘×ª ×”×¤×•×ž×‘×™×ª ×©×œ×š</translation>
+        <translation>נא לציין את הכתובת הפומבית שלך</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>×¡×£ ×œ×”×ª× ×ª×§×•×ª ×ž×¢×ž×™×ª×™×� ×”× ×•×”×’×™×� ×©×œ×� ×›×”×œ×›×” (×‘×¨×™×¨×ª ×ž×—×“×œ: 100)</translation>
-    </message>
-    <message>
-        <location line="-134"/>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>×ž×¡×¤×¨ ×©× ×™×•×ª ×œ×ž× ×•×¢ ×ž×¢×ž×™×ª×™×� ×”× ×•×”×’×™×� ×©×œ×� ×›×”×œ×›×” ×ž×œ×”×ª×—×‘×¨ ×ž×—×“×© (×‘×¨×™×¨×ª ×ž×—×“×œ: 86400)</translation>
-    </message>
-    <message>
-        <location line="-29"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
-        <translation>×�×™×¨×¢×” ×©×’×™×�×” ×‘×¢×ª ×”×’×“×¨×ª ×¤×•×¨×˜ RPC %u ×œ×”×�×–× ×” ×‘-IPv4: %s</translation>
-    </message>
-    <message>
-        <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 7332 or testnet: 17332)</source>
-        <translation>×”×�×–×Ÿ ×œ×—×™×‘×•×¨×™ JSON-RPC ×‘- &lt;port&gt; (×‘×¨×™×¨×ª ×ž×—×“×œ: 7332 ×�×• ×¨×©×ª ×‘×“×™×§×”: 17332)</translation>
-    </message>
-    <message>
-        <location line="+37"/>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>×§×‘×œ ×¤×§×•×“×•×ª ×ž×©×•×¨×ª ×”×¤×§×•×“×” ×•- JSON-RPC</translation>
+        <translation>קבלת פקודות משורת הפקודה ומ־JSON-RPC</translation>
     </message>
     <message>
-        <location line="+76"/>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect/-noconnect)</source>
+        <translation>קבלת חיבורים מבחוץ (בררת מחדל: 1 אם לא במצב ‎-proxy או ‎-connect/-noconnet)</translation>
+    </message>
+    <message>
+        <source>Error: A fatal internal error occurred, see debug.log for details</source>
+        <translation>שגיאה: סניה קלמה קריטית פנימית קרטה, פנה ל debug.log לפרטים</translation>
+    </message>
+    <message>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>×¨×•×¥ ×‘×¨×§×¢ ×›×“×™×ž×•×Ÿ ×•×§×‘×œ ×¤×§×•×“×•×ª</translation>
+        <translation>ריצה כסוכן ברקע וקבלת פקודות</translation>
     </message>
     <message>
-        <location line="+37"/>
-        <source>Use the test network</source>
-        <translation>×”×©×ª×ž×© ×‘×¨×©×ª ×”×‘×“×™×§×”</translation>
+        <source>Murfcoin Core</source>
+        <translation>ליבת לייטקוין</translation>
     </message>
     <message>
-        <location line="-112"/>
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>×§×‘×œ ×—×™×‘×•×¨×™×� ×ž×‘×—×•×¥ (×‘×¨×™×¨×ª ×ž×—×“×œ: 1 ×œ×œ×� -proxy ×�×• -connect)</translation>
+        <source>The %s developers</source>
+        <translation>ה %s מפתחים</translation>
     </message>
     <message>
-        <location line="-80"/>
-        <source>%s, you must set a rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=murfcoinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Murfcoin Alert&quot; admin@foo.com
-</source>
-        <translation>%s, ×¢×œ×™×š ×œ×§×‘×•×¢ ×¡×™×¡×ž×ª RPC ×‘×§×•×‘×¥ ×”×§×•× ×¤×™×’×•×¨×¦×™×”:
- %s
-×ž×•×ž×œ×¥ ×œ×”×©×ª×ž×© ×‘×¡×™×¡×ž×� ×”×�×§×¨×�×™×ª ×”×‘×�×”:
-rpcuser=murfcoinrpc
-rpcpassword=%s
-(×�×™×Ÿ ×¦×•×¨×š ×œ×–×›×•×¨ ×�×ª ×”×¡×™×¡×ž×”)
-×�×¡×•×¨ ×©×©×� ×”×ž×©×ª×ž×© ×•×”×¡×™×¡×ž×� ×™×”×™×• ×–×”×™×�.
-×�×� ×”×§×•×‘×¥ ×�×™× ×• ×§×™×™×�, ×¦×•×¨ ×�×•×ª×• ×¢×� ×”×¨×©×�×•×ª ×§×¨×™×�×” ×œ×‘×¢×œ×™×� ×‘×œ×‘×“.
-×–×” ×ž×•×ž×œ×¥ ×œ×¡×ž×Ÿ alertnotify ×›×“×™ ×œ×§×‘×œ ×“×™×•×•×— ×¢×œ ×ª×§×œ×•×ª;
-×œ×ž×©×œ: alertnotify=echo %%s | mail -s &quot;Murfcoin Alert&quot; admin@foo.com 
-</translation>
-    </message>
-    <message>
-        <location line="+17"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation>×�×™×¨×¢×” ×©×’×™×�×” ×‘×¢×ª ×”×’×“×¨×ª ×¤×•×¨×˜ RPC %u ×œ×”×�×–× ×” ×‘-IPv6, × ×¡×•×’ ×œ-IPv4: %s</translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>×§×©×•×¨ ×¢×� ×›×ª×•×‘×ª × ×ª×•× ×” ×•×”×�×–×Ÿ ×œ×” ×ª×ž×™×“. ×”×©×ª×ž×© ×‘×¡×™×ž×•×Ÿ [host]:port ×¢×‘×•×“ IPv6.</translation>
+        <translation>להתאגד לכתובת נתונה להאזין לה תמיד. יש להשתמש בצורה ‎[host]:port עבור IPv6.</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Murfcoin is probably already running.</source>
-        <translation>×œ×� ×ž×¡×•×’×œ ×œ×”×©×™×’ × ×¢×™×œ×” ×¢×œ ×ª×™×§×™×™×ª ×”× ×ª×•× ×™×� %s. ×›× ×¨×�×” ×©×œ×™×™×˜×§×•×™×Ÿ ×›×‘×¨ ×¨×¥.</translation>
+        <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
+        <translation>מחיקת כל העברות הארנק ולשחזר רק את החלקים המסוימים בשרשרת המקטעים באמצעות ‎-rescan עם ההפעלה</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>×©×’×™×�×”: ×”×¤×¢×•×œ×” × ×“×—×ª×”! ×–×” ×¢×œ×•×œ ×œ×§×¨×•×ª ×�×� ×›×ž×” ×ž×”×ž×˜×‘×¢×•×ª ×‘×�×¨× ×§ ×©×œ×š ×›×‘×¨ × ×•×¦×œ×•, ×œ×ž×©×œ ×�×� ×”×©×ª×ž×©×ª ×‘×¢×•×ª×§ ×©×œ wallet.dat ×•×ž×˜×‘×¢×•×ª × ×©×œ×—×• ×‘×¢×•×ª×§ ×�×š ×œ×� ×¡×•×ž× ×• ×›×ž× ×•×¦×œ×•×ª ×›×�×Ÿ.</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>×©×’×™×�×”: ×”×¤×¢×•×œ×” ×”×–×�×ª ×“×•×¨×©×ª ×¢×ž×œ×ª ×¤×¢×•×œ×” ×©×œ ×œ×¤×—×•×ª %s ×¢×§×‘ ×”×›×ž×•×ª, ×”×ž×•×¨×›×‘×•×ª, ×�×• ×”×©×™×ž×•×© ×‘×›×¡×¤×™×� ×©×”×ª×§×‘×œ×• ×œ×�×—×¨×•× ×”!</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
-        <translation>×‘×¦×¢ ×¤×¢×•×œ×” ×›×�×©×¨ ×”×”×•×“×¢×” ×”×¨×œ×•×•× ×˜×™×ª ×ž×ª×§×‘×œ×ª(%s ×‘×©×•×¨×ª ×”×¤×§×•×“×” ×ž×©×ª× ×” ×¢×œ-×™×“×™ ×”×”×•×“×¢×”)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>×‘×¦×¢ ×¤×§×•×“×” ×›×�×©×¨ ×¤×¢×•×œ×ª ×�×¨× ×§ ×ž×©×ª× ×” (%s ×‘ cmd ×™×•×—×œ×£ ×‘ TxID)</translation>
+        <translation>ביצוע פקודה כאשר העברה בארנק משתנה (%s ב־cmd יוחלף ב־TxID)</translation>
     </message>
     <message>
-        <location line="+11"/>
-        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
-        <translation>×§×‘×¢ ×’×•×“×œ ×ž×§×¡×™×ž×œ×™ ×¢×‘×•×¨ ×¤×¢×•×œ×•×ª ×¢×“×™×¤×•×ª ×’×‘×•×”×”/×¢×ž×œ×” × ×ž×•×›×” ×‘×‘×ª×™×� (×‘×¨×™×¨×ª ×ž×—×“×œ: 27000)</translation>
+        <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
+        <translation>שימוש ב־UPnP כדי למפות את הפתחה להאזנה (בררת מחדל: 1 בעת האזנה ובלי ‎-proxy)</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>×–×•×”×™ ×‘× ×™×™×ª × ×™×¡×™×•×Ÿ ×˜×¨×•×�-×©×—×¨×•×¨ - ×”×©×™×ž×•×© ×‘×” ×¢×œ ×�×—×¨×™×•×ª×š - ×�×™×Ÿ ×œ×”×©×ª×ž×© ×œ×¦×•×¨×š ×›×¨×™×” ×�×• ×™×™×©×•×ž×™ ×ž×¡×—×¨</translation>
+        <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
+        <translation>אזהרה: נראה כי הרשת אינה מסכימה באופן מלא! חלק מהכורים חווים תקלות.</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>×�×–×”×¨×”: -paytxfee × ×§×‘×¢ ×œ×¢×¨×š ×ž×�×“ ×’×‘×•×”! ×–×•×”×™ ×¢×ž×œ×ª ×”×¤×¢×•×œ×” ×©×ª×©×œ×� ×�×� ×�×ª×” ×©×•×œ×— ×¤×¢×•×œ×”.</translation>
+        <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
+        <translation>עליך לבנות מחדש את מסד הנתונים בעזרת ‎-reindex-chainstate כדי לשנות את ‎-txindex</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>×�×–×”×¨×”: ×”×¤×¢×•×œ×•×ª ×”×ž×•×¦×’×•×ª ×¢×©×•×™×•×ª ×œ×� ×œ×”×™×•×ª × ×›×•× ×•×ª! ×™×™×ª×›×Ÿ ×•×�×ª×” ×¦×¨×™×š ×œ×©×“×¨×’, ×�×• ×©×¦×ž×ª×™×� ×�×—×¨×™×� ×¦×¨×™×›×™×� ×œ×©×“×¨×’.</translation>
+        <source>-maxmempool must be at least %d MB</source>
+        <translation>‎-maxmempool חייב להיות לפחות %d מ״ב</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Murfcoin will not work properly.</source>
-        <translation>×�×–×”×¨×”: ×�× ×� ×‘×“×•×§ ×©×”×ª×�×¨×™×š ×•×”×©×¢×” ×©×œ ×”×ž×—×©×‘ ×©×œ×š × ×›×•× ×™×�! ×�×� ×”×©×¢×•×Ÿ ×©×œ×š ×�×™× ×• × ×›×•×Ÿ ×œ×™×™×˜×§×•×™×Ÿ ×œ×� ×™×¢×‘×•×“ ×›×¨×�×•×™.</translation>
+        <source>&lt;category&gt; can be:</source>
+        <translation>&lt;קטגוריה&gt; יכולה להיות:</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>×�×–×”×¨×”: ×©×’×™×�×” ×‘×§×¨×™×�×ª wallet.dat! ×›×œ ×”×ž×ª×¤×—×•×ª × ×§×¨×�×• ×‘×�×•×¤×Ÿ ×ª×§×™×Ÿ, ×�×š × ×ª×•× ×™ ×”×¤×¢×•×œ×•×ª ×�×• ×¡×¤×¨ ×”×›×ª×•×‘×•×ª ×¢×œ×•×œ×™×� ×œ×”×™×•×ª ×—×¡×¨×™×� ×�×• ×©×’×•×™×™×�.</translation>
+        <source>Append comment to the user agent string</source>
+        <translation>הוספת הערה למחרוזת סוכן המשתמש</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>×�×–×”×¨×”: ×§×•×‘×¥ wallet.dat ×ž×•×©×—×ª, ×”×ž×™×“×¢ ×—×•×œ×¥! ×§×•×‘×¥ wallet.dat ×”×ž×§×•×¨×— × ×©×ž×¨ ×› - wallet.{timestamp}.bak ×‘ - %s; ×�×� ×”×ž×�×–×Ÿ ×�×• ×”×¤×¢×•×œ×•×ª ×©×’×•×™×™×� ×¢×œ×™×š ×œ×©×—×–×¨ ×’×™×‘×•×™.</translation>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation>× ×¡×” ×œ×©×—×–×¨ ×ž×¤×ª×—×•×ª ×¤×¨×˜×™×™×� ×ž×§×•×‘×¥ wallet.dat ×ž×•×©×—×ª.</translation>
-    </message>
-    <message>
-        <location line="+2"/>
         <source>Block creation options:</source>
-        <translation>×�×¤×©×¨×•×™×•×ª ×™×¦×™×¨×ª ×‘×œ×•×§:</translation>
+        <translation>אפשרויות יצירת מקטע:</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Connect only to the specified node(s)</source>
-        <translation>×”×ª×—×‘×¨ ×¨×§ ×œ×¦×ž×ª×™×� ×”×ž×¦×•×™× ×™×�</translation>
+        <source>Chain selection options:</source>
+        <translation>אפשרויות בחירת שרשרת:</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <source>Change index out of range</source>
+        <translation>אינדקס העודף מחוץ לתחום</translation>
+    </message>
+    <message>
+        <source>Connection options:</source>
+        <translation>הגדרות חיבור:</translation>
+    </message>
+    <message>
+        <source>Copyright (C) %i-%i</source>
+        <translation>כל הזכויות שמורות (C) %i-‏%i</translation>
+    </message>
+    <message>
         <source>Corrupted block database detected</source>
-        <translation>×”×ª×’×œ×” ×ž×¡×“ × ×ª×•× ×™ ×‘×œ×•×§×™×� ×œ×� ×ª×§×™×Ÿ</translation>
+        <translation>התגלה מסד נתוני מקטעים לא תקין</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation>×’×œ×” ×�×ª ×›×ª×•×‘×ª ×”-IP ×”×¢×¦×ž×™×ª (×‘×¨×™×¨×ª ×ž×—×“×œ: 1 ×›×©×ž×�×–×™× ×™×� ×•×œ×œ×� -externalip)</translation>
+        <source>Debugging/Testing options:</source>
+        <translation>אפשרויות ניפוי/בדיקה:</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>Do not load the wallet and disable wallet RPC calls</source>
+        <translation>לא לטעון את הארנק ולנטרל קריאות RPC</translation>
+    </message>
+    <message>
         <source>Do you want to rebuild the block database now?</source>
-        <translation>×”×�×� ×ª×¨×¦×” ×›×¢×˜ ×œ×‘× ×•×ª ×ž×—×“×© ×�×ª ×ž×¡×“ × ×ª×•× ×™ ×”×‘×œ×•×§×™×�?</translation>
+        <translation>האם לבנות מחדש את מסד נתוני המקטעים?</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Error initializing block database</source>
-        <translation>×©×’×™×�×” ×‘×�×ª×—×•×œ ×ž×¡×“ × ×ª×•× ×™ ×”×‘×œ×•×§×™×�</translation>
+        <translation>שגיאה באתחול מסד נתוני המקטעים</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>×©×’×™×�×” ×‘×�×ª×—×•×œ ×¡×‘×™×‘×ª ×ž×¡×“ × ×ª×•× ×™ ×”×�×¨× ×§×™×� %s!</translation>
+        <translation>שגיאה באתחול סביבת מסד נתוני הארנקים %s!</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>Error loading %s</source>
+        <translation>שגיאה בטעינת %s</translation>
+    </message>
+    <message>
         <source>Error loading block database</source>
-        <translation>×©×’×™×�×” ×‘×˜×¢×™× ×ª ×ž×¡×“ × ×ª×•× ×™ ×”×‘×œ×•×§×™×�</translation>
+        <translation>שגיאה בטעינת מסד נתוני המקטעים</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Error opening block database</source>
-        <translation>×©×’×™×�×” ×‘×˜×¢×™× ×ª ×ž×¡×“ × ×ª×•× ×™ ×”×‘×œ×•×§×™×�</translation>
+        <translation>שגיאה בטעינת מסד נתוני המקטעים</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Error: Disk space is low!</source>
-        <translation>×©×’×™×�×”: ×ž×¢×˜ ×ž×§×•×� ×¤× ×•×™ ×‘×“×™×¡×§!</translation>
+        <translation>שגיאה: מעט מקום פנוי בכונן!</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation>×©×’×™×�×”: ×”×�×¨× ×§ × ×¢×•×œ, ×�×™×Ÿ ×�×¤×©×¨×•×ª ×œ×™×¦×•×¨ ×¤×¢×•×œ×”!</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Error: system error: </source>
-        <translation>×©×’×™×�×”: ×©×’×™×�×ª ×ž×¢×¨×›×ª:</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>×”×�×–× ×” × ×›×©×œ×” ×‘×›×œ ×¤×•×¨×˜. ×”×©×ª×ž×© ×‘- -listen=0 ×�×� ×‘×¨×¦×•× ×š ×‘×›×š.</translation>
+        <translation>האזנה נכשלה בכל פורט. השתמש ב- -listen=0 אם ברצונך בכך.</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to read block info</source>
-        <translation>×§×¨×™×�×ª ×ž×™×“×¢ ×”×‘×œ×•×§×™×� × ×›×©×œ×”</translation>
+        <source>Importing...</source>
+        <translation>מתבצע יבוא…</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to read block</source>
-        <translation>×§×¨×™×�×ª ×”×‘×œ×•×§ × ×›×©×œ×”</translation>
+        <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
+        <translation>מקטע הפתיח הוא שגוי או לא נמצא. תיקיית נתונים שגויה עבור הרשת?</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to sync block index</source>
-        <translation>×¡× ×›×¨×•×Ÿ ×�×™× ×“×§×¡ ×”×‘×œ×•×§×™×� × ×›×©×œ</translation>
+        <source>Invalid -onion address: '%s'</source>
+        <translation>כתובת onion- שגויה: '%s'</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write block index</source>
-        <translation>×›×ª×™×‘×ª ×�×™× ×“×§×¡ ×”×‘×œ×•×§×™×� × ×›×©×œ</translation>
+        <source>Invalid amount for -%s=&lt;amount&gt;: '%s'</source>
+        <translation>סכום שגוי עבור ‎-%s=&lt;amount&gt;:‏ '%s'</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write block info</source>
-        <translation>×›×ª×™×‘×ª ×ž×™×“×¢ ×”×‘×œ×•×§×™×� × ×›×©×œ</translation>
+        <source>Invalid amount for -fallbackfee=&lt;amount&gt;: '%s'</source>
+        <translation>סכום שגוי עבור ‎-fallbackfee=&lt;amount&gt;:‏ '%s'</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write block</source>
-        <translation>×›×ª×™×‘×ª ×”×‘×œ×•×§ × ×›×©×œ×”</translation>
+        <source>Loading banlist...</source>
+        <translation>טוען רשימת חסומים...</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write file info</source>
-        <translation>×›×ª×™×‘×ª ×ž×™×“×¢ ×”×§×‘×¦×™×� × ×›×©×œ×”</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write to coin database</source>
-        <translation>×›×ª×™×‘×ª ×ž×¡×“ × ×ª×•× ×™ ×”×ž×˜×‘×¢×•×ª × ×›×©×œ×”</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write transaction index</source>
-        <translation>×›×ª×™×‘×ª ×�×™× ×“×§×¡ ×”×¤×¢×•×œ×•×ª × ×›×©×œ×”</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write undo data</source>
-        <translation>×›×ª×™×‘×ª × ×ª×•× ×™ ×‘×™×˜×•×œ × ×›×©×œ×”</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
-        <translation>×ž×¦×� ×¢×ž×™×ª×™×� ×¢&quot;×™ ×—×™×¤×•×© DNS (×‘×¨×™×¨×ª ×ž×—×“×œ: 1 ×œ×œ×� -connect)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Generate coins (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>How many blocks to check at startup (default: 288, 0 = all)</source>
-        <translation>×ž×¡×¤×¨ ×”×‘×œ×•×§×™×� ×œ×‘×“×•×§ ×‘×¢×ª ×�×ª×—×•×œ (×‘×¨×™×¨×ª ×ž×—×“×œ: 288, 0 = ×›×•×œ×�)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>How thorough the block verification is (0-4, default: 3)</source>
-        <translation>×ž×™×“×ª ×”×™×¡×•×“×™×•×ª ×©×œ ×�×™×ž×•×ª ×”×‘×œ×•×§×™×� (0-4, ×‘×¨×™×¨×ª ×ž×—×“×œ: 3)</translation>
-    </message>
-    <message>
-        <location line="+19"/>
         <source>Not enough file descriptors available.</source>
-        <translation type="unfinished"/>
+        <translation>אין מספיק מידע על הקובץ</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>Rebuild block chain index from current blk000??.dat files</source>
-        <translation>×‘× ×” ×ž×—×“×© ×�×ª ×�×™× ×“×§ ×©×¨×©×¨×ª ×”×‘×œ×•×§×™×� ×ž×§×‘×¦×™ ×”-blk000??.dat ×”× ×•×›×—×™×™×�.</translation>
+        <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
+        <translation>תמיד להתחבר למפרקים ברשת &lt;net&gt;‏ (ipv4,‏ ipv6 או onion)</translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>Set the number of threads to service RPC calls (default: 4)</source>
-        <translation>×§×‘×¢ ×�×ª ×ž×¡×¤×¨ ×ª×”×œ×™×›×•× ×™ ×œ×©×™×¨×•×ª ×§×¨×™×�×•×ª RPC (×‘×¨×™×¨×ª ×ž×—×“×œ: 4)</translation>
+        <source>Print this help message and exit</source>
+        <translation>להדפיס הודעת עזרה זו ולצאת</translation>
     </message>
     <message>
-        <location line="+26"/>
+        <source>Print version and exit</source>
+        <translation>הדפס גירסא וצא</translation>
+    </message>
+    <message>
+        <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
+        <translation>הגדרת גודל מטמון מסדי הנתונים במגה בתים (%d עד %d, בררת מחדל: %d)</translation>
+    </message>
+    <message>
+        <source>Set maximum block size in bytes (default: %d)</source>
+        <translation>הגדרת קובץ מקטע מרבי בבתים (בררת מחדל: %d)</translation>
+    </message>
+    <message>
+        <source>Specify wallet file (within data directory)</source>
+        <translation>ציון קובץ ארנק (בתוך תיקיית הנתונים)</translation>
+    </message>
+    <message>
         <source>Verifying blocks...</source>
-        <translation>×ž×�×ž×ª ×�×ª ×©×œ×ž×•×ª ×ž×¡×“ ×”× ×ª×•× ×™×�...</translation>
+        <translation>המקטעים מאומתים…</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Verifying wallet...</source>
-        <translation>×ž×�×ž×ª ×�×ª ×™×•×©×¨×ª ×”×�×¨× ×§...</translation>
+        <translation>הארנק מאומת…</translation>
     </message>
     <message>
-        <location line="-69"/>
-        <source>Imports blocks from external blk000??.dat file</source>
-        <translation>×ž×™×™×‘×� ×‘×œ×•×§×™×� ×ž×§×•×‘×¦×™ blk000??.dat ×—×™×¦×•× ×™×™×�</translation>
+        <source>Wallet %s resides outside data directory %s</source>
+        <translation>הארנק %s יושב מחוץ לתיקיית הנתונים %s</translation>
     </message>
     <message>
-        <location line="-76"/>
-        <source>Set the number of script verification threads (up to 16, 0 = auto, &lt;0 = leave that many cores free, default: 0)</source>
-        <translation type="unfinished"/>
+        <source>Wallet debugging/testing options:</source>
+        <translation>אפשרות דיבוג/בדיקת ארנק:</translation>
     </message>
     <message>
-        <location line="+77"/>
+        <source>Wallet needed to be rewritten: restart %s to complete</source>
+        <translation>יש לכתוב את הארנק מחדש: יש להפעיל את %s כדי להמשיך</translation>
+    </message>
+    <message>
+        <source>Wallet options:</source>
+        <translation>אפשרויות הארנק:</translation>
+    </message>
+    <message>
+        <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
+        <translation>הרץ פקודה כאשר ההתראה הרלוונטית מתקבלת או כשאנחנו עדים לפיצול ארוך מאוד (%s בשורת הפקודה יוחלף ע"י ההודעה)</translation>
+    </message>
+    <message>
+        <source>The transaction amount is too small to send after the fee has been deducted</source>
+        <translation>סכום העברה נמוך מדי לשליחה אחרי גביית העמלה</translation>
+    </message>
+    <message>
+        <source>(default: %u)</source>
+        <translation>(בררת מחדל: %u)</translation>
+    </message>
+    <message>
+        <source>Connect through SOCKS5 proxy</source>
+        <translation>התחברות דרך מתווך SOCKS5</translation>
+    </message>
+    <message>
         <source>Information</source>
-        <translation>×ž×™×“×¢</translation>
+        <translation>מידע</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Invalid -tor address: &apos;%s&apos;</source>
-        <translation>×›×ª×•×‘×ª ×œ×� ×ª×§×™× ×” ×œ -tor: &apos;%s&apos;</translation>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
+        <translation>כמות לא תקינה עבור ‎-paytxfee=&lt;amount&gt;‎:‏ '%s' (חייבת להיות לפחות %s)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
+        <source>Invalid netmask specified in -whitelist: '%s'</source>
+        <translation>מסכת הרשת שצוינה עם ‎-whitelist שגויה: '%s'</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
+        <source>Need to specify a port with -whitebind: '%s'</source>
+        <translation>עליך לציין פתחה עם ‎-whitebind:‏ '%s'</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>Maintain a full transaction index (default: 0)</source>
-        <translation>×ª×—×–×§ ×�×™× ×“×§×¡ ×¤×¢×•×œ×•×ª ×ž×œ×� (×‘×¨×™×¨×ª ×ž×—×“×œ: 0)</translation>
+        <source>Node relay options:</source>
+        <translation>אפשרויות ממסר מפרק:</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
-        <translation>×—×•×¦×¥ ×§×‘×œ×” ×ž×™×¨×‘×™ ×œ×›×œ ×—×™×‘×•×¨, &lt;n&gt;*1000 ×‘×ª×™×� (×‘×¨×™×¨×ª ×ž×—×“×œ: 5000)</translation>
+        <source>RPC server options:</source>
+        <translation>הגדרות שרת RPC</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
-        <translation>×—×•×¦×¥ ×©×œ×™×—×” ×ž×™×¨×‘×™ ×œ×›×œ ×—×™×‘×•×¨, &lt;n&gt;*1000 ×‘×ª×™×� (×‘×¨×™×¨×ª ×ž×—×“×œ: 1000)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
-        <translation>×§×‘×œ ×¨×§ ×©×¨×©×¨×ª ×‘×œ×•×§×™×� ×”×ª×•×�×ž×ª × ×§×•×“×•×ª ×‘×™×§×•×¨×ª ×ž×•×‘× ×•×ª (×‘×¨×™×¨×ª ×ž×—×“×œ: 1)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
-        <translation>×”×ª×—×‘×¨ ×¨×§ ×œ×¦×ž×ª×™×� ×‘×¨×©×ª &lt;net&gt; (IPv4, IPv6 ×�×• Tor)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Output extra debugging information. Implies all other -debug* options</source>
-        <translation>×¤×œ×•×˜ ×ž×™×“×¢ × ×™×¤×•×™ × ×•×¡×£. × ×•×‘×¢ ×ž×›×š ×›×œ ×�×¤×©×¨×•×™×•×ª -debug* ×”×�×—×¨×•×ª.</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Output extra network debugging information</source>
-        <translation>×¤×œ×•×˜ ×ž×™×“×¢ × ×•×¡×£ ×œ× ×™×¤×•×™ ×©×’×™×�×•×ª ×‘×¨×©×ª.</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Prepend debug output with timestamp</source>
-        <translation>×”×•×¡×£ ×—×•×ª×ž×ª ×–×ž×Ÿ ×œ×¤× ×™ ×¤×œ×˜ ×“×™×‘×�×’</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>SSL options: (see the Murfcoin Wiki for SSL setup instructions)</source>
-        <translation>×�×¤×©×¨×•×™×•×ª SSL: (×¨×�×” ×�×ª ×”×•×™×§×™ ×©×œ ×œ×™×™×˜×§×•×™×Ÿ ×¢×‘×•×¨ ×”×•×¨×�×•×ª ×”×’×“×¨×ª SSL)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Select the version of socks proxy to use (4-5, default: 5)</source>
-        <translation>×‘×—×¨ ×�×ª ×’×¨×¡×ª ×¤×¨×•×§×¡×™ SOCKS ×œ×”×©×ª×ž×© ×‘×” (4-5, ×‘×¨×™×¨×ª ×ž×—×“×œ: 5)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>×©×œ×— ×ž×™×“×¢ ×“×™×‘×�×’ ×•×¢×§×‘×” ×œ×§×•× ×¡×•×œ×” ×‘×ž×§×•×� ×œ×§×•×‘×¥ debug.log</translation>
+        <translation>שלח מידע דיבאג ועקבה לקונסולה במקום לקובץ debug.log</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Send trace/debug info to debugger</source>
-        <translation>×©×œ×— ×ž×™×“×¢ ×“×™×‘×�×’ ×•×¢×§×‘×” ×œ×›×œ×™ ×“×™×‘×�×’</translation>
+        <source>Show all debugging options (usage: --help -help-debug)</source>
+        <translation>הצגת כל אפשרויות הניפוי (שימוש: ‎--help -help-debug)</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Set maximum block size in bytes (default: 250000)</source>
-        <translation>×§×‘×¢ ×�×ª ×’×“×•×œ ×”×‘×œ×•×§ ×”×ž×™×¨×‘×™ ×‘×‘×ª×™×� (×‘×¨×™×¨×ª ×ž×—×“×œ: 250000)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Set minimum block size in bytes (default: 0)</source>
-        <translation>×§×‘×¢ ×�×ª ×’×•×“×œ ×”×‘×œ×•×§ ×”×ž×™× ×™×ž×œ×™ ×‘×‘×ª×™×� (×‘×¨×™×¨×ª ×ž×—×“×œ: 0)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>×›×•×•×¥ ×�×ª ×§×•×‘×¥ debug.log ×‘×”×¤×¢×œ×ª ×”×§×œ×™×™× ×˜ (×‘×¨×™×¨×ª ×ž×—×“×œ: 1 ×œ×œ×� -debug)</translation>
+        <translation>כיווץ הקובץ debug.log בהפעלת הלקוח (בררת מחדל: 1 ללא ‎-debug)</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Signing transaction failed</source>
-        <translation type="unfinished"/>
+        <translation>החתימה על ההעברה נכשלה</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Specify connection timeout in milliseconds (default: 5000)</source>
-        <translation>×¦×™×™×Ÿ ×”×’×‘×œ×ª ×–×ž×Ÿ ×œ×—×™×‘×•×¨ ×‘×ž×™×œ×™×©× ×™×•×ª (×‘×¨×™×¨×ª ×ž×—×“×œ: 5000)</translation>
+        <source>The transaction amount is too small to pay the fee</source>
+        <translation>סכום ההעברה נמוך מכדי לשלם את העמלה</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>System error: </source>
-        <translation>×©×’×™×�×ª ×ž×¢×¨×›×ª:</translation>
+        <source>This is experimental software.</source>
+        <translation>זוהי תכנית נסיונית.</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Transaction amount too small</source>
-        <translation type="unfinished"/>
+        <translation>סכום ההעברה קטן מדי</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Transaction amounts must be positive</source>
-        <translation type="unfinished"/>
+        <source>Transaction too large for fee policy</source>
+        <translation>ההעברה גבוהה מדי עבור מדיניות העמלות</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Transaction too large</source>
-        <translation type="unfinished"/>
+        <translation>סכום ההעברה גדול מדי</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Use UPnP to map the listening port (default: 0)</source>
-        <translation>×”×©×ª×ž×© ×‘-UPnP ×›×“×™ ×œ×ž×¤×•×ª ×�×ª ×”×¤×•×¨×˜ ×œ×”×�×–× ×” (×‘×¨×™×¨×ª ×ž×—×“×œ: 0)</translation>
+        <source>Unable to bind to %s on this computer (bind returned error %s)</source>
+        <translation>לא ניתן להתאגד עם הפתחה %s במחשב זה (פעולת האיגוד החזירה את השגיאה %s)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation>×”×©×ª×ž×© ×‘-UPnP ×›×“×™ ×œ×ž×¤×•×ª ×�×ª ×”×¤×•×¨×˜ ×œ×”×�×–× ×” (×‘×¨×™×¨×ª ×ž×—×“×œ: 1 ×‘×¢×ª ×”×�×–× ×”)</translation>
+        <source>Upgrade wallet to latest format on startup</source>
+        <translation>עדכן ארק לפורמט העדכני בהפעלה</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
-        <translation>×”×©×ª×ž×© ×‘×¤×¨×•×§×¡×™ ×›×“×™ ×œ×”×’×™×¢ ×œ×©×™×¨×•×ª×™×� ×—×‘×•×™×™×� ×‘-tor (×‘×¨×™×¨×ª ×ž×—×“×œ: ×›×ž×• ×‘- -proxy)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
         <source>Username for JSON-RPC connections</source>
-        <translation>×©×� ×ž×©×ª×ž×© ×œ×—×™×‘×•×¨×™ JSON-RPC</translation>
+        <translation>שם משתמש לחיבורי JSON-RPC</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Warning</source>
-        <translation>×�×–×”×¨×”</translation>
+        <translation>אזהרה</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation>×�×–×”×¨×”: ×”×’×¨×¡×” ×”×–×�×ª ×ž×™×•×©× ×ª, ×™×© ×¦×•×¨×š ×‘×©×“×¨×•×’!</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>You need to rebuild the databases using -reindex to change -txindex</source>
-        <translation>×¢×œ×™×š ×œ×‘× ×•×ª ×ž×—×“×© ×�×ª ×ž×¡×“×™ ×”× ×ª×•× ×™×� ×ª×•×š ×©×™×ž×•×© ×‘- -reindex ×¢×œ ×ž× ×ª ×œ×©× ×•×ª ×�×ª -txindex</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>wallet.dat corrupt, salvage failed</source>
-        <translation>×§×•×‘×¥ wallet.dat ×ž×•×©×—×ª, ×”×—×™×œ×•×¥ × ×›×©×œ</translation>
-    </message>
-    <message>
-        <location line="-50"/>
         <source>Password for JSON-RPC connections</source>
-        <translation>×¡×™×¡×ž×” ×œ×—×™×‘×•×¨×™ JSON-RPC</translation>
+        <translation>ססמה לחיבורי JSON-RPC</translation>
     </message>
     <message>
-        <location line="-67"/>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>×�×¤×©×¨ ×—×™×‘×•×¨×™ JSON-RPC ×ž×›×ª×•×‘×ª ×”×�×™× ×˜×¨× ×˜ ×”×ž×¦×•×™× ×ª</translation>
-    </message>
-    <message>
-        <location line="+76"/>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>×©×œ×— ×¤×§×•×“×•×ª ×œ×¦×•×ž×ª ×‘-&lt;ip&gt; (×‘×¨×™×¨×ª ×ž×—×“×œ: 127.0.0.1)</translation>
-    </message>
-    <message>
-        <location line="-120"/>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>×‘×¦×¢ ×¤×§×•×“×” ×–×• ×›×©×”×‘×œ×•×§ ×”×˜×•×‘ ×‘×™×•×ª×¨ ×ž×©×ª× ×” (%s ×‘×¤×§×•×“×” ×™×•×—×œ×£ ×‘×’×™×‘×•×‘ ×”×‘×œ×•×§)</translation>
+        <translation>יש לבצע פקודה זו כשהמקטע הטוב ביותר משתנה (%s בפקודה יוחלף בגיבוב המקטע)</translation>
     </message>
     <message>
-        <location line="+147"/>
-        <source>Upgrade wallet to latest format</source>
-        <translation>×©×“×¨×’ ×�×ª ×”×�×¨× ×§ ×œ×¤×•×¨×ž×˜ ×”×¢×“×›× ×™</translation>
-    </message>
-    <message>
-        <location line="-21"/>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>×§×‘×¢ ×�×ª ×’×•×“×œ ×”×ž×�×’×¨ ×œ -&lt;n&gt; (×‘×¨×™×¨×ª ×ž×—×“×œ: 100)</translation>
-    </message>
-    <message>
-        <location line="-12"/>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>×¡×¨×•×§ ×ž×—×“×© ×�×ª ×©×¨×©×¨×ª ×”×‘×œ×•×§×™×� ×œ×ž×¦×™×�×ª ×¤×¢×•×œ×•×ª ×—×¡×¨×•×ª ×‘×�×¨× ×§</translation>
-    </message>
-    <message>
-        <location line="+35"/>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>×”×©×ª×ž×© ×‘-OpenSSL (https( ×¢×‘×•×¨ ×—×™×‘×•×¨×™ JSON-RPC</translation>
-    </message>
-    <message>
-        <location line="-26"/>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation>×§×•×‘×¥ ×ª×¢×•×“×ª ×©×¨×ª (×‘×¨×™×¨×ª ×ž×—×“×œ: server.cert)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Server private key (default: server.pem)</source>
-        <translation>×ž×¤×ª×— ×¤×¨×˜×™ ×©×œ ×”×©×¨×ª (×‘×¨×™×¨×ª ×ž×—×“×œ: server.pem)</translation>
-    </message>
-    <message>
-        <location line="-151"/>
-        <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
-        <translation>×¦×¤× ×™×� ×§×‘×™×œ×™×� (×‘×¨×™×¨×ª ×ž×—×“×œ: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
-    </message>
-    <message>
-        <location line="+165"/>
-        <source>This help message</source>
-        <translation>×”×•×“×¢×ª ×”×¢×–×¨×” ×”×–×•</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>×œ×� ×ž×¡×•×’×œ ×œ×§×©×•×¨ ×œ-%s ×‘×ž×—×©×‘ ×–×” (×”×§×©×™×¨×” ×”×—×–×™×¨×” ×©×’×™×�×” %d, %s)</translation>
-    </message>
-    <message>
-        <location line="-91"/>
-        <source>Connect through socks proxy</source>
-        <translation>×”×ª×—×‘×¨ ×“×¨×š ×¤×¨×•×§×¡×™ SOCKS</translation>
-    </message>
-    <message>
-        <location line="-10"/>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>×�×¤×©×¨ ×‘×“×™×§×ª DNS ×¢×‘×•×¨ -addnode, -seednode ×•- -connect</translation>
+        <translation>הפעלת בדיקת DNS עבור ‎-addnode,‏ ‎-seednode ו־‎-connect</translation>
     </message>
     <message>
-        <location line="+55"/>
         <source>Loading addresses...</source>
-        <translation>×˜×•×¢×Ÿ ×›×ª×•×‘×•×ª...</translation>
+        <translation>הכתובות בטעינה…</translation>
     </message>
     <message>
-        <location line="-35"/>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>×©×’×™×�×” ×‘×˜×¢×™× ×ª ×”×§×•×‘×¥ wallet.dat: ×”×�×¨× ×§ ×ž×•×©×—×ª</translation>
+        <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
+        <translation>המשתנה ‎-socks נמצא אך אין בו תמיכה עוד. הגדרת גרסת SOCKS אינה אפשרית עוד, קיימת תמיכה רק ב־SOCKS5.</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Murfcoin</source>
-        <translation>×©×’×™×�×” ×‘×˜×¢×™× ×ª ×”×§×•×‘×¥ wallet.dat: ×”×�×¨× ×§ ×“×•×¨×© ×’×¨×¡×” ×—×“×©×” ×™×•×ª×¨ ×©×œ ×œ×™×™×˜×§×•×™×Ÿ</translation>
+        <source>(default: %s)</source>
+        <translation>(ברירת מחדל: %s)</translation>
     </message>
     <message>
-        <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Murfcoin to complete</source>
-        <translation>×™×© ×œ×›×ª×•×‘ ×ž×—×“×© ×�×ª ×”×�×¨× ×§: ×�×ª×—×œ ×�×ª ×œ×™×™×˜×§×•×™×Ÿ ×œ×¡×™×•×�</translation>
+        <source>Always query for peer addresses via DNS lookup (default: %u)</source>
+        <translation>תמיד לתשאל את כתובת העמיתים באמצעות חיפוש DNS (בררת מחדל: %u)</translation>
     </message>
     <message>
-        <location line="-95"/>
-        <source>Error loading wallet.dat</source>
-        <translation>×©×’×™×�×” ×‘×˜×¢×™× ×ª ×”×§×•×‘×¥ wallet.dat</translation>
+        <source>How many blocks to check at startup (default: %u, 0 = all)</source>
+        <translation>כמה מקטעים לבדוק עם ההפעלה (בררת מחדל: %u,‏ 0 = הכול)</translation>
     </message>
     <message>
-        <location line="+28"/>
-        <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation>×›×ª×•×‘×ª -proxy ×œ×� ×ª×§×™× ×”: &apos;%s&apos;</translation>
+        <source>Include IP addresses in debug output (default: %u)</source>
+        <translation>לכלול את כתובת ה־IP בפלט ניפוי השגיאות (בררת מחדל: %u)</translation>
     </message>
     <message>
-        <location line="+56"/>
-        <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
-        <translation>×¨×©×ª ×œ×� ×™×“×•×¢×” ×¦×•×™× ×” ×‘- -onlynet: &apos;%s&apos;</translation>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>כתובת ‎-proxy לא תקינה: '%s'</translation>
     </message>
     <message>
-        <location line="-1"/>
-        <source>Unknown -socks proxy version requested: %i</source>
-        <translation>×”×ª×‘×§×©×” ×’×¨×¡×ª ×¤×¨×•×§×¡×™ -socks ×œ×� ×™×“×•×¢×”: %i</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
+        <translation>האזנה לחיבורי JSON-RPC דרך &lt;port&gt; (בררת מחדל: %u או ברשת הבדיקה: %u)</translation>
     </message>
     <message>
-        <location line="-96"/>
-        <source>Cannot resolve -bind address: &apos;%s&apos;</source>
-        <translation>×œ×� ×ž×¡×•×’×œ ×œ×¤×ª×•×¨ ×›×ª×•×‘×ª -bind: &apos;%s&apos;</translation>
+        <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
+        <translation>האזנה לחיבורים על גבי &lt;port&gt; (בררת מחדל: %u או לרשת הבדיקה: %u)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
-        <translation>×œ×� ×ž×¡×•×’×œ ×œ×¤×ª×•×¨ ×›×ª×•×‘×ª -externalip: &apos;%s&apos;</translation>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
+        <translation>לשמור על &lt;n&gt; חיבורים לעמיתים לכל היותר (בררת מחדל: %u)</translation>
     </message>
     <message>
-        <location line="+44"/>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>×›×ž×•×ª ×œ×� ×ª×§×™× ×” ×¢×‘×•×¨ -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
+        <source>Make the wallet broadcast transactions</source>
+        <translation>להגדיר את הארנק להפצת העברות</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Invalid amount</source>
-        <translation>×›×ž×•×ª ×œ×� ×ª×§×™× ×”</translation>
+        <source>Set key pool size to &lt;n&gt; (default: %u)</source>
+        <translation>הגדרת גודל מאגר המפתחות לכדי &lt;n&gt; (בררת מחדל: %u)</translation>
     </message>
     <message>
-        <location line="-6"/>
+        <source>Set maximum BIP141 block weight (default: %d)</source>
+        <translation>הגדרת משקל מרבי למקטע BIP141 (בררת מחדל: %d)</translation>
+    </message>
+    <message>
+        <source>Specify configuration file (default: %s)</source>
+        <translation>הגדרת קובץ תצורה (בררת מחדל: %s)</translation>
+    </message>
+    <message>
+        <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
+        <translation>ציון תפוגת זמן ההמתנה לחיבור במילישניות (מינימום: 1, בררת מחדל: %d)</translation>
+    </message>
+    <message>
+        <source>Specify pid file (default: %s)</source>
+        <translation>ציון קובץ pid (בררת מחדל: %s)</translation>
+    </message>
+    <message>
+        <source>Starting network threads...</source>
+        <translation>תהליכי הרשת מופעלים…</translation>
+    </message>
+    <message>
+        <source>This is the minimum transaction fee you pay on every transaction.</source>
+        <translation>זו עמלת ההעברה המזערית שתיגבה מכל העברה שלך.</translation>
+    </message>
+    <message>
+        <source>This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>זו עמלת ההעברה שתיגבה ממך במידה של שליחת העברה.</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
+        <translation>סף לניתוק עמיתים סוררים (בררת מחדל: %u)</translation>
+    </message>
+    <message>
+        <source>Transaction amounts must not be negative</source>
+        <translation>סכומי ההעברה לא יכולים להיות שליליים</translation>
+    </message>
+    <message>
+        <source>Transaction must have at least one recipient</source>
+        <translation>להעברה חייב להיות לפחות נמען אחד</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>רשת לא ידועה צוינה דרך ‎-onlynet:‏ '%s'</translation>
+    </message>
+    <message>
         <source>Insufficient funds</source>
-        <translation>×�×™×Ÿ ×ž×¡×¤×™×§ ×›×¡×¤×™×�</translation>
+        <translation>אין מספיק כספים</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Loading block index...</source>
-        <translation>×˜×•×¢×Ÿ ×�×ª ×�×™× ×“×§×¡ ×”×‘×œ×•×§×™×�...</translation>
+        <translation>מפתח המקטעים נטען…</translation>
     </message>
     <message>
-        <location line="-57"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>×”×•×¡×£ ×¦×•×ž×ª ×œ×”×ª×—×‘×¨×•×ª ×•× ×¡×” ×œ×©×ž×•×¨ ×�×ª ×”×—×™×‘×•×¨ ×¤×ª×•×—</translation>
+        <translation>הוספת מפרק להתחברות ולנסות לשמור על החיבור פתוח</translation>
     </message>
     <message>
-        <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Murfcoin is probably already running.</source>
-        <translation>×œ×� × ×™×ª×Ÿ ×œ×§×©×•×¨ ×œ-%s ×‘×ž×—×©×‘ ×–×”. ×œ×™×™×˜×§×•×™×Ÿ ×›× ×¨×�×” ×¢×“×™×™×Ÿ ×¨×¥.</translation>
-    </message>
-    <message>
-        <location line="+64"/>
-        <source>Fee per KB to add to transactions you send</source>
-        <translation>×¢×ž×œ×” ×œ×”×•×¡×™×£ ×œ×¤×¢×•×œ×•×ª ×©×�×ª×” ×©×•×œ×— ×¢×‘×•×¨ ×›×œ KB</translation>
-    </message>
-    <message>
-        <location line="+19"/>
         <source>Loading wallet...</source>
-        <translation>×˜×•×¢×Ÿ ×�×¨× ×§...</translation>
+        <translation>הארנק בטעינה…</translation>
     </message>
     <message>
-        <location line="-52"/>
         <source>Cannot downgrade wallet</source>
-        <translation>×œ×� ×™×›×•×œ ×œ×”×•×¨×™×“ ×“×¨×’×ª ×”×�×¨× ×§</translation>
+        <translation>לא ניתן להחזיר את גרסת הארנק</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Cannot write default address</source>
-        <translation>×œ×� ×™×›×•×œ ×œ×›×ª×•×‘ ×�×ª ×›×ª×•×‘×ª ×‘×¨×™×¨×ª ×”×ž×—×“×œ</translation>
+        <translation>לא ניתן לכתוב את כתובת בררת המחדל</translation>
     </message>
     <message>
-        <location line="+64"/>
         <source>Rescanning...</source>
-        <translation>×¡×•×¨×§ ×ž×—×“×©...</translation>
+        <translation>סריקה מחדש…</translation>
     </message>
     <message>
-        <location line="-57"/>
         <source>Done loading</source>
-        <translation>×˜×¢×™× ×” ×”×•×©×œ×ž×”</translation>
+        <translation>טעינה הושלמה</translation>
     </message>
     <message>
-        <location line="+82"/>
-        <source>To use the %s option</source>
-        <translation>×œ×”×©×ª×ž×© ×‘×�×¤×©×¨×•×ª %s</translation>
-    </message>
-    <message>
-        <location line="-74"/>
         <source>Error</source>
-        <translation>×©×’×™×�×”</translation>
-    </message>
-    <message>
-        <location line="-31"/>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>×¢×œ×™×š ×œ×§×‘×•×¢ rpcpassword=yourpassword ×‘×§×•×‘×¥ ×”×”×’×“×¨×•×ª:
-%s
-×�×� ×”×§×•×‘×¥ ×�×™× ×• ×§×™×™×�, ×¦×•×¨ ×�×•×ª×• ×¢×� ×”×¨×©×�×•×ª ×§×¨×™×�×” ×œ×‘×¢×œ×™×� ×‘×œ×‘×“.</translation>
+        <translation>שגיאה</translation>
     </message>
 </context>
 </TS>
