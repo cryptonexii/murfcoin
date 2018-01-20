@@ -1042,19 +1042,19 @@ bool IsInitialBlockDownload()
 
     LOCK(cs_main);
     if (fImporting || fReindex){
-     	LogPrintf("Importing or ReIndexing is true");
+     	LogPrintf("Importing or ReIndexing is true\n");
          return true;
      }
      if (chainActive.Tip() == nullptr) {
-     	LogPrintf("IsInitialBlockDownload::The Active Chain Tip is null");
+     	LogPrintf("IsInitialBlockDownload::The Active Chain Tip is null\n");
          return true;
      }
      if (chainActive.Tip()->nChainWork < UintToArith256(chainParams.GetConsensus().nMinimumChainWork)) {
-     	LogPrintf("IsInitialBlockDownload::The Active Chain Tip Work, is less than nMinimumChainWork");
+     	LogPrintf("IsInitialBlockDownload::The Active Chain Tip Work, is less than nMinimumChainWork\n");
          return true;
      }
      if (chainActive.Tip()->GetBlockTime() < (GetTime() - nMaxTipAge)) {
-     	LogPrintf("IsInitialBlockDownload::The Active Chain Tip Time, is less than the current time minus the max tip age");
+     	LogPrintf("IsInitialBlockDownload::The Active Chain Tip Time, is less than the current time minus the max tip age\n");
          return true;
      }
      LogPrintf("IsInitialBlockDownload::Leaving InitialBlockDownload (latching to false)\n");
