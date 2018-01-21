@@ -1054,7 +1054,7 @@ bool IsInitialBlockDownload()
          return true;
      }
      if (chainActive.Tip()->GetBlockTime() < (GetTime() - nMaxTipAge)) {
-     	LogPrintf("IsInitialBlockDownload::The Active Chain Tip Time, is less than the current time minus the max tip age\n");
+     	LogPrintf("IsInitialBlockDownload::The Active Chain Tip Time (%d), is less than the current time (%d) minus the max tip age (%d)\n", chainActive.Tip()->GetBlockTime(), GetTime(), nMaxTipAge);
          return true;
      }
      LogPrintf("IsInitialBlockDownload::Leaving InitialBlockDownload (latching to false)\n");

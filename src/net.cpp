@@ -1145,7 +1145,7 @@ void CConnman::ThreadSocketHandler()
 
                     // release outbound grant (if any)
                     pnode->grantOutbound.Release();
-
+                    LogPrint(BCLog::NET, "CConnman::ThreadSocketHandler - disconnecting unused node %s\n", pnode->addrName);
                     // close socket and cleanup
                     pnode->CloseSocketDisconnect();
 
@@ -2193,6 +2193,7 @@ void CConnman::SetNetworkActive(bool active)
         LOCK(cs_vNodes);
         // Close sockets to all nodes
         for (CNode* pnode : vNodes) {
+        	LogPrint(BCLog::NET, "CConnman::SetNetworkActive - disconnecting because network not active %s\n", pnode->addrName);
             pnode->CloseSocketDisconnect();
         }
     }
@@ -2416,8 +2417,10 @@ void CConnman::Stop()
     }
 
     // Close sockets
-    for (CNode* pnode : vNodes)
+    for (CNode* pnode : vNodes){
+    	 LogPrint(BCLog::NET, "CConnman::Stop - disconnecting due to stop %s\n", pnode->addrName);
         pnode->CloseSocketDisconnect();
+    }
     for (ListenSocket& hListenSocket : vhListenSocket)
         if (hListenSocket.socket != INVALID_SOCKET)
             if (!CloseSocket(hListenSocket.socket))
