@@ -1193,6 +1193,7 @@ bool static ProcessMessage(CNode* pfrom, const std::string& strCommand, CDataStr
             Misbehaving(pfrom->GetId(), 100);
             return false;
         } else {
+        	LogPrintf("ProcessMessage. NOT NODE BLOOM\n");
             pfrom->fDisconnect = true;
             return false;
         }
@@ -1268,6 +1269,7 @@ bool static ProcessMessage(CNode* pfrom, const std::string& strCommand, CDataStr
                 // These bits have been used as a flag to indicate that a node is running incompatible
                 // consensus rules instead of changing the network magic, so we're stuck disconnecting
                 // based on these service bits, at least for a while.
+            	LogPrintf("ProcessMessage. Immediately disconnect peers that use service bits 6 or 8 until August 1st, 2018\n");
                 pfrom->fDisconnect = true;
                 return false;
             }
@@ -1394,6 +1396,7 @@ bool static ProcessMessage(CNode* pfrom, const std::string& strCommand, CDataStr
         // Feeler connections exist only to verify if address is online.
         if (pfrom->fFeeler) {
             assert(pfrom->fInbound == false);
+            LogPrintf("ProcessMessage. FEELER\n");
             pfrom->fDisconnect = true;
         }
         return true;
@@ -1495,8 +1498,10 @@ bool static ProcessMessage(CNode* pfrom, const std::string& strCommand, CDataStr
         connman.AddNewAddresses(vAddrOk, pfrom->addr, 2 * 60 * 60);
         if (vAddr.size() < 1000)
             pfrom->fGetAddr = false;
-        if (pfrom->fOneShot)
+        if (pfrom->fOneShot){
+        	LogPrintf("ProcessMessage. ONESHOT\n");
             pfrom->fDisconnect = true;
+        }
     }
 
     else if (strCommand == NetMsgType::SENDHEADERS)
@@ -2648,6 +2653,7 @@ static bool SendRejectsAndCheckIfBanned(CNode* pnode, CConnman& connman)
         else if (pnode->fAddnode)
             LogPrintf("Warning: not punishing addnoded peer %s!\n", pnode->addr.ToString());
         else {
+        	LogPrintf("SendRejectsAndCheckIfBanned.shouldBan\n");
             pnode->fDisconnect = true;
             if (pnode->addr.IsLocal())
                 LogPrintf("Warning: not banning local peer %s!\n", pnode->addr.ToString());

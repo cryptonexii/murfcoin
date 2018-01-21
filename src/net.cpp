@@ -454,6 +454,7 @@ void CConnman::DumpBanlist()
 
 void CNode::CloseSocketDisconnect()
 {
+	LogPrintf("CloseSocketDisconnect\n");
     fDisconnect = true;
     LOCK(cs_hSocket);
     if (hSocket != INVALID_SOCKET)
@@ -533,8 +534,10 @@ void CConnman::Ban(const CSubNet& subNet, const BanReason &banReason, int64_t ba
     {
         LOCK(cs_vNodes);
         for (CNode* pnode : vNodes) {
-            if (subNet.Match((CNetAddr)pnode->addr))
-                pnode->fDisconnect = true;
+            if (subNet.Match((CNetAddr)pnode->addr)){
+            	LogPrintf("CConnman::Ban");
+            	pnode->fDisconnect = true;
+            }
         }
     }
     if(banReason == BanReasonManuallyAdded)
@@ -1036,6 +1039,7 @@ bool CConnman::AttemptToEvictConnection()
     LOCK(cs_vNodes);
     for(std::vector<CNode*>::const_iterator it(vNodes.begin()); it != vNodes.end(); ++it) {
         if ((*it)->GetId() == evicted) {
+        	LogPrintf("EVICTED");
             (*it)->fDisconnect = true;
             return true;
         }
@@ -2535,6 +2539,7 @@ void CConnman::GetNodeStats(std::vector<CNodeStats>& vstats)
 
 bool CConnman::DisconnectNode(const std::string& strNode)
 {
+	LogPrintf("DISCONNECT NODE");
     LOCK(cs_vNodes);
     if (CNode* pnode = FindNode(strNode)) {
         pnode->fDisconnect = true;
@@ -2547,6 +2552,7 @@ bool CConnman::DisconnectNode(NodeId id)
     LOCK(cs_vNodes);
     for(CNode* pnode : vNodes) {
         if (id == pnode->GetId()) {
+        	LogPrintf("DISCONNECT NODE 2");
             pnode->fDisconnect = true;
             return true;
         }
