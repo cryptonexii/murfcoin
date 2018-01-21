@@ -1,2940 +1,3913 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ru" version="2.0">
-<defaultcodec>UTF-8</defaultcodec>
-<context>
-    <name>AboutDialog</name>
-    <message>
-        <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Murfcoin</source>
-        <translation>&amp;Ðž Murfcoin</translation>
-    </message>
-    <message>
-        <location line="+39"/>
-        <source>&lt;b&gt;Murfcoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Murfcoin&lt;/b&gt; Ð²ÐµÑ€Ñ�Ð¸Ñ�</translation>
-    </message>
-    <message>
-        <location line="+57"/>
-        <source>
-This is experimental software.
-
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>
-Ð­Ñ‚Ð¾ Ñ�ÐºÑ�Ð¿ÐµÑ€Ð¸Ð¼ÐµÐ½Ñ‚Ð°Ð»ÑŒÐ½Ð°Ñ� Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ð°.
-
-Ð Ð°Ñ�Ð¿Ñ€Ð¾Ñ�Ñ‚Ñ€Ð°Ð½Ñ�ÐµÑ‚Ñ�Ñ� Ð½Ð° Ð¿Ñ€Ð°Ð²Ð°Ñ… Ð»Ð¸Ñ†ÐµÐ½Ð·Ð¸Ð¸ MIT/X11, Ñ�Ð¼. Ñ„Ð°Ð¹Ð» license.txt Ð¸Ð»Ð¸ http://www.opensource.org/licenses/mit-license.php.
-
-Ð­Ñ‚Ð¾Ñ‚ Ð¿Ñ€Ð¾Ð´ÑƒÐºÑ‚ Ð²ÐºÐ»ÑŽÑ‡Ð°ÐµÑ‚ ÐŸÐž, Ñ€Ð°Ð·Ñ€Ð°Ð±Ð¾Ñ‚Ð°Ð½Ð½Ð¾Ðµ OpenSSL Project Ð´Ð»Ñ� Ð¸Ñ�Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ð½Ð¸Ñ� Ð² OpenSSL Toolkit (http://www.openssl.org/) Ð¸ ÐºÑ€Ð¸Ð¿Ñ‚Ð¾Ð³Ñ€Ð°Ñ„Ð¸Ñ‡ÐµÑ�ÐºÐ¾Ðµ ÐŸÐž, Ð½Ð°Ð¿Ð¸Ñ�Ð°Ð½Ð½Ð¾Ðµ Eric Young (eay@cryptsoft.com) Ð¸ ÐŸÐž Ð´Ð»Ñ� Ñ€Ð°Ð±Ð¾Ñ‚Ñ‹ Ñ� UPnP, Ð½Ð°Ð¿Ð¸Ñ�Ð°Ð½Ð½Ð¾Ðµ Thomas Bernard.</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="+14"/>
-        <source>Copyright</source>
-        <translation>Ð’Ñ�Ðµ Ð¿Ñ€Ð°Ð²Ð° Ð·Ð°Ñ‰Ð¸Ñ‰ÐµÐ½Ñ‹</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>The Murfcoin developers</source>
-        <translation>Ð Ð°Ð·Ñ€Ð°Ð±Ð¾Ñ‚Ñ‡Ð¸ÐºÐ¸ Murfcoin</translation>
-    </message>
-</context>
+<TS language="ru" version="2.1">
 <context>
     <name>AddressBookPage</name>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>Address Book</source>
-        <translation>&amp;Ð�Ð´Ñ€ÐµÑ�Ð½Ð°Ñ� ÐºÐ½Ð¸Ð³Ð°</translation>
+        <source>Right-click to edit address or label</source>
+        <translation>Клик правой кнопкой для редактирования адреса или метки</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>Double-click to edit address or label</source>
-        <translation>Ð”Ð»Ñ� Ñ‚Ð¾Ð³Ð¾, Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð¸Ð·Ð¼ÐµÐ½Ð¸Ñ‚ÑŒ Ð°Ð´Ñ€ÐµÑ� Ð¸Ð»Ð¸ Ð¼ÐµÑ‚ÐºÑƒ, Ð´Ð²Ð°Ð¶Ð´Ñ‹ ÐºÐ»Ð¸ÐºÐ½Ð¸Ñ‚Ðµ Ð¿Ð¾ Ð¸Ð·Ð¼ÐµÐ½Ñ�ÐµÐ¼Ð¾Ð¼Ñƒ Ð¾Ð±ÑŠÐµÐºÑ‚Ñƒ</translation>
-    </message>
-    <message>
-        <location line="+27"/>
         <source>Create a new address</source>
-        <translation>Ð¡Ð¾Ð·Ð´Ð°Ñ‚ÑŒ Ð½Ð¾Ð²Ñ‹Ð¹ Ð°Ð´Ñ€ÐµÑ�</translation>
+        <translation>Создать новый адрес</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <source>&amp;New</source>
+        <translation>&amp;Новый</translation>
+    </message>
+    <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>ÐšÐ¾Ð¿Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ Ñ‚ÐµÐºÑƒÑ‰Ð¸Ð¹ Ð²Ñ‹Ð´ÐµÐ»ÐµÐ½Ð½Ñ‹Ð¹ Ð°Ð´Ñ€ÐµÑ� Ð² Ð±ÑƒÑ„ÐµÑ€ Ð¾Ð±Ð¼ÐµÐ½Ð°</translation>
+        <translation>Копировать текущий выделенный адрес в буфер обмена</translation>
     </message>
     <message>
-        <location line="-11"/>
-        <source>&amp;New Address</source>
-        <translation>&amp;Ð�Ð¾Ð²Ñ‹Ð¹ Ð°Ð´Ñ€ÐµÑ�</translation>
+        <source>&amp;Copy</source>
+        <translation>&amp;Копировать</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Murfcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Ð­Ñ‚Ð¾ Ð’Ð°ÑˆÐ¸ Ð°Ð´Ñ€ÐµÑ�Ð° Ð´Ð»Ñ� Ð¿Ð¾Ð»ÑƒÑ‡ÐµÐ½Ð¸Ñ� Ð¿Ð»Ð°Ñ‚ÐµÐ¶ÐµÐ¹. Ð’Ñ‹ Ð¼Ð¾Ð¶ÐµÑ‚Ðµ Ð´Ð°Ñ‚ÑŒ Ñ€Ð°Ð·Ð½Ñ‹Ðµ Ð°Ð´Ñ€ÐµÑ�Ð° Ð¾Ñ‚Ð¿Ñ€Ð°Ð²Ð¸Ñ‚ÐµÐ»Ñ�Ð¼, Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð¾Ñ‚Ñ�Ð»ÐµÐ¶Ð¸Ð²Ð°Ñ‚ÑŒ, ÐºÑ‚Ð¾ Ð¸Ð¼ÐµÐ½Ð½Ð¾ Ð²Ð°Ð¼ Ð¿Ð»Ð°Ñ‚Ð¸Ñ‚.</translation>
+        <source>C&amp;lose</source>
+        <translation>&amp;Закрыть</translation>
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>&amp;Copy Address</source>
-        <translation>&amp;ÐšÐ¾Ð¿Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ Ð°Ð´Ñ€ÐµÑ�</translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>Show &amp;QR Code</source>
-        <translation>ÐŸÐ¾ÐºÐ°Ð·Ð°Ñ‚ÑŒ &amp;QR ÐºÐ¾Ð´</translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>Sign a message to prove you own a Murfcoin address</source>
-        <translation>ÐŸÐ¾Ð´Ð¿Ð¸Ñ�Ð°Ñ‚ÑŒ Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ, Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð´Ð¾ÐºÐ°Ð·Ð°Ñ‚ÑŒ Ð²Ð»Ð°Ð´ÐµÐ½Ð¸Ðµ Ð°Ð´Ñ€ÐµÑ�Ð¾Ð¼ Murfcoin</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Sign &amp;Message</source>
-        <translation>&amp;ÐŸÐ¾Ð´Ð¿Ð¸Ñ�Ð°Ñ‚ÑŒ Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ</translation>
-    </message>
-    <message>
-        <location line="+25"/>
         <source>Delete the currently selected address from the list</source>
-        <translation>Ð£Ð´Ð°Ð»Ð¸Ñ‚ÑŒ Ð²Ñ‹Ð±Ñ€Ð°Ð½Ð½Ñ‹Ð¹ Ð°Ð´Ñ€ÐµÑ� Ð¸Ð· Ñ�Ð¿Ð¸Ñ�ÐºÐ°</translation>
+        <translation>Удалить выбранный адрес из списка</translation>
     </message>
     <message>
-        <location line="+27"/>
         <source>Export the data in the current tab to a file</source>
-        <translation>Ð­ÐºÑ�Ð¿Ð¾Ñ€Ñ‚Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ Ð´Ð°Ð½Ð½Ñ‹Ðµ Ð¸Ð· Ð²ÐºÐ»Ð°Ð´ÐºÐ¸ Ð² Ñ„Ð°Ð¹Ð»</translation>
+        <translation>Экспортировать данные из вкладки в файл</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Export</source>
-        <translation>&amp;Ð­ÐºÑ�Ð¿Ð¾Ñ€Ñ‚</translation>
+        <translation>&amp;Экспорт</translation>
     </message>
     <message>
-        <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Murfcoin address</source>
-        <translation>ÐŸÑ€Ð¾Ð²ÐµÑ€Ð¸Ñ‚ÑŒ Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ, Ñ‡Ñ‚Ð¾Ð±Ñ‹ ÑƒÐ±ÐµÐ´Ð¸Ñ‚ÑŒÑ�Ñ�, Ñ‡Ñ‚Ð¾ Ð¾Ð½Ð¾ Ð±Ñ‹Ð»Ð¾ Ð¿Ð¾Ð´Ð¿Ð¸Ñ�Ð°Ð½Ð¾ ÑƒÐºÐ°Ð·Ð°Ð½Ð½Ñ‹Ð¼ Ð°Ð´Ñ€ÐµÑ�Ð¾Ð¼ Murfcoin</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Verify Message</source>
-        <translation>&amp;ÐŸÑ€Ð¾Ð²ÐµÑ€Ð¸Ñ‚ÑŒ Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ</translation>
-    </message>
-    <message>
-        <location line="+14"/>
         <source>&amp;Delete</source>
-        <translation>&amp;Ð£Ð´Ð°Ð»Ð¸Ñ‚ÑŒ</translation>
+        <translation>&amp;Удалить</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="-5"/>
+        <source>Choose the address to send coins to</source>
+        <translation>Выберите адрес для отправки перевода</translation>
+    </message>
+    <message>
+        <source>Choose the address to receive coins with</source>
+        <translation>Выберите адрес для получения перевода</translation>
+    </message>
+    <message>
+        <source>C&amp;hoose</source>
+        <translation>&amp;Выбрать</translation>
+    </message>
+    <message>
+        <source>Sending addresses</source>
+        <translation>Адреса отправки</translation>
+    </message>
+    <message>
+        <source>Receiving addresses</source>
+        <translation>Адреса получения</translation>
+    </message>
+    <message>
         <source>These are your Murfcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ð’Ð°ÑˆÐ¸ Ð°Ð´Ñ€ÐµÑ�Ð° Ð´Ð»Ñ� Ð¿Ð¾Ð»ÑƒÑ‡ÐµÐ½Ð¸Ñ� Ñ�Ñ€ÐµÐ´Ñ�Ñ‚Ð². Ð¡Ð¾Ð²ÐµÑ‚: Ð¿Ñ€Ð¾Ð²ÐµÑ€ÑŒÑ‚Ðµ Ñ�ÑƒÐ¼Ð¼Ñƒ Ð¸ Ð°Ð´Ñ€ÐµÑ� Ð½Ð°Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ñ� Ð¿ÐµÑ€ÐµÐ´ Ð¿ÐµÑ€ÐµÐ²Ð¾Ð´Ð¾Ð¼.</translation>
+        <translation>Это ваши адреса Murfcoin для отправки платежей. Всегда проверяйте сумму и адрес получателя перед отправкой перевода.</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <source>These are your Murfcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Это ваши адреса Murfcoin для приёма платежей. Рекомендуется использовать новый адрес получения для каждой транзакции.</translation>
+    </message>
+    <message>
+        <source>&amp;Copy Address</source>
+        <translation>Копировать &amp;адрес</translation>
+    </message>
+    <message>
         <source>Copy &amp;Label</source>
-        <translation>ÐšÐ¾Ð¿Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ &amp;Ð¼ÐµÑ‚ÐºÑƒ</translation>
+        <translation>Копировать &amp;метку</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>&amp;Edit</source>
-        <translation>&amp;ÐŸÑ€Ð°Ð²ÐºÐ°</translation>
+        <translation>&amp;Правка</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Send &amp;Coins</source>
-        <translation>&amp;ÐžÑ‚Ð¿Ñ€Ð°Ð²Ð¸Ñ‚ÑŒ Ð¼Ð¾Ð½ÐµÑ‚Ñ‹</translation>
+        <source>Export Address List</source>
+        <translation>Экспортировать список адресов</translation>
     </message>
     <message>
-        <location line="+260"/>
-        <source>Export Address Book Data</source>
-        <translation>Ð­ÐºÑ�Ð¿Ð¾Ñ€Ñ‚Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ Ð°Ð´Ñ€ÐµÑ�Ð½ÑƒÑŽ ÐºÐ½Ð¸Ð³Ñƒ</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>Ð¢ÐµÐºÑ�Ñ‚, Ñ€Ð°Ð·Ð´ÐµÐ»Ñ‘Ð½Ð½Ñ‹Ð¹ Ð·Ð°Ð¿Ñ�Ñ‚Ñ‹Ð¼Ð¸ (*.csv)</translation>
+        <translation>Текст, разделённый запятыми (*.csv)</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>Error exporting</source>
-        <translation>ÐžÑˆÐ¸Ð±ÐºÐ° Ñ�ÐºÑ�Ð¿Ð¾Ñ€Ñ‚Ð°</translation>
+        <source>Exporting Failed</source>
+        <translation>Экспорт не удался</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Could not write to file %1.</source>
-        <translation>Ð�ÐµÐ²Ð¾Ð·Ð¼Ð¾Ð¶Ð½Ð¾ Ð·Ð°Ð¿Ð¸Ñ�Ð°Ñ‚ÑŒ Ð² Ñ„Ð°Ð¹Ð» %1.</translation>
+        <source>There was an error trying to save the address list to %1. Please try again.</source>
+        <translation>Произошла ошибка при сохранении списка адресов в %1. Пожалуйста, попробуйте еще раз.</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
-        <location filename="../addresstablemodel.cpp" line="+144"/>
         <source>Label</source>
-        <translation>ÐœÐµÑ‚ÐºÐ°</translation>
+        <translation>Метка</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Address</source>
-        <translation>Ð�Ð´Ñ€ÐµÑ�</translation>
+        <translation>Адрес</translation>
     </message>
     <message>
-        <location line="+36"/>
         <source>(no label)</source>
-        <translation>[Ð½ÐµÑ‚ Ð¼ÐµÑ‚ÐºÐ¸]</translation>
+        <translation>(нет метки)</translation>
     </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
         <source>Passphrase Dialog</source>
-        <translation>Ð”Ð¸Ð°Ð»Ð¾Ð³ Ð²Ð²Ð¾Ð´Ð° Ð¿Ð°Ñ€Ð¾Ð»Ñ�</translation>
+        <translation>Диалог ввода пароля</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>Enter passphrase</source>
-        <translation>Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ</translation>
+        <translation>Введите пароль</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>New passphrase</source>
-        <translation>Ð�Ð¾Ð²Ñ‹Ð¹ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ</translation>
+        <translation>Новый пароль</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Repeat new passphrase</source>
-        <translation>ÐŸÐ¾Ð²Ñ‚Ð¾Ñ€Ð¸Ñ‚Ðµ Ð½Ð¾Ð²Ñ‹Ð¹ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ</translation>
+        <translation>Повторите новый пароль</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="+33"/>
-        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¾Ð²Ñ‹Ð¹ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ Ð´Ð»Ñ� Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸ÐºÐ°. &lt;br/&gt; ÐŸÐ¾Ð¶Ð°Ð»ÑƒÐ¹Ñ�Ñ‚Ð°, Ð¸Ñ�Ð¿Ð¾Ð»ÑŒÐ·ÑƒÐ¹Ñ‚Ðµ Ñ„Ñ€Ð°Ð·Ñ‹ Ð¸Ð· &lt;b&gt;10 Ð¸Ð»Ð¸ Ð±Ð¾Ð»ÐµÐµ Ñ�Ð»ÑƒÑ‡Ð°Ð¹Ð½Ñ‹Ñ… Ñ�Ð¸Ð¼Ð²Ð¾Ð»Ð¾Ð²,&lt;/b&gt; Ð¸Ð»Ð¸ &lt;b&gt;Ð²Ð¾Ñ�ÑŒÐ¼Ð¸ Ð¸ Ð±Ð¾Ð»ÐµÐµ Ñ�Ð»Ð¾Ð².&lt;/b&gt;</translation>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>Введите новый пароль бумажника.&lt;br/&gt;Используйте пароль, состоящий из &lt;b&gt;десяти или более случайных символов&lt;/b&gt;, или &lt;b&gt;восьми или более слов&lt;/b&gt;.</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Encrypt wallet</source>
-        <translation>Ð—Ð°ÑˆÐ¸Ñ„Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸Ðº</translation>
+        <translation>Зашифровать бумажник</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Ð”Ð»Ñ� Ð²Ñ‹Ð¿Ð¾Ð»Ð½ÐµÐ½Ð¸Ñ� Ð¾Ð¿ÐµÑ€Ð°Ñ†Ð¸Ð¸ Ñ‚Ñ€ÐµÐ±ÑƒÐµÑ‚Ñ�Ñ� Ð¿Ð°Ñ€Ð¾Ð»ÑŒ Ð²Ð°ÑˆÐµÐ³Ð¾ Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸ÐºÐ°.</translation>
+        <translation>Для выполнения операции требуется пароль вашего бумажника.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Unlock wallet</source>
-        <translation>Ð Ð°Ð·Ð±Ð»Ð¾ÐºÐ¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸Ðº</translation>
+        <translation>Разблокировать бумажник</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Ð”Ð»Ñ� Ð²Ñ‹Ð¿Ð¾Ð»Ð½ÐµÐ½Ð¸Ñ� Ð¾Ð¿ÐµÑ€Ð°Ñ†Ð¸Ð¸ Ñ‚Ñ€ÐµÐ±ÑƒÐµÑ‚Ñ�Ñ� Ð¿Ð°Ñ€Ð¾Ð»ÑŒ Ð²Ð°ÑˆÐµÐ³Ð¾ Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸ÐºÐ°.</translation>
+        <translation>Для выполнения операции требуется пароль вашего бумажника.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Decrypt wallet</source>
-        <translation>Ð Ð°Ñ�ÑˆÐ¸Ñ„Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸Ðº</translation>
+        <translation>Расшифровать бумажник</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Change passphrase</source>
-        <translation>Ð¡Ð¼ÐµÐ½Ð¸Ñ‚ÑŒ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ</translation>
+        <translation>Сменить пароль</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ�Ñ‚Ð°Ñ€Ñ‹Ð¹ Ð¸ Ð½Ð¾Ð²Ñ‹Ð¹ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ Ð´Ð»Ñ� Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸ÐºÐ°.</translation>
+        <source>Enter the old passphrase and new passphrase to the wallet.</source>
+        <translation>Введите старый и новый пароль для бумажника.</translation>
     </message>
     <message>
-        <location line="+46"/>
         <source>Confirm wallet encryption</source>
-        <translation>ÐŸÐ¾Ð´Ñ‚Ð²ÐµÑ€Ð´Ð¸Ñ‚Ðµ ÑˆÐ¸Ñ„Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸ÐºÐ°</translation>
+        <translation>Подтвердите шифрование бумажника</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FLUFF&lt;/b&gt;!</source>
-        <translation>Ð’Ð½Ð¸Ð¼Ð°Ð½Ð¸Ðµ: ÐµÑ�Ð»Ð¸ Ð²Ñ‹ Ð·Ð°ÑˆÐ¸Ñ„Ñ€ÑƒÐµÑ‚Ðµ Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸Ðº Ð¸ Ð¿Ð¾Ñ‚ÐµÑ€Ñ�ÐµÑ‚Ðµ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ, Ð²Ñ‹ &lt;b&gt;ÐŸÐžÐ¢Ð•Ð Ð¯Ð•Ð¢Ð• Ð’Ð¡Ð• Ð’Ð�Ð¨Ð˜ FLUFF&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MURFCOINS&lt;/b&gt;!</source>
+        <translation>Предупреждение: если вы зашифруете бумажник и потеряете пароль, вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ ВАШИ БИТКОИНЫ&lt;/b&gt;!</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Ð’Ñ‹ ÑƒÐ²ÐµÑ€ÐµÐ½Ñ‹, Ñ‡Ñ‚Ð¾ Ñ…Ð¾Ñ‚Ð¸Ñ‚Ðµ Ð·Ð°ÑˆÐ¸Ñ„Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ Ð²Ð°Ñˆ Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸Ðº?</translation>
+        <translation>Вы уверены, что хотите зашифровать ваш бумажник?</translation>
     </message>
     <message>
-        <location line="+15"/>
-        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>Ð’Ð�Ð–Ð�Ðž: Ð²Ñ�Ðµ Ð¿Ñ€ÐµÐ´Ñ‹Ð´ÑƒÑ‰Ð¸Ðµ Ñ€ÐµÐ·ÐµÑ€Ð²Ð½Ñ‹Ðµ ÐºÐ¾Ð¿Ð¸Ð¸ Ð²Ð°ÑˆÐµÐ³Ð¾ ÐºÐ¾ÑˆÐµÐ»ÑŒÐºÐ° Ð´Ð¾Ð»Ð¶Ð½Ñ‹ Ð±Ñ‹Ñ‚ÑŒ Ð·Ð°Ð¼ÐµÐ½ÐµÐ½Ñ‹ Ð½Ð¾Ð²Ñ‹Ð¼ Ð·Ð°ÑˆÐ¸Ñ„Ñ€Ð¾Ð²Ð°Ð½Ð½Ñ‹Ð¼ Ñ„Ð°Ð¹Ð»Ð¾Ð¼. Ð’ Ñ†ÐµÐ»Ñ�Ñ… Ð±ÐµÐ·Ð¾Ð¿Ð°Ñ�Ð½Ð¾Ñ�Ñ‚Ð¸ Ð¿Ñ€ÐµÐ´Ñ‹Ð´ÑƒÑ‰Ð¸Ðµ Ñ€ÐµÐ·ÐµÑ€Ð²Ð½Ñ‹Ðµ ÐºÐ¾Ð¿Ð¸Ð¸ Ð½ÐµÑˆÐ¸Ñ„Ñ€Ð¾Ð²Ð°Ð½Ð½Ð¾Ð³Ð¾ ÐºÐ¾ÑˆÐµÐ»ÑŒÐºÐ° Ñ�Ñ‚Ð°Ð½ÑƒÑ‚ Ð±ÐµÑ�Ð¿Ð¾Ð»ÐµÐ·Ð½Ñ‹, ÐºÐ°Ðº Ñ‚Ð¾Ð»ÑŒÐºÐ¾ Ð²Ñ‹ Ð½Ð°Ñ‡Ð½Ñ‘Ñ‚Ðµ Ð¸Ñ�Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÑŒ Ð½Ð¾Ð²Ñ‹Ð¹ ÑˆÐ¸Ñ„Ñ€Ð¾Ð²Ð°Ð½Ð½Ñ‹Ð¹ ÐºÐ¾ÑˆÐµÐ»Ñ‘Ðº.</translation>
-    </message>
-    <message>
-        <location line="+100"/>
-        <location line="+24"/>
-        <source>Warning: The Caps Lock key is on!</source>
-        <translation>Ð’Ð½Ð¸Ð¼Ð°Ð½Ð¸Ðµ: Caps Lock Ð²ÐºÐ»ÑŽÑ‡ÐµÐ½!</translation>
-    </message>
-    <message>
-        <location line="-130"/>
-        <location line="+58"/>
         <source>Wallet encrypted</source>
-        <translation>Ð‘ÑƒÐ¼Ð°Ð¶Ð½Ð¸Ðº Ð·Ð°ÑˆÐ¸Ñ„Ñ€Ð¾Ð²Ð°Ð½</translation>
+        <translation>Бумажник зашифрован</translation>
     </message>
     <message>
-        <location line="-56"/>
-        <source>Murfcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your murfcoins from being stolen by malware infecting your computer.</source>
-        <translation>Ð¡ÐµÐ¹Ñ‡Ð°Ñ� Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ð° Ð·Ð°ÐºÑ€Ð¾ÐµÑ‚Ñ�Ñ� Ð´Ð»Ñ� Ð·Ð°Ð²ÐµÑ€ÑˆÐµÐ½Ð¸Ñ� Ð¿Ñ€Ð¾Ñ†ÐµÑ�Ñ�Ð° ÑˆÐ¸Ñ„Ñ€Ð¾Ð²Ð°Ð½Ð¸Ñ�. ÐŸÐ¾Ð¼Ð½Ð¸Ñ‚Ðµ, Ñ‡Ñ‚Ð¾ ÑˆÐ¸Ñ„Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ Ð²Ð°ÑˆÐµÐ³Ð¾ Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸ÐºÐ° Ð½Ðµ Ð¼Ð¾Ð¶ÐµÑ‚ Ð¿Ð¾Ð»Ð½Ð¾Ñ�Ñ‚ÑŒÑŽ Ð·Ð°Ñ‰Ð¸Ñ‚Ð¸Ñ‚ÑŒ Ð²Ð°ÑˆÐ¸ Murfcoin Ð¾Ñ‚ ÐºÑ€Ð°Ð¶Ð¸ Ñ� Ð¿Ð¾Ð¼Ð¾Ñ‰ÑŒÑŽ Ð¸Ð½Ñ„Ð¸Ñ†Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ñ� Ð²Ð°ÑˆÐµÐ³Ð¾ ÐºÐ¾Ð¼Ð¿ÑŒÑŽÑ‚ÐµÑ€Ð° Ð²Ñ€ÐµÐ´Ð¾Ð½Ð¾Ñ�Ð½Ñ‹Ð¼ ÐŸÐž.</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your murfcoins from being stolen by malware infecting your computer.</source>
+        <translation>Сейчас %1 закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши биткоины от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <location line="+7"/>
-        <location line="+42"/>
-        <location line="+6"/>
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>ВАЖНО: все предыдущие резервные копии вашего бумажника должны быть заменены новым зашифрованным файлом. В целях безопасности предыдущие резервные копии незашифрованного бумажника станут бесполезны, как только вы начнёте использовать новый зашифрованный бумажник.</translation>
+    </message>
+    <message>
         <source>Wallet encryption failed</source>
-        <translation>Ð�Ðµ ÑƒÐ´Ð°Ð»Ð¾Ñ�ÑŒ Ð·Ð°ÑˆÐ¸Ñ„Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸Ðº</translation>
+        <translation>Не удалось зашифровать бумажник</translation>
     </message>
     <message>
-        <location line="-54"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Ð¨Ð¸Ñ„Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸ÐºÐ° Ð½Ðµ ÑƒÐ´Ð°Ð»Ð¾Ñ�ÑŒ Ð¸Ð·-Ð·Ð° Ð²Ð½ÑƒÑ‚Ñ€ÐµÐ½Ð½ÐµÐ¹ Ð¾ÑˆÐ¸Ð±ÐºÐ¸. Ð’Ð°Ñˆ Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸Ðº Ð½Ðµ Ð±Ñ‹Ð» Ð·Ð°ÑˆÐ¸Ñ„Ñ€Ð¾Ð²Ð°Ð½.</translation>
+        <translation>Шифрование бумажника не удалось из-за внутренней ошибки. Ваш бумажник не был зашифрован.</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <location line="+48"/>
         <source>The supplied passphrases do not match.</source>
-        <translation>Ð’Ð²ÐµÐ´Ñ‘Ð½Ð½Ñ‹Ðµ Ð¿Ð°Ñ€Ð¾Ð»Ð¸ Ð½Ðµ Ñ�Ð¾Ð²Ð¿Ð°Ð´Ð°ÑŽÑ‚.</translation>
+        <translation>Введённые пароли не совпадают.</translation>
     </message>
     <message>
-        <location line="-37"/>
         <source>Wallet unlock failed</source>
-        <translation>Ð Ð°Ð·Ð±Ð»Ð¾ÐºÐ¸Ñ€Ð¾Ð²ÐºÐ° Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸ÐºÐ° Ð½Ðµ ÑƒÐ´Ð°Ð»Ð°Ñ�ÑŒ</translation>
+        <translation>Разблокировка бумажника не удалась</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <location line="+11"/>
-        <location line="+19"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Ð£ÐºÐ°Ð·Ð°Ð½Ð½Ñ‹Ð¹ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ Ð½Ðµ Ð¿Ð¾Ð´Ñ…Ð¾Ð´Ð¸Ñ‚.</translation>
+        <translation>Неверный пароль для расшифровки бумажника.</translation>
     </message>
     <message>
-        <location line="-20"/>
         <source>Wallet decryption failed</source>
-        <translation>Ð Ð°Ñ�ÑˆÐ¸Ñ„Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸ÐºÐ° Ð½Ðµ ÑƒÐ´Ð°Ð»Ð¾Ñ�ÑŒ</translation>
+        <translation>Расшифровка бумажника не удалась</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>ÐŸÐ°Ñ€Ð¾Ð»ÑŒ Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸ÐºÐ° ÑƒÑ�Ð¿ÐµÑˆÐ½Ð¾ Ð¸Ð·Ð¼ÐµÐ½Ñ‘Ð½.</translation>
+        <translation>Пароль бумажника успешно изменён.</translation>
+    </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>Внимание: Caps Lock включен!</translation>
+    </message>
+</context>
+<context>
+    <name>BanTableModel</name>
+    <message>
+        <source>IP/Netmask</source>
+        <translation>IP/префикс</translation>
+    </message>
+    <message>
+        <source>Banned Until</source>
+        <translation>Заблокировано до</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+233"/>
         <source>Sign &amp;message...</source>
-        <translation>&amp;ÐŸÐ¾Ð´Ð¿Ð¸Ñ�Ð°Ñ‚ÑŒ Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ...</translation>
+        <translation>&amp;Подписать сообщение...</translation>
     </message>
     <message>
-        <location line="+280"/>
         <source>Synchronizing with network...</source>
-        <translation>Ð¡Ð¸Ð½Ñ…Ñ€Ð¾Ð½Ð¸Ð·Ð°Ñ†Ð¸Ñ� Ñ� Ñ�ÐµÑ‚ÑŒÑŽ...</translation>
+        <translation>Синхронизация с сетью...</translation>
     </message>
     <message>
-        <location line="-349"/>
         <source>&amp;Overview</source>
-        <translation>Ðž&amp;Ð±Ð·Ð¾Ñ€</translation>
+        <translation>&amp;Обзор</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>Node</source>
+        <translation>Узел</translation>
+    </message>
+    <message>
         <source>Show general overview of wallet</source>
-        <translation>ÐŸÐ¾ÐºÐ°Ð·Ð°Ñ‚ÑŒ Ð¾Ð±Ñ‰Ð¸Ð¹ Ð¾Ð±Ð·Ð¾Ñ€ Ð´ÐµÐ¹Ñ�Ñ‚Ð²Ð¸Ð¹ Ñ� Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸ÐºÐ¾Ð¼</translation>
+        <translation>Показать общий обзор действий с бумажником</translation>
     </message>
     <message>
-        <location line="+20"/>
         <source>&amp;Transactions</source>
-        <translation>&amp;Ð¢Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ð¸</translation>
+        <translation>&amp;Транзакции</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Browse transaction history</source>
-        <translation>ÐŸÐ¾ÐºÐ°Ð·Ð°Ñ‚ÑŒ Ð¸Ñ�Ñ‚Ð¾Ñ€Ð¸ÑŽ Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ð¹</translation>
+        <translation>Показать историю транзакций</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Edit the list of stored addresses and labels</source>
-        <translation>Ð˜Ð·Ð¼ÐµÐ½Ð¸Ñ‚ÑŒ Ñ�Ð¿Ð¸Ñ�Ð¾Ðº Ñ�Ð¾Ñ…Ñ€Ð°Ð½Ñ‘Ð½Ð½Ñ‹Ñ… Ð°Ð´Ñ€ÐµÑ�Ð¾Ð² Ð¸ Ð¼ÐµÑ‚Ð¾Ðº Ðº Ð½Ð¸Ð¼</translation>
-    </message>
-    <message>
-        <location line="-14"/>
-        <source>Show the list of addresses for receiving payments</source>
-        <translation>ÐŸÐ¾ÐºÐ°Ð·Ð°Ñ‚ÑŒ Ñ�Ð¿Ð¸Ñ�Ð¾Ðº Ð°Ð´Ñ€ÐµÑ�Ð¾Ð² Ð´Ð»Ñ� Ð¿Ð¾Ð»ÑƒÑ‡ÐµÐ½Ð¸Ñ� Ð¿Ð»Ð°Ñ‚ÐµÐ¶ÐµÐ¹</translation>
-    </message>
-    <message>
-        <location line="+31"/>
         <source>E&amp;xit</source>
-        <translation>Ð’&amp;Ñ‹Ñ…Ð¾Ð´</translation>
+        <translation>В&amp;ыход</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Quit application</source>
-        <translation>Ð—Ð°ÐºÑ€Ñ‹Ñ‚ÑŒ Ð¿Ñ€Ð¸Ð»Ð¾Ð¶ÐµÐ½Ð¸Ðµ</translation>
+        <translation>Закрыть приложение</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Show information about Murfcoin</source>
-        <translation>ÐŸÐ¾ÐºÐ°Ð·Ð°Ñ‚ÑŒ Ð¸Ð½Ñ„Ð¾Ñ€Ð¼Ð°Ñ†Ð¸ÑŽ Ð¾ Murfcoin&apos;Ðµ</translation>
+        <source>&amp;About %1</source>
+        <translation>&amp;О %1</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <source>Show information about %1</source>
+        <translation>Показать информацию о %1</translation>
+    </message>
+    <message>
         <source>About &amp;Qt</source>
-        <translation>Ðž &amp;Qt</translation>
+        <translation>О &amp;Qt</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show information about Qt</source>
-        <translation>ÐŸÐ¾ÐºÐ°Ð·Ð°Ñ‚ÑŒ Ð¸Ð½Ñ„Ð¾Ñ€Ð¼Ð°Ñ†Ð¸ÑŽ Ð¾ Qt</translation>
+        <translation>Показать информацию о Qt</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Options...</source>
-        <translation>ÐžÐ¿&amp;Ñ†Ð¸Ð¸...</translation>
+        <translation>&amp;Параметры</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <source>Modify configuration options for %1</source>
+        <translation>Изменить конфигурационные настройки для %1</translation>
+    </message>
+    <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Ð—Ð°ÑˆÐ¸Ñ„Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸Ðº...</translation>
+        <translation>&amp;Зашифровать бумажник...</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Ð¡Ð´ÐµÐ»Ð°Ñ‚ÑŒ Ñ€ÐµÐ·ÐµÑ€Ð²Ð½ÑƒÑŽ ÐºÐ¾Ð¿Ð¸ÑŽ Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸ÐºÐ°...</translation>
+        <translation>&amp;Сделать резервную копию бумажника...</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Ð˜Ð·Ð¼ÐµÐ½Ð¸Ñ‚ÑŒ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ...</translation>
+        <translation>&amp;Изменить пароль...</translation>
     </message>
     <message>
-        <location line="+285"/>
-        <source>Importing blocks from disk...</source>
-        <translation>Ð˜Ð¼Ð¿Ð¾Ñ€Ñ‚Ð¸Ñ€ÑƒÑŽÑ‚Ñ�Ñ� Ð±Ð»Ð¾ÐºÐ¸ Ñ� Ð´Ð¸Ñ�ÐºÐ°...</translation>
+        <source>&amp;Sending addresses...</source>
+        <translation>&amp;Адреса отправки...</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <source>&amp;Receiving addresses...</source>
+        <translation>Адреса &amp;получения...</translation>
+    </message>
+    <message>
+        <source>Open &amp;URI...</source>
+        <translation>Открыть &amp;URI...</translation>
+    </message>
+    <message>
+        <source>Click to disable network activity.</source>
+        <translation>Кликните, чтобы запретить сетевую активность.</translation>
+    </message>
+    <message>
+        <source>Network activity disabled.</source>
+        <translation>Сетевая активность запрещена.</translation>
+    </message>
+    <message>
+        <source>Click to enable network activity again.</source>
+        <translation>Кликните, чтобы снова разрешить сетевую активность.</translation>
+    </message>
+    <message>
+        <source>Syncing Headers (%1%)...</source>
+        <translation>Синхронизация заголовков (%1%)...</translation>
+    </message>
+    <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Ð˜Ð´Ñ‘Ñ‚ Ð¿ÐµÑ€ÐµÐ¸Ð½Ð´ÐµÐºÑ�Ð°Ñ†Ð¸Ñ� Ð±Ð»Ð¾ÐºÐ¾Ð² Ð½Ð° Ð´Ð¸Ñ�ÐºÐµ...</translation>
+        <translation>Идёт переиндексация блоков на диске...</translation>
     </message>
     <message>
-        <location line="-347"/>
         <source>Send coins to a Murfcoin address</source>
-        <translation>ÐžÑ‚Ð¿Ñ€Ð°Ð²Ð¸Ñ‚ÑŒ Ð¼Ð¾Ð½ÐµÑ‚Ñ‹ Ð½Ð° ÑƒÐºÐ°Ð·Ð°Ð½Ð½Ñ‹Ð¹ Ð°Ð´Ñ€ÐµÑ� Murfcoin</translation>
+        <translation>Отправить монеты на указанный адрес Murfcoin</translation>
     </message>
     <message>
-        <location line="+49"/>
-        <source>Modify configuration options for Murfcoin</source>
-        <translation>Ð˜Ð·Ð¼ÐµÐ½Ð¸Ñ‚ÑŒ Ð¿Ð°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ñ‹ ÐºÐ¾Ð½Ñ„Ð¸Ð³ÑƒÑ€Ð°Ñ†Ð¸Ð¸ Murfcoin</translation>
-    </message>
-    <message>
-        <location line="+9"/>
         <source>Backup wallet to another location</source>
-        <translation>Ð¡Ð´ÐµÐ»Ð°Ñ‚ÑŒ Ñ€ÐµÐ·ÐµÑ€Ð²Ð½ÑƒÑŽ ÐºÐ¾Ð¿Ð¸ÑŽ Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸ÐºÐ° Ð² Ð´Ñ€ÑƒÐ³Ð¾Ð¼ Ð¼ÐµÑ�Ñ‚Ðµ</translation>
+        <translation>Сделать резервную копию бумажника в другом месте</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Ð˜Ð·Ð¼ÐµÐ½Ð¸Ñ‚ÑŒ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ ÑˆÐ¸Ñ„Ñ€Ð¾Ð²Ð°Ð½Ð¸Ñ� Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸ÐºÐ°</translation>
+        <translation>Изменить пароль шифрования бумажника</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Debug window</source>
-        <translation>&amp;ÐžÐºÐ½Ð¾ Ð¾Ñ‚Ð»Ð°Ð´ÐºÐ¸</translation>
+        <translation>&amp;Окно отладки</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Open debugging and diagnostic console</source>
-        <translation>ÐžÑ‚ÐºÑ€Ñ‹Ñ‚ÑŒ ÐºÐ¾Ð½Ñ�Ð¾Ð»ÑŒ Ð¾Ñ‚Ð»Ð°Ð´ÐºÐ¸ Ð¸ Ð´Ð¸Ð°Ð³Ð½Ð¾Ñ�Ñ‚Ð¸ÐºÐ¸</translation>
+        <translation>Открыть консоль отладки и диагностики</translation>
     </message>
     <message>
-        <location line="-4"/>
         <source>&amp;Verify message...</source>
-        <translation>&amp;ÐŸÑ€Ð¾Ð²ÐµÑ€Ð¸Ñ‚ÑŒ Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ...</translation>
+        <translation>&amp;Проверить сообщение...</translation>
     </message>
     <message>
-        <location line="-165"/>
-        <location line="+530"/>
         <source>Murfcoin</source>
         <translation>Murfcoin</translation>
     </message>
     <message>
-        <location line="-530"/>
         <source>Wallet</source>
-        <translation>Ð‘ÑƒÐ¼Ð°Ð¶Ð½Ð¸Ðº</translation>
+        <translation>Бумажник</translation>
     </message>
     <message>
-        <location line="+101"/>
         <source>&amp;Send</source>
-        <translation>&amp;ÐžÑ‚Ð¿Ñ€Ð°Ð²Ð¸Ñ‚ÑŒ</translation>
+        <translation>&amp;Отправить</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Receive</source>
-        <translation>&amp;ÐŸÐ¾Ð»ÑƒÑ‡Ð¸Ñ‚ÑŒ</translation>
+        <translation>&amp;Получить</translation>
     </message>
     <message>
-        <location line="+14"/>
-        <source>&amp;Addresses</source>
-        <translation>&amp;Ð�Ð´Ñ€ÐµÑ�Ð°</translation>
-    </message>
-    <message>
-        <location line="+22"/>
-        <source>&amp;About Murfcoin</source>
-        <translation>&amp;Ðž Murfcoin</translation>
-    </message>
-    <message>
-        <location line="+9"/>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;ÐŸÐ¾ÐºÐ°Ð·Ð°Ñ‚ÑŒ / Ð¡ÐºÑ€Ñ‹Ñ‚ÑŒ</translation>
+        <translation>&amp;Показать / Скрыть</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show or hide the main Window</source>
-        <translation>ÐŸÐ¾ÐºÐ°Ð·Ð°Ñ‚ÑŒ Ð¸Ð»Ð¸ Ñ�ÐºÑ€Ñ‹Ñ‚ÑŒ Ð³Ð»Ð°Ð²Ð½Ð¾Ðµ Ð¾ÐºÐ½Ð¾</translation>
+        <translation>Показать или скрыть главное окно</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Ð—Ð°ÑˆÐ¸Ñ„Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ Ð¿Ñ€Ð¸Ð²Ð°Ñ‚Ð½Ñ‹Ðµ ÐºÐ»ÑŽÑ‡Ð¸, Ð¿Ñ€Ð¸Ð½Ð°Ð´Ð»ÐµÐ¶Ð°Ñ‰Ð¸Ðµ Ð²Ð°ÑˆÐµÐ¼Ñƒ Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸ÐºÑƒ</translation>
+        <translation>Зашифровать приватные ключи, принадлежащие вашему бумажнику</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Sign messages with your Murfcoin addresses to prove you own them</source>
-        <translation>ÐŸÐ¾Ð´Ð¿Ð¸Ñ�Ð°Ñ‚ÑŒ Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ñ� Ð²Ð°ÑˆÐ¸Ð¼ Ð°Ð´Ñ€ÐµÑ�Ð¾Ð¼ Murfcoin, Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð´Ð¾ÐºÐ°Ð·Ð°Ñ‚ÑŒ, Ñ‡Ñ‚Ð¾ Ð²Ñ‹ Ð¸Ð¼ Ð²Ð»Ð°Ð´ÐµÐµÑ‚Ðµ</translation>
+        <translation>Подписать сообщения вашим адресом Murfcoin, чтобы доказать, что вы им владеете</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Verify messages to ensure they were signed with specified Murfcoin addresses</source>
-        <translation>ÐŸÑ€Ð¾Ð²ÐµÑ€Ð¸Ñ‚ÑŒ Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ñ�, Ñ‡Ñ‚Ð¾Ð±Ñ‹ ÑƒÐ´Ð¾Ñ�Ñ‚Ð¾Ð²ÐµÑ€Ð¸Ñ‚ÑŒÑ�Ñ�, Ñ‡Ñ‚Ð¾ Ð¾Ð½Ð¸ Ð±Ñ‹Ð»Ð¸ Ð¿Ð¾Ð´Ð¿Ð¸Ñ�Ð°Ð½Ñ‹ Ð¾Ð¿Ñ€ÐµÐ´ÐµÐ»Ñ‘Ð½Ð½Ñ‹Ð¼ Ð°Ð´Ñ€ÐµÑ�Ð¾Ð¼ Murfcoin</translation>
+        <translation>Проверить сообщения, чтобы удостовериться, что они были подписаны определённым адресом Murfcoin</translation>
     </message>
     <message>
-        <location line="+28"/>
         <source>&amp;File</source>
-        <translation>&amp;Ð¤Ð°Ð¹Ð»</translation>
+        <translation>&amp;Файл</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Settings</source>
-        <translation>&amp;Ð�Ð°Ñ�Ñ‚Ñ€Ð¾Ð¹ÐºÐ¸</translation>
+        <translation>&amp;Настройки</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Help</source>
-        <translation>&amp;ÐŸÐ¾Ð¼Ð¾Ñ‰ÑŒ</translation>
+        <translation>&amp;Помощь</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Tabs toolbar</source>
-        <translation>ÐŸÐ°Ð½ÐµÐ»ÑŒ Ð²ÐºÐ»Ð°Ð´Ð¾Ðº</translation>
+        <translation>Панель вкладок</translation>
     </message>
     <message>
-        <location line="+17"/>
-        <location line="+10"/>
-        <source>[testnet]</source>
-        <translation>[Ñ‚ÐµÑ�Ñ‚Ð¾Ð²Ð°Ñ� Ñ�ÐµÑ‚ÑŒ]</translation>
+        <source>Request payments (generates QR codes and murfcoin: URIs)</source>
+        <translation>Запросить платежи (создаёт QR-коды и murfcoin: ссылки)</translation>
     </message>
     <message>
-        <location line="+47"/>
-        <source>Murfcoin client</source>
-        <translation>Murfcoin ÐºÐ»Ð¸ÐµÐ½Ñ‚</translation>
+        <source>Show the list of used sending addresses and labels</source>
+        <translation>Показать список использованных адресов и меток отправки</translation>
+    </message>
+    <message>
+        <source>Show the list of used receiving addresses and labels</source>
+        <translation>Показать список использованных адресов и меток получения</translation>
+    </message>
+    <message>
+        <source>Open a murfcoin: URI or payment request</source>
+        <translation>Открыть murfcoin: URI или запрос платежа</translation>
+    </message>
+    <message>
+        <source>&amp;Command-line options</source>
+        <translation>&amp;Параметры командной строки</translation>
     </message>
     <message numerus="yes">
-        <location line="+141"/>
         <source>%n active connection(s) to Murfcoin network</source>
-        <translation><numerusform>%n Ð°ÐºÑ‚Ð¸Ð²Ð½Ð¾Ðµ Ñ�Ð¾ÐµÐ´Ð¸Ð½ÐµÐ½Ð¸Ðµ Ñ� Ñ�ÐµÑ‚ÑŒÑŽ</numerusform><numerusform>%n Ð°ÐºÑ‚Ð¸Ð²Ð½Ñ‹Ñ… Ñ�Ð¾ÐµÐ´Ð¸Ð½ÐµÐ½Ð¸Ð¹ Ñ� Ñ�ÐµÑ‚ÑŒÑŽ</numerusform><numerusform>%n Ð°ÐºÑ‚Ð¸Ð²Ð½Ñ‹Ñ… Ñ�Ð¾ÐµÐ´Ð¸Ð½ÐµÐ½Ð¸Ð¹ Ñ� Ñ�ÐµÑ‚ÑŒÑŽ</numerusform></translation>
+        <translation><numerusform>%n активных соединений с сетью Murfcoin</numerusform><numerusform>%n активных соединений с сетью Murfcoin</numerusform><numerusform>%n активных соединений с сетью Murfcoin</numerusform><numerusform>%n активных соединений с сетью Murfcoin</numerusform></translation>
     </message>
     <message>
-        <location line="+22"/>
-        <source>No block source available...</source>
-        <translation>Ð˜Ñ�Ñ‚Ð¾Ñ‡Ð½Ð¸Ðº Ð±Ð»Ð¾ÐºÐ¾Ð² Ð½ÐµÐ´Ð¾Ñ�Ñ‚ÑƒÐ¿ÐµÐ½...</translation>
+        <source>Indexing blocks on disk...</source>
+        <translation>Индексация блоков на диске...</translation>
     </message>
     <message>
-        <location line="+12"/>
-        <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
-        <translation>ÐžÐ±Ñ€Ð°Ð±Ð¾Ñ‚Ð°Ð½Ð¾ %1 Ð¸Ð· %2 (Ð¿Ñ€Ð¸Ð¼ÐµÑ€Ð½Ð¾) Ð±Ð»Ð¾ÐºÐ¾Ð² Ð¸Ñ�Ñ‚Ð¾Ñ€Ð¸Ð¸ Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ð¹.</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Processed %1 blocks of transaction history.</source>
-        <translation>ÐžÐ±Ñ€Ð°Ð±Ð¾Ñ‚Ð°Ð½Ð¾ %1 Ð±Ð»Ð¾ÐºÐ¾Ð² Ð¸Ñ�Ñ‚Ð¾Ñ€Ð¸Ð¸ Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ð¹.</translation>
+        <source>Processing blocks on disk...</source>
+        <translation>Обработка блоков на диске...</translation>
     </message>
     <message numerus="yes">
-        <location line="+20"/>
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n Ñ‡Ð°Ñ�</numerusform><numerusform>%n Ñ‡Ð°Ñ�Ð°</numerusform><numerusform>%n Ñ‡Ð°Ñ�Ð¾Ð²</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <location line="+4"/>
-        <source>%n day(s)</source>
-        <translation><numerusform>%n Ð´ÐµÐ½ÑŒ</numerusform><numerusform>%n Ð´Ð½Ñ�</numerusform><numerusform>%n Ð´Ð½ÐµÐ¹</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <location line="+4"/>
-        <source>%n week(s)</source>
-        <translation><numerusform>%n Ð½ÐµÐ´ÐµÐ»Ñ�</numerusform><numerusform>%n Ð½ÐµÐ´ÐµÐ»Ð¸</numerusform><numerusform>%n Ð½ÐµÐ´ÐµÐ»ÑŒ</numerusform></translation>
+        <source>Processed %n block(s) of transaction history.</source>
+        <translation><numerusform>Обработан %n блок истории транзакций.</numerusform><numerusform>Обработано %n блока истории транзакций.</numerusform><numerusform>Обработано %n блоков истории транзакций.</numerusform><numerusform>Обработано %n блоков истории транзакций.</numerusform></translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>%1 behind</source>
-        <translation>%1 Ð¿Ð¾Ð·Ð°Ð´Ð¸</translation>
+        <translation>%1 позади</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Last received block was generated %1 ago.</source>
-        <translation>ÐŸÐ¾Ñ�Ð»ÐµÐ´Ð½Ð¸Ð¹ Ð¿Ð¾Ð»ÑƒÑ‡ÐµÐ½Ð½Ñ‹Ð¹ Ð±Ð»Ð¾Ðº Ð±Ñ‹Ð» Ñ�Ð³ÐµÐ½ÐµÑ€Ð¸Ñ€Ð¾Ð²Ð°Ð½ %1 Ð½Ð°Ð·Ð°Ð´.</translation>
+        <translation>Последний полученный блок был сгенерирован %1 назад.</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Ð¢Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ð¸ Ð¿Ð¾Ñ�Ð»Ðµ Ñ�Ñ‚Ð¾Ð¹ Ð¿Ð¾ÐºÐ° Ð½Ðµ Ð±ÑƒÐ´ÑƒÑ‚ Ð²Ð¸Ð´Ð½Ñ‹.</translation>
+        <translation>Транзакции после него пока не будут видны.</translation>
     </message>
     <message>
-        <location line="+22"/>
         <source>Error</source>
-        <translation>ÐžÑˆÐ¸Ð±ÐºÐ°</translation>
+        <translation>Ошибка</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Warning</source>
-        <translation>Ð’Ð½Ð¸Ð¼Ð°Ð½Ð¸Ðµ</translation>
+        <translation>Внимание</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Information</source>
-        <translation>Ð˜Ð½Ñ„Ð¾Ñ€Ð¼Ð°Ñ†Ð¸Ñ�</translation>
+        <translation>Информация</translation>
     </message>
     <message>
-        <location line="+70"/>
-        <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation>Ð¢Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ñ� Ð¿Ñ€ÐµÐ²Ñ‹ÑˆÐ°ÐµÑ‚ Ð¼Ð°ÐºÑ�Ð¸Ð¼Ð°Ð»ÑŒÐ½Ñ‹Ð¹ Ñ€Ð°Ð·Ð¼ÐµÑ€. Ð’Ñ‹ Ð¼Ð¾Ð¶ÐµÑ‚Ðµ Ð¿Ñ€Ð¾Ð²ÐµÑ�Ñ‚Ð¸ ÐµÑ‘, Ð·Ð°Ð¿Ð»Ð°Ñ‚Ð¸Ð² ÐºÐ¾Ð¼Ð¸Ñ�Ñ�Ð¸ÑŽ %1, ÐºÐ¾Ñ‚Ð¾Ñ€Ð°Ñ� Ð´Ð¾Ñ�Ñ‚Ð°Ð½ÐµÑ‚Ñ�Ñ� ÑƒÐ·Ð»Ð°Ð¼, Ð¾Ð±Ñ€Ð°Ð±Ð°Ñ‚Ñ‹Ð²Ð°ÑŽÑ‰Ð¸Ð¼ Ñ�Ñ‚Ñƒ Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸ÑŽ, Ð¸ Ð¿Ð¾Ð¼Ð¾Ð¶ÐµÑ‚ Ñ€Ð°Ð±Ð¾Ñ‚Ðµ Ñ�ÐµÑ‚Ð¸. Ð’Ñ‹ Ð´ÐµÐ¹Ñ�Ñ‚Ð²Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ð¾ Ñ…Ð¾Ñ‚Ð¸Ñ‚Ðµ Ð·Ð°Ð¿Ð»Ð°Ñ‚Ð¸Ñ‚ÑŒ ÐºÐ¾Ð¼Ð¸Ñ�Ñ�Ð¸ÑŽ?</translation>
-    </message>
-    <message>
-        <location line="-140"/>
         <source>Up to date</source>
-        <translation>Ð¡Ð¸Ð½Ñ…Ñ€Ð¾Ð½Ð¸Ð·Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¾</translation>
+        <translation>Синхронизировано</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <source>Show the %1 help message to get a list with possible Murfcoin command-line options</source>
+        <translation>Показать помощь по %1, чтобы получить список доступных параметров командной строки</translation>
+    </message>
+    <message>
+        <source>%1 client</source>
+        <translation>%1 клиент</translation>
+    </message>
+    <message>
+        <source>Connecting to peers...</source>
+        <translation>Подключение к пирам...</translation>
+    </message>
+    <message>
         <source>Catching up...</source>
-        <translation>Ð¡Ð¸Ð½Ñ…Ñ€Ð¾Ð½Ð¸Ð·Ð¸Ñ€ÑƒÐµÑ‚Ñ�Ñ�...</translation>
+        <translation>Синхронизируется...</translation>
     </message>
     <message>
-        <location line="+113"/>
-        <source>Confirm transaction fee</source>
-        <translation>ÐŸÐ¾Ð´Ñ‚Ð²ÐµÑ€Ð´Ð¸Ñ‚Ðµ ÐºÐ¾Ð¼Ð¸Ñ�Ñ�Ð¸ÑŽ</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Sent transaction</source>
-        <translation>Ð˜Ñ�Ñ…Ð¾Ð´Ñ�Ñ‰Ð°Ñ� Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ñ�</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Incoming transaction</source>
-        <translation>Ð’Ñ…Ð¾Ð´Ñ�Ñ‰Ð°Ñ� Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ñ�</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Date: %1
-Amount: %2
-Type: %3
-Address: %4
 </source>
-        <translation>Ð”Ð°Ñ‚Ð°: %1
-ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑ�Ñ‚Ð²Ð¾: %2
-Ð¢Ð¸Ð¿: %3
-Ð�Ð´Ñ€ÐµÑ�: %4
+        <translation>Дата: %1
 </translation>
     </message>
     <message>
-        <location line="+33"/>
-        <location line="+23"/>
-        <source>URI handling</source>
-        <translation>ÐžÐ±Ñ€Ð°Ð±Ð¾Ñ‚ÐºÐ° URI</translation>
+        <source>Amount: %1
+</source>
+        <translation>Количество: %1
+</translation>
     </message>
     <message>
-        <location line="-23"/>
-        <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Murfcoin address or malformed URI parameters.</source>
-        <translation>Ð�Ðµ ÑƒÐ´Ð°Ð»Ð¾Ñ�ÑŒ Ð¾Ð±Ñ€Ð°Ð±Ð¾Ñ‚Ð°Ñ‚ÑŒ URI! Ð­Ñ‚Ð¾ Ð¼Ð¾Ð¶ÐµÑ‚ Ð±Ñ‹Ñ‚ÑŒ Ñ�Ð²Ñ�Ð·Ð°Ð½Ð¾ Ñ� Ð½ÐµÐ²ÐµÑ€Ð½Ñ‹Ð¼ Ð°Ð´Ñ€ÐµÑ�Ð¾Ð¼ Murfcoin Ð¸Ð»Ð¸ Ð½ÐµÐ¿Ñ€Ð°Ð²Ð¸Ð»ÑŒÐ½Ñ‹Ð¼Ð¸ Ð¿Ð°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ð°Ð¼Ð¸ URI.</translation>
+        <source>Type: %1
+</source>
+        <translation>Тип: %1
+</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <source>Label: %1
+</source>
+        <translation>Метка: %1
+</translation>
+    </message>
+    <message>
+        <source>Address: %1
+</source>
+        <translation>Адрес: %1
+</translation>
+    </message>
+    <message>
+        <source>Sent transaction</source>
+        <translation>Исходящая транзакция</translation>
+    </message>
+    <message>
+        <source>Incoming transaction</source>
+        <translation>Входящая транзакция</translation>
+    </message>
+    <message>
+        <source>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</source>
+        <translation>Генерация HD-ключей &lt;b&gt;разрешена&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</source>
+        <translation>Генерация HD-ключей &lt;b&gt;запрещена&lt;/b&gt;</translation>
+    </message>
+    <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Ð‘ÑƒÐ¼Ð°Ð¶Ð½Ð¸Ðº &lt;b&gt;Ð·Ð°ÑˆÐ¸Ñ„Ñ€Ð¾Ð²Ð°Ð½&lt;/b&gt; Ð¸ Ð² Ð½Ð°Ñ�Ñ‚Ð¾Ñ�Ñ‰ÐµÐµ Ð²Ñ€ÐµÐ¼Ñ� &lt;b&gt;Ñ€Ð°Ð·Ð±Ð»Ð¾ÐºÐ¸Ñ€Ð¾Ð²Ð°Ð½&lt;/b&gt;</translation>
+        <translation>Бумажник &lt;b&gt;зашифрован&lt;/b&gt; и в настоящее время &lt;b&gt;разблокирован&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Ð‘ÑƒÐ¼Ð°Ð¶Ð½Ð¸Ðº &lt;b&gt;Ð·Ð°ÑˆÐ¸Ñ„Ñ€Ð¾Ð²Ð°Ð½&lt;/b&gt; Ð¸ Ð² Ð½Ð°Ñ�Ñ‚Ð¾Ñ�Ñ‰ÐµÐµ Ð²Ñ€ÐµÐ¼Ñ� &lt;b&gt;Ð·Ð°Ð±Ð»Ð¾ÐºÐ¸Ñ€Ð¾Ð²Ð°Ð½&lt;/b&gt;</translation>
+        <translation>Бумажник &lt;b&gt;зашифрован&lt;/b&gt; и в настоящее время &lt;b&gt;заблокирован&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="+111"/>
         <source>A fatal error occurred. Murfcoin can no longer continue safely and will quit.</source>
-        <translation>ÐŸÑ€Ð¾Ð¸Ð·Ð¾ÑˆÐ»Ð° Ð½ÐµÐ¸Ñ�Ð¿Ñ€Ð°Ð²Ð¸Ð¼Ð°Ñ� Ð¾ÑˆÐ¸Ð±ÐºÐ°. Murfcoin Ð½Ðµ Ð¼Ð¾Ð¶ÐµÑ‚ Ð±ÐµÐ·Ð¾Ð¿Ð°Ñ�Ð½Ð¾ Ð¿Ñ€Ð¾Ð´Ð¾Ð»Ð¶Ð°Ñ‚ÑŒ Ñ€Ð°Ð±Ð¾Ñ‚Ñƒ Ð¸ Ð±ÑƒÐ´ÐµÑ‚ Ð·Ð°ÐºÑ€Ñ‹Ñ‚.</translation>
+        <translation>Произошла неисправимая ошибка. Murfcoin не может безопасно продолжать работу и будет закрыт.</translation>
     </message>
 </context>
 <context>
-    <name>ClientModel</name>
+    <name>CoinControlDialog</name>
     <message>
-        <location filename="../clientmodel.cpp" line="+104"/>
-        <source>Network Alert</source>
-        <translation>Ð¡ÐµÑ‚ÐµÐ²Ð°Ñ� Ð¢Ñ€ÐµÐ²Ð¾Ð³Ð°</translation>
+        <source>Coin Selection</source>
+        <translation>Выбор монет</translation>
+    </message>
+    <message>
+        <source>Quantity:</source>
+        <translation>Количество:</translation>
+    </message>
+    <message>
+        <source>Bytes:</source>
+        <translation>Байт:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Сумма:</translation>
+    </message>
+    <message>
+        <source>Fee:</source>
+        <translation>Комиссия:</translation>
+    </message>
+    <message>
+        <source>Dust:</source>
+        <translation>Пыль:</translation>
+    </message>
+    <message>
+        <source>After Fee:</source>
+        <translation>После комиссии:</translation>
+    </message>
+    <message>
+        <source>Change:</source>
+        <translation>Сдача:</translation>
+    </message>
+    <message>
+        <source>(un)select all</source>
+        <translation>Отменить выбор всего</translation>
+    </message>
+    <message>
+        <source>Tree mode</source>
+        <translation>Режим дерева</translation>
+    </message>
+    <message>
+        <source>List mode</source>
+        <translation>Режим списка</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Сумма</translation>
+    </message>
+    <message>
+        <source>Received with label</source>
+        <translation>Получено с пометкой</translation>
+    </message>
+    <message>
+        <source>Received with address</source>
+        <translation>Получено с адреса</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Дата</translation>
+    </message>
+    <message>
+        <source>Confirmations</source>
+        <translation>Подтверждений</translation>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>Подтверждено</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>Копировать адрес</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Копировать метку</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Копировать сумму</translation>
+    </message>
+    <message>
+        <source>Copy transaction ID</source>
+        <translation>Копировать ID транзакции</translation>
+    </message>
+    <message>
+        <source>Lock unspent</source>
+        <translation>Заблокировать непотраченное</translation>
+    </message>
+    <message>
+        <source>Unlock unspent</source>
+        <translation>Разблокировать непотраченное</translation>
+    </message>
+    <message>
+        <source>Copy quantity</source>
+        <translation>Копировать количество</translation>
+    </message>
+    <message>
+        <source>Copy fee</source>
+        <translation>Копировать комиссию</translation>
+    </message>
+    <message>
+        <source>Copy after fee</source>
+        <translation>Копировать после комиссии</translation>
+    </message>
+    <message>
+        <source>Copy bytes</source>
+        <translation>Копировать байты</translation>
+    </message>
+    <message>
+        <source>Copy dust</source>
+        <translation>Копировать пыль</translation>
+    </message>
+    <message>
+        <source>Copy change</source>
+        <translation>Копировать сдачу</translation>
+    </message>
+    <message>
+        <source>(%1 locked)</source>
+        <translation>(%1 заблокировано)</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>да</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>нет</translation>
+    </message>
+    <message>
+        <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
+        <translation>Эта метка станет красной, если любой получатель получит сумму меньше, чем текущий порог пыли.</translation>
+    </message>
+    <message>
+        <source>Can vary +/- %1 satoshi(s) per input.</source>
+        <translation>Может отличаться на +/- %1 сатоши на вход.</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(нет метки)</translation>
+    </message>
+    <message>
+        <source>change from %1 (%2)</source>
+        <translation>сдача с %1 (%2)</translation>
+    </message>
+    <message>
+        <source>(change)</source>
+        <translation>(сдача)</translation>
     </message>
 </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="+14"/>
         <source>Edit Address</source>
-        <translation>Ð˜Ð·Ð¼ÐµÐ½Ð¸Ñ‚ÑŒ Ð°Ð´Ñ€ÐµÑ�</translation>
+        <translation>Изменить адрес</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>&amp;Label</source>
-        <translation>&amp;ÐœÐµÑ‚ÐºÐ°</translation>
+        <translation>&amp;Метка</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>The label associated with this address book entry</source>
-        <translation>ÐœÐµÑ‚ÐºÐ°, Ñ�Ð²Ñ�Ð·Ð°Ð½Ð½Ð°Ñ� Ñ� Ð´Ð°Ð½Ð½Ð¾Ð¹ Ð·Ð°Ð¿Ð¸Ñ�ÑŒÑŽ</translation>
+        <source>The label associated with this address list entry</source>
+        <translation>Метка, связанная с этой записью списка адресов</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
+        <translation>Адрес, связанный с этой записью списка адресов. Он может быть изменён только для адресов отправки.</translation>
+    </message>
+    <message>
         <source>&amp;Address</source>
-        <translation>&amp;Ð�Ð´Ñ€ÐµÑ�</translation>
+        <translation>&amp;Адрес</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>Ð�Ð´Ñ€ÐµÑ�, Ñ�Ð²Ñ�Ð·Ð°Ð½Ð½Ñ‹Ð¹ Ñ� Ð´Ð°Ð½Ð½Ð¾Ð¹ Ð·Ð°Ð¿Ð¸Ñ�ÑŒÑŽ.</translation>
-    </message>
-    <message>
-        <location filename="../editaddressdialog.cpp" line="+21"/>
         <source>New receiving address</source>
-        <translation>Ð�Ð¾Ð²Ñ‹Ð¹ Ð°Ð´Ñ€ÐµÑ� Ð´Ð»Ñ� Ð¿Ð¾Ð»ÑƒÑ‡ÐµÐ½Ð¸Ñ�</translation>
+        <translation>Новый адрес получения</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>New sending address</source>
-        <translation>Ð�Ð¾Ð²Ñ‹Ð¹ Ð°Ð´Ñ€ÐµÑ� Ð´Ð»Ñ� Ð¾Ñ‚Ð¿Ñ€Ð°Ð²ÐºÐ¸</translation>
+        <translation>Новый адрес отправки</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Edit receiving address</source>
-        <translation>Ð˜Ð·Ð¼ÐµÐ½ÐµÐ½Ð¸Ðµ Ð°Ð´Ñ€ÐµÑ�Ð° Ð´Ð»Ñ� Ð¿Ð¾Ð»ÑƒÑ‡ÐµÐ½Ð¸Ñ�</translation>
+        <translation>Изменить адрес получения</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Edit sending address</source>
-        <translation>Ð˜Ð·Ð¼ÐµÐ½ÐµÐ½Ð¸Ðµ Ð°Ð´Ñ€ÐµÑ�Ð° Ð´Ð»Ñ� Ð¾Ñ‚Ð¿Ñ€Ð°Ð²ÐºÐ¸</translation>
+        <translation>Изменить адрес отправки</translation>
     </message>
     <message>
-        <location line="+76"/>
-        <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>Ð’Ð²ÐµÐ´Ñ‘Ð½Ð½Ñ‹Ð¹ Ð°Ð´Ñ€ÐµÑ� Â«%1Â» ÑƒÐ¶Ðµ Ð½Ð°Ñ…Ð¾Ð´Ð¸Ñ‚Ñ�Ñ� Ð² Ð°Ð´Ñ€ÐµÑ�Ð½Ð¾Ð¹ ÐºÐ½Ð¸Ð³Ðµ.</translation>
+        <source>The entered address "%1" is not a valid Murfcoin address.</source>
+        <translation>Введённый адрес "%1" не является правильным Murfcoin-адресом.</translation>
     </message>
     <message>
-        <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Murfcoin address.</source>
-        <translation>Ð’Ð²ÐµÐ´Ñ‘Ð½Ð½Ñ‹Ð¹ Ð°Ð´Ñ€ÐµÑ� &quot;%1&quot; Ð½Ðµ Ñ�Ð²Ð»Ñ�ÐµÑ‚Ñ�Ñ� Ð¿Ñ€Ð°Ð²Ð¸Ð»ÑŒÐ½Ñ‹Ð¼ Murfcoin-Ð°Ð´Ñ€ÐµÑ�Ð¾Ð¼.</translation>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>Введённый адрес "%1" уже находится в адресной книге.</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Could not unlock wallet.</source>
-        <translation>Ð�Ðµ ÑƒÐ´Ð°ÐµÑ‚Ñ�Ñ� Ñ€Ð°Ð·Ð±Ð»Ð¾ÐºÐ¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸Ðº.</translation>
+        <translation>Не удается разблокировать бумажник.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>New key generation failed.</source>
-        <translation>Ð“ÐµÐ½ÐµÑ€Ð°Ñ†Ð¸Ñ� Ð½Ð¾Ð²Ð¾Ð³Ð¾ ÐºÐ»ÑŽÑ‡Ð° Ð½Ðµ ÑƒÐ´Ð°Ð»Ð°Ñ�ÑŒ.</translation>
+        <translation>Генерация нового ключа не удалась.</translation>
     </message>
 </context>
 <context>
-    <name>GUIUtil::HelpMessageBox</name>
+    <name>FreespaceChecker</name>
     <message>
-        <location filename="../guiutil.cpp" line="+424"/>
-        <location line="+12"/>
-        <source>Murfcoin-Qt</source>
-        <translation>Murfcoin-Qt</translation>
+        <source>A new data directory will be created.</source>
+        <translation>Будет создан новый каталог данных.</translation>
     </message>
     <message>
-        <location line="-12"/>
+        <source>name</source>
+        <translation>имя</translation>
+    </message>
+    <message>
+        <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
+        <translation>Каталог уже существует. Добавьте %1, если вы хотите создать здесь новый каталог.</translation>
+    </message>
+    <message>
+        <source>Path already exists, and is not a directory.</source>
+        <translation>Путь уже существует и не является каталогом.</translation>
+    </message>
+    <message>
+        <source>Cannot create data directory here.</source>
+        <translation>Не удаётся создать здесь каталог данных.</translation>
+    </message>
+</context>
+<context>
+    <name>HelpMessageDialog</name>
+    <message>
         <source>version</source>
-        <translation>Ð²ÐµÑ€Ñ�Ð¸Ñ�</translation>
+        <translation>версия</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <source>(%1-bit)</source>
+        <translation>(%1-бит)</translation>
+    </message>
+    <message>
+        <source>About %1</source>
+        <translation>О %1</translation>
+    </message>
+    <message>
+        <source>Command-line options</source>
+        <translation>Параметры командной строки</translation>
+    </message>
+    <message>
         <source>Usage:</source>
-        <translation>Ð˜Ñ�Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ð½Ð¸Ðµ:</translation>
+        <translation>Использование:</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>command-line options</source>
-        <translation>Ð¿Ð°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ñ‹ ÐºÐ¾Ð¼Ð°Ð½Ð´Ð½Ð¾Ð¹ Ñ�Ñ‚Ñ€Ð¾ÐºÐ¸</translation>
+        <translation>параметры командной строки</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>UI options</source>
-        <translation>ÐžÐ¿Ñ†Ð¸Ð¸ Ð¸Ð½Ñ‚ÐµÑ€Ñ„ÐµÐ¹Ñ�Ð°</translation>
+        <source>UI Options:</source>
+        <translation>Настройки интерфейса:</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation>Ð’Ñ‹Ð±ÐµÑ€Ð¸Ñ‚Ðµ Ñ�Ð·Ñ‹Ðº, Ð½Ð°Ð¿Ñ€Ð¸Ð¼ÐµÑ€ &quot;de_DE&quot; (Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: ÐºÐ°Ðº Ð² Ñ�Ð¸Ñ�Ñ‚ÐµÐ¼Ðµ)</translation>
+        <source>Choose data directory on startup (default: %u)</source>
+        <translation>Выбрать каталог данных при запуске (по умолчанию: %u)</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>Выберите язык, например "de_DE" (по умолчанию: как в системе)</translation>
+    </message>
+    <message>
         <source>Start minimized</source>
-        <translation>Ð—Ð°Ð¿ÑƒÑ�ÐºÐ°Ñ‚ÑŒ Ñ�Ð²Ñ‘Ñ€Ð½ÑƒÑ‚Ñ‹Ð¼</translation>
+        <translation>Запускать свёрнутым</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Show splash screen on startup (default: 1)</source>
-        <translation>ÐŸÐ¾ÐºÐ°Ð·Ñ‹Ð²Ð°Ñ‚ÑŒ Ñ�Ð¿Ð»Ñ�Ñˆ Ð¿Ñ€Ð¸ Ð·Ð°Ð¿ÑƒÑ�ÐºÐµ (Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: 1)</translation>
+        <source>Set SSL root certificates for payment request (default: -system-)</source>
+        <translation>Указать корневые SSL-сертификаты для запроса платежа (по умолчанию: -system-)</translation>
+    </message>
+    <message>
+        <source>Show splash screen on startup (default: %u)</source>
+        <translation>Показывать экран-заставку при запуске (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Reset all settings changed in the GUI</source>
+        <translation>Сбросить все настройки, измененные в графическом интерфейсе</translation>
+    </message>
+</context>
+<context>
+    <name>Intro</name>
+    <message>
+        <source>Welcome</source>
+        <translation>Добро пожаловать</translation>
+    </message>
+    <message>
+        <source>Welcome to %1.</source>
+        <translation>Добро пожаловать в %1</translation>
+    </message>
+    <message>
+        <source>As this is the first time the program is launched, you can choose where %1 will store its data.</source>
+        <translation>При первом запуске программы вы можете выбрать где %1 будет хранить свои данные.</translation>
+    </message>
+    <message>
+        <source>%1 will download and store a copy of the Murfcoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1 скачает и сохранит копию цепи блоков. Как минимум %2GB будут записаны в этот каталог, и со временем он будет расти. Бумажник также будет сохранен в этом каталоге.</translation>
+    </message>
+    <message>
+        <source>Use the default data directory</source>
+        <translation>Использовать каталог данных по умолчанию</translation>
+    </message>
+    <message>
+        <source>Use a custom data directory:</source>
+        <translation>Использовать другой каталог данных:</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" cannot be created.</source>
+        <translation>Ошибка: не удалось создать указанный каталог данных "%1".</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Ошибка</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n GB of free space available</source>
+        <translation><numerusform>%n ГБ свободного места доступно</numerusform><numerusform>%n ГБ свободного места доступно</numerusform><numerusform>%n ГБ свободного места доступно</numerusform><numerusform>%n ГБ свободного места доступно</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>(of %n GB needed)</source>
+        <translation><numerusform>(из необходимых %n ГБ)</numerusform><numerusform>(из необходимых %n ГБ)</numerusform><numerusform>(из необходимых %n ГБ)</numerusform><numerusform>(из необходимых %n ГБ)</numerusform></translation>
+    </message>
+</context>
+<context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>Форма</translation>
+    </message>
+    <message>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the murfcoin network, as detailed below.</source>
+        <translation>Недавние транзакции могут быть пока не видны, поэтому ваш баланс может отображаться некорректно. Эта информация станет корректной, как только ваш бумажник будет синхронизирован с сетью, см. подробности ниже.</translation>
+    </message>
+    <message>
+        <source>Attempting to spend murfcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Попытка потратить биткоины из ещё не отображённых транзакций будет отвергнута сетью.</translation>
+    </message>
+    <message>
+        <source>Number of blocks left</source>
+        <translation>Число оставшихся блоков</translation>
+    </message>
+    <message>
+        <source>Unknown...</source>
+        <translation>Неизвестно...</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>Время последнего блока</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Прогресс</translation>
+    </message>
+    <message>
+        <source>Progress increase per hour</source>
+        <translation>Прогресс за час</translation>
+    </message>
+    <message>
+        <source>calculating...</source>
+        <translation>расчёт...</translation>
+    </message>
+    <message>
+        <source>Estimated time left until synced</source>
+        <translation>Примерное время до завершения синхронизации</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Скрыть</translation>
+    </message>
+    <message>
+        <source>Unknown. Syncing Headers (%1)...</source>
+        <translation>Неизвестно. Синхронизация заголовков (%1)...</translation>
+    </message>
+</context>
+<context>
+    <name>OpenURIDialog</name>
+    <message>
+        <source>Open URI</source>
+        <translation>Открыть URI</translation>
+    </message>
+    <message>
+        <source>Open payment request from URI or file</source>
+        <translation>Открыть запрос платежа из URI или файла</translation>
+    </message>
+    <message>
+        <source>URI:</source>
+        <translation>URI:</translation>
+    </message>
+    <message>
+        <source>Select payment request file</source>
+        <translation>Выбрать файл запроса платежа</translation>
+    </message>
+    <message>
+        <source>Select payment request file to open</source>
+        <translation>Выберите файл запроса платежа</translation>
     </message>
 </context>
 <context>
     <name>OptionsDialog</name>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="+14"/>
         <source>Options</source>
-        <translation>ÐžÐ¿Ñ†Ð¸Ð¸</translation>
+        <translation>Параметры</translation>
     </message>
     <message>
-        <location line="+16"/>
         <source>&amp;Main</source>
-        <translation>&amp;Ð“Ð»Ð°Ð²Ð½Ð°Ñ�</translation>
+        <translation>&amp;Главная</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
-        <translation>Ð�ÐµÐ¾Ð±Ñ�Ð·Ð°Ñ‚ÐµÐ»ÑŒÐ½Ð°Ñ� ÐºÐ¾Ð¼Ð¸Ñ�Ñ�Ð¸Ñ� Ð·Ð° ÐºÐ°Ð¶Ð´Ñ‹Ð¹ ÐšÐ‘ Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ð¸, ÐºÐ¾Ñ‚Ð¾Ñ€Ð°Ñ� ÑƒÑ�ÐºÐ¾Ñ€Ñ�ÐµÑ‚ Ð¾Ð±Ñ€Ð°Ð±Ð¾Ñ‚ÐºÑƒ Ð’Ð°ÑˆÐ¸Ñ… Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ð¹.  Ð‘Ð¾Ð»ÑŒÑˆÐ¸Ð½Ñ�Ñ‚Ð²Ð¾ Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ð¹ Ð·Ð°Ð½Ð¸Ð¼Ð°ÑŽÑ‚ 1ÐšÐ‘.</translation>
+        <source>Automatically start %1 after logging in to the system.</source>
+        <translation>Автоматически запускать %1 после входа в систему.</translation>
     </message>
     <message>
-        <location line="+15"/>
-        <source>Pay transaction &amp;fee</source>
-        <translation>Ð—Ð°Ð¿Ð»Ð°Ñ‚Ð¸Ñ‚ÑŒ ÐºÐ¾&amp;Ð¼Ð¸Ñ�Ñ�Ð¸ÑŽ</translation>
+        <source>&amp;Start %1 on system login</source>
+        <translation>&amp;Запускать %1 при входе в систему</translation>
     </message>
     <message>
-        <location line="+31"/>
-        <source>Automatically start Murfcoin after logging in to the system.</source>
-        <translation>Ð�Ð²Ñ‚Ð¾Ð¼Ð°Ñ‚Ð¸Ñ‡ÐµÑ�ÐºÐ¸ Ð·Ð°Ð¿ÑƒÑ�ÐºÐ°Ñ‚ÑŒ Murfcoin Ð¿Ð¾Ñ�Ð»Ðµ Ð²Ñ…Ð¾Ð´Ð° Ð² Ñ�Ð¸Ñ�Ñ‚ÐµÐ¼Ñƒ</translation>
+        <source>Size of &amp;database cache</source>
+        <translation>Размер кэша &amp;БД</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Start Murfcoin on system login</source>
-        <translation>&amp;Ð—Ð°Ð¿ÑƒÑ�ÐºÐ°Ñ‚ÑŒ Murfcoin Ð¿Ñ€Ð¸ Ð²Ñ…Ð¾Ð´Ðµ Ð² Ñ�Ð¸Ñ�Ñ‚ÐµÐ¼Ñƒ</translation>
+        <source>MB</source>
+        <translation>МБ</translation>
     </message>
     <message>
-        <location line="+35"/>
+        <source>Number of script &amp;verification threads</source>
+        <translation>Число потоков проверки &amp;сценария</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside</source>
+        <translation>Принимать входящие соединения</translation>
+    </message>
+    <message>
+        <source>Allow incoming connections</source>
+        <translation>Разрешить входящие подключения</translation>
+    </message>
+    <message>
+        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
+        <translation>IP-адрес прокси (например IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+    </message>
+    <message>
+        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
+        <translation>Сворачивать вместо закрытия. Если данная опция будет выбрана — приложение закроется только после выбора соответствующего пункта в меню.</translation>
+    </message>
+    <message>
+        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
+        <translation>Сторонние URL (например, block explorer), которые отображаются на вкладке транзакций как пункты контекстного меню. %s в URL заменяется хэшем транзакции. URL отделяются друг от друга вертикальной чертой |.</translation>
+    </message>
+    <message>
+        <source>Third party transaction URLs</source>
+        <translation>Сторонние URL транзакций.</translation>
+    </message>
+    <message>
+        <source>Active command-line options that override above options:</source>
+        <translation>Активные опции командной строки, которые перекрывают вышеуказанные опции:</translation>
+    </message>
+    <message>
         <source>Reset all client options to default.</source>
-        <translation>Ð¡Ð±Ñ€Ð¾Ñ�Ð¸Ñ‚ÑŒ Ð²Ñ�Ðµ Ð¾Ð¿Ñ†Ð¸Ð¸ ÐºÐ»Ð¸ÐµÐ½Ñ‚Ð° Ð½Ð° Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ñ� Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ.</translation>
+        <translation>Сбросить все настройки клиента на значения по умолчанию.</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Reset Options</source>
-        <translation>&amp;Ð¡Ð±Ñ€Ð¾Ñ�Ð¸Ñ‚ÑŒ Ð¾Ð¿Ñ†Ð¸Ð¸</translation>
+        <translation>&amp;Сбросить параметры</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>&amp;Network</source>
-        <translation>&amp;Ð¡ÐµÑ‚ÑŒ</translation>
+        <translation>&amp;Сеть</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <source>(0 = auto, &lt;0 = leave that many cores free)</source>
+        <translation>(0 = автоматически, &lt;0 = оставить столько незагруженных ядер)</translation>
+    </message>
+    <message>
+        <source>W&amp;allet</source>
+        <translation>Б&amp;умажник</translation>
+    </message>
+    <message>
+        <source>Expert</source>
+        <translation>Эксперт</translation>
+    </message>
+    <message>
+        <source>Enable coin &amp;control features</source>
+        <translation>Включить управление входами</translation>
+    </message>
+    <message>
+        <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
+        <translation>При отключении траты неподтверждённой сдачи, сдача от транзакции не может быть использована до тех пор пока у этой транзакции не будет хотя бы одно подтверждение. Это также влияет как ваш баланс рассчитывается.</translation>
+    </message>
+    <message>
+        <source>&amp;Spend unconfirmed change</source>
+        <translation>&amp;Тратить неподтверждённую сдачу</translation>
+    </message>
+    <message>
         <source>Automatically open the Murfcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ð�Ð²Ñ‚Ð¾Ð¼Ð°Ñ‚Ð¸Ñ‡ÐµÑ�ÐºÐ¸ Ð¾Ñ‚ÐºÑ€Ñ‹Ñ‚ÑŒ Ð¿Ð¾Ñ€Ñ‚ Ð´Ð»Ñ� Murfcoin-ÐºÐ»Ð¸ÐµÐ½Ñ‚Ð° Ð½Ð° Ñ€Ð¾ÑƒÑ‚ÐµÑ€Ðµ. Ð Ð°Ð±Ð¾Ñ‚Ð°ÐµÑ‚ Ñ‚Ð¾Ð»ÑŒÐºÐ¾ ÐµÑ�Ð»Ð¸ Ð’Ð°Ñˆ Ñ€Ð¾ÑƒÑ‚ÐµÑ€ Ð¿Ð¾Ð´Ð´ÐµÑ€Ð¶Ð¸Ð²Ð°ÐµÑ‚ UPnP, Ð¸ Ð´Ð°Ð½Ð½Ð°Ñ� Ñ„ÑƒÐ½ÐºÑ†Ð¸Ñ� Ð²ÐºÐ»ÑŽÑ‡ÐµÐ½Ð°.</translation>
+        <translation>Автоматически открыть порт для Murfcoin-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Map port using &amp;UPnP</source>
-        <translation>ÐŸÑ€Ð¾Ð±Ñ€Ð¾Ñ�Ð¸Ñ‚ÑŒ Ð¿Ð¾Ñ€Ñ‚ Ñ‡ÐµÑ€ÐµÐ· &amp;UPnP</translation>
+        <translation>Пробросить порт через &amp;UPnP</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Connect to the Murfcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>ÐŸÐ¾Ð´ÐºÐ»ÑŽÑ‡Ð°Ñ‚ÑŒÑ�Ñ� Ðº Ñ�ÐµÑ‚Ð¸ Murfcoin Ñ‡ÐµÑ€ÐµÐ· Ð¿Ñ€Ð¾ÐºÑ�Ð¸ SOCKS (Ð½Ð°Ð¿Ñ€Ð¸Ð¼ÐµÑ€, Ð¿Ñ€Ð¸ Ð¿Ð¾Ð´ÐºÐ»ÑŽÑ‡ÐµÐ½Ð¸Ð¸ Ñ‡ÐµÑ€ÐµÐ· Tor).</translation>
+        <source>Connect to the Murfcoin network through a SOCKS5 proxy.</source>
+        <translation>Подключаться к сети Murfcoin через прокси SOCKS5</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Connect through SOCKS proxy:</source>
-        <translation>&amp;ÐŸÐ¾Ð´ÐºÐ»ÑŽÑ‡Ð°Ñ‚ÑŒÑ�Ñ� Ñ‡ÐµÑ€ÐµÐ· SOCKS Ð¿Ñ€Ð¾ÐºÑ�Ð¸:</translation>
+        <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
+        <translation>&amp;Подключаться к сети Murfcoin через прокси SOCKS5 (прокси по умолчанию):</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Proxy &amp;IP:</source>
-        <translation>&amp;IP ÐŸÑ€Ð¾ÐºÑ�Ð¸: </translation>
+        <translation>&amp;IP Прокси: </translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>IP address of the proxy (e.g. 127.0.0.1)</source>
-        <translation>IP-Ð°Ð´Ñ€ÐµÑ� Ð¿Ñ€Ð¾ÐºÑ�Ð¸ (Ð½Ð°Ð¿Ñ€Ð¸Ð¼ÐµÑ€ 127.0.0.1)</translation>
-    </message>
-    <message>
-        <location line="+7"/>
         <source>&amp;Port:</source>
-        <translation>ÐŸÐ¾&amp;Ñ€Ñ‚: </translation>
+        <translation>По&amp;рт: </translation>
     </message>
     <message>
-        <location line="+19"/>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>ÐŸÐ¾Ñ€Ñ‚ Ð¿Ñ€Ð¾ÐºÑ�Ð¸-Ñ�ÐµÑ€Ð²ÐµÑ€Ð° (Ð½Ð°Ð¿Ñ€Ð¸Ð¼ÐµÑ€, 9050)</translation>
+        <translation>Порт прокси-сервера (например, 9050)</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>SOCKS &amp;Version:</source>
-        <translation>&amp;Ð’ÐµÑ€Ñ�Ð¸Ñ� SOCKS:</translation>
+        <source>Used for reaching peers via:</source>
+        <translation>Используется для достижения участников через:</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>SOCKS version of the proxy (e.g. 5)</source>
-        <translation>Ð’ÐµÑ€Ñ�Ð¸Ñ� SOCKS-Ð¿Ñ€Ð¾ÐºÑ�Ð¸ (Ð½Ð°Ð¿Ñ€Ð¸Ð¼ÐµÑ€, 5)</translation>
+        <source>Shows, if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
+        <translation>Показывается, если включено прокси SOCKS5 по умолчанию, используемое для соединения с участниками по этому типу сети.</translation>
     </message>
     <message>
-        <location line="+36"/>
+        <source>IPv4</source>
+        <translation>IPv4</translation>
+    </message>
+    <message>
+        <source>IPv6</source>
+        <translation>IPv6</translation>
+    </message>
+    <message>
+        <source>Tor</source>
+        <translation>Tor</translation>
+    </message>
+    <message>
+        <source>Connect to the Murfcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Подключаться к сети Murfcoin через прокси SOCKS5 для скрытых сервисов Tor.</translation>
+    </message>
+    <message>
+        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
+        <translation>Использовать отдельный прокси SOCKS5 для соединения с участниками через скрытые сервисы Tor:</translation>
+    </message>
+    <message>
         <source>&amp;Window</source>
-        <translation>&amp;ÐžÐºÐ½Ð¾</translation>
+        <translation>&amp;Окно</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <source>&amp;Hide the icon from the system tray.</source>
+        <translation>&amp;Скрыть иконку из системного трея.</translation>
+    </message>
+    <message>
+        <source>Hide tray icon</source>
+        <translation>Скрыть иконку в трее</translation>
+    </message>
+    <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>ÐŸÐ¾ÐºÐ°Ð·Ñ‹Ð²Ð°Ñ‚ÑŒ Ñ‚Ð¾Ð»ÑŒÐºÐ¾ Ð¸ÐºÐ¾Ð½ÐºÑƒ Ð² Ñ�Ð¸Ñ�Ñ‚ÐµÐ¼Ð½Ð¾Ð¼ Ð»Ð¾Ñ‚ÐºÐµ Ð¿Ð¾Ñ�Ð»Ðµ Ñ�Ð²Ð¾Ñ€Ð°Ñ‡Ð¸Ð²Ð°Ð½Ð¸Ñ� Ð¾ÐºÐ½Ð°.</translation>
+        <translation>Показывать только иконку в системном лотке после сворачивания окна.</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;CÐ²Ð¾Ñ€Ð°Ñ‡Ð¸Ð²Ð°Ñ‚ÑŒ Ð² Ñ�Ð¸Ñ�Ñ‚ÐµÐ¼Ð½Ñ‹Ð¹ Ð»Ð¾Ñ‚Ð¾Ðº Ð²Ð¼ÐµÑ�Ñ‚Ð¾ Ð¿Ð°Ð½ÐµÐ»Ð¸ Ð·Ð°Ð´Ð°Ñ‡</translation>
+        <translation>&amp;Cворачивать в системный лоток вместо панели задач</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Ð¡Ð²Ð¾Ñ€Ð°Ñ‡Ð¸Ð²Ð°Ñ‚ÑŒ Ð²Ð¼ÐµÑ�Ñ‚Ð¾ Ð·Ð°ÐºÑ€Ñ‹Ñ‚Ð¸Ñ�. Ð•Ñ�Ð»Ð¸ Ð´Ð°Ð½Ð½Ð°Ñ� Ð¾Ð¿Ñ†Ð¸Ñ� Ð±ÑƒÐ´ÐµÑ‚ Ð²Ñ‹Ð±Ñ€Ð°Ð½Ð° â€” Ð¿Ñ€Ð¸Ð»Ð¾Ð¶ÐµÐ½Ð¸Ðµ Ð·Ð°ÐºÑ€Ð¾ÐµÑ‚Ñ�Ñ� Ñ‚Ð¾Ð»ÑŒÐºÐ¾ Ð¿Ð¾Ñ�Ð»Ðµ Ð²Ñ‹Ð±Ð¾Ñ€Ð° Ñ�Ð¾Ð¾Ñ‚Ð²ÐµÑ‚Ñ�Ñ‚Ð²ÑƒÑŽÑ‰ÐµÐ³Ð¾ Ð¿ÑƒÐ½ÐºÑ‚Ð° Ð² Ð¼ÐµÐ½ÑŽ.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>M&amp;inimize on close</source>
-        <translation>Ð¡&amp;Ð²Ð¾Ñ€Ð°Ñ‡Ð¸Ð²Ð°Ñ‚ÑŒ Ð¿Ñ€Ð¸ Ð·Ð°ÐºÑ€Ñ‹Ñ‚Ð¸Ð¸</translation>
+        <translation>С&amp;ворачивать при закрытии</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>&amp;Display</source>
-        <translation>Ðž&amp;Ñ‚Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð¸Ðµ</translation>
+        <translation>О&amp;тображение</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>User Interface &amp;language:</source>
-        <translation>&amp;Ð¯Ð·Ñ‹Ðº Ð¸Ð½Ñ‚ÐµÑ€Ñ„ÐµÐ¹Ñ�Ð°:</translation>
+        <translation>&amp;Язык интерфейса:</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Murfcoin.</source>
-        <translation>Ð—Ð´ÐµÑ�ÑŒ Ð¼Ð¾Ð¶Ð½Ð¾ Ð²Ñ‹Ð±Ñ€Ð°Ñ‚ÑŒ Ñ�Ð·Ñ‹Ðº Ð¸Ð½Ñ‚ÐµÑ€Ñ„ÐµÐ¹Ñ�Ð°. Ð�Ð°Ñ�Ñ‚Ñ€Ð¾Ð¹ÐºÐ¸ Ð²Ñ�Ñ‚ÑƒÐ¿Ñ�Ñ‚ Ð² Ñ�Ð¸Ð»Ñƒ Ð¿Ð¾Ñ�Ð»Ðµ Ð¿ÐµÑ€ÐµÐ·Ð°Ð¿ÑƒÑ�ÐºÐ° Murfcoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting %1.</source>
+        <translation>Здесь можно установить язык пользовательского интерфейса. Настройки вступят в силу после перезагрузки %1</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;ÐžÑ‚Ð¾Ð±Ñ€Ð°Ð¶Ð°Ñ‚ÑŒ Ñ�ÑƒÐ¼Ð¼Ñ‹ Ð² ÐµÐ´Ð¸Ð½Ð¸Ñ†Ð°Ñ…: </translation>
+        <translation>&amp;Отображать суммы в единицах: </translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Ð’Ñ‹Ð±ÐµÑ€Ð¸Ñ‚Ðµ ÐµÐ´Ð¸Ð½Ð¸Ñ†Ñƒ Ð¸Ð·Ð¼ÐµÑ€ÐµÐ½Ð¸Ñ� Ð¼Ð¾Ð½ÐµÑ‚ Ð¿Ñ€Ð¸ Ð¾Ñ‚Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð¸Ð¸ Ð¸ Ð¾Ñ‚Ð¿Ñ€Ð°Ð²ÐºÐµ.</translation>
+        <translation>Выберите единицу измерения монет при отображении и отправке.</translation>
     </message>
     <message>
-        <location line="+9"/>
-        <source>Whether to show Murfcoin addresses in the transaction list or not.</source>
-        <translation>ÐŸÐ¾ÐºÐ°Ð·Ñ‹Ð²Ð°Ñ‚ÑŒ Ð»Ð¸ Ð°Ð´Ñ€ÐµÑ�Ð° Murfcoin Ð² Ñ�Ð¿Ð¸Ñ�ÐºÐµ Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ð¹.</translation>
+        <source>Whether to show coin control features or not.</source>
+        <translation>Показывать ли функции контроля монет или нет.</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Display addresses in transaction list</source>
-        <translation>&amp;ÐŸÐ¾ÐºÐ°Ð·Ñ‹Ð²Ð°Ñ‚ÑŒ Ð°Ð´Ñ€ÐµÑ�Ð° Ð² Ñ�Ð¿Ð¸Ñ�ÐºÐµ Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ð¹</translation>
-    </message>
-    <message>
-        <location line="+71"/>
         <source>&amp;OK</source>
-        <translation>Ðž&amp;Ðš</translation>
+        <translation>&amp;OK</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Cancel</source>
-        <translation>&amp;ÐžÑ‚Ð¼ÐµÐ½Ð°</translation>
+        <translation>&amp;Отмена</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>&amp;Apply</source>
-        <translation>&amp;ÐŸÑ€Ð¸Ð¼ÐµÐ½Ð¸Ñ‚ÑŒ</translation>
-    </message>
-    <message>
-        <location filename="../optionsdialog.cpp" line="+53"/>
         <source>default</source>
-        <translation>Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ</translation>
+        <translation>по умолчанию</translation>
     </message>
     <message>
-        <location line="+130"/>
+        <source>none</source>
+        <translation>ничего</translation>
+    </message>
+    <message>
         <source>Confirm options reset</source>
-        <translation>ÐŸÐ¾Ð´Ñ‚Ð²ÐµÑ€Ð´Ð¸Ñ‚Ðµ Ñ�Ð±Ñ€Ð¾Ñ� Ð¾Ð¿Ñ†Ð¸Ð¹</translation>
+        <translation>Подтвердите сброс параметров</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Some settings may require a client restart to take effect.</source>
-        <translation>Ð�ÐµÐºÐ¾Ñ‚Ð¾Ñ€Ñ‹Ðµ Ð½Ð°Ñ�Ñ‚Ñ€Ð¾Ð¹ÐºÐ¸ Ð¼Ð¾Ð³ÑƒÑ‚ Ð¿Ð¾Ñ‚Ñ€ÐµÐ±Ð¾Ð²Ð°Ñ‚ÑŒ Ð¿ÐµÑ€ÐµÐ·Ð°Ð¿ÑƒÑ�Ðº ÐºÐ»Ð¸ÐµÐ½Ñ‚Ð°, Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð²Ñ�Ñ‚ÑƒÐ¿Ð¸Ñ‚ÑŒ Ð² Ñ�Ð¸Ð»Ñƒ.</translation>
+        <source>Client restart required to activate changes.</source>
+        <translation>Для применения изменений требуется перезапуск клиента.</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Do you want to proceed?</source>
-        <translation>Ð–ÐµÐ»Ð°ÐµÑ‚Ðµ Ð¿Ñ€Ð¾Ð´Ð¾Ð»Ð¶Ð¸Ñ‚ÑŒ?</translation>
+        <source>Client will be shut down. Do you want to proceed?</source>
+        <translation>Клиент будет выключен. Желаете продолжить?</translation>
     </message>
     <message>
-        <location line="+42"/>
-        <location line="+9"/>
-        <source>Warning</source>
-        <translation>Ð’Ð½Ð¸Ð¼Ð°Ð½Ð¸Ðµ</translation>
+        <source>This change would require a client restart.</source>
+        <translation>Это изменение потребует перезапуска клиента.</translation>
     </message>
     <message>
-        <location line="-9"/>
-        <location line="+9"/>
-        <source>This setting will take effect after restarting Murfcoin.</source>
-        <translation>Ð­Ñ‚Ð° Ð½Ð°Ñ�Ñ‚Ñ€Ð¾Ð¹ÐºÐ° Ð²Ñ�Ñ‚ÑƒÐ¿Ð¸Ñ‚ Ð² Ñ�Ð¸Ð»Ñƒ Ð¿Ð¾Ñ�Ð»Ðµ Ð¿ÐµÑ€ÐµÐ·Ð°Ð¿ÑƒÑ�ÐºÐ° Murfcoin</translation>
-    </message>
-    <message>
-        <location line="+29"/>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Ð�Ð´Ñ€ÐµÑ� Ð¿Ñ€Ð¾ÐºÑ�Ð¸ Ð½ÐµÐ²ÐµÑ€ÐµÐ½.</translation>
+        <translation>Адрес прокси неверен.</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
-        <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
-        <translation>Ð¤Ð¾Ñ€Ð¼Ð°</translation>
+        <translation>Форма</translation>
     </message>
     <message>
-        <location line="+50"/>
-        <location line="+166"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Murfcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>ÐžÑ‚Ð¾Ð±Ñ€Ð°Ð¶Ð°ÐµÐ¼Ð°Ñ� Ð¸Ð½Ñ„Ð¾Ñ€Ð¼Ð°Ñ†Ð¸Ñ� Ð¼Ð¾Ð¶ÐµÑ‚ Ð±Ñ‹Ñ‚ÑŒ ÑƒÑ�Ñ‚Ð°Ñ€ÐµÐ²ÑˆÐµÐ¹. Ð’Ð°Ñˆ Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸Ðº Ð°Ð²Ñ‚Ð¾Ð¼Ð°Ñ‚Ð¸Ñ‡ÐµÑ�ÐºÐ¸ Ñ�Ð¸Ð½Ñ…Ñ€Ð¾Ð½Ð¸Ð·Ð¸Ñ€ÑƒÐµÑ‚Ñ�Ñ� Ñ� Ñ�ÐµÑ‚ÑŒÑŽ Murfcoin Ð¿Ð¾Ñ�Ð»Ðµ Ð¿Ð¾Ð´ÐºÐ»ÑŽÑ‡ÐµÐ½Ð¸Ñ�, Ð½Ð¾ Ñ�Ñ‚Ð¾Ñ‚ Ð¿Ñ€Ð¾Ñ†ÐµÑ�Ñ� Ð¿Ð¾ÐºÐ° Ð½Ðµ Ð·Ð°Ð²ÐµÑ€ÑˆÑ‘Ð½.</translation>
+        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью Murfcoin после подключения, но этот процесс пока не завершён.</translation>
     </message>
     <message>
-        <location line="-124"/>
-        <source>Balance:</source>
-        <translation>Ð‘Ð°Ð»Ð°Ð½Ñ�:</translation>
+        <source>Watch-only:</source>
+        <translation>Только наблюдение:</translation>
     </message>
     <message>
-        <location line="+29"/>
-        <source>Unconfirmed:</source>
-        <translation>Ð�Ðµ Ð¿Ð¾Ð´Ñ‚Ð²ÐµÑ€Ð¶Ð´ÐµÐ½Ð¾:</translation>
+        <source>Available:</source>
+        <translation>Доступно:</translation>
     </message>
     <message>
-        <location line="-78"/>
-        <source>Wallet</source>
-        <translation>Ð‘ÑƒÐ¼Ð°Ð¶Ð½Ð¸Ðº</translation>
+        <source>Your current spendable balance</source>
+        <translation>Ваш текущий расходный баланс</translation>
     </message>
     <message>
-        <location line="+107"/>
+        <source>Pending:</source>
+        <translation>В ожидании:</translation>
+    </message>
+    <message>
+        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
+        <translation>Общая сумма всех транзакций, которые до сих пор не подтверждены, и до сих пор не учитываются в расходном балансе</translation>
+    </message>
+    <message>
         <source>Immature:</source>
-        <translation>Ð�ÐµÐ·Ñ€ÐµÐ»Ñ‹Ðµ:</translation>
+        <translation>Незрелые:</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Mined balance that has not yet matured</source>
-        <translation>Ð‘Ð°Ð»Ð°Ð½Ñ� Ð´Ð¾Ð±Ñ‹Ñ‚Ñ‹Ñ… Ð¼Ð¾Ð½ÐµÑ‚, ÐºÐ¾Ñ‚Ð¾Ñ€Ñ‹Ð¹ ÐµÑ‰Ñ‘ Ð½Ðµ Ñ�Ð¾Ð·Ñ€ÐµÐ»</translation>
+        <translation>Баланс добытых монет, который ещё не созрел</translation>
     </message>
     <message>
-        <location line="+46"/>
-        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;ÐŸÐ¾Ñ�Ð»ÐµÐ´Ð½Ð¸Ðµ Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ð¸&lt;/b&gt;</translation>
+        <source>Balances</source>
+        <translation>Балансы</translation>
     </message>
     <message>
-        <location line="-101"/>
-        <source>Your current balance</source>
-        <translation>Ð’Ð°Ñˆ Ñ‚ÐµÐºÑƒÑ‰Ð¸Ð¹ Ð±Ð°Ð»Ð°Ð½Ñ�</translation>
+        <source>Total:</source>
+        <translation>Итого:</translation>
     </message>
     <message>
-        <location line="+29"/>
-        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>ÐžÐ±Ñ‰Ð°Ñ� Ñ�ÑƒÐ¼Ð¼Ð° Ð²Ñ�ÐµÑ… Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ð¹, ÐºÐ¾Ñ‚Ð¾Ñ€Ñ‹Ðµ Ð´Ð¾ Ñ�Ð¸Ñ… Ð¿Ð¾Ñ€ Ð½Ðµ Ð¿Ð¾Ð´Ñ‚Ð²ÐµÑ€Ð¶Ð´ÐµÐ½Ñ‹, Ð¸ Ð´Ð¾ Ñ�Ð¸Ñ… Ð¿Ð¾Ñ€ Ð½Ðµ ÑƒÑ‡Ð¸Ñ‚Ñ‹Ð²Ð°ÑŽÑ‚Ñ�Ñ� Ð² Ñ‚ÐµÐºÑƒÑ‰ÐµÐ¼ Ð±Ð°Ð»Ð°Ð½Ñ�Ðµ</translation>
+        <source>Your current total balance</source>
+        <translation>Ваш текущий общий баланс</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="+116"/>
-        <location line="+1"/>
-        <source>out of sync</source>
-        <translation>Ð½Ðµ Ñ�Ð¸Ð½Ñ…Ñ€Ð¾Ð½Ð¸Ð·Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¾</translation>
+        <source>Your current balance in watch-only addresses</source>
+        <translation>Ваш текущий баланс в адресах наблюдения</translation>
+    </message>
+    <message>
+        <source>Spendable:</source>
+        <translation>Доступно:</translation>
+    </message>
+    <message>
+        <source>Recent transactions</source>
+        <translation>Последние транзакции</translation>
+    </message>
+    <message>
+        <source>Unconfirmed transactions to watch-only addresses</source>
+        <translation>Неподтверждённые транзакции на адреса наблюдения</translation>
+    </message>
+    <message>
+        <source>Mined balance in watch-only addresses that has not yet matured</source>
+        <translation>Баланс добытых монет на адресах наблюдения, который ещё не созрел</translation>
+    </message>
+    <message>
+        <source>Current total balance in watch-only addresses</source>
+        <translation>Текущий общий баланс на адресах наблюдения</translation>
     </message>
 </context>
 <context>
     <name>PaymentServer</name>
     <message>
-        <location filename="../paymentserver.cpp" line="+107"/>
+        <source>Payment request error</source>
+        <translation>Ошибка запроса платежа</translation>
+    </message>
+    <message>
         <source>Cannot start murfcoin: click-to-pay handler</source>
-        <translation>Ð�Ðµ ÑƒÐ´Ð°Ñ‘Ñ‚Ñ�Ñ� Ð·Ð°Ð¿ÑƒÑ�Ñ‚Ð¸Ñ‚ÑŒ murfcoin: Ð¾Ð±Ñ€Ð°Ð±Ð¾Ñ‚Ñ‡Ð¸Ðº click-to-pay</translation>
+        <translation>Не удаётся запустить murfcoin: обработчик click-to-pay</translation>
+    </message>
+    <message>
+        <source>URI handling</source>
+        <translation>Обработка URI</translation>
+    </message>
+    <message>
+        <source>Payment request fetch URL is invalid: %1</source>
+        <translation>Неверный URL запроса платежа: %1</translation>
+    </message>
+    <message>
+        <source>Invalid payment address %1</source>
+        <translation>Неверный адрес платежа %1</translation>
+    </message>
+    <message>
+        <source>URI cannot be parsed! This can be caused by an invalid Murfcoin address or malformed URI parameters.</source>
+        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом Murfcoin или неправильными параметрами URI.</translation>
+    </message>
+    <message>
+        <source>Payment request file handling</source>
+        <translation>Обработка файла запроса платежа</translation>
+    </message>
+    <message>
+        <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
+        <translation>Файл запроса платежа не может быть прочитан! Обычно это происходит из-за неверного файла запроса платежа.</translation>
+    </message>
+    <message>
+        <source>Payment request rejected</source>
+        <translation>Запрос платежа отклонён</translation>
+    </message>
+    <message>
+        <source>Payment request network doesn't match client network.</source>
+        <translation>Сеть запроса платежа не совпадает с сетью клиента.</translation>
+    </message>
+    <message>
+        <source>Payment request expired.</source>
+        <translation>Запрос платежа просрочен.</translation>
+    </message>
+    <message>
+        <source>Payment request is not initialized.</source>
+        <translation>Запрос платежа не инициализирован.</translation>
+    </message>
+    <message>
+        <source>Unverified payment requests to custom payment scripts are unsupported.</source>
+        <translation>Непроверенные запросы платежей с нестандартными платёжными сценариями не поддерживаются.</translation>
+    </message>
+    <message>
+        <source>Invalid payment request.</source>
+        <translation>Неверный запрос платежа.</translation>
+    </message>
+    <message>
+        <source>Requested payment amount of %1 is too small (considered dust).</source>
+        <translation>Запрошенная сумма платежа %1 слишком мала (считается пылью).</translation>
+    </message>
+    <message>
+        <source>Refund from %1</source>
+        <translation>Возврат от %1</translation>
+    </message>
+    <message>
+        <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
+        <translation>Запрос платежа %1 слишком большой (%2 байтов, разрешено %3 байтов).</translation>
+    </message>
+    <message>
+        <source>Error communicating with %1: %2</source>
+        <translation>Ошибка связи с %1: %2</translation>
+    </message>
+    <message>
+        <source>Payment request cannot be parsed!</source>
+        <translation>Запрос платежа не может быть разобран!</translation>
+    </message>
+    <message>
+        <source>Bad response from server %1</source>
+        <translation>Плохой ответ сервера %1</translation>
+    </message>
+    <message>
+        <source>Network request error</source>
+        <translation>Ошибка сетевого запроса</translation>
+    </message>
+    <message>
+        <source>Payment acknowledged</source>
+        <translation>Платёж принят</translation>
     </message>
 </context>
 <context>
-    <name>QRCodeDialog</name>
+    <name>PeerTableModel</name>
     <message>
-        <location filename="../forms/qrcodedialog.ui" line="+14"/>
-        <source>QR Code Dialog</source>
-        <translation>Ð”Ð¸Ð°Ð»Ð¾Ð³ QR-ÐºÐ¾Ð´Ð°</translation>
+        <source>User Agent</source>
+        <translation>Юзер-агент</translation>
     </message>
     <message>
-        <location line="+59"/>
-        <source>Request Payment</source>
-        <translation>Ð—Ð°Ð¿Ñ€Ð¾Ñ�Ð¸Ñ‚ÑŒ Ð¿Ð»Ð°Ñ‚Ñ‘Ð¶</translation>
+        <source>Node/Service</source>
+        <translation>Узел/сервис</translation>
     </message>
     <message>
-        <location line="+56"/>
-        <source>Amount:</source>
-        <translation>ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑ�Ñ‚Ð²Ð¾:</translation>
+        <source>NodeId</source>
+        <translation>Id узла</translation>
     </message>
     <message>
-        <location line="-44"/>
-        <source>Label:</source>
-        <translation>ÐœÐµÑ‚ÐºÐ°:</translation>
+        <source>Ping</source>
+        <translation>Пинг</translation>
+    </message>
+</context>
+<context>
+    <name>QObject</name>
+    <message>
+        <source>Amount</source>
+        <translation>Сумма</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>Message:</source>
-        <translation>Ð¡Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ:</translation>
+        <source>Enter a Murfcoin address (e.g. %1)</source>
+        <translation>Введите адрес Murfcoin (например, %1)</translation>
     </message>
     <message>
-        <location line="+71"/>
-        <source>&amp;Save As...</source>
-        <translation>&amp;Ð¡Ð¾Ñ…Ñ€Ð°Ð½Ð¸Ñ‚ÑŒ ÐºÐ°Ðº...</translation>
+        <source>%1 d</source>
+        <translation>%1 д</translation>
     </message>
     <message>
-        <location filename="../qrcodedialog.cpp" line="+62"/>
-        <source>Error encoding URI into QR Code.</source>
-        <translation>ÐžÑˆÐ¸Ð±ÐºÐ° ÐºÐ¾Ð´Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ñ� URI Ð² QR-ÐºÐ¾Ð´</translation>
+        <source>%1 h</source>
+        <translation>%1 ч</translation>
     </message>
     <message>
-        <location line="+40"/>
-        <source>The entered amount is invalid, please check.</source>
-        <translation>Ð’Ð²ÐµÐ´ÐµÐ½Ð¾ Ð½ÐµÐ²ÐµÑ€Ð½Ð¾Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑ�Ñ‚Ð²Ð¾, Ð¿Ñ€Ð¾Ð²ÐµÑ€ÑŒÑ‚Ðµ ÐµÑ‰Ñ‘ Ñ€Ð°Ð·.</translation>
+        <source>%1 m</source>
+        <translation>%1 мин</translation>
     </message>
     <message>
-        <location line="+23"/>
-        <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>ÐŸÐ¾Ð»ÑƒÑ‡Ð¸Ð²ÑˆÐ¸Ð¹Ñ�Ñ� URI Ñ�Ð»Ð¸ÑˆÐºÐ¾Ð¼ Ð´Ð»Ð¸Ð½Ð½Ñ‹Ð¹, Ð¿Ð¾Ð¿Ñ€Ð¾Ð±ÑƒÐ¹Ñ‚Ðµ Ñ�Ð¾ÐºÑ€Ð°Ñ‚Ð¸Ñ‚ÑŒ Ñ‚ÐµÐºÑ�Ñ‚ Ð¼ÐµÑ‚ÐºÐ¸ / Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ñ�.</translation>
+        <source>%1 s</source>
+        <translation>%1 с</translation>
     </message>
     <message>
-        <location line="+25"/>
+        <source>None</source>
+        <translation>Ничего</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>Н/Д</translation>
+    </message>
+    <message>
+        <source>%1 ms</source>
+        <translation>%1 мс</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n second(s)</source>
+        <translation><numerusform>%n секунда</numerusform><numerusform>%n секунды</numerusform><numerusform>%n секунд</numerusform><numerusform>%n секунд</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n minute(s)</source>
+        <translation><numerusform>%n минута</numerusform><numerusform>%n минут</numerusform><numerusform>%n минут</numerusform><numerusform>%n минут</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n час</numerusform><numerusform>%n часа</numerusform><numerusform>%n часов</numerusform><numerusform>%n часов</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n день</numerusform><numerusform>%n дня</numerusform><numerusform>%n дней</numerusform><numerusform>%n дней</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n неделя</numerusform><numerusform>%n недели</numerusform><numerusform>%n недель</numerusform><numerusform>%n недель</numerusform></translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation>%1 и %2</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n год</numerusform><numerusform>%n года</numerusform><numerusform>%n лет</numerusform><numerusform>%n лет</numerusform></translation>
+    </message>
+    <message>
+        <source>%1 didn't yet exit safely...</source>
+        <translation>%1 ещё не завершился безопасно...</translation>
+    </message>
+</context>
+<context>
+    <name>QObject::QObject</name>
+    <message>
+        <source>Error: Specified data directory "%1" does not exist.</source>
+        <translation>Ошибка: указанный каталог "%1" не существует.</translation>
+    </message>
+    <message>
+        <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
+        <translation>Ошибка: не удалось разобрать конфигурационный файл: %1. Используйте синтаксис вида ключ=значение.</translation>
+    </message>
+    <message>
+        <source>Error: %1</source>
+        <translation>Ошибка: %1</translation>
+    </message>
+</context>
+<context>
+    <name>QRImageWidget</name>
+    <message>
+        <source>&amp;Save Image...</source>
+        <translation>&amp;Сохранить изображение...</translation>
+    </message>
+    <message>
+        <source>&amp;Copy Image</source>
+        <translation>Копировать &amp;изображение</translation>
+    </message>
+    <message>
         <source>Save QR Code</source>
-        <translation>Ð¡Ð¾Ñ…Ñ€Ð°Ð½Ð¸Ñ‚ÑŒ QR-ÐºÐ¾Ð´</translation>
+        <translation>Сохранить QR-код</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>PNG Images (*.png)</source>
-        <translation>PNG Ð˜Ð·Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð¸Ñ� (*.png)</translation>
+        <source>PNG Image (*.png)</source>
+        <translation>Изображение PNG (*.png)</translation>
     </message>
 </context>
 <context>
     <name>RPCConsole</name>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="+46"/>
-        <source>Client name</source>
-        <translation>Ð˜Ð¼Ñ� ÐºÐ»Ð¸ÐµÐ½Ñ‚Ð°</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <location line="+23"/>
-        <location line="+26"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+36"/>
-        <location line="+53"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location filename="../rpcconsole.cpp" line="+339"/>
         <source>N/A</source>
-        <translation>Ð�/Ð”</translation>
+        <translation>Н/Д</translation>
     </message>
     <message>
-        <location line="-217"/>
         <source>Client version</source>
-        <translation>Ð’ÐµÑ€Ñ�Ð¸Ñ� ÐºÐ»Ð¸ÐµÐ½Ñ‚Ð°</translation>
+        <translation>Версия клиента</translation>
     </message>
     <message>
-        <location line="-45"/>
         <source>&amp;Information</source>
-        <translation>&amp;Ð˜Ð½Ñ„Ð¾Ñ€Ð¼Ð°Ñ†Ð¸Ñ�</translation>
+        <translation>&amp;Информация</translation>
     </message>
     <message>
-        <location line="+68"/>
-        <source>Using OpenSSL version</source>
-        <translation>Ð˜Ñ�Ð¿Ð¾Ð»ÑŒÐ·ÑƒÐµÑ‚Ñ�Ñ� Ð²ÐµÑ€Ñ�Ð¸Ñ� OpenSSL</translation>
+        <source>Debug window</source>
+        <translation>Окно отладки</translation>
     </message>
     <message>
-        <location line="+49"/>
+        <source>General</source>
+        <translation>Общие</translation>
+    </message>
+    <message>
+        <source>Using BerkeleyDB version</source>
+        <translation>Используется версия BerkeleyDB</translation>
+    </message>
+    <message>
+        <source>Datadir</source>
+        <translation>Каталог для данных</translation>
+    </message>
+    <message>
         <source>Startup time</source>
-        <translation>Ð’Ñ€ÐµÐ¼Ñ� Ð·Ð°Ð¿ÑƒÑ�ÐºÐ°</translation>
+        <translation>Время запуска</translation>
     </message>
     <message>
-        <location line="+29"/>
         <source>Network</source>
-        <translation>Ð¡ÐµÑ‚ÑŒ</translation>
+        <translation>Сеть</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <source>Name</source>
+        <translation>Имя</translation>
+    </message>
+    <message>
         <source>Number of connections</source>
-        <translation>Ð§Ð¸Ñ�Ð»Ð¾ Ð¿Ð¾Ð´ÐºÐ»ÑŽÑ‡ÐµÐ½Ð¸Ð¹</translation>
+        <translation>Число подключений</translation>
     </message>
     <message>
-        <location line="+23"/>
-        <source>On testnet</source>
-        <translation>Ð’ Ñ‚ÐµÑ�Ñ‚Ð¾Ð²Ð¾Ð¹ Ñ�ÐµÑ‚Ð¸</translation>
-    </message>
-    <message>
-        <location line="+23"/>
         <source>Block chain</source>
-        <translation>Ð¦ÐµÐ¿ÑŒ Ð±Ð»Ð¾ÐºÐ¾Ð²</translation>
+        <translation>Цепь блоков</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Current number of blocks</source>
-        <translation>Ð¢ÐµÐºÑƒÑ‰ÐµÐµ Ñ‡Ð¸Ñ�Ð»Ð¾ Ð±Ð»Ð¾ÐºÐ¾Ð²</translation>
+        <translation>Текущее число блоков</translation>
     </message>
     <message>
-        <location line="+23"/>
-        <source>Estimated total blocks</source>
-        <translation>Ð Ð°Ñ�Ñ‡Ñ‘Ñ‚Ð½Ð¾Ðµ Ñ‡Ð¸Ñ�Ð»Ð¾ Ð±Ð»Ð¾ÐºÐ¾Ð²</translation>
+        <source>Memory Pool</source>
+        <translation>Пул памяти</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <source>Current number of transactions</source>
+        <translation>Текущее число транзакций</translation>
+    </message>
+    <message>
+        <source>Memory usage</source>
+        <translation>Использование памяти</translation>
+    </message>
+    <message>
+        <source>Received</source>
+        <translation>Получено</translation>
+    </message>
+    <message>
+        <source>Sent</source>
+        <translation>Отправлено</translation>
+    </message>
+    <message>
+        <source>&amp;Peers</source>
+        <translation>&amp;Участники</translation>
+    </message>
+    <message>
+        <source>Banned peers</source>
+        <translation>Заблокированные участники</translation>
+    </message>
+    <message>
+        <source>Select a peer to view detailed information.</source>
+        <translation>Выберите участника для просмотра подробностей.</translation>
+    </message>
+    <message>
+        <source>Whitelisted</source>
+        <translation>Доверенный</translation>
+    </message>
+    <message>
+        <source>Direction</source>
+        <translation>Направление</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Версия</translation>
+    </message>
+    <message>
+        <source>Starting Block</source>
+        <translation>Начальный блок</translation>
+    </message>
+    <message>
+        <source>Synced Headers</source>
+        <translation>Синхронизировано заголовков</translation>
+    </message>
+    <message>
+        <source>Synced Blocks</source>
+        <translation>Синхронизировано блоков</translation>
+    </message>
+    <message>
+        <source>User Agent</source>
+        <translation>Юзер-агент</translation>
+    </message>
+    <message>
+        <source>Open the %1 debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть отладочный лог-файл %1 из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
+    </message>
+    <message>
+        <source>Decrease font size</source>
+        <translation>Уменьшить размер текста</translation>
+    </message>
+    <message>
+        <source>Increase font size</source>
+        <translation>Увеличить размер текста</translation>
+    </message>
+    <message>
+        <source>Services</source>
+        <translation>Сервисы</translation>
+    </message>
+    <message>
+        <source>Ban Score</source>
+        <translation>Очков бана</translation>
+    </message>
+    <message>
+        <source>Connection Time</source>
+        <translation>Время соединения</translation>
+    </message>
+    <message>
+        <source>Last Send</source>
+        <translation>Последняя отправка</translation>
+    </message>
+    <message>
+        <source>Last Receive</source>
+        <translation>Последний раз получено</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>Время задержки</translation>
+    </message>
+    <message>
+        <source>The duration of a currently outstanding ping.</source>
+        <translation>Длительность текущего пинга.</translation>
+    </message>
+    <message>
+        <source>Ping Wait</source>
+        <translation>Время задержки</translation>
+    </message>
+    <message>
+        <source>Min Ping</source>
+        <translation>Мин. пинг</translation>
+    </message>
+    <message>
+        <source>Time Offset</source>
+        <translation>Смещение времени</translation>
+    </message>
+    <message>
         <source>Last block time</source>
-        <translation>Ð’Ñ€ÐµÐ¼Ñ� Ð¿Ð¾Ñ�Ð»ÐµÐ´Ð½ÐµÐ³Ð¾ Ð±Ð»Ð¾ÐºÐ°</translation>
+        <translation>Время последнего блока</translation>
     </message>
     <message>
-        <location line="+52"/>
         <source>&amp;Open</source>
-        <translation>&amp;ÐžÑ‚ÐºÑ€Ñ‹Ñ‚ÑŒ</translation>
+        <translation>&amp;Открыть</translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>Command-line options</source>
-        <translation>ÐŸÐ°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ñ‹ ÐºÐ¾Ð¼Ð°Ð½Ð´Ð½Ð¾Ð¹ Ñ�Ñ‚Ñ€Ð¾ÐºÐ¸</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Show the Murfcoin-Qt help message to get a list with possible Murfcoin command-line options.</source>
-        <translation>ÐŸÐ¾ÐºÐ°Ð·Ð°Ñ‚ÑŒ Ð¿Ð¾Ð¼Ð¾Ñ‰ÑŒ Ð¿Ð¾ Murfcoin-Qt, Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð¿Ð¾Ð»ÑƒÑ‡Ð¸Ñ‚ÑŒ Ñ�Ð¿Ð¸Ñ�Ð¾Ðº Ð´Ð¾Ñ�Ñ‚ÑƒÐ¿Ð½Ñ‹Ñ… Ð¿Ð°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ð¾Ð² ÐºÐ¾Ð¼Ð°Ð½Ð´Ð½Ð¾Ð¹ Ñ�Ñ‚Ñ€Ð¾ÐºÐ¸.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Show</source>
-        <translation>&amp;ÐŸÐ¾ÐºÐ°Ð·Ð°Ñ‚ÑŒ</translation>
-    </message>
-    <message>
-        <location line="+24"/>
         <source>&amp;Console</source>
-        <translation>ÐšÐ¾Ð½Ñ�Ð¾Ð»ÑŒ</translation>
+        <translation>Консоль</translation>
     </message>
     <message>
-        <location line="-260"/>
-        <source>Build date</source>
-        <translation>Ð”Ð°Ñ‚Ð° Ñ�Ð±Ð¾Ñ€ÐºÐ¸</translation>
+        <source>&amp;Network Traffic</source>
+        <translation>Сетевой &amp;трафик</translation>
     </message>
     <message>
-        <location line="-104"/>
-        <source>Murfcoin - Debug window</source>
-        <translation>Murfcoin - ÐžÐºÐ½Ð¾ Ð¾Ñ‚Ð»Ð°Ð´ÐºÐ¸</translation>
+        <source>&amp;Clear</source>
+        <translation>&amp;Очистить</translation>
     </message>
     <message>
-        <location line="+25"/>
-        <source>Murfcoin Core</source>
-        <translation>Ð¯Ð´Ñ€Ð¾ Murfcoin</translation>
+        <source>Totals</source>
+        <translation>Всего</translation>
     </message>
     <message>
-        <location line="+279"/>
+        <source>In:</source>
+        <translation>Вход:</translation>
+    </message>
+    <message>
+        <source>Out:</source>
+        <translation>Выход:</translation>
+    </message>
+    <message>
         <source>Debug log file</source>
-        <translation>ÐžÑ‚Ð»Ð°Ð´Ð¾Ñ‡Ð½Ñ‹Ð¹ Ð»Ð¾Ð³-Ñ„Ð°Ð¹Ð»</translation>
+        <translation>Отладочный лог-файл</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Open the Murfcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>ÐžÑ‚ÐºÑ€Ñ‹Ñ‚ÑŒ Ð¾Ñ‚Ð»Ð°Ð´Ð¾Ñ‡Ð½Ñ‹Ð¹ Ð»Ð¾Ð³-Ñ„Ð°Ð¹Ð» Murfcoin Ð¸Ð· Ñ‚ÐµÐºÑƒÑ‰ÐµÐ³Ð¾ ÐºÐ°Ñ‚Ð°Ð»Ð¾Ð³Ð° Ð´Ð°Ð½Ð½Ñ‹Ñ…. Ð­Ñ‚Ð¾ Ð¼Ð¾Ð¶ÐµÑ‚ Ð·Ð°Ð½Ñ�Ñ‚ÑŒ Ð½ÐµÑ�ÐºÐ¾Ð»ÑŒÐºÐ¾ Ñ�ÐµÐºÑƒÐ½Ð´ Ð´Ð»Ñ� Ð±Ð¾Ð»ÑŒÑˆÐ¸Ñ… Ð»Ð¾Ð³-Ñ„Ð°Ð¹Ð»Ð¾Ð².</translation>
-    </message>
-    <message>
-        <location line="+102"/>
         <source>Clear console</source>
-        <translation>ÐžÑ‡Ð¸Ñ�Ñ‚Ð¸Ñ‚ÑŒ ÐºÐ¾Ð½Ñ�Ð¾Ð»ÑŒ</translation>
+        <translation>Очистить консоль</translation>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Murfcoin RPC console.</source>
-        <translation>Ð”Ð¾Ð±Ñ€Ð¾ Ð¿Ð¾Ð¶Ð°Ð»Ð¾Ð²Ð°Ñ‚ÑŒ Ð² RPC-ÐºÐ¾Ð½Ñ�Ð¾Ð»ÑŒ Murfcoin.</translation>
+        <source>1 &amp;hour</source>
+        <translation>1 &amp;час</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>1 &amp;day</source>
+        <translation>1 &amp;день</translation>
+    </message>
+    <message>
+        <source>1 &amp;week</source>
+        <translation>1 &amp;неделю</translation>
+    </message>
+    <message>
+        <source>1 &amp;year</source>
+        <translation>1 &amp;год</translation>
+    </message>
+    <message>
+        <source>&amp;Disconnect</source>
+        <translation>&amp;Отключиться</translation>
+    </message>
+    <message>
+        <source>Ban for</source>
+        <translation>Бан на</translation>
+    </message>
+    <message>
+        <source>&amp;Unban</source>
+        <translation>&amp;Разбанить</translation>
+    </message>
+    <message>
+        <source>Welcome to the %1 RPC console.</source>
+        <translation>Добро пожаловать в консоль RPC %1.</translation>
+    </message>
+    <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Ð˜Ñ�Ð¿Ð¾Ð»ÑŒÐ·ÑƒÐ¹Ñ‚Ðµ Ñ�Ñ‚Ñ€ÐµÐ»ÐºÐ¸ Ð²Ð²ÐµÑ€Ñ… Ð¸ Ð²Ð½Ð¸Ð· Ð´Ð»Ñ� Ð¿Ñ€Ð¾Ñ�Ð¼Ð¾Ñ‚Ñ€Ð° Ð¸Ñ�Ñ‚Ð¾Ñ€Ð¸Ð¸ Ð¸ &lt;b&gt;Ctrl-L&lt;/b&gt; Ð´Ð»Ñ� Ð¾Ñ‡Ð¸Ñ�Ñ‚ÐºÐ¸ Ñ�ÐºÑ€Ð°Ð½Ð°.</translation>
+        <translation>Используйте стрелки вверх и вниз для просмотра истории и &lt;b&gt;Ctrl-L&lt;/b&gt; для очистки экрана.</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Ð�Ð°Ð¿Ð¸ÑˆÐ¸Ñ‚Ðµ &lt;b&gt;help&lt;/b&gt; Ð´Ð»Ñ� Ð¿Ñ€Ð¾Ñ�Ð¼Ð¾Ñ‚Ñ€Ð° Ð´Ð¾Ñ�Ñ‚ÑƒÐ¿Ð½Ñ‹Ñ… ÐºÐ¾Ð¼Ð°Ð½Ð´.</translation>
+        <translation>Напишите &lt;b&gt;help&lt;/b&gt; для просмотра доступных команд.</translation>
+    </message>
+    <message>
+        <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramification of a command.</source>
+        <translation>ВНИМАНИЕ: мошенники предлагали пользователям вводить сюда команды, похищая таким образом содержимое их бумажников. Не используйте эту консоль без полного понимания смысла команд.</translation>
+    </message>
+    <message>
+        <source>Network activity disabled</source>
+        <translation>Сетевая активность запрещена</translation>
+    </message>
+    <message>
+        <source>%1 B</source>
+        <translation>%1 Б</translation>
+    </message>
+    <message>
+        <source>%1 KB</source>
+        <translation>%1 КБ</translation>
+    </message>
+    <message>
+        <source>%1 MB</source>
+        <translation>%1 МБ</translation>
+    </message>
+    <message>
+        <source>%1 GB</source>
+        <translation>%1 ГБ</translation>
+    </message>
+    <message>
+        <source>(node id: %1)</source>
+        <translation>(номер узла: %1)</translation>
+    </message>
+    <message>
+        <source>via %1</source>
+        <translation>через %1</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>никогда</translation>
+    </message>
+    <message>
+        <source>Inbound</source>
+        <translation>Входящие</translation>
+    </message>
+    <message>
+        <source>Outbound</source>
+        <translation>Исходящие</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Да</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Нет</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Неизвестно</translation>
+    </message>
+</context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Amount:</source>
+        <translation>&amp;Сумма:</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;Метка:</translation>
+    </message>
+    <message>
+        <source>&amp;Message:</source>
+        <translation>&amp;Сообщение</translation>
+    </message>
+    <message>
+        <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
+        <translation>Повторно использовать один из ранее использованных адресов. Повторное использование адресов несёт риски безопасности и приватности. Не используйте эту опцию, если вы не создаёте повторно ранее сделанный запрос платежа.</translation>
+    </message>
+    <message>
+        <source>R&amp;euse an existing receiving address (not recommended)</source>
+        <translation>&amp;Повторно использовать существующий адрес получения (не рекомендуется)</translation>
+    </message>
+    <message>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Murfcoin network.</source>
+        <translation>Необязательное сообщение для запроса платежа, которое будет показано при открытии запроса. Заметьте: сообщение не будет отправлено вместе с платежом через сеть Murfcoin.</translation>
+    </message>
+    <message>
+        <source>An optional label to associate with the new receiving address.</source>
+        <translation>Необязательная метка для нового адреса получения.</translation>
+    </message>
+    <message>
+        <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
+        <translation>Заполните форму для запроса платежей. Все поля &lt;b&gt;необязательны&lt;/b&gt;.</translation>
+    </message>
+    <message>
+        <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
+        <translation>Необязательная сумма для запроса. Оставьте пустым или укажите ноль, чтобы запросить неопределённую сумму.</translation>
+    </message>
+    <message>
+        <source>Clear all fields of the form.</source>
+        <translation>Очистить все поля формы.</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Очистить</translation>
+    </message>
+    <message>
+        <source>Requested payments history</source>
+        <translation>История запрошенных платежей</translation>
+    </message>
+    <message>
+        <source>&amp;Request payment</source>
+        <translation>&amp;Запросить платёж</translation>
+    </message>
+    <message>
+        <source>Show the selected request (does the same as double clicking an entry)</source>
+        <translation>Показать выбранный запрос (то же самое, что и двойной клик по записи)</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Показать</translation>
+    </message>
+    <message>
+        <source>Remove the selected entries from the list</source>
+        <translation>Удалить выбранные записи из списка</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Удалить</translation>
+    </message>
+    <message>
+        <source>Copy URI</source>
+        <translation>Копировать URI</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Копировать метку</translation>
+    </message>
+    <message>
+        <source>Copy message</source>
+        <translation>Копировать сообщение</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Копировать сумму</translation>
+    </message>
+</context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>QR Code</source>
+        <translation>QR код</translation>
+    </message>
+    <message>
+        <source>Copy &amp;URI</source>
+        <translation>Копировать &amp;URI</translation>
+    </message>
+    <message>
+        <source>Copy &amp;Address</source>
+        <translation>Копировать &amp;адрес</translation>
+    </message>
+    <message>
+        <source>&amp;Save Image...</source>
+        <translation>&amp;Сохранить изображение...</translation>
+    </message>
+    <message>
+        <source>Request payment to %1</source>
+        <translation>Запросить платёж на %1</translation>
+    </message>
+    <message>
+        <source>Payment information</source>
+        <translation>Информация платежа</translation>
+    </message>
+    <message>
+        <source>URI</source>
+        <translation>URI</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адрес</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Сумма</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Метка</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Сообщение</translation>
+    </message>
+    <message>
+        <source>Resulting URI too long, try to reduce the text for label / message.</source>
+        <translation>Получившийся URI слишком длинный, попробуйте сократить текст метки / сообщения.</translation>
+    </message>
+    <message>
+        <source>Error encoding URI into QR Code.</source>
+        <translation>Ошибка кодирования URI в QR-код</translation>
+    </message>
+</context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Дата</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Метка</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Сообщение</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(нет метки)</translation>
+    </message>
+    <message>
+        <source>(no message)</source>
+        <translation>(нет сообщения)</translation>
+    </message>
+    <message>
+        <source>(no amount requested)</source>
+        <translation>(нет запрошенной суммы)</translation>
+    </message>
+    <message>
+        <source>Requested</source>
+        <translation>Запрошено</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
-        <location filename="../sendcoinsdialog.cpp" line="+124"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+6"/>
-        <location line="+5"/>
-        <location line="+5"/>
         <source>Send Coins</source>
-        <translation>ÐžÑ‚Ð¿Ñ€Ð°Ð²ÐºÐ°</translation>
+        <translation>Отправка</translation>
     </message>
     <message>
-        <location line="+50"/>
+        <source>Coin Control Features</source>
+        <translation>Функции Контроля Монет</translation>
+    </message>
+    <message>
+        <source>Inputs...</source>
+        <translation>Входы...</translation>
+    </message>
+    <message>
+        <source>automatically selected</source>
+        <translation>автоматически выбрано</translation>
+    </message>
+    <message>
+        <source>Insufficient funds!</source>
+        <translation>Недостаточно средств!</translation>
+    </message>
+    <message>
+        <source>Quantity:</source>
+        <translation>Количество:</translation>
+    </message>
+    <message>
+        <source>Bytes:</source>
+        <translation>Байт:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Сумма:</translation>
+    </message>
+    <message>
+        <source>Fee:</source>
+        <translation>Комиссия:</translation>
+    </message>
+    <message>
+        <source>After Fee:</source>
+        <translation>После комиссии:</translation>
+    </message>
+    <message>
+        <source>Change:</source>
+        <translation>Размен:</translation>
+    </message>
+    <message>
+        <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
+        <translation>Если это выбрано, но адрес сдачи пустой или неверный, сдача будет отправлена на новый сгенерированный адрес.</translation>
+    </message>
+    <message>
+        <source>Custom change address</source>
+        <translation>Свой адрес для сдачи</translation>
+    </message>
+    <message>
+        <source>Transaction Fee:</source>
+        <translation>Комиссия</translation>
+    </message>
+    <message>
+        <source>Choose...</source>
+        <translation>Выберите...</translation>
+    </message>
+    <message>
+        <source>collapse fee-settings</source>
+        <translation>Свернуть настройки комиссии</translation>
+    </message>
+    <message>
+        <source>per kilobyte</source>
+        <translation>за килобайт</translation>
+    </message>
+    <message>
+        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "total at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Если комиссия установлена в 1000 сатоши, а транзакция составляет лишь 250 байт, тогда комиссия "на килобайт" составит 250 сатоши, а "всего как минимум" — 1000 сатоши. Для транзакций крупнее килобайта в обоих случаях будет использоваться платёж "на килобайт".</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Скрыть</translation>
+    </message>
+    <message>
+        <source>total at least</source>
+        <translation>Итого как минимум</translation>
+    </message>
+    <message>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for murfcoin transactions than the network can process.</source>
+        <translation>Уплата минимальной комиссии — не проблема, пока объём транзакций меньше, чем свободное место в блоках. Учтите, однако, что такая транзакция может никогда не подтвердиться, если спрос на транзакции превышает возможности сети по их обработке.</translation>
+    </message>
+    <message>
+        <source>(read the tooltip)</source>
+        <translation>(прочтите подсказку)</translation>
+    </message>
+    <message>
+        <source>Recommended:</source>
+        <translation>Рекомендовано:</translation>
+    </message>
+    <message>
+        <source>Custom:</source>
+        <translation>Выборочно:</translation>
+    </message>
+    <message>
+        <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
+        <translation>(Умная комиссия пока не инициализирована. Обычно для этого требуется несколько блоков...)</translation>
+    </message>
+    <message>
+        <source>normal</source>
+        <translation>обычный</translation>
+    </message>
+    <message>
+        <source>fast</source>
+        <translation>ускоренный</translation>
+    </message>
+    <message>
         <source>Send to multiple recipients at once</source>
-        <translation>ÐžÑ‚Ð¿Ñ€Ð°Ð²Ð¸Ñ‚ÑŒ Ð½ÐµÑ�ÐºÐ¾Ð»ÑŒÐºÐ¸Ð¼ Ð¿Ð¾Ð»ÑƒÑ‡Ð°Ñ‚ÐµÐ»Ñ�Ð¼ Ð¾Ð´Ð½Ð¾Ð²Ñ€ÐµÐ¼ÐµÐ½Ð½Ð¾</translation>
+        <translation>Отправить нескольким получателям одновременно</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Add &amp;Recipient</source>
-        <translation>&amp;Ð”Ð¾Ð±Ð°Ð²Ð¸Ñ‚ÑŒ Ð¿Ð¾Ð»ÑƒÑ‡Ð°Ñ‚ÐµÐ»Ñ�</translation>
+        <translation>&amp;Добавить получателя</translation>
     </message>
     <message>
-        <location line="+20"/>
-        <source>Remove all transaction fields</source>
-        <translation>Ð£Ð´Ð°Ð»Ð¸Ñ‚ÑŒ Ð²Ñ�Ðµ Ð¿Ð¾Ð»Ñ� Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ð¸</translation>
+        <source>Clear all fields of the form.</source>
+        <translation>Очистить все поля формы</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <source>Dust:</source>
+        <translation>Пыль:</translation>
+    </message>
+    <message>
+        <source>Confirmation time target:</source>
+        <translation>Время подтверждения:</translation>
+    </message>
+    <message>
         <source>Clear &amp;All</source>
-        <translation>ÐžÑ‡Ð¸Ñ�Ñ‚Ð¸Ñ‚ÑŒ &amp;Ð²Ñ�Ñ‘</translation>
+        <translation>Очистить &amp;всё</translation>
     </message>
     <message>
-        <location line="+22"/>
         <source>Balance:</source>
-        <translation>Ð‘Ð°Ð»Ð°Ð½Ñ�:</translation>
+        <translation>Баланс:</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>123.456 BTC</source>
-        <translation>123.456 BTC</translation>
-    </message>
-    <message>
-        <location line="+31"/>
         <source>Confirm the send action</source>
-        <translation>ÐŸÐ¾Ð´Ñ‚Ð²ÐµÑ€Ð´Ð¸Ñ‚ÑŒ Ð¾Ñ‚Ð¿Ñ€Ð°Ð²ÐºÑƒ</translation>
+        <translation>Подтвердить отправку</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>S&amp;end</source>
-        <translation>&amp;ÐžÑ‚Ð¿Ñ€Ð°Ð²Ð¸Ñ‚ÑŒ</translation>
+        <translation>&amp;Отправить</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="-59"/>
-        <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt; Ð°Ð´Ñ€ÐµÑ�Ð°Ñ‚Ñƒ %2 (%3)</translation>
+        <source>Copy quantity</source>
+        <translation>Копировать количество</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <source>Copy amount</source>
+        <translation>Копировать сумму</translation>
+    </message>
+    <message>
+        <source>Copy fee</source>
+        <translation>Копировать комиссию</translation>
+    </message>
+    <message>
+        <source>Copy after fee</source>
+        <translation>Копировать после комиссии</translation>
+    </message>
+    <message>
+        <source>Copy bytes</source>
+        <translation>Копировать байты</translation>
+    </message>
+    <message>
+        <source>Copy dust</source>
+        <translation>Копировать пыль</translation>
+    </message>
+    <message>
+        <source>Copy change</source>
+        <translation>Копировать сдачу</translation>
+    </message>
+    <message>
+        <source>%1 to %2</source>
+        <translation>С %1 на %2</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to send?</source>
+        <translation>Вы уверены, что хотите отправить?</translation>
+    </message>
+    <message>
+        <source>added as transaction fee</source>
+        <translation>добавлено как комиссия</translation>
+    </message>
+    <message>
+        <source>Total Amount %1</source>
+        <translation>Общая сумма %1</translation>
+    </message>
+    <message>
+        <source>or</source>
+        <translation>или</translation>
+    </message>
+    <message>
         <source>Confirm send coins</source>
-        <translation>ÐŸÐ¾Ð´Ñ‚Ð²ÐµÑ€Ð´Ð¸Ñ‚Ðµ Ð¾Ñ‚Ð¿Ñ€Ð°Ð²ÐºÑƒ Ð¼Ð¾Ð½ÐµÑ‚</translation>
+        <translation>Подтвердите отправку монет</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Are you sure you want to send %1?</source>
-        <translation>Ð’Ñ‹ ÑƒÐ²ÐµÑ€ÐµÐ½Ñ‹, Ñ‡Ñ‚Ð¾ Ñ…Ð¾Ñ‚Ð¸Ñ‚Ðµ Ð¾Ñ‚Ð¿Ñ€Ð°Ð²Ð¸Ñ‚ÑŒ %1?</translation>
+        <source>The recipient address is not valid. Please recheck.</source>
+        <translation>Адрес получателя неверный. Пожалуйста, перепроверьте.</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source> and </source>
-        <translation> Ð¸ </translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>The recipient address is not valid, please recheck.</source>
-        <translation>Ð�Ð´Ñ€ÐµÑ� Ð¿Ð¾Ð»ÑƒÑ‡Ð°Ñ‚ÐµÐ»Ñ� Ð½ÐµÐ²ÐµÑ€Ð½Ñ‹Ð¹, Ð¿Ð¾Ð¶Ð°Ð»ÑƒÐ¹Ñ�Ñ‚Ð°, Ð¿ÐµÑ€ÐµÐ¿Ñ€Ð¾Ð²ÐµÑ€ÑŒÑ‚Ðµ.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑ�Ñ‚Ð²Ð¾ Ð¼Ð¾Ð½ÐµÑ‚ Ð´Ð»Ñ� Ð¾Ñ‚Ð¿Ñ€Ð°Ð²ÐºÐ¸ Ð´Ð¾Ð»Ð¶Ð½Ð¾ Ð±Ñ‹Ñ‚ÑŒ Ð±Ð¾Ð»ÑŒÑˆÐµ 0.</translation>
+        <translation>Сумма для отправки должна быть больше 0.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>The amount exceeds your balance.</source>
-        <translation>ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑ�Ñ‚Ð²Ð¾ Ð¾Ñ‚Ð¿Ñ€Ð°Ð²Ð»Ñ�ÐµÐ¼Ñ‹Ñ… Ð¼Ð¾Ð½ÐµÑ‚ Ð¿Ñ€ÐµÐ²Ñ‹ÑˆÐ°ÐµÑ‚ Ð’Ð°Ñˆ Ð±Ð°Ð»Ð°Ð½Ñ�</translation>
+        <translation>Сумма превышает ваш баланс.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Ð¡ÑƒÐ¼Ð¼Ð° Ð¿Ñ€ÐµÐ²Ñ‹Ñ�Ð¸Ñ‚ Ð’Ð°Ñˆ Ð±Ð°Ð»Ð°Ð½Ñ�, ÐµÑ�Ð»Ð¸ ÐºÐ¾Ð¼Ð¸Ñ�Ñ�Ð¸Ñ� Ð² Ñ€Ð°Ð·Ð¼ÐµÑ€Ðµ %1 Ð±ÑƒÐ´ÐµÑ‚ Ð´Ð¾Ð±Ð°Ð²Ð»ÐµÐ½Ð° Ðº Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ð¸</translation>
+        <translation>Сумма с учётом комиссии %1 превысит ваш баланс.</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>ÐžÐ±Ð½Ð°Ñ€ÑƒÐ¶ÐµÐ½ Ð´ÑƒÐ±Ð»Ð¸Ñ€ÑƒÑŽÑ‰Ð¸Ð¹Ñ�Ñ� Ð°Ð´Ñ€ÐµÑ�. ÐžÑ‚Ð¿Ñ€Ð°Ð²ÐºÐ° Ð½Ð° Ð¾Ð´Ð¸Ð½ Ð¸ Ñ‚Ð¾Ñ‚ Ð¶Ðµ Ð°Ð´Ñ€ÐµÑ� Ð²Ð¾Ð·Ð¼Ð¾Ð¶Ð½Ð° Ñ‚Ð¾Ð»ÑŒÐºÐ¾ Ð¾Ð´Ð¸Ð½ Ñ€Ð°Ð· Ð·Ð° Ð¾Ð´Ð½Ñƒ Ð¾Ð¿ÐµÑ€Ð°Ñ†Ð¸ÑŽ Ð¾Ñ‚Ð¿Ñ€Ð°Ð²ÐºÐ¸</translation>
+        <source>Duplicate address found: addresses should only be used once each.</source>
+        <translation>Обнаружен дублирующийся адрес: используйте каждый адрес только один раз.</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Error: Transaction creation failed!</source>
-        <translation>ÐžÑˆÐ¸Ð±ÐºÐ°: Ð½Ðµ ÑƒÐ´Ð°Ð»Ð¾Ñ�ÑŒ Ñ�Ð¾Ð·Ð´Ð°Ñ‚ÑŒ Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸ÑŽ!</translation>
+        <source>Transaction creation failed!</source>
+        <translation>Не удалось создать транзакцию!</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>ÐžÑˆÐ¸Ð±ÐºÐ°: Ð’ Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ð¸ Ð¾Ñ‚ÐºÐ°Ð·Ð°Ð½Ð¾.  Ð¢Ð°ÐºÐ¾Ðµ Ð¼Ð¾Ð¶ÐµÑ‚ Ð¿Ñ€Ð¾Ð¸Ð·Ð¾Ð¹Ñ‚Ð¸, ÐµÑ�Ð»Ð¸ Ð½ÐµÐºÐ¾Ñ‚Ð¾Ñ€Ñ‹Ðµ Ð¼Ð¾Ð½ÐµÑ‚Ñ‹ ÑƒÐ¶Ðµ Ð±Ñ‹Ð»Ð¸ Ð¿Ð¾Ñ‚Ñ€Ð°Ñ‡ÐµÐ½Ñ‹, Ð½Ð°Ð¿Ñ€Ð¸Ð¼ÐµÑ€, ÐµÑ�Ð»Ð¸ Ð’Ñ‹ Ð¸Ñ�Ð¿Ð¾Ð»ÑŒÐ·ÑƒÐµÑ‚Ðµ Ð¾Ð´Ð½Ñƒ ÐºÐ¾Ð¿Ð¸ÑŽ Ñ„Ð°Ð¹Ð»Ð° wallet.dat, Ð° Ð¼Ð¾Ð½ÐµÑ‚Ñ‹ Ð±Ñ‹Ð»Ð¸ Ð¿Ð¾Ñ‚Ñ€Ð°Ñ‡ÐµÐ½Ñ‹ Ð¸Ð· Ð´Ñ€ÑƒÐ³Ð¾Ð¹ ÐºÐ¾Ð¿Ð¸Ð¸, Ð½Ð¾ Ð½Ðµ Ð±Ñ‹Ð»Ð¸ Ð¾Ñ‚Ð¼ÐµÑ‡ÐµÐ½Ñ‹ ÐºÐ°Ðº Ð¿Ð¾Ñ‚Ñ€Ð°Ñ‡ÐµÐ½Ð½Ñ‹Ðµ Ð² Ñ�Ñ‚Ð¾Ð¹.</translation>
+        <source>The transaction was rejected with the following reason: %1</source>
+        <translation>Транзакция была отвергнута по следующей причине: %1</translation>
+    </message>
+    <message>
+        <source>A fee higher than %1 is considered an absurdly high fee.</source>
+        <translation>Комиссия больше чем %1 считается невероятно большой.</translation>
+    </message>
+    <message>
+        <source>Payment request expired.</source>
+        <translation>Запрос платежа просрочен.</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n block(s)</source>
+        <translation><numerusform>%n блок</numerusform><numerusform>%n блока</numerusform><numerusform>%n блоков</numerusform><numerusform>%n блоков</numerusform></translation>
+    </message>
+    <message>
+        <source>Pay only the required fee of %1</source>
+        <translation>Заплатить только обязательную комиссию %1</translation>
+    </message>
+    <message numerus="yes">
+        <source>Estimated to begin confirmation within %n block(s).</source>
+        <translation><numerusform>Начало подтверждения ожидается через %n блок.</numerusform><numerusform>Начало подтверждения ожидается через %n блока.</numerusform><numerusform>Начало подтверждения ожидается через %n блоков.</numerusform><numerusform>Начало подтверждения ожидается через %n блоков.</numerusform></translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Murfcoin address</source>
+        <translation>Внимание: неверный адрес Murfcoin</translation>
+    </message>
+    <message>
+        <source>Warning: Unknown change address</source>
+        <translation>Внимание: неизвестный адрес для сдачи</translation>
+    </message>
+    <message>
+        <source>Confirm custom change address</source>
+        <translation>Подтвердите свой адрес для сдачи</translation>
+    </message>
+    <message>
+        <source>The address you selected for change is not part of this wallet. Any or all funds in your wallet may be sent to this address. Are you sure?</source>
+        <translation>Выбранный вами адрес для сдачи не принадлежит этому кошельку. Часть или все средства могут быть отправлены на этот адрес. Вы уверены?</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(нет метки)</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="+14"/>
-        <source>Form</source>
-        <translation>Ð¤Ð¾Ñ€Ð¼Ð°</translation>
-    </message>
-    <message>
-        <location line="+15"/>
         <source>A&amp;mount:</source>
-        <translation>ÐšÐ¾&amp;Ð»Ð¸Ñ‡ÐµÑ�Ñ‚Ð²Ð¾:</translation>
+        <translation>Ко&amp;личество:</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Pay &amp;To:</source>
-        <translation>ÐŸÐ¾Ð»Ñƒ&amp;Ñ‡Ð°Ñ‚ÐµÐ»ÑŒ:</translation>
+        <translation>Полу&amp;чатель:</translation>
     </message>
     <message>
-        <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Ð�Ð´Ñ€ÐµÑ�, Ð½Ð° ÐºÐ¾Ñ‚Ð¾Ñ€Ñ‹Ð¹ Ð±ÑƒÐ´ÐµÑ‚ Ð²Ñ‹Ñ�Ð»Ð°Ð½ Ð¿Ð»Ð°Ñ‚Ñ‘Ð¶ (Ð½Ð°Ð¿Ñ€Ð¸Ð¼ÐµÑ€ Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="+60"/>
-        <location filename="../sendcoinsentry.cpp" line="+26"/>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¼ÐµÑ‚ÐºÑƒ Ð´Ð»Ñ� Ð´Ð°Ð½Ð½Ð¾Ð³Ð¾ Ð°Ð´Ñ€ÐµÑ�Ð° (Ð´Ð»Ñ� Ð´Ð¾Ð±Ð°Ð²Ð»ÐµÐ½Ð¸Ñ� Ð² Ð°Ð´Ñ€ÐµÑ�Ð½ÑƒÑŽ ÐºÐ½Ð¸Ð³Ñƒ)</translation>
-    </message>
-    <message>
-        <location line="-78"/>
         <source>&amp;Label:</source>
-        <translation>&amp;ÐœÐµÑ‚ÐºÐ°:</translation>
+        <translation>&amp;Метка:</translation>
     </message>
     <message>
-        <location line="+28"/>
-        <source>Choose address from address book</source>
-        <translation>Ð’Ñ‹Ð±ÐµÑ€Ð¸Ñ‚Ðµ Ð°Ð´Ñ€ÐµÑ� Ð¸Ð· Ð°Ð´Ñ€ÐµÑ�Ð½Ð¾Ð¹ ÐºÐ½Ð¸Ð³Ð¸</translation>
+        <source>Choose previously used address</source>
+        <translation>Выберите ранее использованный адрес</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <source>This is a normal payment.</source>
+        <translation>Это нормальный платёж.</translation>
+    </message>
+    <message>
+        <source>The Murfcoin address to send the payment to</source>
+        <translation>Адрес Murfcoin, на который отправить платёж</translation>
+    </message>
+    <message>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Paste address from clipboard</source>
-        <translation>Ð’Ñ�Ñ‚Ð°Ð²Ð¸Ñ‚ÑŒ Ð°Ð´Ñ€ÐµÑ� Ð¸Ð· Ð±ÑƒÑ„ÐµÑ€Ð° Ð¾Ð±Ð¼ÐµÐ½Ð°</translation>
+        <translation>Вставить адрес из буфера обмена</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Remove this recipient</source>
-        <translation>Ð£Ð´Ð°Ð»Ð¸Ñ‚ÑŒ Ñ�Ñ‚Ð¾Ð³Ð¾ Ð¿Ð¾Ð»ÑƒÑ‡Ð°Ñ‚ÐµÐ»Ñ�</translation>
+        <source>Remove this entry</source>
+        <translation>Удалить эту запись</translation>
     </message>
     <message>
-        <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Murfcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Murfcoin-Ð°Ð´Ñ€ÐµÑ� (Ð½Ð°Ð¿Ñ€Ð¸Ð¼ÐµÑ€ 1LA5FtQhnnWnkK6zjFfutR7Stiit4wKd63)</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less murfcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>С отправляемой суммы будет удержана комиссия. Получателю придёт меньше биткоинов, чем вы вводите в поле количества. Если выбрано несколько получателей, комиссия распределяется поровну.</translation>
+    </message>
+    <message>
+        <source>S&amp;ubtract fee from amount</source>
+        <translation>Вычесть комиссию из суммы</translation>
+    </message>
+    <message>
+        <source>Message:</source>
+        <translation>Сообщение:</translation>
+    </message>
+    <message>
+        <source>This is an unauthenticated payment request.</source>
+        <translation>Это неавторизованный запрос платежа.</translation>
+    </message>
+    <message>
+        <source>This is an authenticated payment request.</source>
+        <translation>Это авторизованный запрос платежа.</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to the list of used addresses</source>
+        <translation>Введите метку для этого адреса, чтобы добавить его в список использованных</translation>
+    </message>
+    <message>
+        <source>A message that was attached to the murfcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Murfcoin network.</source>
+        <translation>К murfcoin: URI было прикреплено сообщение, которое будет сохранено вместе с транзакцией для вашего сведения. Заметьте: сообщение не будет отправлено через сеть Murfcoin.</translation>
+    </message>
+    <message>
+        <source>Pay To:</source>
+        <translation>Получатель:</translation>
+    </message>
+    <message>
+        <source>Memo:</source>
+        <translation>Примечание:</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Введите метку для данного адреса, чтобы добавить его в адресную книгу</translation>
+    </message>
+</context>
+<context>
+    <name>SendConfirmationDialog</name>
+    <message>
+        <source>Yes</source>
+        <translation>Да</translation>
+    </message>
+</context>
+<context>
+    <name>ShutdownWindow</name>
+    <message>
+        <source>%1 is shutting down...</source>
+        <translation>%1 выключается...</translation>
+    </message>
+    <message>
+        <source>Do not shut down the computer until this window disappears.</source>
+        <translation>Не выключайте компьютер, пока это окно не исчезнет.</translation>
     </message>
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="+14"/>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>ÐŸÐ¾Ð´Ð¿Ð¸Ñ�Ð¸ - Ð¿Ð¾Ð´Ð¿Ð¸Ñ�Ð°Ñ‚ÑŒ/Ð¿Ñ€Ð¾Ð²ÐµÑ€Ð¸Ñ‚ÑŒ Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ</translation>
+        <translation>Подписи - подписать/проверить сообщение</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>&amp;Sign Message</source>
-        <translation>&amp;ÐŸÐ¾Ð´Ð¿Ð¸Ñ�Ð°Ñ‚ÑŒ Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ</translation>
+        <translation>&amp;Подписать сообщение</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Ð’Ñ‹ Ð¼Ð¾Ð¶ÐµÑ‚Ðµ Ð¿Ð¾Ð´Ð¿Ð¸Ñ�Ñ‹Ð²Ð°Ñ‚ÑŒ Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ñ� Ñ�Ð²Ð¾Ð¸Ð¼Ð¸ Ð°Ð´Ñ€ÐµÑ�Ð°Ð¼Ð¸, Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð´Ð¾ÐºÐ°Ð·Ð°Ñ‚ÑŒ Ð²Ð»Ð°Ð´ÐµÐ½Ð¸Ðµ Ð¸Ð¼Ð¸. Ð‘ÑƒÐ´ÑŒÑ‚Ðµ Ð¾Ñ�Ñ‚Ð¾Ñ€Ð¾Ð¶Ð½Ñ‹, Ð½Ðµ Ð¿Ð¾Ð´Ð¿Ð¸Ñ�Ñ‹Ð²Ð°Ð¹Ñ‚Ðµ Ñ‡Ñ‚Ð¾-Ñ‚Ð¾ Ð½ÐµÐ¾Ð¿Ñ€ÐµÐ´ÐµÐ»Ñ‘Ð½Ð½Ð¾Ðµ, Ñ‚Ð°Ðº ÐºÐ°Ðº Ñ„Ð¸ÑˆÐ¸Ð½Ð³Ð¾Ð²Ñ‹Ðµ Ð°Ñ‚Ð°ÐºÐ¸ Ð¼Ð¾Ð³ÑƒÑ‚ Ð¾Ð±Ð¼Ð°Ð½Ð½Ñ‹Ð¼ Ð¿ÑƒÑ‚Ñ‘Ð¼ Ð·Ð°Ñ�Ñ‚Ð°Ð²Ð¸Ñ‚ÑŒ Ð²Ð°Ñ� Ð¿Ð¾Ð´Ð¿Ð¸Ñ�Ð°Ñ‚ÑŒ Ð½ÐµÐ¶ÐµÐ»Ð°Ñ‚ÐµÐ»ÑŒÐ½Ñ‹Ðµ Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ñ�. ÐŸÐ¾Ð´Ð¿Ð¸Ñ�Ñ‹Ð²Ð°Ð¹Ñ‚Ðµ Ñ‚Ð¾Ð»ÑŒÐºÐ¾ Ñ‚Ðµ Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ñ�, Ñ� ÐºÐ¾Ñ‚Ð¾Ñ€Ñ‹Ð¼Ð¸ Ð²Ñ‹ Ñ�Ð¾Ð³Ð»Ð°Ñ�Ð½Ñ‹ Ð²Ð¿Ð»Ð¾Ñ‚ÑŒ Ð´Ð¾ Ð¼ÐµÐ»Ð¾Ñ‡ÐµÐ¹.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive murfcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Вы можете подписывать сообщения/соглашения своими адресами, чтобы доказать свою возможность получать биткоины на них. Будьте осторожны, не подписывайте что-то неопределённое или случайное, так как фишинговые атаки могут обманным путём заставить вас подписать нежелательные сообщения. Подписывайте только те сообщения, с которыми вы согласны вплоть до мелочей.</translation>
     </message>
     <message>
-        <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Ð�Ð´Ñ€ÐµÑ�, ÐºÐ¾Ñ‚Ð¾Ñ€Ñ‹Ð¼ Ð²Ñ‹ Ñ…Ð¾Ñ‚Ð¸Ñ‚Ðµ Ð¿Ð¾Ð´Ð¿Ð¸Ñ�Ð°Ñ‚ÑŒ Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ  (Ð½Ð°Ð¿Ñ€. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The Murfcoin address to sign the message with</source>
+        <translation>Адрес Murfcoin, которым подписать сообщение</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <location line="+213"/>
-        <source>Choose an address from the address book</source>
-        <translation>Ð’Ñ‹Ð±ÐµÑ€Ð¸Ñ‚Ðµ Ð°Ð´Ñ€ÐµÑ� Ð¸Ð· Ð°Ð´Ñ€ÐµÑ�Ð½Ð¾Ð¹ ÐºÐ½Ð¸Ð³Ð¸</translation>
+        <source>Choose previously used address</source>
+        <translation>Выберите ранее использованный адрес</translation>
     </message>
     <message>
-        <location line="-203"/>
-        <location line="+213"/>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
     <message>
-        <location line="-203"/>
         <source>Paste address from clipboard</source>
-        <translation>Ð’Ñ�Ñ‚Ð°Ð²Ð¸Ñ‚ÑŒ Ð°Ð´Ñ€ÐµÑ� Ð¸Ð· Ð±ÑƒÑ„ÐµÑ€Ð° Ð¾Ð±Ð¼ÐµÐ½Ð°</translation>
+        <translation>Вставить адрес из буфера обмена</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <location line="+12"/>
         <source>Enter the message you want to sign here</source>
-        <translation>Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ Ð´Ð»Ñ� Ð¿Ð¾Ð´Ð¿Ð¸Ñ�Ð¸</translation>
+        <translation>Введите сообщение для подписи</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Signature</source>
-        <translation>ÐŸÐ¾Ð´Ð¿Ð¸Ñ�ÑŒ</translation>
+        <translation>Подпись</translation>
     </message>
     <message>
-        <location line="+27"/>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>Ð¡ÐºÐ¾Ð¿Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ Ñ‚ÐµÐºÑƒÑ‰ÑƒÑŽ Ð¿Ð¾Ð´Ð¿Ð¸Ñ�ÑŒ Ð² Ñ�Ð¸Ñ�Ñ‚ÐµÐ¼Ð½Ñ‹Ð¹ Ð±ÑƒÑ„ÐµÑ€ Ð¾Ð±Ð¼ÐµÐ½Ð°</translation>
+        <translation>Скопировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>Sign the message to prove you own this Murfcoin address</source>
-        <translation>ÐŸÐ¾Ð´Ð¿Ð¸Ñ�Ð°Ñ‚ÑŒ Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ, Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð´Ð¾ÐºÐ°Ð·Ð°Ñ‚ÑŒ Ð²Ð»Ð°Ð´ÐµÐ½Ð¸Ðµ Ð°Ð´Ñ€ÐµÑ�Ð¾Ð¼ Murfcoin</translation>
+        <translation>Подписать сообщение, чтобы доказать владение адресом Murfcoin</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Sign &amp;Message</source>
-        <translation>ÐŸÐ¾Ð´Ð¿Ð¸Ñ�Ð°Ñ‚ÑŒ &amp;Ð¡Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ</translation>
+        <translation>Подписать &amp;Сообщение</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Reset all sign message fields</source>
-        <translation>Ð¡Ð±Ñ€Ð¾Ñ�Ð¸Ñ‚ÑŒ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ñ� Ð²Ñ�ÐµÑ… Ð¿Ð¾Ð»ÐµÐ¹ Ð¿Ð¾Ð´Ð¿Ð¸Ñ�Ñ‹Ð²Ð°Ð½Ð¸Ñ� Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ð¹</translation>
+        <translation>Сбросить значения всех полей подписывания сообщений</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <location line="+146"/>
         <source>Clear &amp;All</source>
-        <translation>ÐžÑ‡Ð¸Ñ�Ñ‚Ð¸Ñ‚ÑŒ &amp;Ð²Ñ�Ñ‘</translation>
+        <translation>Очистить &amp;всё</translation>
     </message>
     <message>
-        <location line="-87"/>
         <source>&amp;Verify Message</source>
-        <translation>&amp;ÐŸÑ€Ð¾Ð²ÐµÑ€Ð¸Ñ‚ÑŒ Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ</translation>
+        <translation>&amp;Проверить сообщение</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
-        <translation>Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¸Ð¶Ðµ Ð°Ð´Ñ€ÐµÑ� Ð´Ð»Ñ� Ð¿Ð¾Ð´Ð¿Ð¸Ñ�Ð¸, Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ (ÑƒÐ±ÐµÐ´Ð¸Ñ‚ÐµÑ�ÑŒ, Ñ‡Ñ‚Ð¾ Ð¿ÐµÑ€ÐµÐ²Ð¾Ð´Ñ‹ Ñ�Ñ‚Ñ€Ð¾Ðº, Ð¿Ñ€Ð¾Ð±ÐµÐ»Ñ‹, Ñ‚Ð°Ð±Ñ‹ Ð¸ Ñ‚.Ð¿. Ð² Ñ‚Ð¾Ñ‡Ð½Ð¾Ñ�Ñ‚Ð¸ Ñ�ÐºÐ¾Ð¿Ð¸Ñ€Ð¾Ð²Ð°Ð½Ñ‹) Ð¸ Ð¿Ð¾Ð´Ð¿Ð¸Ñ�ÑŒ, Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð¿Ñ€Ð¾Ð²ÐµÑ€Ð¸Ñ‚ÑŒ Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ. Ð£Ð±ÐµÐ´Ð¸Ñ‚ÐµÑ�ÑŒ, Ñ‡Ñ‚Ð¾ Ð½Ðµ Ñ�ÐºÐ¾Ð¿Ð¸Ñ€Ð¾Ð²Ð°Ð»Ð¸ Ð»Ð¸ÑˆÐ½ÐµÐ³Ð¾ Ð² Ð¿Ð¾Ð´Ð¿Ð¸Ñ�ÑŒ, Ð¿Ð¾ Ñ�Ñ€Ð°Ð²Ð½ÐµÐ½Ð¸ÑŽ Ñ� Ñ�Ð°Ð¼Ð¸Ð¼ Ð¿Ð¾Ð´Ð¿Ð¸Ñ�Ñ‹Ð²Ð°ÐµÐ¼Ñ‹Ð¼ Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸ÐµÐ¼, Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð½Ðµ Ñ�Ñ‚Ð°Ñ‚ÑŒ Ð¶ÐµÑ€Ñ‚Ð²Ð¾Ð¹ Ð°Ñ‚Ð°ÐºÐ¸ &quot;man-in-the-middle&quot;.</translation>
+        <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
+        <translation>Введите ниже адрес получателя, сообщение (убедитесь, что переводы строк, пробелы, табы и т.п. в точности скопированы) и подпись, чтобы проверить сообщение. Убедитесь, что не скопировали лишнего в подпись, по сравнению с самим подписываемым сообщением, чтобы не стать жертвой атаки "man-in-the-middle". Заметьте, что эта операция удостоверяет лишь авторство подписавшего, но не может удостоверить отправителя транзакции.</translation>
     </message>
     <message>
-        <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Ð�Ð´Ñ€ÐµÑ�, ÐºÐ¾Ñ‚Ð¾Ñ€Ñ‹Ð¼ Ð±Ñ‹Ð»Ð¾ Ð¿Ð¾Ð´Ð¿Ð¸Ñ�Ð°Ð½Ð¾ Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ (Ð½Ð°Ð¿Ñ€. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The Murfcoin address the message was signed with</source>
+        <translation>Адрес Murfcoin, которым было подписано сообщение</translation>
     </message>
     <message>
-        <location line="+40"/>
         <source>Verify the message to ensure it was signed with the specified Murfcoin address</source>
-        <translation>ÐŸÑ€Ð¾Ð²ÐµÑ€Ð¸Ñ‚ÑŒ Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ, Ñ‡Ñ‚Ð¾Ð±Ñ‹ ÑƒÐ±ÐµÐ´Ð¸Ñ‚ÑŒÑ�Ñ�, Ñ‡Ñ‚Ð¾ Ð¾Ð½Ð¾ Ð±Ñ‹Ð»Ð¾ Ð¿Ð¾Ð´Ð¿Ð¸Ñ�Ð°Ð½Ð¾ ÑƒÐºÐ°Ð·Ð°Ð½Ð½Ñ‹Ð¼ Ð°Ð´Ñ€ÐµÑ�Ð¾Ð¼ Murfcoin</translation>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Murfcoin</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Verify &amp;Message</source>
-        <translation>ÐŸÑ€Ð¾Ð²ÐµÑ€Ð¸Ñ‚ÑŒ &amp;Ð¡Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ</translation>
+        <translation>Проверить &amp;Сообщение</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Reset all verify message fields</source>
-        <translation>Ð¡Ð±Ñ€Ð¾Ñ�Ð¸Ñ‚ÑŒ Ð²Ñ�Ðµ Ð¿Ð¾Ð»Ñ� Ð¿Ñ€Ð¾Ð²ÐµÑ€ÐºÐ¸ Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ñ�</translation>
+        <translation>Сбросить все поля проверки сообщения</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="+27"/>
-        <location line="+3"/>
-        <source>Enter a Murfcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð°Ð´Ñ€ÐµÑ� Murfcoin (Ð½Ð°Ð¿Ñ€. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>Нажмите "Подписать сообщение" для создания подписи</translation>
     </message>
     <message>
-        <location line="-2"/>
-        <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation>Ð�Ð°Ð¶Ð¼Ð¸Ñ‚Ðµ &quot;ÐŸÐ¾Ð´Ð¿Ð¸Ñ�Ð°Ñ‚ÑŒ Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ&quot; Ð´Ð»Ñ� Ñ�Ð¾Ð·Ð´Ð°Ð½Ð¸Ñ� Ð¿Ð¾Ð´Ð¿Ð¸Ñ�Ð¸</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Enter Murfcoin signature</source>
-        <translation>Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿Ð¾Ð´Ð¿Ð¸Ñ�ÑŒ Murfcoin</translation>
-    </message>
-    <message>
-        <location line="+82"/>
-        <location line="+81"/>
         <source>The entered address is invalid.</source>
-        <translation>Ð’Ð²ÐµÐ´Ñ‘Ð½Ð½Ñ‹Ð¹ Ð°Ð´Ñ€ÐµÑ� Ð½ÐµÐ²ÐµÑ€ÐµÐ½</translation>
+        <translation>Введённый адрес неверен.</translation>
     </message>
     <message>
-        <location line="-81"/>
-        <location line="+8"/>
-        <location line="+73"/>
-        <location line="+8"/>
         <source>Please check the address and try again.</source>
-        <translation>ÐŸÐ¾Ð¶Ð°Ð»ÑƒÐ¹Ñ�Ñ‚Ð°, Ð¿Ñ€Ð¾Ð²ÐµÑ€ÑŒÑ‚Ðµ Ð°Ð´Ñ€ÐµÑ� Ð¸ Ð¿Ð¾Ð¿Ñ€Ð¾Ð±ÑƒÐ¹Ñ‚Ðµ ÐµÑ‰Ñ‘ Ñ€Ð°Ð·.</translation>
+        <translation>Пожалуйста, проверьте адрес и попробуйте ещё раз.</translation>
     </message>
     <message>
-        <location line="-81"/>
-        <location line="+81"/>
         <source>The entered address does not refer to a key.</source>
-        <translation>Ð’Ð²ÐµÐ´Ñ‘Ð½Ð½Ñ‹Ð¹ Ð°Ð´Ñ€ÐµÑ� Ð½Ðµ Ñ�Ð²Ñ�Ð·Ð°Ð½ Ñ� ÐºÐ»ÑŽÑ‡Ð¾Ð¼</translation>
+        <translation>Введённый адрес не связан с ключом.</translation>
     </message>
     <message>
-        <location line="-73"/>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Ð Ð°Ð·Ð±Ð»Ð¾ÐºÐ¸Ñ€Ð¾Ð²ÐºÐ° Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸ÐºÐ° Ð±Ñ‹Ð»Ð° Ð¾Ñ‚Ð¼ÐµÐ½ÐµÐ½Ð°.</translation>
+        <translation>Разблокировка бумажника была отменена.</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Private key for the entered address is not available.</source>
-        <translation>Ð”Ð»Ñ� Ð²Ð²ÐµÐ´Ñ‘Ð½Ð½Ð¾Ð³Ð¾ Ð°Ð´Ñ€ÐµÑ�Ð° Ð½ÐµÐ´Ð¾Ñ�Ñ‚ÑƒÐ¿ÐµÐ½ Ð·Ð°ÐºÑ€Ñ‹Ñ‚Ñ‹Ð¹ ÐºÐ»ÑŽÑ‡</translation>
+        <translation>Недоступен секретный ключ для введённого адреса.</translation>
     </message>
     <message>
-        <location line="+12"/>
         <source>Message signing failed.</source>
-        <translation>Ð�Ðµ ÑƒÐ´Ð°Ð»Ð¾Ñ�ÑŒ Ð¿Ð¾Ð´Ð¿Ð¸Ñ�Ð°Ñ‚ÑŒ Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ</translation>
+        <translation>Не удалось подписать сообщение.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Message signed.</source>
-        <translation>Ð¡Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ Ð¿Ð¾Ð´Ð¿Ð¸Ñ�Ð°Ð½Ð¾</translation>
+        <translation>Сообщение подписано.</translation>
     </message>
     <message>
-        <location line="+59"/>
         <source>The signature could not be decoded.</source>
-        <translation>ÐŸÐ¾Ð´Ð¿Ð¸Ñ�ÑŒ Ð½Ðµ Ð¼Ð¾Ð¶ÐµÑ‚ Ð±Ñ‹Ñ‚ÑŒ Ñ€Ð°Ñ�ÐºÐ¾Ð´Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð°.</translation>
+        <translation>Подпись не может быть раскодирована.</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <location line="+13"/>
         <source>Please check the signature and try again.</source>
-        <translation>ÐŸÐ¾Ð¶Ð°Ð»ÑƒÐ¹Ñ�Ñ‚Ð°, Ð¿Ñ€Ð¾Ð²ÐµÑ€ÑŒÑ‚Ðµ Ð¿Ð¾Ð´Ð¿Ð¸Ñ�ÑŒ Ð¸ Ð¿Ð¾Ð¿Ñ€Ð¾Ð±ÑƒÐ¹Ñ‚Ðµ ÐµÑ‰Ñ‘ Ñ€Ð°Ð·.</translation>
+        <translation>Пожалуйста, проверьте подпись и попробуйте ещё раз.</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>The signature did not match the message digest.</source>
-        <translation>ÐŸÐ¾Ð´Ð¿Ð¸Ñ�ÑŒ Ð½Ðµ Ñ�Ð¾Ð¾Ñ‚Ð²ÐµÑ‚Ñ�Ñ‚Ð²ÑƒÐµÑ‚ Ð¾Ñ‚Ð¿ÐµÑ‡Ð°Ñ‚ÐºÑƒ Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ñ�.</translation>
+        <translation>Подпись не соответствует отпечатку сообщения.</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Message verification failed.</source>
-        <translation>ÐŸÑ€Ð¾Ð²ÐµÑ€ÐºÐ° Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ñ� Ð½Ðµ ÑƒÐ´Ð°Ð»Ð°Ñ�ÑŒ.</translation>
+        <translation>Сообщение не прошло проверку.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Message verified.</source>
-        <translation>Ð¡Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ Ð¿Ñ€Ð¾Ð²ÐµÑ€ÐµÐ½Ð¾.</translation>
+        <translation>Сообщение проверено.</translation>
     </message>
 </context>
 <context>
     <name>SplashScreen</name>
     <message>
-        <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Murfcoin developers</source>
-        <translation>Ð Ð°Ð·Ñ€Ð°Ð±Ð¾Ñ‚Ñ‡Ð¸ÐºÐ¸ Murfcoin</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>[testnet]</source>
-        <translation>[Ñ‚ÐµÑ�Ñ‚Ð¾Ð²Ð°Ñ� Ñ�ÐµÑ‚ÑŒ]</translation>
+        <translation>[тестовая сеть]</translation>
+    </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
+    <message>
+        <source>KB/s</source>
+        <translation>КБ/сек</translation>
     </message>
 </context>
 <context>
     <name>TransactionDesc</name>
-    <message>
-        <location filename="../transactiondesc.cpp" line="+20"/>
-        <source>Open until %1</source>
-        <translation>ÐžÑ‚ÐºÑ€Ñ‹Ñ‚Ð¾ Ð´Ð¾ %1</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>%1/offline</source>
-        <translation>%1/Ð¾Ñ‚ÐºÐ»ÑŽÑ‡ÐµÐ½</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>%1/unconfirmed</source>
-        <translation>%1/Ð½Ðµ Ð¿Ð¾Ð´Ñ‚Ð²ÐµÑ€Ð¶Ð´ÐµÐ½Ð¾</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>%1 confirmations</source>
-        <translation>%1 Ð¿Ð¾Ð´Ñ‚Ð²ÐµÑ€Ð¶Ð´ÐµÐ½Ð¸Ð¹</translation>
-    </message>
-    <message>
-        <location line="+18"/>
-        <source>Status</source>
-        <translation>Ð¡Ñ‚Ð°Ñ‚ÑƒÑ�</translation>
-    </message>
     <message numerus="yes">
-        <location line="+7"/>
-        <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, Ñ€Ð°Ð·Ð¾Ñ�Ð»Ð°Ð½Ð¾ Ñ‡ÐµÑ€ÐµÐ· %n ÑƒÐ·ÐµÐ»</numerusform><numerusform>, Ñ€Ð°Ð·Ð¾Ñ�Ð»Ð°Ð½Ð¾ Ñ‡ÐµÑ€ÐµÐ· %n ÑƒÐ·Ð»Ð°</numerusform><numerusform>, Ñ€Ð°Ð·Ð¾Ñ�Ð»Ð°Ð½Ð¾ Ñ‡ÐµÑ€ÐµÐ· %n ÑƒÐ·Ð»Ð¾Ð²</numerusform></translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Date</source>
-        <translation>Ð”Ð°Ñ‚Ð°</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Source</source>
-        <translation>Ð˜Ñ�Ñ‚Ð¾Ñ‡Ð½Ð¸Ðº</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Generated</source>
-        <translation>Ð¡Ð³ÐµÐ½ÐµÑ€Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð½Ð¾</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <location line="+17"/>
-        <source>From</source>
-        <translation>ÐžÑ‚</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <location line="+22"/>
-        <location line="+58"/>
-        <source>To</source>
-        <translation>Ð”Ð»Ñ�</translation>
-    </message>
-    <message>
-        <location line="-77"/>
-        <location line="+2"/>
-        <source>own address</source>
-        <translation>Ñ�Ð²Ð¾Ð¹ Ð°Ð´Ñ€ÐµÑ�</translation>
-    </message>
-    <message>
-        <location line="-2"/>
-        <source>label</source>
-        <translation>Ð¼ÐµÑ‚ÐºÐ°</translation>
-    </message>
-    <message>
-        <location line="+37"/>
-        <location line="+12"/>
-        <location line="+45"/>
-        <location line="+17"/>
-        <location line="+30"/>
-        <source>Credit</source>
-        <translation>ÐšÑ€ÐµÐ´Ð¸Ñ‚</translation>
-    </message>
-    <message numerus="yes">
-        <location line="-102"/>
-        <source>matures in %n more block(s)</source>
-        <translation><numerusform>Ð±ÑƒÐ´ÐµÑ‚ Ð´Ð¾Ñ�Ñ‚ÑƒÐ¿Ð½Ð¾ Ñ‡ÐµÑ€ÐµÐ· %n Ð±Ð»Ð¾Ðº</numerusform><numerusform>Ð±ÑƒÐ´ÐµÑ‚ Ð´Ð¾Ñ�Ñ‚ÑƒÐ¿Ð½Ð¾ Ñ‡ÐµÑ€ÐµÐ· %n Ð±Ð»Ð¾ÐºÐ°</numerusform><numerusform>Ð±ÑƒÐ´ÐµÑ‚ Ð´Ð¾Ñ�Ñ‚ÑƒÐ¿Ð½Ð¾ Ñ‡ÐµÑ€ÐµÐ· %n Ð±Ð»Ð¾ÐºÐ¾Ð²</numerusform></translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>not accepted</source>
-        <translation>Ð½Ðµ Ð¿Ñ€Ð¸Ð½Ñ�Ñ‚Ð¾</translation>
-    </message>
-    <message>
-        <location line="+44"/>
-        <location line="+8"/>
-        <location line="+15"/>
-        <location line="+30"/>
-        <source>Debit</source>
-        <translation>Ð”ÐµÐ±ÐµÑ‚</translation>
-    </message>
-    <message>
-        <location line="-39"/>
-        <source>Transaction fee</source>
-        <translation>ÐšÐ¾Ð¼Ð¸Ñ�Ñ�Ð¸Ñ�</translation>
-    </message>
-    <message>
-        <location line="+16"/>
-        <source>Net amount</source>
-        <translation>Ð§Ð¸Ñ�Ñ‚Ð°Ñ� Ñ�ÑƒÐ¼Ð¼Ð°</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Message</source>
-        <translation>Ð¡Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Comment</source>
-        <translation>ÐšÐ¾Ð¼Ð¼ÐµÐ½Ñ‚Ð°Ñ€Ð¸Ð¹:</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Transaction ID</source>
-        <translation>ID Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ð¸</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Ð¡Ð³ÐµÐ½ÐµÑ€Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð½Ñ‹Ðµ Ð¼Ð¾Ð½ÐµÑ‚Ñ‹ Ð´Ð¾Ð»Ð¶Ð½Ñ‹ Ð¿Ð¾Ð´Ð¾Ð¶Ð´Ð°Ñ‚ÑŒ 120 Ð±Ð»Ð¾ÐºÐ¾Ð², Ð¿Ñ€ÐµÐ¶Ð´Ðµ Ñ‡ÐµÐ¼ Ð¾Ð½Ð¸ Ð¼Ð¾Ð³ÑƒÑ‚ Ð±Ñ‹Ñ‚ÑŒ Ð¿Ð¾Ñ‚Ñ€Ð°Ñ‡ÐµÐ½Ñ‹. ÐšÐ¾Ð³Ð´Ð° Ð’Ñ‹ Ñ�Ð³ÐµÐ½ÐµÑ€Ð¸Ñ€Ð¾Ð²Ð°Ð»Ð¸ Ñ�Ñ‚Ð¾Ñ‚ Ð±Ð»Ð¾Ðº, Ð¾Ð½ Ð±Ñ‹Ð» Ð¾Ñ‚Ð¿Ñ€Ð°Ð²Ð»ÐµÐ½ Ð² Ñ�ÐµÑ‚ÑŒ Ð´Ð»Ñ� Ð´Ð¾Ð±Ð°Ð²Ð»ÐµÐ½Ð¸Ñ� Ð² Ñ†ÐµÐ¿Ð¾Ñ‡ÐºÑƒ Ð±Ð»Ð¾ÐºÐ¾Ð². Ð•Ñ�Ð»Ð¸ Ð´Ð°Ð½Ð½Ð°Ñ� Ð¿Ñ€Ð¾Ñ†ÐµÐ´ÑƒÑ€Ð° Ð½Ðµ ÑƒÐ´Ð°Ñ�Ñ‚Ñ�Ñ�, Ñ�Ñ‚Ð°Ñ‚ÑƒÑ� Ð¸Ð·Ð¼ÐµÐ½Ð¸Ñ‚Ñ�Ñ� Ð½Ð° Â«Ð½Ðµ Ð¿Ð¾Ð´Ñ‚Ð²ÐµÑ€Ð¶Ð´ÐµÐ½Ð¾Â», Ð¸ Ð¼Ð¾Ð½ÐµÑ‚Ñ‹ Ð±ÑƒÐ´ÑƒÑ‚ Ð½ÐµÐ´ÐµÐ¹Ñ�Ñ‚Ð²Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ñ‹. Ð­Ñ‚Ð¾ Ð¸Ð½Ð¾Ð³Ð´Ð° Ð¿Ñ€Ð¾Ð¸Ñ�Ñ…Ð¾Ð´Ð¸Ñ‚ Ð² Ñ�Ð»ÑƒÑ‡Ð°Ðµ, ÐµÑ�Ð»Ð¸ Ð´Ñ€ÑƒÐ³Ð¾Ð¹ ÑƒÐ·ÐµÐ» Ñ�Ð³ÐµÐ½ÐµÑ€Ð¸Ñ€ÑƒÐµÑ‚ Ð±Ð»Ð¾Ðº Ð½Ð° Ð½ÐµÑ�ÐºÐ¾Ð»ÑŒÐºÐ¾ Ñ�ÐµÐºÑƒÐ½Ð´ Ñ€Ð°Ð½ÑŒÑˆÐµ Ð²Ð°Ñ�.</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Debug information</source>
-        <translation>ÐžÑ‚Ð»Ð°Ð´Ð¾Ñ‡Ð½Ð°Ñ� Ð¸Ð½Ñ„Ð¾Ñ€Ð¼Ð°Ñ†Ð¸Ñ�</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Transaction</source>
-        <translation>Ð¢Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ñ�</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Inputs</source>
-        <translation>Ð’Ñ…Ð¾Ð´Ñ‹</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Amount</source>
-        <translation>ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑ�Ñ‚Ð²Ð¾</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>true</source>
-        <translation>Ð¸Ñ�Ñ‚Ð¸Ð½Ð°</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>false</source>
-        <translation>Ð»Ð¾Ð¶ÑŒ</translation>
-    </message>
-    <message>
-        <location line="-209"/>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>, ÐµÑ‰Ñ‘ Ð½Ðµ Ð±Ñ‹Ð»Ð¾ ÑƒÑ�Ð¿ÐµÑˆÐ½Ð¾ Ñ€Ð°Ð·Ð¾Ñ�Ð»Ð°Ð½Ð¾</translation>
-    </message>
-    <message numerus="yes">
-        <location line="-35"/>
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>ÐžÑ‚ÐºÑ€Ñ‹Ñ‚Ð¾ Ð´Ð»Ñ� ÐµÑ‰Ñ‘ %n Ð±Ð»Ð¾ÐºÐ°</numerusform><numerusform>ÐžÑ‚ÐºÑ€Ñ‹Ñ‚Ð¾ Ð´Ð»Ñ� ÐµÑ‰Ñ‘ %n Ð±Ð»Ð¾ÐºÐ¾Ð²</numerusform><numerusform>ÐžÑ‚ÐºÑ€Ñ‹Ñ‚Ð¾ Ð´Ð»Ñ� ÐµÑ‰Ñ‘ %n Ð±Ð»Ð¾ÐºÐ¾Ð²</numerusform></translation>
+        <translation><numerusform>Открыто для ещё %n блока</numerusform><numerusform>Открыто для ещё %n блоков</numerusform><numerusform>Открыто для ещё %n блоков</numerusform><numerusform>Открыто для ещё %n блоков</numerusform></translation>
     </message>
     <message>
-        <location line="+70"/>
+        <source>Open until %1</source>
+        <translation>Открыто до %1</translation>
+    </message>
+    <message>
+        <source>conflicted with a transaction with %1 confirmations</source>
+        <translation>конфликт с транзакцией с %1 подтверждений</translation>
+    </message>
+    <message>
+        <source>%1/offline</source>
+        <translation>%1/отключен</translation>
+    </message>
+    <message>
+        <source>0/unconfirmed, %1</source>
+        <translation>0/не подтверждено, %1</translation>
+    </message>
+    <message>
+        <source>in memory pool</source>
+        <translation>В памяти</translation>
+    </message>
+    <message>
+        <source>not in memory pool</source>
+        <translation>Не в памяти</translation>
+    </message>
+    <message>
+        <source>abandoned</source>
+        <translation>заброшено</translation>
+    </message>
+    <message>
+        <source>%1/unconfirmed</source>
+        <translation>%1/не подтверждено</translation>
+    </message>
+    <message>
+        <source>%1 confirmations</source>
+        <translation>%1 подтверждений</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Статус</translation>
+    </message>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, ещё не было успешно разослано</translation>
+    </message>
+    <message numerus="yes">
+        <source>, broadcast through %n node(s)</source>
+        <translation><numerusform>, разослано через %n узел</numerusform><numerusform>, разослано через %n узла</numerusform><numerusform>, разослано через %n узлов</numerusform><numerusform>, разослано через %n узлов</numerusform></translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Дата</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Источник</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Сгенерированно</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>От</translation>
+    </message>
+    <message>
         <source>unknown</source>
-        <translation>Ð½ÐµÐ¸Ð·Ð²ÐµÑ�Ñ‚Ð½Ð¾</translation>
+        <translation>неизвестно</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Для</translation>
+    </message>
+    <message>
+        <source>own address</source>
+        <translation>свой адрес</translation>
+    </message>
+    <message>
+        <source>watch-only</source>
+        <translation>только наблюдение</translation>
+    </message>
+    <message>
+        <source>label</source>
+        <translation>метка</translation>
+    </message>
+    <message>
+        <source>Credit</source>
+        <translation>Кредит</translation>
+    </message>
+    <message numerus="yes">
+        <source>matures in %n more block(s)</source>
+        <translation><numerusform>будет доступно через %n блок</numerusform><numerusform>будет доступно через %n блока</numerusform><numerusform>будет доступно через %n блоков</numerusform><numerusform>будет доступно через %n блоков</numerusform></translation>
+    </message>
+    <message>
+        <source>not accepted</source>
+        <translation>не принято</translation>
+    </message>
+    <message>
+        <source>Debit</source>
+        <translation>Дебет</translation>
+    </message>
+    <message>
+        <source>Total debit</source>
+        <translation>Всего дебет</translation>
+    </message>
+    <message>
+        <source>Total credit</source>
+        <translation>Всего кредит</translation>
+    </message>
+    <message>
+        <source>Transaction fee</source>
+        <translation>Комиссия</translation>
+    </message>
+    <message>
+        <source>Net amount</source>
+        <translation>Чистая сумма</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Сообщение</translation>
+    </message>
+    <message>
+        <source>Comment</source>
+        <translation>Комментарий</translation>
+    </message>
+    <message>
+        <source>Transaction ID</source>
+        <translation>ID транзакции</translation>
+    </message>
+    <message>
+        <source>Transaction total size</source>
+        <translation>Общий размер транзакции</translation>
+    </message>
+    <message>
+        <source>Output index</source>
+        <translation>Номер выхода</translation>
+    </message>
+    <message>
+        <source>Merchant</source>
+        <translation>Продавец</translation>
+    </message>
+    <message>
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>Сгенерированные монеты должны подождать %1 блоков, прежде чем они могут быть потрачены. Когда вы сгенерировали этот блок, он был отправлен в сеть для добавления в цепочку блоков. Если он не попадёт в цепь, его статус изменится на "не принят", и монеты будут недействительны. Это иногда происходит в случае, если другой узел сгенерирует блок на несколько секунд раньше вас.</translation>
+    </message>
+    <message>
+        <source>Debug information</source>
+        <translation>Отладочная информация</translation>
+    </message>
+    <message>
+        <source>Transaction</source>
+        <translation>Транзакция</translation>
+    </message>
+    <message>
+        <source>Inputs</source>
+        <translation>Входы</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Сумма</translation>
+    </message>
+    <message>
+        <source>true</source>
+        <translation>истина</translation>
+    </message>
+    <message>
+        <source>false</source>
+        <translation>ложь</translation>
     </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
-        <location filename="../forms/transactiondescdialog.ui" line="+14"/>
-        <source>Transaction details</source>
-        <translation>Ð”ÐµÑ‚Ð°Ð»Ð¸ Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ð¸</translation>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>Эта панель отображает детальное описание транзакции.</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>This pane shows a detailed description of the transaction</source>
-        <translation>Ð”Ð°Ð½Ð½Ñ‹Ð¹ Ð´Ð¸Ð°Ð»Ð¾Ð³ Ð¿Ð¾ÐºÐ°Ð·Ñ‹Ð²Ð°ÐµÑ‚ Ð´ÐµÑ‚Ð°Ð»Ð¸Ð·Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð½ÑƒÑŽ Ñ�Ñ‚Ð°Ñ‚Ð¸Ñ�Ñ‚Ð¸ÐºÑƒ Ð¿Ð¾ Ð²Ñ‹Ð±Ñ€Ð°Ð½Ð½Ð¾Ð¹ Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ð¸</translation>
+        <source>Details for %1</source>
+        <translation>Подробности %1</translation>
     </message>
 </context>
 <context>
     <name>TransactionTableModel</name>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="+225"/>
         <source>Date</source>
-        <translation>Ð”Ð°Ñ‚Ð°</translation>
+        <translation>Дата</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Type</source>
-        <translation>Ð¢Ð¸Ð¿</translation>
+        <translation>Тип</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Address</source>
-        <translation>Ð�Ð´Ñ€ÐµÑ�</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Amount</source>
-        <translation>ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑ�Ñ‚Ð²Ð¾</translation>
+        <source>Label</source>
+        <translation>Метка</translation>
     </message>
     <message numerus="yes">
-        <location line="+57"/>
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>ÐžÑ‚ÐºÑ€Ñ‹Ñ‚Ð¾ Ð´Ð»Ñ� ÐµÑ‰Ñ‘ %n Ð±Ð»Ð¾ÐºÐ°</numerusform><numerusform>ÐžÑ‚ÐºÑ€Ñ‹Ñ‚Ð¾ Ð´Ð»Ñ� ÐµÑ‰Ñ‘ %n Ð±Ð»Ð¾ÐºÐ¾Ð²</numerusform><numerusform>ÐžÑ‚ÐºÑ€Ñ‹Ñ‚Ð¾ Ð´Ð»Ñ� ÐµÑ‰Ñ‘ %n Ð±Ð»Ð¾ÐºÐ¾Ð²</numerusform></translation>
+        <translation><numerusform>Открыто для ещё %n блока</numerusform><numerusform>Открыто для ещё %n блоков</numerusform><numerusform>Открыто для ещё %n блоков</numerusform><numerusform>Открыто для ещё %n блоков</numerusform></translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Open until %1</source>
-        <translation>ÐžÑ‚ÐºÑ€Ñ‹Ñ‚Ð¾ Ð´Ð¾ %1</translation>
+        <translation>Открыто до %1</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Offline (%1 confirmations)</source>
-        <translation>ÐžÑ„Ñ„Ð»Ð°Ð¹Ð½ (%1 Ð¿Ð¾Ð´Ñ‚Ð²ÐµÑ€Ð¶Ð´ÐµÐ½Ð¸Ð¹)</translation>
+        <source>Offline</source>
+        <translation>Отключен</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Unconfirmed (%1 of %2 confirmations)</source>
-        <translation>Ð�Ðµ Ð¿Ð¾Ð´Ñ‚Ð²ÐµÑ€Ð¶Ð´ÐµÐ½Ð¾ (%1 Ð¸Ð· %2 Ð¿Ð¾Ð´Ñ‚Ð²ÐµÑ€Ð¶Ð´ÐµÐ½Ð¸Ð¹)</translation>
+        <source>Unconfirmed</source>
+        <translation>Не подтверждено</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <source>Abandoned</source>
+        <translation>Заброшено</translation>
+    </message>
+    <message>
+        <source>Confirming (%1 of %2 recommended confirmations)</source>
+        <translation>Подтверждается (%1 из %2 рекомендуемых подтверждений)</translation>
+    </message>
+    <message>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>ÐŸÐ¾Ð´Ñ‚Ð²ÐµÑ€Ð¶Ð´ÐµÐ½Ð¾ (%1 Ð¿Ð¾Ð´Ñ‚Ð²ÐµÑ€Ð¶Ð´ÐµÐ½Ð¸Ð¹)</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+8"/>
-        <source>Mined balance will be available when it matures in %n more block(s)</source>
-        <translation><numerusform>Ð”Ð¾Ð±Ñ‹Ñ‚Ñ‹Ð¼Ð¸ Ð¼Ð¾Ð½ÐµÑ‚Ð°Ð¼Ð¸ Ð¼Ð¾Ð¶Ð½Ð¾ Ð±ÑƒÐ´ÐµÑ‚ Ð²Ð¾Ñ�Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÑŒÑ�Ñ� Ñ‡ÐµÑ€ÐµÐ· %n Ð±Ð»Ð¾Ðº</numerusform><numerusform>Ð”Ð¾Ð±Ñ‹Ñ‚Ñ‹Ð¼Ð¸ Ð¼Ð¾Ð½ÐµÑ‚Ð°Ð¼Ð¸ Ð¼Ð¾Ð¶Ð½Ð¾ Ð±ÑƒÐ´ÐµÑ‚ Ð²Ð¾Ñ�Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÑŒÑ�Ñ� Ñ‡ÐµÑ€ÐµÐ· %n Ð±Ð»Ð¾ÐºÐ°</numerusform><numerusform>Ð”Ð¾Ð±Ñ‹Ñ‚Ñ‹Ð¼Ð¸ Ð¼Ð¾Ð½ÐµÑ‚Ð°Ð¼Ð¸ Ð¼Ð¾Ð¶Ð½Ð¾ Ð±ÑƒÐ´ÐµÑ‚ Ð²Ð¾Ñ�Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÑŒÑ�Ñ� Ñ‡ÐµÑ€ÐµÐ· %n Ð±Ð»Ð¾ÐºÐ¾Ð²</numerusform></translation>
+        <translation>Подтверждено (%1 подтверждений)</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <source>Conflicted</source>
+        <translation>В противоречии</translation>
+    </message>
+    <message>
+        <source>Immature (%1 confirmations, will be available after %2)</source>
+        <translation>Незрелый (%1 подтверждений, будет доступно после %2)</translation>
+    </message>
+    <message>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Ð­Ñ‚Ð¾Ñ‚ Ð±Ð»Ð¾Ðº Ð½Ðµ Ð±Ñ‹Ð» Ð¿Ð¾Ð»ÑƒÑ‡ÐµÐ½ Ð´Ñ€ÑƒÐ³Ð¸Ð¼Ð¸ ÑƒÐ·Ð»Ð°Ð¼Ð¸ Ð¸, Ð²Ð¾Ð·Ð¼Ð¾Ð¶Ð½Ð¾, Ð½Ðµ Ð±ÑƒÐ´ÐµÑ‚ Ð¿Ñ€Ð¸Ð½Ñ�Ñ‚!</translation>
+        <translation>Этот блок не был получен другими узлами и, возможно, не будет принят!</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Generated but not accepted</source>
-        <translation>Ð¡Ð³ÐµÐ½ÐµÑ€Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð½Ð¾, Ð½Ð¾ Ð½Ðµ Ð¿Ð¾Ð´Ñ‚Ð²ÐµÑ€Ð¶Ð´ÐµÐ½Ð¾</translation>
+        <translation>Сгенерировано, но не принято</translation>
     </message>
     <message>
-        <location line="+43"/>
         <source>Received with</source>
-        <translation>ÐŸÐ¾Ð»ÑƒÑ‡ÐµÐ½Ð¾</translation>
+        <translation>Получено на</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Received from</source>
-        <translation>ÐŸÐ¾Ð»ÑƒÑ‡ÐµÐ½Ð¾ Ð¾Ñ‚</translation>
+        <translation>Получено от</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Sent to</source>
-        <translation>ÐžÑ‚Ð¿Ñ€Ð°Ð²Ð»ÐµÐ½Ð¾</translation>
+        <translation>Отправлено на</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Payment to yourself</source>
-        <translation>ÐžÑ‚Ð¿Ñ€Ð°Ð²Ð»ÐµÐ½Ð¾ Ñ�ÐµÐ±Ðµ</translation>
+        <translation>Отправлено себе</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Mined</source>
-        <translation>Ð”Ð¾Ð±Ñ‹Ñ‚Ð¾</translation>
+        <translation>Добыто</translation>
     </message>
     <message>
-        <location line="+38"/>
+        <source>watch-only</source>
+        <translation>только наблюдение</translation>
+    </message>
+    <message>
         <source>(n/a)</source>
-        <translation>[Ð½Ðµ Ð´Ð¾Ñ�Ñ‚ÑƒÐ¿Ð½Ð¾]</translation>
+        <translation>(недоступно)</translation>
     </message>
     <message>
-        <location line="+199"/>
+        <source>(no label)</source>
+        <translation>(нет метки)</translation>
+    </message>
+    <message>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Ð¡Ñ‚Ð°Ñ‚ÑƒÑ� Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ð¸. ÐŸÐ¾Ð´Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÑƒÑ€Ñ�Ð¾Ñ€ Ðº Ð½ÑƒÐ¶Ð½Ð¾Ð¼Ñƒ Ð¿Ð¾Ð»ÑŽ Ð´Ð»Ñ� Ñ‚Ð¾Ð³Ð¾, Ñ‡Ñ‚Ð¾Ð±Ñ‹ ÑƒÐ²Ð¸Ð´ÐµÑ‚ÑŒ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑ�Ñ‚Ð²Ð¾ Ð¿Ð¾Ð´Ñ‚Ð²ÐµÑ€Ð¶Ð´ÐµÐ½Ð¸Ð¹.</translation>
+        <translation>Статус транзакции. Подведите курсор к этому полю, чтобы увидеть количество подтверждений.</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Date and time that the transaction was received.</source>
-        <translation>Ð”Ð°Ñ‚Ð° Ð¸ Ð²Ñ€ÐµÐ¼Ñ�, ÐºÐ¾Ð³Ð´Ð° Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ñ� Ð±Ñ‹Ð»Ð° Ð¿Ð¾Ð»ÑƒÑ‡ÐµÐ½Ð°.</translation>
+        <translation>Дата и время получения транзакции.</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Type of transaction.</source>
-        <translation>Ð¢Ð¸Ð¿ Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ð¸.</translation>
+        <translation>Тип транзакции.</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Destination address of transaction.</source>
-        <translation>Ð�Ð´Ñ€ÐµÑ� Ð½Ð°Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ñ� Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ð¸.</translation>
+        <source>Whether or not a watch-only address is involved in this transaction.</source>
+        <translation>Использовался ли в транзакции адрес для наблюдения.</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <source>User-defined intent/purpose of the transaction.</source>
+        <translation>Определяемое пользователем намерение/цель транзакции.</translation>
+    </message>
+    <message>
         <source>Amount removed from or added to balance.</source>
-        <translation>Ð¡ÑƒÐ¼Ð¼Ð°, Ð´Ð¾Ð±Ð°Ð²Ð»ÐµÐ½Ð½Ð°Ñ�, Ð¸Ð»Ð¸ Ñ�Ð½Ñ�Ñ‚Ð°Ñ� Ñ� Ð±Ð°Ð»Ð°Ð½Ñ�Ð°.</translation>
+        <translation>Снятая или добавленная к балансу сумма.</translation>
     </message>
 </context>
 <context>
     <name>TransactionView</name>
     <message>
-        <location filename="../transactionview.cpp" line="+52"/>
-        <location line="+16"/>
         <source>All</source>
-        <translation>Ð’Ñ�Ðµ</translation>
+        <translation>Все</translation>
     </message>
     <message>
-        <location line="-15"/>
         <source>Today</source>
-        <translation>Ð¡ÐµÐ³Ð¾Ð´Ð½Ñ�</translation>
+        <translation>Сегодня</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>This week</source>
-        <translation>Ð�Ð° Ñ�Ñ‚Ð¾Ð¹ Ð½ÐµÐ´ÐµÐ»Ðµ</translation>
+        <translation>На этой неделе</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>This month</source>
-        <translation>Ð’ Ñ�Ñ‚Ð¾Ð¼ Ð¼ÐµÑ�Ñ�Ñ†Ðµ</translation>
+        <translation>В этом месяце</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Last month</source>
-        <translation>Ð—Ð° Ð¿Ð¾Ñ�Ð»ÐµÐ´Ð½Ð¸Ð¹ Ð¼ÐµÑ�Ñ�Ñ†</translation>
+        <translation>В прошлом месяце</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>This year</source>
-        <translation>Ð’ Ñ�Ñ‚Ð¾Ð¼ Ð³Ð¾Ð´Ñƒ</translation>
+        <translation>В этом году</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Range...</source>
-        <translation>ÐŸÑ€Ð¾Ð¼ÐµÐ¶ÑƒÑ‚Ð¾Ðº...</translation>
+        <translation>Диапазон...</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>Received with</source>
-        <translation>ÐŸÐ¾Ð»ÑƒÑ‡ÐµÐ½Ð¾ Ð½Ð°</translation>
+        <translation>Получено на</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Sent to</source>
-        <translation>ÐžÑ‚Ð¿Ñ€Ð°Ð²Ð»ÐµÐ½Ð¾ Ð½Ð°</translation>
+        <translation>Отправлено на</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>To yourself</source>
-        <translation>ÐžÑ‚Ð¿Ñ€Ð°Ð²Ð»ÐµÐ½Ð½Ñ‹Ðµ Ñ�ÐµÐ±Ðµ</translation>
+        <translation>Себе</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Mined</source>
-        <translation>Ð”Ð¾Ð±Ñ‹Ñ‚Ñ‹Ðµ</translation>
+        <translation>Добыто</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Other</source>
-        <translation>Ð”Ñ€ÑƒÐ³Ð¾Ðµ</translation>
+        <translation>Другое</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Enter address or label to search</source>
-        <translation>Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð°Ð´Ñ€ÐµÑ� Ð¸Ð»Ð¸ Ð¼ÐµÑ‚ÐºÑƒ Ð´Ð»Ñ� Ð¿Ð¾Ð¸Ñ�ÐºÐ°</translation>
+        <translation>Введите адрес или метку для поиска</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Min amount</source>
-        <translation>ÐœÐ¸Ð½. Ñ�ÑƒÐ¼Ð¼Ð°</translation>
+        <translation>Мин. сумма</translation>
     </message>
     <message>
-        <location line="+34"/>
+        <source>Abandon transaction</source>
+        <translation>Отказаться от транзакции</translation>
+    </message>
+    <message>
         <source>Copy address</source>
-        <translation>ÐšÐ¾Ð¿Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ Ð°Ð´Ñ€ÐµÑ�</translation>
+        <translation>Копировать адрес</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Copy label</source>
-        <translation>ÐšÐ¾Ð¿Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ Ð¼ÐµÑ‚ÐºÑƒ</translation>
+        <translation>Копировать метку</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Copy amount</source>
-        <translation>Ð¡ÐºÐ¾Ð¿Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ Ñ�ÑƒÐ¼Ð¼Ñƒ</translation>
+        <translation>Копировать сумму</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Copy transaction ID</source>
-        <translation>Ð¡ÐºÐ¾Ð¿Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ ID Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ð¸</translation>
+        <translation>Копировать ID транзакции</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>Copy raw transaction</source>
+        <translation>Копировать исходный код транзакции</translation>
+    </message>
+    <message>
+        <source>Copy full transaction details</source>
+        <translation>Копировать все подробности транзакции</translation>
+    </message>
+    <message>
         <source>Edit label</source>
-        <translation>Ð˜Ð·Ð¼ÐµÐ½Ð¸Ñ‚ÑŒ Ð¼ÐµÑ‚ÐºÑƒ</translation>
+        <translation>Изменить метку</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show transaction details</source>
-        <translation>ÐŸÐ¾ÐºÐ°Ð·Ð°Ñ‚ÑŒ Ð¿Ð¾Ð´Ñ€Ð¾Ð±Ð½Ð¾Ñ�Ñ‚Ð¸ Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ð¸</translation>
+        <translation>Показать подробности транзакции</translation>
     </message>
     <message>
-        <location line="+139"/>
-        <source>Export Transaction Data</source>
-        <translation>Ð­ÐºÑ�Ð¿Ð¾Ñ€Ñ‚Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ Ð´Ð°Ð½Ð½Ñ‹Ðµ Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ð¹</translation>
+        <source>Export Transaction History</source>
+        <translation>Экспортировать историю транзакций</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>Ð¢ÐµÐºÑ�Ñ‚, Ñ€Ð°Ð·Ð´ÐµÐ»Ñ‘Ð½Ð½Ñ‹Ð¹ Ð·Ð°Ð¿Ñ�Ñ‚Ñ‹Ð¼Ð¸ (*.csv)</translation>
+        <translation>Текст, разделённый запятыми (*.csv)</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Confirmed</source>
-        <translation>ÐŸÐ¾Ð´Ñ‚Ð²ÐµÑ€Ð¶Ð´ÐµÐ½Ð¾</translation>
+        <translation>Подтверждено</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>Watch-only</source>
+        <translation>Для наблюдения</translation>
+    </message>
+    <message>
         <source>Date</source>
-        <translation>Ð”Ð°Ñ‚Ð°</translation>
+        <translation>Дата</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Type</source>
-        <translation>Ð¢Ð¸Ð¿</translation>
+        <translation>Тип</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Label</source>
-        <translation>ÐœÐµÑ‚ÐºÐ°</translation>
+        <translation>Метка</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Address</source>
-        <translation>Ð�Ð´Ñ€ÐµÑ�</translation>
+        <translation>Адрес</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Amount</source>
-        <translation>ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑ�Ñ‚Ð²Ð¾</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>ID</source>
         <translation>ID</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Error exporting</source>
-        <translation>ÐžÑˆÐ¸Ð±ÐºÐ° Ñ�ÐºÑ�Ð¿Ð¾Ñ€Ñ‚Ð°</translation>
+        <source>Exporting Failed</source>
+        <translation>Экспорт не удался</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Could not write to file %1.</source>
-        <translation>Ð�ÐµÐ²Ð¾Ð·Ð¼Ð¾Ð¶Ð½Ð¾ Ð·Ð°Ð¿Ð¸Ñ�Ð°Ñ‚ÑŒ Ð² Ñ„Ð°Ð¹Ð» %1.</translation>
+        <source>There was an error trying to save the transaction history to %1.</source>
+        <translation>Произошла ошибка при сохранении истории транзакций в %1.</translation>
     </message>
     <message>
-        <location line="+100"/>
+        <source>Exporting Successful</source>
+        <translation>Экспорт успешно завершён</translation>
+    </message>
+    <message>
+        <source>The transaction history was successfully saved to %1.</source>
+        <translation>История транзакций была успешно сохранена в %1.</translation>
+    </message>
+    <message>
         <source>Range:</source>
-        <translation>ÐŸÑ€Ð¾Ð¼ÐµÐ¶ÑƒÑ‚Ð¾Ðº Ð¾Ñ‚:</translation>
+        <translation>Диапазон:</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>to</source>
-        <translation>Ð´Ð¾</translation>
+        <translation>до</translation>
+    </message>
+</context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    <message>
+        <source>Unit to show amounts in. Click to select another unit.</source>
+        <translation>Единица измерения количества монет. Щёлкните для выбора другой единицы.</translation>
+    </message>
+</context>
+<context>
+    <name>WalletFrame</name>
+    <message>
+        <source>No wallet has been loaded.</source>
+        <translation>Не был загружен ни один бумажник.</translation>
     </message>
 </context>
 <context>
     <name>WalletModel</name>
     <message>
-        <location filename="../walletmodel.cpp" line="+193"/>
         <source>Send Coins</source>
-        <translation>ÐžÑ‚Ð¿Ñ€Ð°Ð²ÐºÐ°</translation>
+        <translation>Отправка</translation>
     </message>
 </context>
 <context>
     <name>WalletView</name>
     <message>
-        <location filename="../walletview.cpp" line="+42"/>
         <source>&amp;Export</source>
-        <translation>&amp;Ð­ÐºÑ�Ð¿Ð¾Ñ€Ñ‚</translation>
+        <translation>&amp;Экспорт</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Export the data in the current tab to a file</source>
-        <translation>Ð­ÐºÑ�Ð¿Ð¾Ñ€Ñ‚Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ Ð´Ð°Ð½Ð½Ñ‹Ðµ Ð¸Ð· Ð²ÐºÐ»Ð°Ð´ÐºÐ¸ Ð² Ñ„Ð°Ð¹Ð»</translation>
+        <translation>Экспортировать данные текущей вкладки в файл</translation>
     </message>
     <message>
-        <location line="+193"/>
         <source>Backup Wallet</source>
-        <translation>Ð¡Ð´ÐµÐ»Ð°Ñ‚ÑŒ Ñ€ÐµÐ·ÐµÑ€Ð²Ð½ÑƒÑŽ ÐºÐ¾Ð¿Ð¸ÑŽ Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸ÐºÐ°</translation>
+        <translation>Резервная копия бумажника</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Wallet Data (*.dat)</source>
-        <translation>Ð”Ð°Ð½Ð½Ñ‹Ðµ Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸ÐºÐ° (*.dat)</translation>
+        <translation>Данные бумажника (*.dat)</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Backup Failed</source>
-        <translation>Ð ÐµÐ·ÐµÑ€Ð²Ð½Ð¾Ðµ ÐºÐ¾Ð¿Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ Ð½Ðµ ÑƒÐ´Ð°Ð»Ð¾Ñ�ÑŒ</translation>
+        <translation>Резервное копирование не удалось</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>There was an error trying to save the wallet data to the new location.</source>
-        <translation>ÐŸÑ€Ð¸ Ð¿Ð¾Ð¿Ñ‹Ñ‚ÐºÐµ Ñ�Ð¾Ñ…Ñ€Ð°Ð½ÐµÐ½Ð¸Ñ� Ð´Ð°Ð½Ð½Ñ‹Ñ… Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸ÐºÐ° Ð² Ð½Ð¾Ð²Ð¾Ðµ Ð¼ÐµÑ�Ñ‚Ð¾ Ð¿Ñ€Ð¾Ð¸Ð·Ð¾ÑˆÐ»Ð° Ð¾ÑˆÐ¸Ð±ÐºÐ°.</translation>
+        <source>There was an error trying to save the wallet data to %1.</source>
+        <translation>Произошла ошибка при сохранении данных бумажника в %1.</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Backup Successful</source>
-        <translation>Ð ÐµÐ·ÐµÑ€Ð²Ð½Ð¾Ðµ ÐºÐ¾Ð¿Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ ÑƒÑ�Ð¿ÐµÑˆÐ½Ð¾ Ð·Ð°Ð²ÐµÑ€ÑˆÐµÐ½Ð¾</translation>
+        <translation>Резервное копирование успешно завершено</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>The wallet data was successfully saved to the new location.</source>
-        <translation>Ð”Ð°Ð½Ð½Ñ‹Ðµ Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸ÐºÐ° ÑƒÑ�Ð¿ÐµÑˆÐ½Ð¾ Ñ�Ð¾Ñ…Ñ€Ð°Ð½ÐµÐ½Ñ‹ Ð² Ð½Ð¾Ð²Ð¾Ðµ Ð¼ÐµÑ�Ñ‚Ð¾.</translation>
+        <source>The wallet data was successfully saved to %1.</source>
+        <translation>Данные бумажника были успешно сохранены в %1.</translation>
     </message>
 </context>
 <context>
     <name>bitcoin-core</name>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Murfcoin version</source>
-        <translation>Ð’ÐµÑ€Ñ�Ð¸Ñ�</translation>
-    </message>
-    <message>
-        <location line="+102"/>
-        <source>Usage:</source>
-        <translation>Ð˜Ñ�Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ð½Ð¸Ðµ:</translation>
-    </message>
-    <message>
-        <location line="-29"/>
-        <source>Send command to -server or murfcoind</source>
-        <translation>ÐžÑ‚Ð¿Ñ€Ð°Ð²Ð¸Ñ‚ÑŒ ÐºÐ¾Ð¼Ð°Ð½Ð´Ñƒ Ð½Ð° -server Ð¸Ð»Ð¸ murfcoind</translation>
-    </message>
-    <message>
-        <location line="-23"/>
-        <source>List commands</source>
-        <translation>Ð¡Ð¿Ð¸Ñ�Ð¾Ðº ÐºÐ¾Ð¼Ð°Ð½Ð´
-</translation>
-    </message>
-    <message>
-        <location line="-12"/>
-        <source>Get help for a command</source>
-        <translation>ÐŸÐ¾Ð»ÑƒÑ‡Ð¸Ñ‚ÑŒ Ð¿Ð¾Ð¼Ð¾Ñ‰ÑŒ Ð¿Ð¾ ÐºÐ¾Ð¼Ð°Ð½Ð´Ðµ</translation>
-    </message>
-    <message>
-        <location line="+24"/>
         <source>Options:</source>
-        <translation>ÐžÐ¿Ñ†Ð¸Ð¸:</translation>
+        <translation>Параметры:</translation>
     </message>
     <message>
-        <location line="+24"/>
-        <source>Specify configuration file (default: murfcoin.conf)</source>
-        <translation>Ð£ÐºÐ°Ð·Ð°Ñ‚ÑŒ ÐºÐ¾Ð½Ñ„Ð¸Ð³ÑƒÑ€Ð°Ñ†Ð¸Ð¾Ð½Ð½Ñ‹Ð¹ Ñ„Ð°Ð¹Ð» (Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: murfcoin.conf)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Specify pid file (default: murfcoind.pid)</source>
-        <translation>Ð—Ð°Ð´Ð°Ñ‚ÑŒ pid-Ñ„Ð°Ð¹Ð» (Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: murfcoin.pid)</translation>
-    </message>
-    <message>
-        <location line="-1"/>
         <source>Specify data directory</source>
-        <translation>Ð—Ð°Ð´Ð°Ñ‚ÑŒ ÐºÐ°Ñ‚Ð°Ð»Ð¾Ð³ Ð´Ð°Ð½Ð½Ñ‹Ñ…</translation>
+        <translation>Задать каталог данных</translation>
     </message>
     <message>
-        <location line="-9"/>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>Ð£Ñ�Ñ‚Ð°Ð½Ð¾Ð²Ð¸Ñ‚ÑŒ Ñ€Ð°Ð·Ð¼ÐµÑ€ ÐºÑ�ÑˆÐ° Ð±Ð°Ð·Ñ‹ Ð´Ð°Ð½Ð½Ñ‹Ñ… Ð² Ð¼ÐµÐ³Ð°Ð±Ð°Ð¹Ñ‚Ð°Ñ… (Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: 25)</translation>
-    </message>
-    <message>
-        <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 7333 or testnet: 17333)</source>
-        <translation>ÐŸÑ€Ð¸Ð½Ð¸Ð¼Ð°Ñ‚ÑŒ Ð²Ñ…Ð¾Ð´Ñ�Ñ‰Ð¸Ðµ Ð¿Ð¾Ð´ÐºÐ»ÑŽÑ‡ÐµÐ½Ð¸Ñ� Ð½Ð° &lt;port&gt; (Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: 7333 Ð¸Ð»Ð¸ 17333 Ð² Ñ‚ÐµÑ�Ñ‚Ð¾Ð²Ð¾Ð¹ Ñ�ÐµÑ‚Ð¸)</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>ÐŸÐ¾Ð´Ð´ÐµÑ€Ð¶Ð¸Ð²Ð°Ñ‚ÑŒ Ð½Ðµ Ð±Ð¾Ð»ÐµÐµ &lt;n&gt; Ð¿Ð¾Ð´ÐºÐ»ÑŽÑ‡ÐµÐ½Ð¸Ð¹ Ðº ÑƒÐ·Ð»Ð°Ð¼ (Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: 125)</translation>
-    </message>
-    <message>
-        <location line="-48"/>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>ÐŸÐ¾Ð´ÐºÐ»ÑŽÑ‡Ð¸Ñ‚ÑŒÑ�Ñ� Ðº ÑƒÐ·Ð»Ñƒ, Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð¿Ð¾Ð»ÑƒÑ‡Ð¸Ñ‚ÑŒ Ñ�Ð¿Ð¸Ñ�Ð¾Ðº Ð°Ð´Ñ€ÐµÑ�Ð¾Ð² Ð´Ñ€ÑƒÐ³Ð¸Ñ… ÑƒÑ‡Ð°Ñ�Ñ‚Ð½Ð¸ÐºÐ¾Ð² Ð¸ Ð¾Ñ‚ÐºÐ»ÑŽÑ‡Ð¸Ñ‚ÑŒÑ�Ñ�</translation>
+        <translation>Подключиться к участнику, чтобы получить список адресов других участников и отключиться</translation>
     </message>
     <message>
-        <location line="+82"/>
         <source>Specify your own public address</source>
-        <translation>Ð£ÐºÐ°Ð¶Ð¸Ñ‚Ðµ Ð²Ð°Ñˆ Ñ�Ð¾Ð±Ñ�Ñ‚Ð²ÐµÐ½Ð½Ñ‹Ð¹ Ð¿ÑƒÐ±Ð»Ð¸Ñ‡Ð½Ñ‹Ð¹ Ð°Ð´Ñ€ÐµÑ�</translation>
+        <translation>Укажите ваш собственный публичный адрес</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>ÐŸÐ¾Ñ€Ð¾Ð³ Ð´Ð»Ñ� Ð¾Ñ‚ÐºÐ»ÑŽÑ‡ÐµÐ½Ð¸Ñ� Ð½ÐµÐ¿Ñ€Ð°Ð²Ð¸Ð»ÑŒÐ½Ð¾ Ð²ÐµÐ´ÑƒÑ‰Ð¸Ñ… Ñ�ÐµÐ±Ñ� ÑƒÐ·Ð»Ð¾Ð² (Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: 100)</translation>
-    </message>
-    <message>
-        <location line="-134"/>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Ð§Ð¸Ñ�Ð»Ð¾ Ñ�ÐµÐºÑƒÐ½Ð´ Ð±Ð»Ð¾ÐºÐ¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ñ� Ð½ÐµÐ¿Ñ€Ð°Ð²Ð¸Ð»ÑŒÐ½Ð¾ Ð²ÐµÐ´ÑƒÑ‰Ð¸Ñ… Ñ�ÐµÐ±Ñ� ÑƒÐ·Ð»Ð¾Ð² (Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: 86400)</translation>
-    </message>
-    <message>
-        <location line="-29"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
-        <translation>ÐŸÑ€Ð¾Ð¸Ð·Ð¾ÑˆÐ»Ð° Ð¾ÑˆÐ¸Ð±ÐºÐ° Ð¿Ñ€Ð¸ Ð¾Ñ‚ÐºÑ€Ñ‹Ñ‚Ð¸Ð¸ RPC-Ð¿Ð¾Ñ€Ñ‚Ð° %u Ð´Ð»Ñ� Ð¿Ñ€Ð¾Ñ�Ð»ÑƒÑˆÐ¸Ð²Ð°Ð½Ð¸Ñ� Ð½Ð° IPv4: %s</translation>
-    </message>
-    <message>
-        <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 7332 or testnet: 17332)</source>
-        <translation>ÐŸÑ€Ð¾Ñ�Ð»ÑƒÑˆÐ¸Ð²Ð°Ñ‚ÑŒ Ð¿Ð¾Ð´ÐºÐ»ÑŽÑ‡ÐµÐ½Ð¸Ñ� JSON-RPC Ð½Ð° &lt;Ð¿Ð¾Ñ€Ñ‚Ñƒ&gt; (Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: 7332 Ð¸Ð»Ð¸ Ð´Ð»Ñ� testnet: 17332)</translation>
-    </message>
-    <message>
-        <location line="+37"/>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>ÐŸÑ€Ð¸Ð½Ð¸Ð¼Ð°Ñ‚ÑŒ ÐºÐ¾Ð¼Ð°Ð½Ð´Ð½ÑƒÑŽ Ñ�Ñ‚Ñ€Ð¾ÐºÑƒ Ð¸ ÐºÐ¾Ð¼Ð°Ð½Ð´Ñ‹ JSON-RPC</translation>
+        <translation>Принимать командную строку и команды JSON-RPC</translation>
     </message>
     <message>
-        <location line="+76"/>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect/-noconnect)</source>
+        <translation>Принимать подключения снаружи (по умолчанию: 1, если не -proxy или -connect/-disconnect)</translation>
+    </message>
+    <message>
+        <source>Connect only to the specified node(s); -noconnect or -connect=0 alone to disable automatic connections</source>
+        <translation>Подключаться только к указанному узлу(ам); -noconnect или -connect=0 для запрета автоматических подключений</translation>
+    </message>
+    <message>
+        <source>Distributed under the MIT software license, see the accompanying file %s or %s</source>
+        <translation>Распространяется под лицензией MIT, см. приложенный файл %s или %s</translation>
+    </message>
+    <message>
+        <source>If &lt;category&gt; is not supplied or if &lt;category&gt; = 1, output all debugging information.</source>
+        <translation>Если &lt;category&gt; не предоставлена или равна 1, выводить всю отладочную информацию.</translation>
+    </message>
+    <message>
+        <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
+        <translation>Удаление блоков выставлено ниже, чем минимум в %d Мб. Пожалуйста, используйте большее значение.</translation>
+    </message>
+    <message>
+        <source>Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)</source>
+        <translation>Удаление: последняя синхронизация кошелька вышла за рамки удаленных данных. Вам нужен -reindex (скачать всю  цепь блоков в случае удаленного узла)</translation>
+    </message>
+    <message>
+        <source>Rescans are not possible in pruned mode. You will need to use -reindex which will download the whole blockchain again.</source>
+        <translation>Повторное сканирование не возможно в режиме удаления. Вам надо будет использовать -reindex, который загрузит заново всю цепь блоков.</translation>
+    </message>
+    <message>
+        <source>Error: A fatal internal error occurred, see debug.log for details</source>
+        <translation>Ошибка: произошла неустранимая ошибка, подробности в debug.log</translation>
+    </message>
+    <message>
+        <source>Fee (in %s/kB) to add to transactions you send (default: %s)</source>
+        <translation>Комиссия (в %s/Кб) для добавления к вашим транзакциям (по умолчанию: %s)</translation>
+    </message>
+    <message>
+        <source>Pruning blockstore...</source>
+        <translation>Очистка хранилища блоков...</translation>
+    </message>
+    <message>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Ð—Ð°Ð¿ÑƒÑ�ÐºÐ°Ñ‚ÑŒÑ�Ñ� Ð² Ñ„Ð¾Ð½Ðµ ÐºÐ°Ðº Ð´ÐµÐ¼Ð¾Ð½ Ð¸ Ð¿Ñ€Ð¸Ð½Ð¸Ð¼Ð°Ñ‚ÑŒ ÐºÐ¾Ð¼Ð°Ð½Ð´Ñ‹</translation>
+        <translation>Запускаться в фоне как демон и принимать команды</translation>
     </message>
     <message>
-        <location line="+37"/>
-        <source>Use the test network</source>
-        <translation>Ð˜Ñ�Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÑŒ Ñ‚ÐµÑ�Ñ‚Ð¾Ð²ÑƒÑŽ Ñ�ÐµÑ‚ÑŒ</translation>
+        <source>Unable to start HTTP server. See debug log for details.</source>
+        <translation>Невозможно запустить HTTP сервер. Смотри debug лог для подробностей.</translation>
     </message>
     <message>
-        <location line="-112"/>
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>ÐŸÑ€Ð¸Ð½Ð¸Ð¼Ð°Ñ‚ÑŒ Ð¿Ð¾Ð´ÐºÐ»ÑŽÑ‡ÐµÐ½Ð¸Ñ� Ð¸Ð·Ð²Ð½Ðµ (Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: 1, ÐµÑ�Ð»Ð¸ Ð½Ðµ Ð¸Ñ�Ð¿Ð¾Ð»ÑŒÐ·ÑƒÐµÑ‚Ñ�Ñ� -proxy Ð¸Ð»Ð¸ -connect)</translation>
+        <source>Murfcoin Core</source>
+        <translation>Murfcoin Core</translation>
     </message>
     <message>
-        <location line="-80"/>
-        <source>%s, you must set a rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=murfcoinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Murfcoin Alert&quot; admin@foo.com
-</source>
-        <translation>%s, Ð²Ñ‹ Ð´Ð¾Ð»Ð¶Ð½Ñ‹ ÑƒÑ�Ñ‚Ð°Ð½Ð¾Ð²Ð¸Ñ‚ÑŒ Ð¾Ð¿Ñ†Ð¸ÑŽ rpcpassword Ð² ÐºÐ¾Ð½Ñ„Ð¸Ð³ÑƒÑ€Ð°Ñ†Ð¸Ð¾Ð½Ð½Ð¾Ð¼ Ñ„Ð°Ð¹Ð»Ðµ:
- %s
-Ð ÐµÐºÐ¾Ð¼ÐµÐ½Ð´ÑƒÐµÑ‚Ñ�Ñ� Ð¸Ñ�Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÑŒ Ñ�Ð»ÐµÐ´ÑƒÑŽÑ‰Ð¸Ð¹ Ñ�Ð»ÑƒÑ‡Ð°Ð¹Ð½Ñ‹Ð¹ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ:
-rpcuser=murfcoinrpc
-rpcpassword=%s
-(Ð²Ð°Ð¼ Ð½Ðµ Ð½ÑƒÐ¶Ð½Ð¾ Ð·Ð°Ð¿Ð¾Ð¼Ð¸Ð½Ð°Ñ‚ÑŒ Ñ�Ñ‚Ð¾Ñ‚ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ)
-Ð˜Ð¼Ñ� Ð¸ Ð¿Ð°Ñ€Ð¾Ð»ÑŒ Ð”ÐžÐ›Ð–Ð�Ð« Ñ€Ð°Ð·Ð»Ð¸Ñ‡Ð°Ñ‚ÑŒÑ�Ñ�.
-Ð•Ñ�Ð»Ð¸ Ñ„Ð°Ð¹Ð» Ð½Ðµ Ñ�ÑƒÑ‰ÐµÑ�Ñ‚Ð²ÑƒÐµÑ‚, Ñ�Ð¾Ð·Ð´Ð°Ð¹Ñ‚Ðµ ÐµÐ³Ð¾ Ð¸ ÑƒÑ�Ñ‚Ð°Ð½Ð¾Ð²Ð¸Ñ‚Ðµ Ð¿Ñ€Ð°Ð²Ð° Ð´Ð¾Ñ�Ñ‚ÑƒÐ¿Ð° Ñ‚Ð¾Ð»ÑŒÐºÐ¾ Ð´Ð»Ñ� Ð²Ð»Ð°Ð´ÐµÐ»ÑŒÑ†Ð°, Ñ‚Ð¾Ð»ÑŒÐºÐ¾ Ð´Ð»Ñ� Ñ‡Ñ‚ÐµÐ½Ð¸Ñ�.
-Ð¢Ð°ÐºÐ¶Ðµ Ñ€ÐµÐºÐ¾Ð¼ÐµÐ½Ð´ÑƒÐµÑ‚Ñ�Ñ� Ð²ÐºÐ»ÑŽÑ‡Ð¸Ñ‚ÑŒ alertnotify Ð´Ð»Ñ� Ð¾Ð¿Ð¾Ð²ÐµÑ‰ÐµÐ½Ð¸Ñ� Ð¾ Ð¿Ñ€Ð¾Ð±Ð»ÐµÐ¼Ð°Ñ…;
-Ð�Ð°Ð¿Ñ€Ð¸Ð¼ÐµÑ€: alertnotify=echo %%s | mail -s &quot;Murfcoin Alert&quot; admin@foo.com
-</translation>
+        <source>The %s developers</source>
+        <translation>Разработчики %s</translation>
     </message>
     <message>
-        <location line="+17"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation>ÐŸÑ€Ð¾Ð¸Ð·Ð¾ÑˆÐ»Ð° Ð¾ÑˆÐ¸Ð±ÐºÐ° Ð¿Ñ€Ð¸ Ð¾Ñ‚ÐºÑ€Ñ‹Ñ‚Ð¸Ð¸ Ð½Ð° Ð¿Ñ€Ð¾Ñ�Ð»ÑƒÑˆÐ¸Ð²Ð°Ð½Ð¸Ðµ IPv6 RCP-Ð¿Ð¾Ñ€Ñ‚Ð° %u, Ð²Ð¾Ð·Ð²Ñ€Ð°Ñ‰Ð°ÐµÐ¼Ñ�Ñ� Ðº IPv4: %s</translation>
+        <source>Accept relayed transactions received from whitelisted peers even when not relaying transactions (default: %d)</source>
+        <translation>Принимать транзакции пересылаемые от узлов из белого списка даже если они не удовлетворяют требованиям ретрансляции (по умолчанию: %d)</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>ÐŸÑ€Ð¸Ð²Ñ�Ð·Ð°Ñ‚ÑŒÑ�Ñ� Ðº ÑƒÐºÐ°Ð·Ð°Ð½Ð½Ð¾Ð¼Ñƒ Ð°Ð´Ñ€ÐµÑ�Ñƒ Ð¸ Ð²Ñ�ÐµÐ³Ð´Ð° Ð¿Ñ€Ð¾Ñ�Ð»ÑƒÑˆÐ¸Ð²Ð°Ñ‚ÑŒ Ñ‚Ð¾Ð»ÑŒÐºÐ¾ ÐµÐ³Ð¾. Ð˜Ñ�Ð¿Ð¾Ð»ÑŒÐ·ÑƒÐ¹Ñ‚Ðµ [Ñ…Ð¾Ñ�Ñ‚]:Ð¿Ð¾Ñ€Ñ‚ Ð´Ð»Ñ� IPv6</translation>
+        <translation>Привязаться к указанному адресу и всегда прослушивать только его. Используйте [хост]:порт для IPv6</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Murfcoin is probably already running.</source>
-        <translation>Ð�Ðµ ÑƒÐ´Ð°Ñ‘Ñ‚Ñ�Ñ� ÑƒÑ�Ñ‚Ð°Ð½Ð¾Ð²Ð¸Ñ‚ÑŒ Ð±Ð»Ð¾ÐºÐ¸Ñ€Ð¾Ð²ÐºÑƒ Ð½Ð° ÐºÐ°Ñ‚Ð°Ð»Ð¾Ð³ Ð´Ð°Ð½Ð½Ñ‹Ñ… %s.  Ð’Ð¾Ð·Ð¼Ð¾Ð¶Ð½Ð¾, Murfcoin ÑƒÐ¶Ðµ Ñ€Ð°Ð±Ð¾Ñ‚Ð°ÐµÑ‚.</translation>
+        <source>Cannot obtain a lock on data directory %s. %s is probably already running.</source>
+        <translation>Невозможно заблокировать каталог данных %s. %s возможно уже работает.</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>ÐžÑˆÐ¸Ð±ÐºÐ°: Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ñ� Ð±Ñ‹Ð»Ð° Ð¾Ñ‚ÐºÐ»Ð¾Ð½ÐµÐ½Ð°! Ð­Ñ‚Ð¾ Ð¼Ð¾Ð³Ð»Ð¾ Ð¿Ñ€Ð¾Ð¸Ð·Ð¾Ð¹Ñ‚Ð¸ Ð² Ñ�Ð»ÑƒÑ‡Ð°Ðµ, ÐµÑ�Ð»Ð¸ Ð½ÐµÐºÐ¾Ñ‚Ð¾Ñ€Ñ‹Ðµ Ð¼Ð¾Ð½ÐµÑ‚Ñ‹ Ð² Ð²Ð°ÑˆÐµÐ¼ Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸ÐºÐµ ÑƒÐ¶Ðµ Ð±Ñ‹Ð»Ð¸ Ð¿Ð¾Ñ‚Ñ€Ð°Ñ‡ÐµÐ½Ñ‹, Ð½Ð°Ð¿Ñ€Ð¸Ð¼ÐµÑ€, ÐµÑ�Ð»Ð¸ Ð²Ñ‹ Ð¸Ñ�Ð¿Ð¾Ð»ÑŒÐ·ÑƒÐµÑ‚Ðµ ÐºÐ¾Ð¿Ð¸ÑŽ wallet.dat, Ð¸ Ð¼Ð¾Ð½ÐµÑ‚Ñ‹ Ð±Ñ‹Ð»Ð¸ Ð¸Ñ�Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ð½Ñ‹ Ð² ÐºÐ¾Ð¿Ð¸Ð¸, Ð½Ð¾ Ð½Ðµ Ð¾Ñ‚Ð¼ÐµÑ‡ÐµÐ½Ñ‹ ÐºÐ°Ðº Ð¿Ð¾Ñ‚Ñ€Ð°Ñ‡ÐµÐ½Ð½Ñ‹Ðµ Ð·Ð´ÐµÑ�ÑŒ.</translation>
+        <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
+        <translation>Удалить все транзакции бумажника с возможностью восстановить эти части цепи блоков с помощью -rescan при запуске</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>ÐžÑˆÐ¸Ð±ÐºÐ°: Ñ�Ñ‚Ð° Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ñ� Ñ‚Ñ€ÐµÐ±ÑƒÐµÑ‚ ÐºÐ¾Ð¼Ð¸Ñ�Ñ�Ð¸ÑŽ ÐºÐ°Ðº Ð¼Ð¸Ð½Ð¸Ð¼ÑƒÐ¼ %s Ð¸Ð·-Ð·Ð° Ñ�ÑƒÐ¼Ð¼Ñ‹, Ñ�Ð»Ð¾Ð¶Ð½Ð¾Ñ�Ñ‚Ð¸ Ð¸Ð»Ð¸ Ð¸Ñ�Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ð½Ð¸Ñ� Ð½ÐµÐ´Ð°Ð²Ð½Ð¾ Ð¿Ð¾Ð»ÑƒÑ‡ÐµÐ½Ð½Ñ‹Ñ… Ñ�Ñ€ÐµÐ´Ñ�Ñ‚Ð²!</translation>
+        <source>Error loading %s: You can't enable HD on a already existing non-HD wallet</source>
+        <translation>Ошибка загрузки %s: Вы не можете включить HD в уже существующем не-HD кошельке</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
-        <translation>Ð’Ñ‹Ð¿Ð¾Ð»Ð½Ð¸Ñ‚ÑŒ ÐºÐ¾Ð¼Ð°Ð½Ð´Ñƒ, ÐºÐ¾Ð³Ð´Ð° Ð¿Ñ€Ð¸Ñ…Ð¾Ð´Ð¸Ñ‚ Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ Ð¾ Ñ‚Ñ€ÐµÐ²Ð¾Ð³Ðµ (%s Ð² ÐºÐ¾Ð¼Ð°Ð½Ð´Ðµ Ð·Ð°Ð¼ÐµÐ½Ñ�ÐµÑ‚Ñ�Ñ� Ð½Ð° Ñ�Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ)</translation>
+        <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
+        <translation>Ошибка чтения %s! Все ключи прочитаны верно, но данные транзакций или записи адресной книги могут отсутствовать или быть неправильными.</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Ð’Ñ‹Ð¿Ð¾Ð»Ð½Ð¸Ñ‚ÑŒ ÐºÐ¾Ð¼Ð°Ð½Ð´Ñƒ, ÐºÐ¾Ð³Ð´Ð° Ð¼ÐµÐ½Ñ�ÐµÑ‚Ñ�Ñ� Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ñ� Ð² Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸ÐºÐµ (%s Ð² ÐºÐ¾Ð¼Ð°Ð½Ð´Ðµ Ð·Ð°Ð¼ÐµÐ½Ñ�ÐµÑ‚Ñ�Ñ� Ð½Ð° TxID)</translation>
+        <translation>Выполнить команду, когда меняется транзакция в бумажнике (%s в команде заменяется на TxID)</translation>
     </message>
     <message>
-        <location line="+11"/>
-        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
-        <translation>ÐœÐ°ÐºÑ�Ð¸Ð¼Ð°Ð»ÑŒÐ½Ñ‹Ð¹ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ð²Ñ‹Ñ�Ð¾ÐºÐ¾Ð¿Ñ€Ð¸Ð¾Ñ€Ð¸Ñ‚ÐµÑ‚Ð½Ñ‹Ñ…/Ð½Ð¸Ð·ÐºÐ¾ÐºÐ¾Ð¼Ð¸Ñ�Ñ�Ð¸Ð¾Ð½Ð½Ñ‹Ñ… Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ð¹ Ð² Ð±Ð°Ð¹Ñ‚Ð°Ñ… (Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: 27000)</translation>
+        <source>Extra transactions to keep in memory for compact block reconstructions (default: %u)</source>
+        <translation>Хранить в памяти дополнительные транзакции для реконструкции компактных блоков (по умолчанию: %u)</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <source>If this block is in the chain assume that it and its ancestors are valid and potentially skip their script verification (0 to verify all, default: %s, testnet: %s)</source>
+        <translation>Если этот блок в цепи, считать его и последующие блоки верными и потенциально пропускать проверку их скриптов (0 для проверки всех, по умолчанию: %s, тестовая сеть: %s)</translation>
+    </message>
+    <message>
+        <source>Maximum allowed median peer time offset adjustment. Local perspective of time may be influenced by peers forward or backward by this amount. (default: %u seconds)</source>
+        <translation>Максимально допустимое среднее отклонение времени участников. Локальное представление времени может меняться вперед или назад на это количество. (по умолчанию: %u секунд)</translation>
+    </message>
+    <message>
+        <source>Maximum total fees (in %s) to use in a single wallet transaction or raw transaction; setting this too low may abort large transactions (default: %s)</source>
+        <translation>Максимальная сумма комиссий (%s) для одной транзакции в бумажнике или сырой транзакции; слишком низкое значение может вызвать прерывание больших транзакций (по умолчанию: %s)</translation>
+    </message>
+    <message>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong, %s will not work properly.</source>
+        <translation>Пожалуйста убедитесь в корректности установки времени и даты на вашем компьютере! Если время установлено неверно, %s не будет работать правильно.</translation>
+    </message>
+    <message>
+        <source>Please contribute if you find %s useful. Visit %s for further information about the software.</source>
+        <translation>Пожалуйста, внести свой вклад, если вы найдете %s полезными. Посетите  %s для получения дополнительной информации о программном обеспечении.</translation>
+    </message>
+    <message>
+        <source>Reduce storage requirements by enabling pruning (deleting) of old blocks. This allows the pruneblockchain RPC to be called to delete specific blocks, and enables automatic pruning of old blocks if a target size in MiB is provided. This mode is incompatible with -txindex and -rescan. Warning: Reverting this setting requires re-downloading the entire blockchain. (default: 0 = disable pruning blocks, 1 = allow manual pruning via RPC, &gt;%u = automatically prune block files to stay under the specified target size in MiB)</source>
+        <translation>Уменьшить размер хранилища за счёт обрезания (удаления) старых блоков. Будет разрешён вызов RPC метода pruneblockchain для удаления определённых блоков и разрешено автоматическое обрезание старых блоков, если указан целевой размер в Мб. Этот режим несовместим с -txindex и -rescan. Внимание: переключение этой опции обратно потребует полной загрузки цепи блоков. (по умолчанию: 0 = отключить обрезание блоков, 1 = разрешить ручное обрезание через RPC, &gt;%u = автоматически обрезать файлы блоков, чтобы они были меньше указанного размера в Мб)</translation>
+    </message>
+    <message>
+        <source>Set lowest fee rate (in %s/kB) for transactions to be included in block creation. (default: %s)</source>
+        <translation>Задать минимальный курс комиссии (в %s/Кб) для  транзакцийб включаемых в создаваемый блок. (по умолчанию: %s)</translation>
+    </message>
+    <message>
+        <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
+        <translation>Задать число потоков проверки скрипта (от %u до %d, 0=авто, &lt;0 = оставить столько ядер свободными, по умолчанию: %d)</translation>
+    </message>
+    <message>
+        <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
+        <translation>База данных блоков содержит блок, который появляется из будущего. Это может из-за некорректно установленных даты и времени на вашем компьютере. Остается только перестроивать базу блоков, если вы уверены, что дата и время корректны.</translation>
+    </message>
+    <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Ð­Ñ‚Ð¾ Ð¿Ñ€Ðµ-Ñ€ÐµÐ»Ð¸Ð·Ð½Ð°Ñ� Ñ‚ÐµÑ�Ñ‚Ð¾Ð²Ð°Ñ� Ñ�Ð±Ð¾Ñ€ÐºÐ° - Ð¸Ñ�Ð¿Ð¾Ð»ÑŒÐ·ÑƒÐ¹Ñ‚Ðµ Ð½Ð° Ñ�Ð²Ð¾Ð¹ Ñ�Ñ‚Ñ€Ð°Ñ… Ð¸ Ñ€Ð¸Ñ�Ðº - Ð½Ðµ Ð¸Ñ�Ð¿Ð¾Ð»ÑŒÐ·ÑƒÐ¹Ñ‚Ðµ Ð´Ð»Ñ� Ð´Ð¾Ð±Ñ‹Ñ‡Ð¸ Ð¸Ð»Ð¸ Ñ‚Ð¾Ñ€Ð³Ð¾Ð²Ñ‹Ñ… Ð¿Ñ€Ð¸Ð»Ð¾Ð¶ÐµÐ½Ð¸Ð¹</translation>
+        <translation>Это пре-релизная тестовая сборка - используйте на свой страх и риск - не используйте для добычи или торговых приложений</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Ð’Ð½Ð¸Ð¼Ð°Ð½Ð¸Ðµ: ÑƒÑ�Ñ‚Ð°Ð½Ð¾Ð²Ð»ÐµÐ½Ð¾ Ð¾Ñ‡ÐµÐ½ÑŒ Ð±Ð¾Ð»ÑŒÑˆÐ¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ -paytxfee. Ð­Ñ‚Ð¾ ÐºÐ¾Ð¼Ð¸Ñ�Ñ�Ð¸Ñ�, ÐºÐ¾Ñ‚Ð¾Ñ€ÑƒÑŽ Ð²Ñ‹ Ð·Ð°Ð¿Ð»Ð°Ñ‚Ð¸Ñ‚Ðµ Ð¿Ñ€Ð¸ Ð¿Ñ€Ð¾Ð²ÐµÐ´ÐµÐ½Ð¸Ð¸ Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ð¸.</translation>
+        <source>Unable to rewind the database to a pre-fork state. You will need to redownload the blockchain</source>
+        <translation>Невозможно отмотать базу данных до пред-форкового состояния. Вам будет необходимо перекачать цепочку блоков.</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>Ð’Ð½Ð¸Ð¼Ð°Ð½Ð¸Ðµ: Ð¾Ñ‚Ð¾Ð±Ñ€Ð°Ð¶Ð°ÐµÐ¼Ñ‹Ðµ Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ð¸ Ð¼Ð¾Ð³ÑƒÑ‚ Ð±Ñ‹Ñ‚ÑŒ Ð½ÐµÐºÐ¾Ñ€Ñ€ÐµÐºÑ‚Ð½Ñ‹! Ð’Ð°Ð¼ Ð¸Ð»Ð¸ Ð´Ñ€ÑƒÐ³Ð¸Ð¼ ÑƒÐ·Ð»Ð°Ð¼, Ð²Ð¾Ð·Ð¼Ð¾Ð¶Ð½Ð¾, Ñ�Ð»ÐµÐ´ÑƒÐµÑ‚ Ð¾Ð±Ð½Ð¾Ð²Ð¸Ñ‚ÑŒÑ�Ñ�.</translation>
+        <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
+        <translation>Использовать UPnP для проброса порта (по умолчанию: 1, если используется прослушивание и нет -proxy)</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Murfcoin will not work properly.</source>
-        <translation>Ð’Ð½Ð¸Ð¼Ð°Ð½Ð¸Ðµ: ÑƒÐ±ÐµÐ´Ð¸Ñ‚ÐµÑ�ÑŒ, Ñ‡Ñ‚Ð¾ Ð´Ð°Ñ‚Ð° Ð¸ Ð²Ñ€ÐµÐ¼Ñ� Ð½Ð° Ð’Ð°ÑˆÐµÐ¼ ÐºÐ¾Ð¼Ð¿ÑŒÑŽÑ‚ÐµÑ€Ðµ Ð²Ñ‹Ñ�Ñ‚Ð°Ð²Ð»ÐµÐ½Ñ‹ Ð²ÐµÑ€Ð½Ð¾. Ð•Ñ�Ð»Ð¸ Ð’Ð°ÑˆÐ¸ Ñ‡Ð°Ñ�Ñ‹ Ð¸Ð´ÑƒÑ‚ Ð½ÐµÐ¿Ñ€Ð°Ð²Ð¸Ð»ÑŒÐ½Ð¾, Murfcoin Ð±ÑƒÐ´ÐµÑ‚ Ñ€Ð°Ð±Ð¾Ñ‚Ð°Ñ‚ÑŒ Ð½ÐµÐºÐ¾Ñ€Ñ€ÐµÐºÑ‚Ð½Ð¾.</translation>
+        <source>Username and hashed password for JSON-RPC connections. The field &lt;userpw&gt; comes in the format: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. A canonical python script is included in share/rpcuser. The client then connects normally using the rpcuser=&lt;USERNAME&gt;/rpcpassword=&lt;PASSWORD&gt; pair of arguments. This option can be specified multiple times</source>
+        <translation>Имя пользователя и хэш пароля для JSON-RPC соединений. Поле &lt;userpw&gt; использует формат: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. Каноничный пример скрипта на питоне находится в share/rpcuser. Эта опция может быть указана несколько раз</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Ð’Ð½Ð¸Ð¼Ð°Ð½Ð¸Ðµ: Ð¾ÑˆÐ¸Ð±ÐºÐ° Ñ‡Ñ‚ÐµÐ½Ð¸Ñ� wallet.dat! Ð’Ñ�Ðµ ÐºÐ»ÑŽÑ‡Ð¸ Ð¿Ñ€Ð¾Ñ‡Ð¸Ñ‚Ð°Ð½Ñ‹ Ð²ÐµÑ€Ð½Ð¾, Ð½Ð¾ Ð´Ð°Ð½Ð½Ñ‹Ðµ Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ð¹ Ð¸Ð»Ð¸ Ð·Ð°Ð¿Ð¸Ñ�Ð¸ Ð°Ð´Ñ€ÐµÑ�Ð½Ð¾Ð¹ ÐºÐ½Ð¸Ð³Ð¸ Ð¼Ð¾Ð³ÑƒÑ‚ Ð¾Ñ‚Ñ�ÑƒÑ‚Ñ�Ñ‚Ð²Ð¾Ð²Ð°Ñ‚ÑŒ Ð¸Ð»Ð¸ Ð±Ñ‹Ñ‚ÑŒ Ð½ÐµÐ¿Ñ€Ð°Ð²Ð¸Ð»ÑŒÐ½Ñ‹Ð¼Ð¸.</translation>
+        <source>Wallet will not create transactions that violate mempool chain limits (default: %u)</source>
+        <translation>Бумажник не будет создавать транзакции, которые нарушают лимиты цепочки пула в памяти (по умолчанию: %u)</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>Ð’Ð½Ð¸Ð¼Ð°Ð½Ð¸Ðµ: wallet.dat Ð¿Ð¾Ð²Ñ€ÐµÐ¶Ð´Ñ‘Ð½, Ð´Ð°Ð½Ð½Ñ‹Ðµ Ñ�Ð¿Ð°Ñ�ÐµÐ½Ñ‹! ÐžÑ€Ð¸Ð³Ð¸Ð½Ð°Ð»ÑŒÐ½Ñ‹Ð¹ wallet.dat Ñ�Ð¾Ñ…Ñ€Ð°Ð½Ñ‘Ð½ ÐºÐ°Ðº wallet.{timestamp}.bak Ð² %s; ÐµÑ�Ð»Ð¸ Ð²Ð°Ñˆ Ð±Ð°Ð»Ð°Ð½Ñ� Ð¸Ð»Ð¸ Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ð¸ Ð½ÐµÐºÐ¾Ñ€Ñ€ÐµÐºÑ‚Ð½Ñ‹, Ð²Ñ‹ Ð´Ð¾Ð»Ð¶Ð½Ñ‹ Ð²Ð¾Ñ�Ñ�Ñ‚Ð°Ð½Ð¾Ð²Ð¸Ñ‚ÑŒ Ñ„Ð°Ð¹Ð» Ð¸Ð· Ñ€ÐµÐ·ÐµÑ€Ð²Ð½Ð¾Ð¹ ÐºÐ¾Ð¿Ð¸Ð¸.</translation>
+        <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
+        <translation>Внимание: похоже, в сети нет полного согласия! Некоторые майнеры, возможно, испытывают проблемы.</translation>
     </message>
     <message>
-        <location line="+14"/>
-        <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation>ÐŸÐ¾Ð¿Ñ‹Ñ‚Ð°Ñ‚ÑŒÑ�Ñ� Ð²Ð¾Ñ�Ñ�Ñ‚Ð°Ð½Ð¾Ð²Ð¸Ñ‚ÑŒ Ð¿Ñ€Ð¸Ð²Ð°Ñ‚Ð½Ñ‹Ðµ ÐºÐ»ÑŽÑ‡Ð¸ Ð¸Ð· Ð¿Ð¾Ð²Ñ€ÐµÐ¶Ð´Ñ‘Ð½Ð½Ð¾Ð³Ð¾ wallet.dat</translation>
+        <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
+        <translation>Внимание: мы не полностью согласны с подключенными участниками! Вам или другим участникам, возможно, следует обновиться.</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
+        <translation>Вам необходимо пересобрать базы данных с помощью -reindex-chainstate, чтобы изменить -txindex</translation>
+    </message>
+    <message>
+        <source>%s corrupt, salvage failed</source>
+        <translation>%s поврежден, восстановить не удалось</translation>
+    </message>
+    <message>
+        <source>-maxmempool must be at least %d MB</source>
+        <translation>-maxmempool должен быть как минимум %d MB</translation>
+    </message>
+    <message>
+        <source>&lt;category&gt; can be:</source>
+        <translation>&lt;category&gt; может быть:</translation>
+    </message>
+    <message>
+        <source>Append comment to the user agent string</source>
+        <translation>Добавить комментарий к строке пользовательского агента</translation>
+    </message>
+    <message>
+        <source>Attempt to recover private keys from a corrupt wallet on startup</source>
+        <translation>Попытаться восстановить приватные ключи из повреждённого бумажника при запуске</translation>
+    </message>
+    <message>
         <source>Block creation options:</source>
-        <translation>ÐŸÐ°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ñ‹ Ñ�Ð¾Ð·Ð´Ð°Ð½Ð¸Ñ� Ð±Ð»Ð¾ÐºÐ¾Ð²:</translation>
+        <translation>Параметры создания блоков:</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Connect only to the specified node(s)</source>
-        <translation>ÐŸÐ¾Ð´ÐºÐ»ÑŽÑ‡Ð°Ñ‚ÑŒÑ�Ñ� Ñ‚Ð¾Ð»ÑŒÐºÐ¾ Ðº ÑƒÐºÐ°Ð·Ð°Ð½Ð½Ð¾Ð¼Ñƒ ÑƒÐ·Ð»Ñƒ(Ð°Ð¼)</translation>
+        <source>Cannot resolve -%s address: '%s'</source>
+        <translation>Не удаётся разрешить адрес в параметре -%s: '%s'</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <source>Chain selection options:</source>
+        <translation>Параметры выбора цепочки:</translation>
+    </message>
+    <message>
+        <source>Change index out of range</source>
+        <translation>Изменение индекса вне диапазона</translation>
+    </message>
+    <message>
+        <source>Connection options:</source>
+        <translation>Параметры подключения:</translation>
+    </message>
+    <message>
+        <source>Copyright (C) %i-%i</source>
+        <translation>Copyright (C) %i-%i</translation>
+    </message>
+    <message>
         <source>Corrupted block database detected</source>
-        <translation>Ð‘Ð” Ð±Ð»Ð¾ÐºÐ¾Ð² Ð¿Ð¾Ð²Ñ€ÐµÐ¶Ð´ÐµÐ½Ð°</translation>
+        <translation>БД блоков повреждена</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation>ÐžÐ¿Ñ€ÐµÐ´ÐµÐ»Ð¸Ñ‚ÑŒ Ñ�Ð²Ð¾Ð¹ IP (Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: 1 Ð¿Ñ€Ð¸ Ð¿Ñ€Ð¾Ñ�Ð»ÑƒÑˆÐ¸Ð²Ð°Ð½Ð¸Ð¸ Ð¸ ÐµÑ�Ð»Ð¸ Ð½Ðµ Ð¸Ñ�Ð¿Ð¾Ð»ÑŒÐ·ÑƒÐµÑ‚Ñ�Ñ� -externalip)</translation>
+        <source>Debugging/Testing options:</source>
+        <translation>Параметры отладки/тестирования:</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>Do not load the wallet and disable wallet RPC calls</source>
+        <translation>Не загружать бумажник и запретить обращения к нему через RPC</translation>
+    </message>
+    <message>
         <source>Do you want to rebuild the block database now?</source>
-        <translation>ÐŸÐµÑ€ÐµÑ�Ð¾Ð±Ñ€Ð°Ñ‚ÑŒ Ð‘Ð” Ð±Ð»Ð¾ÐºÐ¾Ð² Ð¿Ñ€Ñ�Ð¼Ð¾ Ñ�ÐµÐ¹Ñ‡Ð°Ñ�?</translation>
+        <translation>Пересобрать БД блоков прямо сейчас?</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <source>Enable publish hash block in &lt;address&gt;</source>
+        <translation>Включить публичный хеш блока в &lt;address&gt;</translation>
+    </message>
+    <message>
+        <source>Enable publish hash transaction in &lt;address&gt;</source>
+        <translation>Включить публичный хеш транзакции в &lt;address&gt;</translation>
+    </message>
+    <message>
+        <source>Enable publish raw block in &lt;address&gt;</source>
+        <translation>Включить публичный сырой блок в &lt;address&gt;</translation>
+    </message>
+    <message>
+        <source>Enable publish raw transaction in &lt;address&gt;</source>
+        <translation>Включить публичную сырую транзакцию в &lt;address&gt;</translation>
+    </message>
+    <message>
+        <source>Enable transaction replacement in the memory pool (default: %u)</source>
+        <translation>Включить замену транзакций в пуле памяти (по умолчанию:%u)</translation>
+    </message>
+    <message>
         <source>Error initializing block database</source>
-        <translation>ÐžÑˆÐ¸Ð±ÐºÐ° Ð¸Ð½Ð¸Ñ†Ð¸Ð°Ð»Ð¸Ð·Ð°Ñ†Ð¸Ð¸ Ð‘Ð” Ð±Ð»Ð¾ÐºÐ¾Ð²</translation>
+        <translation>Ошибка инициализации БД блоков</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>ÐžÑˆÐ¸Ð±ÐºÐ° Ð¸Ð½Ð¸Ñ†Ð¸Ð°Ð»Ð¸Ð·Ð°Ñ†Ð¸Ð¸ Ð¾ÐºÑ€ÑƒÐ¶ÐµÐ½Ð¸Ñ� Ð‘Ð” Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸ÐºÐ° %s!</translation>
+        <translation>Ошибка инициализации окружения БД бумажника %s!</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>Error loading %s</source>
+        <translation>Ошибка загрузки %s</translation>
+    </message>
+    <message>
+        <source>Error loading %s: Wallet corrupted</source>
+        <translation>Ошибка загрузки %s: Бумажник поврежден</translation>
+    </message>
+    <message>
+        <source>Error loading %s: Wallet requires newer version of %s</source>
+        <translation>Ошибка загрузки %s: Для бумажника требуется более новая версия %s</translation>
+    </message>
+    <message>
+        <source>Error loading %s: You can't disable HD on a already existing HD wallet</source>
+        <translation>Ошибка загрузки %s: Вы не можете включить HD в уже существующем не-HD кошельке</translation>
+    </message>
+    <message>
         <source>Error loading block database</source>
-        <translation>ÐžÑˆÐ¸Ð±ÐºÐ° Ñ‡Ñ‚ÐµÐ½Ð¸Ñ� Ð±Ð°Ð·Ñ‹ Ð´Ð°Ð½Ð½Ñ‹Ñ… Ð±Ð»Ð¾ÐºÐ¾Ð²</translation>
+        <translation>Ошибка чтения базы данных блоков</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Error opening block database</source>
-        <translation>Ð�Ðµ ÑƒÐ´Ð°Ð»Ð¾Ñ�ÑŒ Ð¾Ñ‚ÐºÑ€Ñ‹Ñ‚ÑŒ Ð‘Ð” Ð±Ð»Ð¾ÐºÐ¾Ð²</translation>
+        <translation>Не удалось открыть БД блоков</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Error: Disk space is low!</source>
-        <translation>ÐžÑˆÐ¸Ð±ÐºÐ°: Ð¼Ð°Ð»Ð¾ Ð¼ÐµÑ�Ñ‚Ð° Ð½Ð° Ð´Ð¸Ñ�ÐºÐµ!</translation>
+        <translation>Ошибка: мало места на диске!</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation>ÐžÑˆÐ¸Ð±ÐºÐ°: Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸Ðº Ð·Ð°Ð±Ð»Ð¾ÐºÐ¸Ñ€Ð¾Ð²Ð°Ð½, Ð½ÐµÐ²Ð¾Ð·Ð¼Ð¾Ð¶Ð½Ð¾ Ñ�Ð¾Ð·Ð´Ð°Ñ‚ÑŒ Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸ÑŽ!</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Error: system error: </source>
-        <translation>ÐžÑˆÐ¸Ð±ÐºÐ°: Ñ�Ð¸Ñ�Ñ‚ÐµÐ¼Ð½Ð°Ñ� Ð¾ÑˆÐ¸Ð±ÐºÐ°:</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Ð�Ðµ ÑƒÐ´Ð°Ð»Ð¾Ñ�ÑŒ Ð½Ð°Ñ‡Ð°Ñ‚ÑŒ Ð¿Ñ€Ð¾Ñ�Ð»ÑƒÑˆÐ¸Ð²Ð°Ð½Ð¸Ðµ Ð½Ð° Ð¿Ð¾Ñ€Ñ‚Ñƒ. Ð˜Ñ�Ð¿Ð¾Ð»ÑŒÐ·ÑƒÐ¹Ñ‚Ðµ -listen=0 ÐµÑ�Ð»Ð¸ Ð²Ð°Ñ� Ñ�Ñ‚Ð¾ ÑƒÑ�Ñ‚Ñ€Ð°Ð¸Ð²Ð°ÐµÑ‚.</translation>
+        <translation>Не удалось начать прослушивание на порту. Используйте -listen=0 если вас это устраивает.</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to read block info</source>
-        <translation>Ð�Ðµ ÑƒÐ´Ð°Ð»Ð¾Ñ�ÑŒ Ð¿Ñ€Ð¾Ñ‡Ð¸Ñ‚Ð°Ñ‚ÑŒ Ð¸Ð½Ñ„Ð¾Ñ€Ð¼Ð°Ñ†Ð¸ÑŽ Ð±Ð»Ð¾ÐºÐ°</translation>
+        <source>Importing...</source>
+        <translation>Импорт ...</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to read block</source>
-        <translation>Ð�Ðµ ÑƒÐ´Ð°Ð»Ð¾Ñ�ÑŒ Ð¿Ñ€Ð¾Ñ‡Ð¸Ñ‚Ð°Ñ‚ÑŒ Ð±Ð»Ð¾Ðº</translation>
+        <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
+        <translation>Неверный или отсутствующий начальный блок. Неправильный каталог данных для сети?</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to sync block index</source>
-        <translation>Ð�Ðµ ÑƒÐ´Ð°Ð»Ð¾Ñ�ÑŒ Ñ�Ð¸Ð½Ñ…Ñ€Ð¾Ð½Ð¸Ð·Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ Ð¸Ð½Ð´ÐµÐºÑ� Ð±Ð»Ð¾ÐºÐ¾Ð²</translation>
+        <source>Initialization sanity check failed. %s is shutting down.</source>
+        <translation>Начальная проверка исправности не удалась. %s завершает работу.</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write block index</source>
-        <translation>Ð�Ðµ ÑƒÐ´Ð°Ð»Ð¾Ñ�ÑŒ Ð·Ð°Ð¿Ð¸Ñ�Ð°Ñ‚ÑŒ Ð¸Ð½Ð´ÐµÐºÑ� Ð±Ð»Ð¾ÐºÐ¾Ð²</translation>
+        <source>Invalid -onion address: '%s'</source>
+        <translation>Неверный -onion адрес: '%s'</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write block info</source>
-        <translation>Ð�Ðµ ÑƒÐ´Ð°Ð»Ð¾Ñ�ÑŒ Ð·Ð°Ð¿Ð¸Ñ�Ð°Ñ‚ÑŒ Ð¸Ð½Ñ„Ð¾Ñ€Ð¼Ð°Ñ†Ð¸ÑŽ Ð±Ð»Ð¾ÐºÐ°</translation>
+        <source>Invalid amount for -%s=&lt;amount&gt;: '%s'</source>
+        <translation>Неверная сумма для -%s=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write block</source>
-        <translation>Ð�Ðµ ÑƒÐ´Ð°Ð»Ð¾Ñ�ÑŒ Ð·Ð°Ð¿Ð¸Ñ�Ð°Ñ‚ÑŒ Ð±Ð»Ð¾Ðº</translation>
+        <source>Invalid amount for -fallbackfee=&lt;amount&gt;: '%s'</source>
+        <translation>Недопустимая сумма для -fallbackfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write file info</source>
-        <translation>Ð�Ðµ ÑƒÐ´Ð°Ð»Ð¾Ñ�ÑŒ Ð·Ð°Ð¿Ð¸Ñ�Ð°Ñ‚ÑŒ Ð¸Ð½Ñ„Ð¾Ñ€Ð¼Ð°Ñ†Ð¸ÑŽ Ñ„Ð°Ð¹Ð»Ð°</translation>
+        <source>Keep the transaction memory pool below &lt;n&gt; megabytes (default: %u)</source>
+        <translation>Сбрасывать транзакции из памяти на диск каждые &lt;n&gt; мегабайт (по умолчанию: %u)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write to coin database</source>
-        <translation>Ð�Ðµ ÑƒÐ´Ð°Ð»Ð¾Ñ�ÑŒ Ð·Ð°Ð¿Ð¸Ñ�Ð°Ñ‚ÑŒ Ð‘Ð” Ð¼Ð¾Ð½ÐµÑ‚</translation>
+        <source>Loading banlist...</source>
+        <translation>Загрузка банлиста...</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write transaction index</source>
-        <translation>Ð�Ðµ ÑƒÐ´Ð°Ð»Ð¾Ñ�ÑŒ Ð·Ð°Ð¿Ð¸Ñ�Ð°Ñ‚ÑŒ Ð¸Ð½Ð´ÐµÐºÑ� Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ð¹</translation>
+        <source>Location of the auth cookie (default: data dir)</source>
+        <translation>Расположение куки входы(по умолчанию: data dir)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write undo data</source>
-        <translation>Ð�Ðµ ÑƒÐ´Ð°Ð»Ð¾Ñ�ÑŒ Ð·Ð°Ð¿Ð¸Ñ�Ð°Ñ‚ÑŒ Ð´Ð°Ð½Ð½Ñ‹Ðµ Ð´Ð»Ñ� Ð¾Ñ‚Ð¼ÐµÐ½Ñ‹</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
-        <translation>Ð˜Ñ�ÐºÐ°Ñ‚ÑŒ ÑƒÐ·Ð»Ñ‹ Ñ� Ð¿Ð¾Ð¼Ð¾Ñ‰ÑŒÑŽ DNS (Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: 1, ÐµÑ�Ð»Ð¸ Ð½Ðµ ÑƒÐºÐ°Ð·Ð°Ð½ -connect)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Generate coins (default: 0)</source>
-        <translation>Ð’ÐºÐ»ÑŽÑ‡Ð¸Ñ‚ÑŒ Ð´Ð¾Ð±Ñ‹Ñ‡Ñƒ Ð¼Ð¾Ð½ÐµÑ‚ (Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: 0)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>How many blocks to check at startup (default: 288, 0 = all)</source>
-        <translation>Ð¡ÐºÐ¾Ð»ÑŒÐºÐ¾ Ð±Ð»Ð¾ÐºÐ¾Ð² Ð¿Ñ€Ð¾Ð²ÐµÑ€Ñ�Ñ‚ÑŒ Ð¿Ñ€Ð¸ Ð·Ð°Ð¿ÑƒÑ�ÐºÐµ (Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: 288, 0 = Ð²Ñ�Ðµ)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>How thorough the block verification is (0-4, default: 3)</source>
-        <translation>Ð�Ð°Ñ�ÐºÐ¾Ð»ÑŒÐºÐ¾ Ñ‚Ñ‰Ð°Ñ‚ÐµÐ»ÑŒÐ½Ð¾ Ð¿Ñ€Ð¾Ð²ÐµÑ€Ñ�Ñ‚ÑŒ Ð±Ð»Ð¾Ðº (0-4, Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: 3)</translation>
-    </message>
-    <message>
-        <location line="+19"/>
         <source>Not enough file descriptors available.</source>
-        <translation>Ð�ÐµÐ´Ð¾Ñ�Ñ‚Ð°Ñ‚Ð¾Ñ‡Ð½Ð¾ Ñ„Ð°Ð¹Ð»Ð¾Ð²Ñ‹Ñ… Ð´ÐµÑ�ÐºÑ€Ð¸Ð¿Ñ‚Ð¾Ñ€Ð¾Ð².</translation>
+        <translation>Недостаточно файловых дескрипторов.</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>Rebuild block chain index from current blk000??.dat files</source>
-        <translation>ÐŸÐµÑ€ÐµÑ�Ñ‚Ñ€Ð¾Ð¸Ñ‚ÑŒ Ð¸Ð½Ð´ÐµÐºÑ� Ñ†ÐµÐ¿Ð¸ Ð±Ð»Ð¾ÐºÐ¾Ð² Ð¸Ð· Ñ‚ÐµÐºÑƒÑ‰Ð¸Ñ… Ñ„Ð°Ð¹Ð»Ð¾Ð² blk000??.dat</translation>
+        <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
+        <translation>Соединяться только по сети &lt;net&gt; (ipv4, ipv6 или onion)</translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>Set the number of threads to service RPC calls (default: 4)</source>
-        <translation>Ð—Ð°Ð´Ð°Ñ‚ÑŒ Ñ‡Ð¸Ñ�Ð»Ð¾ Ð¿Ð¾Ñ‚Ð¾ÐºÐ¾Ð² Ð²Ñ‹Ð¿Ð¾Ð»Ð½ÐµÐ½Ð¸Ñ�(Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: 4)</translation>
+        <source>Print this help message and exit</source>
+        <translation>Вывести эту справку и выйти</translation>
     </message>
     <message>
-        <location line="+26"/>
+        <source>Print version and exit</source>
+        <translation>Написать версию и выйти</translation>
+    </message>
+    <message>
+        <source>Prune cannot be configured with a negative value.</source>
+        <translation>Удаление блоков не может использовать отрицательное значение.</translation>
+    </message>
+    <message>
+        <source>Prune mode is incompatible with -txindex.</source>
+        <translation>Режим удаления блоков несовместим с -txindex.</translation>
+    </message>
+    <message>
+        <source>Rebuild chain state and block index from the blk*.dat files on disk</source>
+        <translation>Перестроить состояние цепи блоков и индекс блоков из blk*.dat файлов с диска</translation>
+    </message>
+    <message>
+        <source>Rebuild chain state from the currently indexed blocks</source>
+        <translation>Перестроить индекс цепи из текущих индексированных блоков</translation>
+    </message>
+    <message>
+        <source>Rewinding blocks...</source>
+        <translation>Перемотка блоков...</translation>
+    </message>
+    <message>
+        <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
+        <translation>Установить размер кэша БД в мегабайтах(от %d до %d, по умолчанию: %d)</translation>
+    </message>
+    <message>
+        <source>Set maximum block size in bytes (default: %d)</source>
+        <translation>Задать максимальный размер блока в байтах (по умолчанию: %d)</translation>
+    </message>
+    <message>
+        <source>Specify wallet file (within data directory)</source>
+        <translation>Укажите файл бумажника (внутри каталога данных)</translation>
+    </message>
+    <message>
+        <source>The source code is available from %s.</source>
+        <translation>Исходный код доступен в %s.</translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer. %s is probably already running.</source>
+        <translation>Невозможно привязаться к %s на этом компьютере. Возможно, %s уже работает.</translation>
+    </message>
+    <message>
+        <source>Unsupported argument -benchmark ignored, use -debug=bench.</source>
+        <translation>Неподдерживаемый аргумент -benchmark проигнорирован, используйте -debug=bench.</translation>
+    </message>
+    <message>
+        <source>Unsupported argument -debugnet ignored, use -debug=net.</source>
+        <translation>Неподдерживаемый аргумент -debugnet проигнорирован, используйте -debug=net.</translation>
+    </message>
+    <message>
+        <source>Unsupported argument -tor found, use -onion.</source>
+        <translation>Обнаружен не поддерживаемый параметр -tor, используйте -onion.</translation>
+    </message>
+    <message>
+        <source>Use UPnP to map the listening port (default: %u)</source>
+        <translation>Использовать UPnP для проброса порта (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Use the test chain</source>
+        <translation>Использовать тестовую цепочку</translation>
+    </message>
+    <message>
+        <source>User Agent comment (%s) contains unsafe characters.</source>
+        <translation>Комментарий пользователя (%s) содержит небезопасные символы.</translation>
+    </message>
+    <message>
         <source>Verifying blocks...</source>
-        <translation>ÐŸÑ€Ð¾Ð²ÐµÑ€ÐºÐ° Ð±Ð»Ð¾ÐºÐ¾Ð²...</translation>
+        <translation>Проверка блоков...</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Verifying wallet...</source>
-        <translation>ÐŸÑ€Ð¾Ð²ÐµÑ€ÐºÐ° Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸ÐºÐ°...</translation>
+        <translation>Проверка бумажника...</translation>
     </message>
     <message>
-        <location line="-69"/>
-        <source>Imports blocks from external blk000??.dat file</source>
-        <translation>Ð˜Ð¼Ð¿Ð¾Ñ€Ñ‚Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ Ð±Ð»Ð¾ÐºÐ¸ Ð¸Ð· Ð²Ð½ÐµÑˆÐ½ÐµÐ³Ð¾ Ñ„Ð°Ð¹Ð»Ð° blk000??.dat</translation>
+        <source>Wallet %s resides outside data directory %s</source>
+        <translation>Бумажник %s располагается вне каталога данных %s</translation>
     </message>
     <message>
-        <location line="-76"/>
-        <source>Set the number of script verification threads (up to 16, 0 = auto, &lt;0 = leave that many cores free, default: 0)</source>
-        <translation>Ð—Ð°Ð´Ð°Ñ‚ÑŒ Ñ‡Ð¸Ñ�Ð»Ð¾ Ð¿Ð¾Ñ‚Ð¾ÐºÐ¾Ð² Ð¿Ñ€Ð¾Ð²ÐµÑ€ÐºÐ¸ Ñ�ÐºÑ€Ð¸Ð¿Ñ‚Ð° (Ð²Ð¿Ð»Ð¾Ñ‚ÑŒ Ð´Ð¾ 16, 0=Ð°Ð²Ñ‚Ð¾, &lt;0 = Ð¾Ñ�Ñ‚Ð°Ð²Ð¸Ñ‚ÑŒ Ñ�Ñ‚Ð¾Ð»ÑŒÐºÐ¾ Ñ�Ð´ÐµÑ€ Ñ�Ð²Ð¾Ð±Ð¾Ð´Ð½Ñ‹Ð¼Ð¸, Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: 0)</translation>
+        <source>Wallet debugging/testing options:</source>
+        <translation>Параметры отладки/тестирования бумажника:</translation>
     </message>
     <message>
-        <location line="+77"/>
+        <source>Wallet needed to be rewritten: restart %s to complete</source>
+        <translation>Необходимо перезаписать бумажник, перезапустите %s для завершения операции.</translation>
+    </message>
+    <message>
+        <source>Wallet options:</source>
+        <translation>Настройки бумажника:</translation>
+    </message>
+    <message>
+        <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
+        <translation>Разрешить подключения JSON-RPC с указанного источника. Разрешённые значения для &lt;ip&gt; — отдельный IP (например, 1.2.3.4), сеть/маска сети (например, 1.2.3.4/255.255.255.0) или сеть/CIDR (например, 1.2.3.4/24). Эту опцию можно использовать многократно</translation>
+    </message>
+    <message>
+        <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
+        <translation>Привязаться к указанному адресу и внести в белый список подключающихся к нему участников. Используйте [хост]:порт для IPv6</translation>
+    </message>
+    <message>
+        <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
+        <translation>Привязаться к указанному адресу для прослушивания JSON-RPC подключений. Используйте запись [хост]:порт для IPv6. Эту опцию можно использовать многократно (по умолчанию: привязываться ко всем интерфейсам)</translation>
+    </message>
+    <message>
+        <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
+        <translation>Создавать новые файлы с системными правами по умолчанию вместо umask 077 (эффективно только при отключенном бумажнике)</translation>
+    </message>
+    <message>
+        <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
+        <translation>Обнаруживать собственный IP адрес (по умолчанию: 1 при прослушивании и без -externalip или -proxy)</translation>
+    </message>
+    <message>
+        <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
+        <translation>Ошибка: не удалось начать прослушивание входящих подключений (прослушивание вернуло ошибку %s)</translation>
+    </message>
+    <message>
+        <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
+        <translation>Выполнить команду, когда приходит соответствующее сообщение о тревоге или наблюдается очень длинное расщепление цепи (%s в команде заменяется на сообщение)</translation>
+    </message>
+    <message>
+        <source>Fees (in %s/kB) smaller than this are considered zero fee for relaying, mining and transaction creation (default: %s)</source>
+        <translation>Комиссии (в %s/Кб) меньшие этого значения считаются нулевыми для создания, ретрансляции, получения транзакции (по умолчанию: %s)</translation>
+    </message>
+    <message>
+        <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
+        <translation>Если paytxfee не задан, включить достаточную комиссию для подтверждения транзакции в среднем за n блоков (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
+        <translation>Неверное значение для -maxtxfee=&lt;amount&gt;: '%s' (минимальная комиссия трансляции %s для предотвращения зависания транзакций)</translation>
+    </message>
+    <message>
+        <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
+        <translation>Наибольший размер данных в носителе данных транзакций, которые мы передаем и генерируем (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
+        <translation>Использовать случайные учётные данные для каждого прокси-подключения. Эта функция позволяет изолировать потоки Tor (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
+        <translation>Задать максимальный размер высокоприоритетных/низкокомиссионных транзакций в байтах (по умолчанию: %d)</translation>
+    </message>
+    <message>
+        <source>The transaction amount is too small to send after the fee has been deducted</source>
+        <translation>Сумма транзакции за вычетом комиссии слишком мала</translation>
+    </message>
+    <message>
+        <source>Use hierarchical deterministic key generation (HD) after BIP32. Only has effect during wallet creation/first start</source>
+        <translation>Использовать иерархическую детерминированную генерацию ключей (HD) после BIP32. Применяется в процессе создания бумажника / первого запуска</translation>
+    </message>
+    <message>
+        <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
+        <translation>Участники из белого списка не могуть быть забанены за DoS, и их транзакции всегда транслируются, даже если они уже содержатся в памяти. Полезно, например, для шлюза.</translation>
+    </message>
+    <message>
+        <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
+        <translation>Вам необходимо пересобрать базу данных с помощью -reindex, чтобы вернуться к полному режиму. Это приведёт к перезагрузке всей цепи блоков</translation>
+    </message>
+    <message>
+        <source>(default: %u)</source>
+        <translation>(по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Accept public REST requests (default: %u)</source>
+        <translation>Принимать публичные REST-запросы (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Automatically create Tor hidden service (default: %d)</source>
+        <translation>Автоматически создавать скрытый Tor сервис (по умолчанию: %d)</translation>
+    </message>
+    <message>
+        <source>Connect through SOCKS5 proxy</source>
+        <translation>Подключаться через SOCKS5 прокси</translation>
+    </message>
+    <message>
+        <source>Error reading from database, shutting down.</source>
+        <translation>Ошибка чтения базы данных, работа завершается.</translation>
+    </message>
+    <message>
+        <source>Imports blocks from external blk000??.dat file on startup</source>
+        <translation>Импортировать блоки из внешнего файла blk000?.dat при запуске</translation>
+    </message>
+    <message>
         <source>Information</source>
-        <translation>Ð˜Ð½Ñ„Ð¾Ñ€Ð¼Ð°Ñ†Ð¸Ñ�</translation>
+        <translation>Информация</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Invalid -tor address: &apos;%s&apos;</source>
-        <translation>Ð�ÐµÐ²ÐµÑ€Ð½Ñ‹Ð¹ Ð°Ð´Ñ€ÐµÑ� -tor: &apos;%s&apos;</translation>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
+        <translation>Неверное количество в параметре -paytxfee=&lt;кол-во&gt;: '%s' (должно быть как минимум %s)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Ð�ÐµÐ²ÐµÑ€Ð½Ð¾Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑ�Ñ‚Ð²Ð¾ Ð² Ð¿Ð°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ðµ -minrelaytxfee=&lt;ÐºÐ¾Ð»-Ð²Ð¾&gt;: &apos;%s&apos;</translation>
+        <source>Invalid netmask specified in -whitelist: '%s'</source>
+        <translation>Указана неверная сетевая маска в -whitelist: '%s'</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Ð�ÐµÐ²ÐµÑ€Ð½Ð¾Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑ�Ñ‚Ð²Ð¾ Ð² Ð¿Ð°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ðµ -mintxfee=&lt;ÐºÐ¾Ð»-Ð²Ð¾&gt;: &apos;%s&apos;</translation>
+        <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
+        <translation>Держать в памяти до &lt;n&gt; несвязных транзакций (по умолчанию: %u)</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>Maintain a full transaction index (default: 0)</source>
-        <translation>Ð”ÐµÑ€Ð¶Ð°Ñ‚ÑŒ Ð¿Ð¾Ð»Ð½Ñ‹Ð¹ Ð¸Ð½Ð´ÐµÐºÑ� Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ð¹ (Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: 0)</translation>
+        <source>Need to specify a port with -whitebind: '%s'</source>
+        <translation>Необходимо указать порт с помощью -whitebind: '%s'</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
-        <translation>ÐœÐ°ÐºÑ�Ð¸Ð¼Ð°Ð»ÑŒÐ½Ñ‹Ð¹ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ð±ÑƒÑ„ÐµÑ€Ð° Ð¿Ñ€Ð¸Ñ‘Ð¼Ð° Ð½Ð° Ñ�Ð¾ÐµÐ´Ð¸Ð½ÐµÐ½Ð¸Ðµ, &lt;n&gt;*1000 Ð±Ð°Ð¹Ñ‚ (Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: 5000)</translation>
+        <source>Node relay options:</source>
+        <translation>Параметры трансляции узла:</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
-        <translation>ÐœÐ°ÐºÑ�Ð¸Ð¼Ð°Ð»ÑŒÐ½Ñ‹Ð¹ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ð±ÑƒÑ„ÐµÑ€Ð° Ð¾Ñ‚Ð¿Ñ€Ð°Ð²ÐºÐ¸ Ð½Ð° Ñ�Ð¾ÐµÐ´Ð¸Ð½ÐµÐ½Ð¸Ðµ, &lt;n&gt;*1000 Ð±Ð°Ð¹Ñ‚ (Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: 1000)</translation>
+        <source>RPC server options:</source>
+        <translation>Параметры сервера RPC:</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
-        <translation>ÐŸÑ€Ð¸Ð½Ð¸Ð¼Ð°Ñ‚ÑŒ Ñ†ÐµÐ¿ÑŒ Ð±Ð»Ð¾ÐºÐ¾Ð², Ñ‚Ð¾Ð»ÑŒÐºÐ¾ ÐµÑ�Ð»Ð¸ Ð¾Ð½Ð° Ñ�Ð¾Ð¾Ñ‚Ð²ÐµÑ‚Ñ�Ñ‚Ð²ÑƒÐµÑ‚ Ð²Ñ�Ñ‚Ñ€Ð¾ÐµÐ½Ð½Ñ‹Ð¼ ÐºÐ¾Ð½Ñ‚Ñ€Ð¾Ð»ÑŒÐ½Ñ‹Ð¼ Ñ‚Ð¾Ñ‡ÐºÐ°Ð¼ (Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: 1)</translation>
+        <source>Reducing -maxconnections from %d to %d, because of system limitations.</source>
+        <translation>Уменьшите -maxconnections с %d до %d, из-за ограничений системы.</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
-        <translation>ÐŸÐ¾Ð´ÐºÐ»ÑŽÑ‡Ð°Ñ‚ÑŒÑ�Ñ� Ñ‚Ð¾Ð»ÑŒÐºÐ¾ Ðº ÑƒÐ·Ð»Ð°Ð¼ Ð¸Ð· Ñ�ÐµÑ‚Ð¸ &lt;net&gt; (IPv4, IPv6 Ð¸Ð»Ð¸ Tor)</translation>
+        <source>Rescan the block chain for missing wallet transactions on startup</source>
+        <translation>Перепроверить цепь блоков на предмет отсутствующих в бумажнике транзакций при запуске</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Output extra debugging information. Implies all other -debug* options</source>
-        <translation>Ð’Ñ‹Ð²Ð¾Ð´Ð¸Ñ‚ÑŒ Ð±Ð¾Ð»ÑŒÑˆÐµ Ð¾Ñ‚Ð»Ð°Ð´Ð¾Ñ‡Ð½Ð¾Ð¹ Ð¸Ð½Ñ„Ð¾Ñ€Ð¼Ð°Ñ†Ð¸Ð¸. Ð’ÐºÐ»ÑŽÑ‡Ð°ÐµÑ‚ Ð²Ñ�Ðµ Ð¾Ñ�Ñ‚Ð°Ð»ÑŒÐ½Ñ‹Ðµ Ð¾Ð¿Ñ†Ð¸Ð¸ -debug*</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Output extra network debugging information</source>
-        <translation>Ð’Ñ‹Ð²Ð¾Ð´Ð¸Ñ‚ÑŒ Ð´Ð¾Ð¿Ð¾Ð»Ð½Ð¸Ñ‚ÐµÐ»ÑŒÐ½ÑƒÑŽ Ñ�ÐµÑ‚ÐµÐ²ÑƒÑŽ Ð¾Ñ‚Ð»Ð°Ð´Ð¾Ñ‡Ð½ÑƒÑŽ Ð¸Ð½Ñ„Ð¾Ñ€Ð¼Ð°Ñ†Ð¸ÑŽ</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Prepend debug output with timestamp</source>
-        <translation>Ð”Ð¾Ð¿Ð¸Ñ�Ñ‹Ð²Ð°Ñ‚ÑŒ Ð¾Ñ‚Ð¼ÐµÑ‚ÐºÐ¸ Ð²Ñ€ÐµÐ¼ÐµÐ½Ð¸ Ðº Ð¾Ñ‚Ð»Ð°Ð´Ð¾Ñ‡Ð½Ð¾Ð¼Ñƒ Ð²Ñ‹Ð²Ð¾Ð´Ñƒ</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>SSL options: (see the Murfcoin Wiki for SSL setup instructions)</source>
-        <translation>
-ÐŸÐ°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ñ‹ SSL: (Ñ�Ð¼. Murfcoin Wiki Ð´Ð»Ñ� Ð¸Ð½Ñ�Ñ‚Ñ€ÑƒÐºÑ†Ð¸Ð¹ Ð¿Ð¾ Ð½Ð°Ñ�Ñ‚Ñ€Ð¾Ð¹ÐºÐµ SSL)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Select the version of socks proxy to use (4-5, default: 5)</source>
-        <translation>Ð’Ñ‹Ð±Ñ€Ð°Ñ‚ÑŒ Ð²ÐµÑ€Ñ�Ð¸ÑŽ SOCKS-Ð¿Ñ€Ð¾ÐºÑ�Ð¸ (4-5, Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: 5)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Ð’Ñ‹Ð²Ð¾Ð´Ð¸Ñ‚ÑŒ Ð¸Ð½Ñ„Ð¾Ñ€Ð¼Ð°Ñ†Ð¸ÑŽ Ñ‚Ñ€Ð°Ñ�Ñ�Ð¸Ñ€Ð¾Ð²ÐºÐ¸/Ð¾Ñ‚Ð»Ð°Ð´ÐºÐ¸ Ð½Ð° ÐºÐ¾Ð½Ñ�Ð¾Ð»ÑŒ Ð²Ð¼ÐµÑ�Ñ‚Ð¾ Ñ„Ð°Ð¹Ð»Ð° debug.log</translation>
+        <translation>Выводить информацию трассировки/отладки на консоль вместо файла debug.log</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Send trace/debug info to debugger</source>
-        <translation>ÐžÑ‚Ð¿Ñ€Ð°Ð²Ð»Ñ�Ñ‚ÑŒ Ð¸Ð½Ñ„Ð¾Ñ€Ð¼Ð°Ñ†Ð¸ÑŽ Ñ‚Ñ€Ð°Ñ�Ñ�Ð¸Ñ€Ð¾Ð²ÐºÐ¸/Ð¾Ñ‚Ð»Ð°Ð´ÐºÐ¸ Ð² Ð¾Ñ‚Ð»Ð°Ð´Ñ‡Ð¸Ðº</translation>
+        <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
+        <translation>Осуществить транзакцию бесплатно, если возможно (по умолчанию: %u)</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Set maximum block size in bytes (default: 250000)</source>
-        <translation>ÐœÐ°ÐºÑ�Ð¸Ð¼Ð°Ð»ÑŒÐ½Ñ‹Ð¹ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ð±Ð»Ð¾ÐºÐ° Ð² Ð±Ð°Ð¹Ñ‚Ð°Ñ… (Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: 250000)</translation>
+        <source>Show all debugging options (usage: --help -help-debug)</source>
+        <translation>Показать все отладочные параметры (использование: --help -help-debug)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Set minimum block size in bytes (default: 0)</source>
-        <translation>ÐœÐ¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ñ‹Ð¹ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ð±Ð»Ð¾ÐºÐ° Ð² Ð±Ð°Ð¹Ñ‚Ð°Ñ… (Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: 0)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>Ð¡Ð¶Ð¸Ð¼Ð°Ñ‚ÑŒ Ñ„Ð°Ð¹Ð» debug.log Ð¿Ñ€Ð¸ Ð·Ð°Ð¿ÑƒÑ�ÐºÐµ ÐºÐ»Ð¸ÐµÐ½Ñ‚Ð° (Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: 1, ÐµÑ�Ð»Ð¸ Ð½ÐµÑ‚ -debug)</translation>
+        <translation>Сжимать файл debug.log при запуске клиента (по умолчанию: 1, если нет -debug)</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Signing transaction failed</source>
-        <translation>Ð�Ðµ ÑƒÐ´Ð°Ð»Ð¾Ñ�ÑŒ Ð¿Ð¾Ð´Ð¿Ð¸Ñ�Ð°Ñ‚ÑŒ Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸ÑŽ</translation>
+        <translation>Не удалось подписать транзакцию</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Specify connection timeout in milliseconds (default: 5000)</source>
-        <translation>Ð¢Ð°Ð¹Ð¼Ð°ÑƒÑ‚ Ñ�Ð¾ÐµÐ´Ð¸Ð½ÐµÐ½Ð¸Ñ� Ð² Ð¼Ð¸Ð»Ð»Ð¸Ñ�ÐµÐºÑƒÐ½Ð´Ð°Ñ… (Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: 5000)</translation>
+        <source>The transaction amount is too small to pay the fee</source>
+        <translation>Сумма транзакции слишком мала для уплаты комиссии</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>System error: </source>
-        <translation>Ð¡Ð¸Ñ�Ñ‚ÐµÐ¼Ð½Ð°Ñ� Ð¾ÑˆÐ¸Ð±ÐºÐ°:</translation>
+        <source>This is experimental software.</source>
+        <translation>Это экспериментальное ПО.</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <source>Tor control port password (default: empty)</source>
+        <translation>Пароль контроля порта Tor (по умолчанию: пустой)</translation>
+    </message>
+    <message>
+        <source>Tor control port to use if onion listening enabled (default: %s)</source>
+        <translation>Порт контроля Tor используется, если включено прослушивание onion (по умолчанию: %s)</translation>
+    </message>
+    <message>
         <source>Transaction amount too small</source>
-        <translation>ÐžÐ±ÑŠÑ‘Ð¼ Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ð¸ Ñ�Ð»Ð¸ÑˆÐºÐ¾Ð¼ Ð¼Ð°Ð»</translation>
+        <translation>Сумма транзакции слишком мала</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Transaction amounts must be positive</source>
-        <translation>ÐžÐ±ÑŠÑ‘Ð¼ Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ð¸ Ð´Ð¾Ð»Ð¶ÐµÐ½ Ð±Ñ‹Ñ‚ÑŒ Ð¿Ð¾Ð»Ð¾Ð¶Ð¸Ñ‚ÐµÐ»ÐµÐ½</translation>
+        <source>Transaction too large for fee policy</source>
+        <translation>Транзакция слишком большая для правил комиссии.</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Transaction too large</source>
-        <translation>Ð¢Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ñ� Ñ�Ð»Ð¸ÑˆÐºÐ¾Ð¼ Ð±Ð¾Ð»ÑŒÑˆÐ°Ñ�</translation>
+        <translation>Транзакция слишком большая</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Use UPnP to map the listening port (default: 0)</source>
-        <translation>Ð˜Ñ�Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÑŒ UPnP Ð´Ð»Ñ� Ð¿Ñ€Ð¾Ð±Ñ€Ð¾Ñ�Ð° Ð¿Ð¾Ñ€Ñ‚Ð° (Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: 0)</translation>
+        <source>Unable to bind to %s on this computer (bind returned error %s)</source>
+        <translation>Невозможно привязаться к %s на этом компьютере (bind вернул ошибку %s)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation>Ð˜Ñ�Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÑŒ UPnP Ð´Ð»Ñ� Ð¿Ñ€Ð¾Ð±Ñ€Ð¾Ñ�Ð° Ð¿Ð¾Ñ€Ñ‚Ð° (Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: 1, ÐµÑ�Ð»Ð¸ Ð¸Ñ�Ð¿Ð¾Ð»ÑŒÐ·ÑƒÐµÑ‚Ñ�Ñ� Ð¿Ñ€Ð¾Ñ�Ð»ÑƒÑˆÐ¸Ð²Ð°Ð½Ð¸Ðµ)</translation>
+        <source>Upgrade wallet to latest format on startup</source>
+        <translation>Обновить бумажник до последнего формата при запуске</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
-        <translation>Ð˜Ñ�Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÑŒ Ð¿Ñ€Ð¾ÐºÑ�Ð¸ Ð´Ð»Ñ� Ñ�ÐºÑ€Ñ‹Ñ‚Ñ‹Ñ… Ñ�ÐµÑ€Ð²Ð¸Ñ�Ð¾Ð² (Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: Ñ‚Ð¾Ñ‚ Ð¶Ðµ, Ñ‡Ñ‚Ð¾ Ð¸ Ð² -proxy)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
         <source>Username for JSON-RPC connections</source>
-        <translation>Ð˜Ð¼Ñ� Ð´Ð»Ñ� Ð¿Ð¾Ð´ÐºÐ»ÑŽÑ‡ÐµÐ½Ð¸Ð¹ JSON-RPC</translation>
+        <translation>Имя для подключений JSON-RPC</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Warning</source>
-        <translation>Ð’Ð½Ð¸Ð¼Ð°Ð½Ð¸Ðµ</translation>
+        <translation>Внимание</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation>Ð’Ð½Ð¸Ð¼Ð°Ð½Ð¸Ðµ: Ñ�Ñ‚Ð° Ð²ÐµÑ€Ñ�Ð¸Ñ� ÑƒÑ�Ñ‚Ð°Ñ€ÐµÐ»Ð°, Ñ‚Ñ€ÐµÐ±ÑƒÐµÑ‚Ñ�Ñ� Ð¾Ð±Ð½Ð¾Ð²Ð»ÐµÐ½Ð¸Ðµ!</translation>
+        <source>Warning: unknown new rules activated (versionbit %i)</source>
+        <translation>Внимание: неизвестные правила вступили в силу(versionbit %i)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>You need to rebuild the databases using -reindex to change -txindex</source>
-        <translation>Ð’Ð°Ð¼ Ð½ÐµÐ¾Ð±Ñ…Ð¾Ð´Ð¸Ð¼Ð¾ Ð¿ÐµÑ€ÐµÑ�Ð¾Ð±Ñ€Ð°Ñ‚ÑŒ Ð±Ð°Ð·Ñ‹ Ð´Ð°Ð½Ð½Ñ‹Ñ… Ñ� Ð¿Ð¾Ð¼Ð¾Ñ‰ÑŒÑŽ -reindex, Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð¸Ð·Ð¼ÐµÐ½Ð¸Ñ‚ÑŒ -txindex</translation>
+        <source>Whether to operate in a blocks only mode (default: %u)</source>
+        <translation>Будет работать в режиме только блоков (по умолчанию: %u)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>wallet.dat corrupt, salvage failed</source>
-        <translation>wallet.dat Ð¿Ð¾Ð²Ñ€ÐµÐ¶Ð´Ñ‘Ð½, Ñ�Ð¿Ð°Ñ�ÐµÐ½Ð¸Ðµ Ð´Ð°Ð½Ð½Ñ‹Ñ… Ð½Ðµ ÑƒÐ´Ð°Ð»Ð¾Ñ�ÑŒ</translation>
+        <source>Zapping all transactions from wallet...</source>
+        <translation>Стираем все транзакции из кошелька...</translation>
     </message>
     <message>
-        <location line="-50"/>
+        <source>ZeroMQ notification options:</source>
+        <translation>ZeroMQ параметры оповещения:</translation>
+    </message>
+    <message>
         <source>Password for JSON-RPC connections</source>
-        <translation>ÐŸÐ°Ñ€Ð¾Ð»ÑŒ Ð´Ð»Ñ� Ð¿Ð¾Ð´ÐºÐ»ÑŽÑ‡ÐµÐ½Ð¸Ð¹ JSON-RPC</translation>
+        <translation>Пароль для подключений JSON-RPC</translation>
     </message>
     <message>
-        <location line="-67"/>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>Ð Ð°Ð·Ñ€ÐµÑˆÐ¸Ñ‚ÑŒ Ð¿Ð¾Ð´ÐºÐ»ÑŽÑ‡ÐµÐ½Ð¸Ñ� JSON-RPC Ñ� ÑƒÐºÐ°Ð·Ð°Ð½Ð½Ð¾Ð³Ð¾ IP</translation>
-    </message>
-    <message>
-        <location line="+76"/>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>ÐŸÐ¾Ñ�Ñ‹Ð»Ð°Ñ‚ÑŒ ÐºÐ¾Ð¼Ð°Ð½Ð´Ñ‹ ÑƒÐ·Ð»Ñƒ, Ð·Ð°Ð¿ÑƒÑ‰ÐµÐ½Ð½Ð¾Ð¼Ñƒ Ð½Ð° &lt;ip&gt; (Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: 127.0.0.1)</translation>
-    </message>
-    <message>
-        <location line="-120"/>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Ð’Ñ‹Ð¿Ð¾Ð»Ð½Ð¸Ñ‚ÑŒ ÐºÐ¾Ð¼Ð°Ð½Ð´Ñƒ, ÐºÐ¾Ð³Ð´Ð° Ð¿Ð¾Ñ�Ð²Ð»Ñ�ÐµÑ‚Ñ�Ñ� Ð½Ð¾Ð²Ñ‹Ð¹ Ð±Ð»Ð¾Ðº (%s Ð² ÐºÐ¾Ð¼Ð°Ð½Ð´Ðµ Ð·Ð°Ð¼ÐµÐ½Ñ�ÐµÑ‚Ñ�Ñ� Ð½Ð° Ñ…Ñ�Ñˆ Ð±Ð»Ð¾ÐºÐ°)</translation>
+        <translation>Выполнить команду, когда появляется новый блок (%s в команде заменяется на хэш блока)</translation>
     </message>
     <message>
-        <location line="+147"/>
-        <source>Upgrade wallet to latest format</source>
-        <translation>ÐžÐ±Ð½Ð¾Ð²Ð¸Ñ‚ÑŒ Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸Ðº Ð´Ð¾ Ð¿Ð¾Ñ�Ð»ÐµÐ´Ð½ÐµÐ³Ð¾ Ñ„Ð¾Ñ€Ð¼Ð°Ñ‚Ð°</translation>
-    </message>
-    <message>
-        <location line="-21"/>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Ð£Ñ�Ñ‚Ð°Ð½Ð¾Ð²Ð¸Ñ‚ÑŒ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ð·Ð°Ð¿Ð°Ñ�Ð° ÐºÐ»ÑŽÑ‡ÐµÐ¹ Ð² &lt;n&gt; (Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: 100)</translation>
-    </message>
-    <message>
-        <location line="-12"/>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>ÐŸÐµÑ€ÐµÐ¿Ñ€Ð¾Ð²ÐµÑ€Ð¸Ñ‚ÑŒ Ñ†ÐµÐ¿ÑŒ Ð±Ð»Ð¾ÐºÐ¾Ð² Ð½Ð° Ð¿Ñ€ÐµÐ´Ð¼ÐµÑ‚ Ð¾Ñ‚Ñ�ÑƒÑ‚Ñ�Ñ‚Ð²ÑƒÑŽÑ‰Ð¸Ñ… Ð² Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸ÐºÐµ Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ð¹</translation>
-    </message>
-    <message>
-        <location line="+35"/>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Ð˜Ñ�Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÑŒ OpenSSL (https) Ð´Ð»Ñ� Ð¿Ð¾Ð´ÐºÐ»ÑŽÑ‡ÐµÐ½Ð¸Ð¹ JSON-RPC</translation>
-    </message>
-    <message>
-        <location line="-26"/>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation>Ð¤Ð°Ð¹Ð» Ñ�ÐµÑ€Ð²ÐµÑ€Ð½Ð¾Ð³Ð¾ Ñ�ÐµÑ€Ñ‚Ð¸Ñ„Ð¸ÐºÐ°Ñ‚Ð° (Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: server.cert)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Server private key (default: server.pem)</source>
-        <translation>ÐŸÑ€Ð¸Ð²Ð°Ñ‚Ð½Ñ‹Ð¹ ÐºÐ»ÑŽÑ‡ Ñ�ÐµÑ€Ð²ÐµÑ€Ð° (Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: server.pem)</translation>
-    </message>
-    <message>
-        <location line="-151"/>
-        <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
-        <translation>Ð Ð°Ð·Ñ€ÐµÑˆÑ‘Ð½Ð½Ñ‹Ðµ Ð°Ð»Ð³Ð¾Ñ€Ð¸Ñ‚Ð¼Ñ‹ (Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
-    </message>
-    <message>
-        <location line="+165"/>
-        <source>This help message</source>
-        <translation>Ð­Ñ‚Ð° Ñ�Ð¿Ñ€Ð°Ð²ÐºÐ°</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>Ð�ÐµÐ²Ð¾Ð·Ð¼Ð¾Ð¶Ð½Ð¾ Ð¿Ñ€Ð¸Ð²Ñ�Ð·Ð°Ñ‚ÑŒÑ�Ñ� Ðº %s Ð½Ð° Ñ�Ñ‚Ð¾Ð¼ ÐºÐ¾Ð¼Ð¿ÑŒÑŽÑ‚ÐµÑ€Ðµ (bind Ð²ÐµÑ€Ð½ÑƒÐ» Ð¾ÑˆÐ¸Ð±ÐºÑƒ %d, %s)</translation>
-    </message>
-    <message>
-        <location line="-91"/>
-        <source>Connect through socks proxy</source>
-        <translation>ÐŸÐ¾Ð´ÐºÐ»ÑŽÑ‡Ð°Ñ‚ÑŒÑ�Ñ� Ñ‡ÐµÑ€ÐµÐ· socks Ð¿Ñ€Ð¾ÐºÑ�Ð¸</translation>
-    </message>
-    <message>
-        <location line="-10"/>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Ð Ð°Ð·Ñ€ÐµÑˆÐ¸Ñ‚ÑŒ Ð¿Ð¾Ð¸Ñ�Ðº Ð² DNS Ð´Ð»Ñ� -addnode, -seednode Ð¸ -connect</translation>
+        <translation>Разрешить поиск в DNS для -addnode, -seednode и -connect</translation>
     </message>
     <message>
-        <location line="+55"/>
         <source>Loading addresses...</source>
-        <translation>Ð—Ð°Ð³Ñ€ÑƒÐ·ÐºÐ° Ð°Ð´Ñ€ÐµÑ�Ð¾Ð²...</translation>
+        <translation>Загрузка адресов...</translation>
     </message>
     <message>
-        <location line="-35"/>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>ÐžÑˆÐ¸Ð±ÐºÐ° Ð·Ð°Ð³Ñ€ÑƒÐ·ÐºÐ¸ wallet.dat: Ð‘ÑƒÐ¼Ð°Ð¶Ð½Ð¸Ðº Ð¿Ð¾Ð²Ñ€ÐµÐ¶Ð´ÐµÐ½</translation>
+        <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
+        <translation>(1 = сохранять метаданные транзакции: например, владельца аккаунта и информацию запроса платежа; 2 = отбросить метаданные)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Murfcoin</source>
-        <translation>ÐžÑˆÐ¸Ð±ÐºÐ° Ð·Ð°Ð³Ñ€ÑƒÐ·ÐºÐ¸ wallet.dat: Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸Ðº Ñ‚Ñ€ÐµÐ±ÑƒÐµÑ‚ Ð±Ð¾Ð»ÐµÐµ Ð½Ð¾Ð²ÑƒÑŽ Ð²ÐµÑ€Ñ�Ð¸ÑŽ Murfcoin</translation>
+        <source>-maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
+        <translation>Установлено очень большое значение -maxtxfee. Такие большие комиссии могут быть уплачены в отдельной транзакции.</translation>
     </message>
     <message>
-        <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Murfcoin to complete</source>
-        <translation>Ð�ÐµÐ¾Ð±Ñ…Ð¾Ð´Ð¸Ð¼Ð¾ Ð¿ÐµÑ€ÐµÐ·Ð°Ð¿Ð¸Ñ�Ð°Ñ‚ÑŒ Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸Ðº, Ð¿ÐµÑ€ÐµÐ·Ð°Ð¿ÑƒÑ�Ñ‚Ð¸Ñ‚Ðµ Murfcoin Ð´Ð»Ñ� Ð·Ð°Ð²ÐµÑ€ÑˆÐµÐ½Ð¸Ñ� Ð¾Ð¿ÐµÑ€Ð°Ñ†Ð¸Ð¸.</translation>
+        <source>Do not keep transactions in the mempool longer than &lt;n&gt; hours (default: %u)</source>
+        <translation>Не хранить транзакции в памяти дольше, чем &lt;n&gt; часов (по умолчанию %u)</translation>
     </message>
     <message>
-        <location line="-95"/>
-        <source>Error loading wallet.dat</source>
-        <translation>ÐžÑˆÐ¸Ð±ÐºÐ° Ð¿Ñ€Ð¸ Ð·Ð°Ð³Ñ€ÑƒÐ·ÐºÐµ wallet.dat</translation>
+        <source>Equivalent bytes per sigop in transactions for relay and mining (default: %u)</source>
+        <translation>Эквивалентных байт на sigop в транзакциях для ретрансляции или добычи (по умолчанию: %u)</translation>
     </message>
     <message>
-        <location line="+28"/>
-        <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation>Ð�ÐµÐ²ÐµÑ€Ð½Ñ‹Ð¹ Ð°Ð´Ñ€ÐµÑ� -proxy: &apos;%s&apos;</translation>
+        <source>Fees (in %s/kB) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Комиссии (в %s/Кб) меньшие этого значения считаются нулевыми при создании транзакций (по умолчанию: %s)</translation>
     </message>
     <message>
-        <location line="+56"/>
-        <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
-        <translation>Ð’ Ð¿Ð°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ðµ -onlynet ÑƒÐºÐ°Ð·Ð°Ð½Ð° Ð½ÐµÐ¸Ð·Ð²ÐµÑ�Ñ‚Ð½Ð°Ñ� Ñ�ÐµÑ‚ÑŒ: &apos;%s&apos;</translation>
+        <source>Force relay of transactions from whitelisted peers even if they violate local relay policy (default: %d)</source>
+        <translation>Всегда ретранслировать транзакции, полученные из белого списка участников, даже если они нарушают локальную политику ретрансляции (по умолчанию: %d)</translation>
     </message>
     <message>
-        <location line="-1"/>
-        <source>Unknown -socks proxy version requested: %i</source>
-        <translation>Ð’ Ð¿Ð°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ðµ -socks Ð·Ð°Ð¿Ñ€Ð¾ÑˆÐµÐ½Ð° Ð½ÐµÐ¸Ð·Ð²ÐµÑ�Ñ‚Ð½Ð°Ñ� Ð²ÐµÑ€Ñ�Ð¸Ñ�: %i</translation>
+        <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
+        <translation>Насколько тщательна проверка контрольных блоков -checkblocks (0-4, по умолчанию: %u)</translation>
     </message>
     <message>
-        <location line="-96"/>
-        <source>Cannot resolve -bind address: &apos;%s&apos;</source>
-        <translation>Ð�Ðµ ÑƒÐ´Ð°Ñ‘Ñ‚Ñ�Ñ� Ñ€Ð°Ð·Ñ€ÐµÑˆÐ¸Ñ‚ÑŒ Ð°Ð´Ñ€ÐµÑ� Ð² Ð¿Ð°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ðµ -bind: &apos;%s&apos;</translation>
+        <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
+        <translation>Держать полный индекс транзакций, используемый RPC-запросом getrawtransaction (по умолчанию: %u)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
-        <translation>Ð�Ðµ ÑƒÐ´Ð°Ñ‘Ñ‚Ñ�Ñ� Ñ€Ð°Ð·Ñ€ÐµÑˆÐ¸Ñ‚ÑŒ Ð°Ð´Ñ€ÐµÑ� Ð² Ð¿Ð°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ðµ -externalip: &apos;%s&apos;</translation>
+        <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
+        <translation>Число секунд блокирования неправильно ведущих себя узлов (по умолчанию: %u)</translation>
     </message>
     <message>
-        <location line="+44"/>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Ð�ÐµÐ²ÐµÑ€Ð½Ð¾Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑ�Ñ‚Ð²Ð¾ Ð² Ð¿Ð°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ðµ -paytxfee=&lt;ÐºÐ¾Ð»-Ð²Ð¾&gt;: &apos;%s&apos;</translation>
+        <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
+        <translation>Выводить отладочную информацию (по умолчанию: %u, указание &lt;category&gt; необязательно)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Invalid amount</source>
-        <translation>Ð�ÐµÐ²ÐµÑ€Ð½Ð¾Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑ�Ñ‚Ð²Ð¾</translation>
+        <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect/-noconnect)</source>
+        <translation>Запрашивать адреса участников с помощью DNS, если адресов мало (по умолчанию: 1, если не указан -connect/-noconnect)</translation>
     </message>
     <message>
-        <location line="-6"/>
+        <source>Sets the serialization of raw transaction or block hex returned in non-verbose mode, non-segwit(0) or segwit(1) (default: %d)</source>
+        <translation>Задаёт сериализацию сырой транзакции или хекса блока, возвращённого в не подробном режиме, non-segwit(0) или segwit(1) (по умолчанию: %d)</translation>
+    </message>
+    <message>
+        <source>Support filtering of blocks and transaction with bloom filters (default: %u)</source>
+        <translation>Поддерживать фильтрацию блоков и транзакций с помощью фильтра Блума (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>This is the transaction fee you may pay when fee estimates are not available.</source>
+        <translation>Это комиссия за транзакцию, которую вы можете заплатить, когда расчёт комиссии недоступен.</translation>
+    </message>
+    <message>
+        <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit %s and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
+        <translation>Этот продукт включает ПО, разработанное OpenSSL Project для использования в OpenSSL Toolkit %s и криптографическое ПО, написанное Eric Young и ПО для работы с UPnP, написанное Thomas Bernard.</translation>
+    </message>
+    <message>
+        <source>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</source>
+        <translation>Текущая длина строки версии сети (%i) превышает максимальную длину (%i). Увеливается количество или размер uacomments.</translation>
+    </message>
+    <message>
+        <source>Tries to keep outbound traffic under the given target (in MiB per 24h), 0 = no limit (default: %d)</source>
+        <translation>Пытается ограничить исходящий трафик до (в МБ за 24ч), 0 = не ограничивать (по умолчанию: %d)</translation>
+    </message>
+    <message>
+        <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
+        <translation>Обнаружен не поддерживаемый аргумент -socks. Выбор версии SOCKS более невозможен, поддерживаются только прокси SOCKS5.</translation>
+    </message>
+    <message>
+        <source>Unsupported argument -whitelistalwaysrelay ignored, use -whitelistrelay and/or -whitelistforcerelay.</source>
+        <translation>Не поддерживаемый аргумент -whitelistalwaysrelay игнорируется, используйте -whitelistrelay и/или -whitelistforcerelay.</translation>
+    </message>
+    <message>
+        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
+        <translation>Использовать отдельный прокси SOCKS5 для соединения с участниками через скрытые сервисы Tor (по умолчанию: %s)</translation>
+    </message>
+    <message>
+        <source>Warning: Unknown block versions being mined! It's possible unknown rules are in effect</source>
+        <translation>Внимание: Получена неизвестная версия блока! Возможно неизвестные правила вступили в силу.</translation>
+    </message>
+    <message>
+        <source>Warning: Wallet file corrupt, data salvaged! Original %s saved as %s in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
+        <translation>Внимание: Файл бумажника поврежден, данные восстановлены! Оригинальный %s сохранен как %s в %s; Если баланс или транзакции некорректны, вы должны восстановить файл из резервной копии.</translation>
+    </message>
+    <message>
+        <source>Whitelist peers connecting from the given IP address (e.g. 1.2.3.4) or CIDR notated network (e.g. 1.2.3.0/24). Can be specified multiple times.</source>
+        <translation>Вносить в белый список участников, подключающихся с указанного IP (напр. 1.2.3.4) или CIDR-адреса сети (напр. 1.2.3.0/24). Можно использовать многократно.</translation>
+    </message>
+    <message>
+        <source>%s is set very high!</source>
+        <translation>%s задан слишком высоким!</translation>
+    </message>
+    <message>
+        <source>(default: %s)</source>
+        <translation>(по умолчанию: %s)</translation>
+    </message>
+    <message>
+        <source>Always query for peer addresses via DNS lookup (default: %u)</source>
+        <translation>Всегда запрашивать адреса участников с помощью DNS (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>How many blocks to check at startup (default: %u, 0 = all)</source>
+        <translation>Сколько блоков проверять при запуске (по умолчанию: %u, 0 = все)</translation>
+    </message>
+    <message>
+        <source>Include IP addresses in debug output (default: %u)</source>
+        <translation>Включить IP-адреса в отладочный вывод (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Неверный адрес -proxy: '%s'</translation>
+    </message>
+    <message>
+        <source>Keypool ran out, please call keypoolrefill first</source>
+        <translation>Пул ключей опустел, пожалуйста, выполните keypoolrefill</translation>
+    </message>
+    <message>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
+        <translation>Прослушивать подключения JSON-RPC на &lt;порту&gt; (по умолчанию: %u или %u в тестовой сети)</translation>
+    </message>
+    <message>
+        <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
+        <translation>Принимать входящие подключения на &lt;port&gt; (по умолчанию: %u или %u в тестовой сети)</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
+        <translation>Поддерживать не более &lt;n&gt; подключений к узлам (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Make the wallet broadcast transactions</source>
+        <translation>Рассылать транзакции из бумажника</translation>
+    </message>
+    <message>
+        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
+        <translation>Максимальный размер буфера приёма на соединение, &lt;n&gt;*1000 байт (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
+        <translation>Максимальный размер буфера отправки на соединение, &lt;n&gt;*1000 байт (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Prepend debug output with timestamp (default: %u)</source>
+        <translation>Дописывать отметки времени к отладочному выводу (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Relay and mine data carrier transactions (default: %u)</source>
+        <translation>Транслировать и генерировать транзакции носителей данных (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Relay non-P2SH multisig (default: %u)</source>
+        <translation>Транслировать не-P2SH мультиподпись (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Send transactions with full-RBF opt-in enabled (default: %u)</source>
+        <translation>Отправлять транзакции с включенным full-RBF (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: %u)</source>
+        <translation>Установить размер пула ключей в &lt;n&gt; (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Set maximum BIP141 block weight (default: %d)</source>
+        <translation>Задать максимальное BIP141 значение блока (по умолчанию: %d)</translation>
+    </message>
+    <message>
+        <source>Set the number of threads to service RPC calls (default: %d)</source>
+        <translation>Задать число потоков выполнения запросов RPC (по умолчанию: %d)</translation>
+    </message>
+    <message>
+        <source>Specify configuration file (default: %s)</source>
+        <translation>Указать конфигурационный файл (по умолчанию: %s)</translation>
+    </message>
+    <message>
+        <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
+        <translation>Указать тайм-аут соединения в миллисекундах (минимум: 1, по умолчанию: %d)</translation>
+    </message>
+    <message>
+        <source>Specify pid file (default: %s)</source>
+        <translation>Указать pid-файл (по умолчанию: %s)</translation>
+    </message>
+    <message>
+        <source>Spend unconfirmed change when sending transactions (default: %u)</source>
+        <translation>Тратить неподтвержденную сдачу при отправке транзакций (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Starting network threads...</source>
+        <translation>Запускаем сетевые потоки...</translation>
+    </message>
+    <message>
+        <source>The wallet will avoid paying less than the minimum relay fee.</source>
+        <translation>Бумажник постарается не платить меньше, чем минимальная комиссия передачи.</translation>
+    </message>
+    <message>
+        <source>This is the minimum transaction fee you pay on every transaction.</source>
+        <translation>Это минимальная комиссия, которую вы платите с каждой транзакцией.</translation>
+    </message>
+    <message>
+        <source>This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>Это комиссия, которую вы заплатите за эту транзакцию.</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
+        <translation>Порог для отключения неправильно ведущих себя узлов (по умолчанию: %u)</translation>
+    </message>
+    <message>
+        <source>Transaction amounts must not be negative</source>
+        <translation>Сумма транзакции не должна быть негативной</translation>
+    </message>
+    <message>
+        <source>Transaction has too long of a mempool chain</source>
+        <translation>У транзакции слишком длинная цепочка в пуле в памяти.</translation>
+    </message>
+    <message>
+        <source>Transaction must have at least one recipient</source>
+        <translation>У транзакции должен быть как минимум один получатель</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>В параметре -onlynet указана неизвестная сеть: '%s'</translation>
+    </message>
+    <message>
         <source>Insufficient funds</source>
-        <translation>Ð�ÐµÐ´Ð¾Ñ�Ñ‚Ð°Ñ‚Ð¾Ñ‡Ð½Ð¾ Ð¼Ð¾Ð½ÐµÑ‚</translation>
+        <translation>Недостаточно монет</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Loading block index...</source>
-        <translation>Ð—Ð°Ð³Ñ€ÑƒÐ·ÐºÐ° Ð¸Ð½Ð´ÐµÐºÑ�Ð° Ð±Ð»Ð¾ÐºÐ¾Ð²...</translation>
+        <translation>Загрузка индекса блоков...</translation>
     </message>
     <message>
-        <location line="-57"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Ð”Ð¾Ð±Ð°Ð²Ð¸Ñ‚ÑŒ ÑƒÐ·ÐµÐ» Ð´Ð»Ñ� Ð¿Ð¾Ð´ÐºÐ»ÑŽÑ‡ÐµÐ½Ð¸Ñ� Ð¸ Ð¿Ñ‹Ñ‚Ð°Ñ‚ÑŒÑ�Ñ� Ð¿Ð¾Ð´Ð´ÐµÑ€Ð¶Ð¸Ð²Ð°Ñ‚ÑŒ Ñ�Ð¾ÐµÐ´Ð¸Ð½ÐµÐ½Ð¸Ðµ Ð¾Ñ‚ÐºÑ€Ñ‹Ñ‚Ñ‹Ð¼</translation>
+        <translation>Добавить узел для подключения и пытаться поддерживать соединение открытым</translation>
     </message>
     <message>
-        <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Murfcoin is probably already running.</source>
-        <translation>Ð�ÐµÐ²Ð¾Ð·Ð¼Ð¾Ð¶Ð½Ð¾ Ð¿Ñ€Ð¸Ð²Ñ�Ð·Ð°Ñ‚ÑŒÑ�Ñ� Ðº %s Ð½Ð° Ñ�Ñ‚Ð¾Ð¼ ÐºÐ¾Ð¼Ð¿ÑŒÑŽÑ‚ÐµÑ€Ðµ.  Ð’Ð¾Ð·Ð¼Ð¾Ð¶Ð½Ð¾, Murfcoin ÑƒÐ¶Ðµ Ñ€Ð°Ð±Ð¾Ñ‚Ð°ÐµÑ‚.</translation>
-    </message>
-    <message>
-        <location line="+64"/>
-        <source>Fee per KB to add to transactions you send</source>
-        <translation>ÐšÐ¾Ð¼Ð¸Ñ�Ñ�Ð¸Ñ� Ð½Ð° ÐºÐ¸Ð»Ð¾Ð±Ð°Ð¹Ñ‚, Ð´Ð¾Ð±Ð°Ð²Ð»Ñ�ÐµÐ¼Ð°Ñ� Ðº Ð²Ð°ÑˆÐ¸Ð¼ Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ñ�Ð¼</translation>
-    </message>
-    <message>
-        <location line="+19"/>
         <source>Loading wallet...</source>
-        <translation>Ð—Ð°Ð³Ñ€ÑƒÐ·ÐºÐ° Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸ÐºÐ°...</translation>
+        <translation>Загрузка бумажника...</translation>
     </message>
     <message>
-        <location line="-52"/>
         <source>Cannot downgrade wallet</source>
-        <translation>Ð�Ðµ ÑƒÐ´Ð°Ñ‘Ñ‚Ñ�Ñ� Ð¿Ð¾Ð½Ð¸Ð·Ð¸Ñ‚ÑŒ Ð²ÐµÑ€Ñ�Ð¸ÑŽ Ð±ÑƒÐ¼Ð°Ð¶Ð½Ð¸ÐºÐ°</translation>
+        <translation>Не удаётся понизить версию бумажника</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Cannot write default address</source>
-        <translation>Ð�Ðµ ÑƒÐ´Ð°Ñ‘Ñ‚Ñ�Ñ� Ð·Ð°Ð¿Ð¸Ñ�Ð°Ñ‚ÑŒ Ð°Ð´Ñ€ÐµÑ� Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ</translation>
+        <translation>Не удаётся записать адрес по умолчанию</translation>
     </message>
     <message>
-        <location line="+64"/>
         <source>Rescanning...</source>
-        <translation>Ð¡ÐºÐ°Ð½Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ...</translation>
+        <translation>Сканирование...</translation>
     </message>
     <message>
-        <location line="-57"/>
         <source>Done loading</source>
-        <translation>Ð—Ð°Ð³Ñ€ÑƒÐ·ÐºÐ° Ð·Ð°Ð²ÐµÑ€ÑˆÐµÐ½Ð°</translation>
+        <translation>Загрузка завершена</translation>
     </message>
     <message>
-        <location line="+82"/>
-        <source>To use the %s option</source>
-        <translation>Ð§Ñ‚Ð¾Ð±Ñ‹ Ð¸Ñ�Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÑŒ Ð¾Ð¿Ñ†Ð¸ÑŽ %s</translation>
-    </message>
-    <message>
-        <location line="-74"/>
         <source>Error</source>
-        <translation>ÐžÑˆÐ¸Ð±ÐºÐ°</translation>
-    </message>
-    <message>
-        <location line="-31"/>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>Ð’Ñ‹ Ð´Ð¾Ð»Ð¶Ð½Ñ‹ ÑƒÑ�Ñ‚Ð°Ð½Ð¾Ð²Ð¸Ñ‚ÑŒ rpcpassword=&lt;password&gt; Ð² ÐºÐ¾Ð½Ñ„Ð¸Ð³ÑƒÑ€Ð°Ñ†Ð¸Ð¾Ð½Ð½Ð¾Ð¼ Ñ„Ð°Ð¹Ð»Ðµ:
-%s
-Ð•Ñ�Ð»Ð¸ Ñ„Ð°Ð¹Ð» Ð½Ðµ Ñ�ÑƒÑ‰ÐµÑ�Ñ‚Ð²ÑƒÐµÑ‚, Ñ�Ð¾Ð·Ð´Ð°Ð¹Ñ‚Ðµ ÐµÐ³Ð¾ Ð¸ ÑƒÑ�Ñ‚Ð°Ð½Ð¾Ð²Ð¸Ñ‚Ðµ Ð¿Ñ€Ð°Ð²Ð° Ð´Ð¾Ñ�Ñ‚ÑƒÐ¿Ð° Ñ‚Ð¾Ð»ÑŒÐºÐ¾ Ð´Ð»Ñ� Ð²Ð»Ð°Ð´ÐµÐ»ÑŒÑ†Ð°.</translation>
+        <translation>Ошибка</translation>
     </message>
 </context>
 </TS>

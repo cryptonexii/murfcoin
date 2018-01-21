@@ -1,2941 +1,1970 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="el_GR" version="2.0">
-<defaultcodec>UTF-8</defaultcodec>
-<context>
-    <name>AboutDialog</name>
-    <message>
-        <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Murfcoin</source>
-        <translation>Î£Ï‡ÎµÏ„Î¹ÎºÎ¬ Î¼Îµ Ï„Î¿ Murfcoin</translation>
-    </message>
-    <message>
-        <location line="+39"/>
-        <source>&lt;b&gt;Murfcoin&lt;/b&gt; version</source>
-        <translation>ÎˆÎºÎ´Î¿ÏƒÎ· Murfcoin</translation>
-    </message>
-    <message>
-        <location line="+57"/>
-        <source>
-This is experimental software.
-
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>
-This is experimental software.
-
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="+14"/>
-        <source>Copyright</source>
-        <translation>Î Î½ÎµÏ…Î¼Î±Ï„Î¹ÎºÎ® Î¹Î´Î¹Î¿ÎºÏ„Î·ÏƒÎ¯Î± </translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>The Murfcoin developers</source>
-        <translation>ÎŸÎ¹ Murfcoin Ï€Ï�Î¿Î³Ï�Î±Î¼Î¼Î±Ï„Î¹ÏƒÏ„Î­Ï‚ </translation>
-    </message>
-</context>
+<TS language="el_GR" version="2.1">
 <context>
     <name>AddressBookPage</name>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>Address Book</source>
-        <translation>Î’Î¹Î²Î»Î¯Î¿ Î”Î¹ÎµÏ…Î¸Ï�Î½ÏƒÎµÏ‰Î½</translation>
+        <source>Right-click to edit address or label</source>
+        <translation>Δεξί-κλικ για επεξεργασία της διεύθυνσης ή της ετικέτας</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>Double-click to edit address or label</source>
-        <translation>Î”Î¹Ï€Î»ÏŒ-ÎºÎ»Î¹Îº Î³Î¹Î± ÎµÏ€ÎµÎ¾ÎµÏ�Î³Î±ÏƒÎ¯Î± Ï„Î·Ï‚ Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ·Ï‚ Î® Ï„Î·Ï‚ ÎµÏ„Î¹ÎºÎ­Ï„Î±Ï‚</translation>
-    </message>
-    <message>
-        <location line="+27"/>
         <source>Create a new address</source>
-        <translation>Î”Î·Î¼Î¹Î¿Ï�Ï�Î³Î·ÏƒÎµ Î½Î­Î± Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ·</translation>
+        <translation>Δημιουργία νέας διεύθυνσης</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <source>&amp;New</source>
+        <translation>&amp;Νέo</translation>
+    </message>
+    <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Î‘Î½Ï„Î­Î³Ï�Î±ÏˆÎµ Ï„Î·Î½ ÎµÏ€Î¹Î»ÎµÎ³Î¼Î­Î½Î· Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ· ÏƒÏ„Î¿ Ï€Ï�ÏŒÏ‡ÎµÎ¹Ï�Î¿ Ï„Î¿Ï… ÏƒÏ…ÏƒÏ„Î®Î¼Î±Ï„Î¿Ï‚</translation>
+        <translation>Αντέγραψε την επιλεγμένη διεύθυνση στο πρόχειρο του συστήματος</translation>
     </message>
     <message>
-        <location line="-11"/>
-        <source>&amp;New Address</source>
-        <translation>&amp;Î�Î­Î± Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ·</translation>
+        <source>&amp;Copy</source>
+        <translation>&amp;Αντιγραφή</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Murfcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Î‘Ï…Ï„Î­Ï‚ ÎµÎ¯Î½Î±Î¹ Î¿Î¹ Murfcoin Î´Î¹ÎµÏ…Î¸Ï�Î½ÏƒÎµÎ¹Ï‚ ÏƒÎ±Ï‚ Î³Î¹Î± Î½Î± Î»Î±Î¼Î²Î¬Î½ÎµÏ„Îµ Ï€Î»Î·Ï�Ï‰Î¼Î­Ï‚. Î”Î¯Î½Î¿Î½Ï„Î±Ï‚ Î¼Î¯Î± Î¾ÎµÏ‡Ï‰Ï�Î¹ÏƒÏ„Î® Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ· ÏƒÎµ ÎºÎ¬Î¸Îµ Î±Ï€Î¿ÏƒÏ„Î¿Î»Î­Î±, Î¸Î± Î¼Ï€Î¿Ï�ÎµÎ¯Ï„Îµ Î½Î± ÎµÎ»Î­Î³Ï‡ÎµÏ„Îµ Ï€Î¿Î¹Î¿Ï‚ ÏƒÎ±Ï‚ Ï€Î»Î·Ï�ÏŽÎ½ÎµÎ¹.</translation>
+        <source>C&amp;lose</source>
+        <translation>Κ&amp;λείσιμο</translation>
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>&amp;Copy Address</source>
-        <translation>&amp;Î‘Î½Ï„Î¹Î³Ï�Î±Ï†Î® Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ·Ï‚</translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>Show &amp;QR Code</source>
-        <translation>Î”ÎµÎ¯Î¾Îµ &amp;QR ÎºÏ‰Î´Î¹ÎºÎ±</translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>Sign a message to prove you own a Murfcoin address</source>
-        <translation>Î¥Ï€Î¿Î³Ï�Î¬ÏˆÏ„Îµ Î­Î½Î± Î¼Î®Î½Ï…Î¼Î± Î³Î¹Î± Î½&apos; Î±Ï€Î¿Î´ÎµÎ¯Î¾ÎµÏ„Îµ Ï€Ï‰Ï‚ ÏƒÎ±Ï‚ Î±Î½Î®ÎºÎµÎ¹ Î¼Î¹Î± ÏƒÏ…Î³ÎºÎµÎºÏ�Î¹Î¼Î­Î½Î· Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ· Murfcoin</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Sign &amp;Message</source>
-        <translation>&amp;Î¥Ï€Î­Î³Ï�Î±ÏˆÎµ Ï„Î¿ Î¼Î®Î½Ï…Î¼Î±</translation>
-    </message>
-    <message>
-        <location line="+25"/>
         <source>Delete the currently selected address from the list</source>
-        <translation>Î‘Î½Ï„Î¹Î³Ï�Î±Ï†Î· Ï„Î·Ï‚ ÎµÏ€Î¹Î»ÎµÎ³Î¼ÎµÎ½Î·Ï‚ Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ·Ï‚ ÏƒÏ„Î¿ Ï€Ï�ÏŒÏ‡ÎµÎ¹Ï�Î¿ Ï„Î¿Ï… ÏƒÏ…ÏƒÏ„Î·Î¼Î±Ï„Î¿Ï‚</translation>
+        <translation>Αντιγραφη της επιλεγμενης διεύθυνσης στο πρόχειρο του συστηματος</translation>
     </message>
     <message>
-        <location line="+27"/>
         <source>Export the data in the current tab to a file</source>
-        <translation>Î•Î¾Î±Î³Ï‰Î³Î® Î´ÎµÎ´Î¿Î¼Î­Î½Ï‰Î½ ÎºÎ±Ï�Ï„Î­Î»Î±Ï‚ ÏƒÎµ Î±Ï�Ï‡ÎµÎ¯Î¿</translation>
+        <translation>Εξαγωγή δεδομένων καρτέλας σε αρχείο</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Export</source>
-        <translation>&amp;Î•Î¾Î±Î³Ï‰Î³Î®</translation>
+        <translation>&amp;Εξαγωγή</translation>
     </message>
     <message>
-        <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Murfcoin address</source>
-        <translation>Î¥Ï€Î¿Î³Ï�Î¬ÏˆÏ„Îµ Î­Î½Î± Î¼Î®Î½Ï…Î¼Î± Î³Î¹Î± Î½&apos; Î±Ï€Î¿Î´ÎµÎ¯Î¾ÎµÏ„Îµ Ï€Ï‰Ï‚ Î±Î½Î®ÎºÎµÎ¹ Î¼Î¹Î± ÏƒÏ…Î³ÎºÎµÎºÏ�Î¹Î¼Î­Î½Î· Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ· Murfcoin</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Verify Message</source>
-        <translation>&amp;Î•Ï€Î¹Î²ÎµÎ²Î±Î¯Ï‰ÏƒÎ· Î¼Î·Î½Ï�Î¼Î±Ï„Î¿Ï‚</translation>
-    </message>
-    <message>
-        <location line="+14"/>
         <source>&amp;Delete</source>
-        <translation>&amp;Î”Î¹Î±Î³Ï�Î±Ï†Î®</translation>
+        <translation>&amp;Διαγραφή</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="-5"/>
+        <source>Choose the address to send coins to</source>
+        <translation>Επιλέξτε διεύθυνση αποστολής των νομισμάτων σας</translation>
+    </message>
+    <message>
+        <source>Choose the address to receive coins with</source>
+        <translation>Επιλέξτε διεύθυνση παραλαβής νομισμάτων</translation>
+    </message>
+    <message>
+        <source>C&amp;hoose</source>
+        <translation>Ε&amp;πιλογή</translation>
+    </message>
+    <message>
+        <source>Sending addresses</source>
+        <translation>Διευθύνσεις αποστολής</translation>
+    </message>
+    <message>
+        <source>Receiving addresses</source>
+        <translation>Διευθύνσεις λήψης</translation>
+    </message>
+    <message>
         <source>These are your Murfcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Î‘Ï…Ï„Î­Ï‚ ÎµÎ¯Î½Î±Î¹ Î¿Î¹ Murfcoin Î´Î¹ÎµÏ…Î¸Ï�Î½ÏƒÎµÎ¹Ï‚ ÏƒÎ±Ï‚ Î³Î¹Î± Î½Î± Î»Î±Î¼Î²Î¬Î½ÎµÏ„Îµ Ï€Î»Î·Ï�Ï‰Î¼Î­Ï‚. Î”Î¯Î½Î¿Î½Ï„Î±Ï‚ Î¼Î¯Î± Î¾ÎµÏ‡Ï‰Ï�Î¹ÏƒÏ„Î® Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ· ÏƒÎµ ÎºÎ¬Î¸Îµ Î±Ï€Î¿ÏƒÏ„Î¿Î»Î­Î±, Î¸Î± Î¼Ï€Î¿Ï�ÎµÎ¯Ï„Îµ Î½Î± ÎµÎ»Î­Î³Ï‡ÎµÏ„Îµ Ï€Î¿Î¹Î¿Ï‚ ÏƒÎ±Ï‚ Ï€Î»Î·Ï�ÏŽÎ½ÎµÎ¹.</translation>
+        <translation>Αυτές είναι οι Murfcoin διευθύνσεις σας για να στέλνετε πληρωμές. Να ελέγχετε πάντα το ποσό, καθώς και τη διεύθυνση παραλήπτη πριν στείλετε νομίσματα.</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <source>These are your Murfcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Αυτές είναι οι Murfcoin διευθύνσεις σας για να λαμβάνετε πληρωμές. Προτείνετε να χρησιμοποιείτε μια νέα διεύθυνση παραλήπτη για κάθε συναλλαγή.</translation>
+    </message>
+    <message>
+        <source>&amp;Copy Address</source>
+        <translation>&amp;Αντιγραφή Διεύθυνσης</translation>
+    </message>
+    <message>
         <source>Copy &amp;Label</source>
-        <translation>Î‘Î½Ï„Î¹Î³Ï�Î±Ï†Î® &amp;ÎµÏ€Î¹Î³Ï�Î±Ï†Î®Ï‚</translation>
+        <translation>Αντιγραφή&amp;Ετικέτα</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>&amp;Edit</source>
-        <translation>&amp;Î•Ï€ÎµÎ¾ÎµÏ�Î³Î±ÏƒÎ¯Î±</translation>
+        <translation>&amp;Διόρθωση</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Send &amp;Coins</source>
-        <translation>Î‘Ï€Î¿ÏƒÏ„Î¿Î»Î® Î½Î¿Î¼Î¹ÏƒÎ¼Î¬Ï„Ï‰Î½</translation>
+        <source>Export Address List</source>
+        <translation>Εξαγωγή Λίστας Διεύθυνσεων</translation>
     </message>
     <message>
-        <location line="+260"/>
-        <source>Export Address Book Data</source>
-        <translation>Î•Î¾Î±Î³Ï‰Î³Î® Î”ÎµÎ´Î¿Î¼ÎµÎ½Ï‰Î½ Î’Î¹Î²Î»Î¯Î¿Ï… Î”Î¹ÎµÏ…Î¸Ï�Î½ÏƒÎµÏ‰Î½</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>Î‘Ï�Ï‡ÎµÎ¯Î¿ Î¿Ï�Î¹Î¿Î¸ÎµÏ„Î·Î¼Î­Î½Î¿ Î¼Îµ ÎºÏŒÎ¼Î¼Î±Ï„Î± (*.csv)</translation>
+        <translation>Αρχείο οριοθετημένο με κόμματα (*.csv)</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>Error exporting</source>
-        <translation>Î•Î¾Î±Î³Ï‰Î³Î® Î»Î±Î¸ÏŽÎ½</translation>
+        <source>Exporting Failed</source>
+        <translation>Αποτυχία Εξαγωγής</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Could not write to file %1.</source>
-        <translation>Î‘Î´Ï…Î½Î±Î¼Î¯Î± ÎµÎ³Î³Ï�Î±Ï†Î®Ï‚ ÏƒÏ„Î¿ Î±Ï�Ï‡ÎµÎ¯Î¿ %1.</translation>
+        <source>There was an error trying to save the address list to %1. Please try again.</source>
+        <translation>Σφάλμα κατά την προσπάθεια αποθήκευσης της λίστας διευθύνσεων στο %1. Παρακαλώ δοκιμάστε ξανά.</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
-        <location filename="../addresstablemodel.cpp" line="+144"/>
         <source>Label</source>
-        <translation>Î•Ï„Î¹ÎºÎ­Ï„Î±</translation>
+        <translation>Ετικέτα</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Address</source>
-        <translation>Î”Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ·</translation>
+        <translation>Διεύθυνση</translation>
     </message>
     <message>
-        <location line="+36"/>
         <source>(no label)</source>
-        <translation>(Ï‡Ï‰Ï�Î¯Ï‚ ÎµÏ„Î¹ÎºÎ­Ï„Î±)</translation>
+        <translation>(χωρίς ετικέτα)</translation>
     </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
         <source>Passphrase Dialog</source>
-        <translation>Î¦Ï�Î¬ÏƒÎ· Ï€Ï�ÏŒÏƒÎ²Î±ÏƒÎ·Ï‚ </translation>
+        <translation>Φράση πρόσβασης </translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>Enter passphrase</source>
-        <translation>Î’Î¬Î»Ï„Îµ ÎºÏ‰Î´Î¹ÎºÏŒ Ï€Ï�ÏŒÏƒÎ²Î±ÏƒÎ·Ï‚</translation>
+        <translation>Βάλτε κωδικό πρόσβασης</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>New passphrase</source>
-        <translation>Î�Î­Î¿Ï‚ ÎºÏ‰Î´Î¹ÎºÏŒÏ‚ Ï€Ï�ÏŒÏƒÎ²Î±ÏƒÎ·Ï‚</translation>
+        <translation>&amp;Αλλαγή κωδικού</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Repeat new passphrase</source>
-        <translation>Î•Ï€Î±Î½Î­Î»Î±Î²Îµ Ï„Î¿Î½ Î½Î­Î¿ ÎºÏ‰Î´Î¹ÎºÏŒ Ï€Ï�ÏŒÏƒÎ²Î±ÏƒÎ·Ï‚</translation>
+        <translation>Επανέλαβε τον νέο κωδικό πρόσβασης</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="+33"/>
-        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Î•Î¹ÏƒÎ¬Î³ÎµÏ„Îµ Ï„Î¿Î½ Î½Î­Î¿ ÎºÏ‰Î´Î¹ÎºÏŒ Ï€Ï�ÏŒÏƒÎ²Î±ÏƒÎ·Ï‚ ÏƒÏ„Î¿Î½ Ï€Î¿Ï�Ï„Î¿Ï†ÏŒÎ»Î¹ &lt;br/&gt; Î Î±Ï�Î±ÎºÎ±Î»ÏŽ Ï‡Ï�Î·ÏƒÎ¹Î¼Î¿Ï€Î¿Î¹ÎµÎ¯ÏƒÏ„Îµ Î­Î½Î± ÎºÏ‰Î´Î¹ÎºÏŒ Î¼Îµ &lt;b&gt; 10 Î® Ï€ÎµÏ�Î¹ÏƒÏƒÏŒÏ„ÎµÏ�Î¿Ï…Ï‚ Ï„Ï…Ï‡Î±Î¯Î¿Ï…Ï‚ Ï‡Î±Ï�Î±ÎºÏ„Î®Ï�ÎµÏ‚&lt;/b&gt; Î® &lt;b&gt; Î¿Ï‡Ï„ÏŽ Î® Ï€Î±Ï�Î±Ï€Î¬Î½Ï‰ Î»Î­Î¾ÎµÎ¹Ï‚&lt;/b&gt;.</translation>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>Εισάγετε το νέο κωδικό πρόσβασης στο πορτοφόλι. &lt;br/&gt;Παρακαλώ χρησιμοποιείστε έναν κωδικό με &lt;b&gt;δέκα ή περισσότερους τυχαίους χαρακτήρες &lt;/b&gt;, ή &lt;b&gt;οχτώ ή παραπάνω λέξεις &lt;/b&gt;.</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Encrypt wallet</source>
-        <translation>ÎšÏ�Ï…Ï€Ï„Î¿Î³Ï�Î¬Ï†Î·ÏƒÎµ Ï„Î¿ Ï€Î¿Ï�Ï„Î¿Ï†ÏŒÎ»Î¹</translation>
+        <translation>Κρυπτογράφηση πορτοφολιού</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Î‘Ï…Ï„Î· Î· ÎµÎ½ÎµÏ�Î³ÎµÎ¯Î± Ï‡Ï�ÎµÎ¹Î¬Î¶ÎµÏ„Î±Î¹ Ï„Î¿Î½ ÎºÏ‰Î´Î¹ÎºÏŒ Ï„Î¿Ï… Ï€Î¿Ï�Ï„Î¿Ï†Î¿Î»Î¹Î¿Ï�  Î³Î¹Î± Î½Î± Î¾ÎµÎºÎ»ÎµÎ¹Î´ÏŽÏƒÎµÎ¹ Ï„Î¿ Ï€Î¿Ï�Ï„Î¿Ï†ÏŒÎ»Î¹.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
         <source>Unlock wallet</source>
-        <translation>ÎžÎµÎºÎ»ÎµÎ¹Î´Ï‰ÏƒÎµ Ï„Î¿ Ï€Î¿Ï�Ï„Î¿Ï†Î¿Î»Î¹</translation>
+        <translation>Ξεκλειδωσε το πορτοφολι</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Î‘Ï…Ï„Î· Î· ÎµÎ½ÎµÏ�Î³ÎµÎ¹Î± Ï‡Ï�ÎµÎ¹Î¬Î¶ÎµÏ„Î±Î¹ Ï„Î¿Î½ ÎºÏ‰Î´Î¹ÎºÎ¿ Ï„Î¿Ï… Ï€Î¿Ï�Ï„Î¿Ï†Î¿Î»Î¹Î¿Ï…  Î³Î¹Î± Î½Î± Î±Ï€Î¿ÎºÏ�Ï…Ï€Ï„Î¿Î³Ï�Î±Ï†Î·ÏƒÎµÎ¹Î¹ Ï„Î¿ Ï€Î¿Ï�Ï„Î¿Ï†Î¿Î»Î¹.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Decrypt wallet</source>
-        <translation>Î‘Ï€Î¿ÎºÏ�Ï…Ï€Ï„Î¿Î³Ï�Î¬Ï†Î·ÏƒÎµ Ï„Î¿ Ï€Î¿Ï�Ï„Î¿Ï†Î¿Î»Î¹</translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>Change passphrase</source>
-        <translation>Î†Î»Î»Î±Î¾Îµ ÎºÏ‰Î´Î¹ÎºÎ¿ Ï€Ï�ÏŒÏƒÎ²Î±ÏƒÎ·Ï‚</translation>
+        <translation>Αλλάξτε Φράση Πρόσβασης</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Î•Î¹ÏƒÎ¬Î³ÎµÏ„Îµ Ï„Î¿Î½ Ï€Î±Î»Î¹ÏŒ ÎºÎ±Î¹ Ï„Î¿Î½ Î½ÎµÎ¿ ÎºÏ‰Î´Î¹ÎºÎ¿ ÏƒÏ„Î¿ Ï€Î¿Ï�Ï„Î¿Ï†Î¿Î»Î¹.</translation>
-    </message>
-    <message>
-        <location line="+46"/>
-        <source>Confirm wallet encryption</source>
-        <translation>Î•Ï€Î¹Î²ÎµÎ²Î±Î¯Ï‰ÏƒÎµ Ï„Î·Î½ ÎºÏ�Ï…Ï€Ï„Î¿Î³Ï�Î±Ï†Î·ÏƒÎ· Ï„Î¿Ï… Ï€Î¿Ï�Ï„Î¿Ï†Î¿Î»Î¹Î¿Ï�</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FLUFF&lt;/b&gt;!</source>
-        <translation>Î Ï�Î¿ÏƒÎ¿Ï‡Î·: Î•Î±Î½ ÎºÏ�Ï…Ï€Ï„Î¿Î³Ï�Î±Ï†Î·ÏƒÎµÎ¹Ï‚ Ï„Î¿ Ï€Î¿Ï�Ï„Î¿Ï†Î¿Î»Î¹ ÏƒÎ¿Ï… ÎºÎ±Î¹ Ï‡Î¬ÏƒÎµÎ¹Ï‚ Ï„Î¿Î½ ÎºÏ‰Î´Î¹ÎºÎ¿ ÏƒÎ¿Ï… Î¸Î± Ï‡Î¬ÏƒÎµÎ¹Ï‚ &lt;b&gt; ÎŸÎ›Î‘ Î£ÎŸÎ¥ Î¤Î‘ FLUFF&lt;/b&gt;!
-Î•Î¯ÏƒÎ±Î¹ ÏƒÎ¯Î³Î¿Ï…Ï�Î¿Ï‚ ÏŒÏ„Î¹ Î¸Î­Î»ÎµÎ¹Ï‚ Î½Î± ÎºÏ�Ï…Ï€Ï„Î¿Î³Ï�Î±Ï†Î·ÏƒÎµÎ¹Ï‚ Ï„Î¿ Ï€Î¿Ï�Ï„Î¿Ï†Î¿Î»Î¹;</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Î•Î¯ÏƒÏ„Îµ ÏƒÎ¯Î³Î¿Ï…Ï�Î¿Î¹ ÏŒÏ„Î¹ Î¸Î­Î»ÎµÏ„Îµ Î½Î± ÎºÏ�Ï…Ï€Ï„Î¿Î³Ï�Î±Ï†Î®ÏƒÎµÏ„Îµ Ï„Î¿ Ï€Î¿Ï�Ï„Î¿Ï†ÏŒÎ»Î¹ ÏƒÎ±Ï‚;</translation>
-    </message>
-    <message>
-        <location line="+15"/>
-        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>Î£Î—ÎœÎ‘Î�Î¤Î™ÎšÎŸ: Î¤Î± Ï€Ï�Î¿Î·Î³Î¿Ï�Î¼ÎµÎ½Î± Î±Î½Ï„Î¯Î³Ï�Î±Ï†Î± Î±ÏƒÏ†Î±Î»ÎµÎ¯Î±Ï‚ Ï€Î¿Ï… Î­Ï‡ÎµÏ„Îµ ÎºÎ¬Î½ÎµÎ¹ Î±Ï€ÏŒ Ï„Î¿ Î±Ï�Ï‡ÎµÎ¯Î¿ Ï„Î¿Ï… Ï€Î¿Ï�Ï„Î¿Ï†ÏŒÎ»Î¹Î¿Ï… ÏƒÎ±Ï‚ Î¸Î± Ï€Ï�Î­Ï€ÎµÎ¹ Î½Î± Î±Î½Ï„Î¹ÎºÎ±Ï„Î±ÏƒÏ„Î±Î¸Î¿Ï…Î½ Î¼Îµ Ï„Î¿ Î½Î­Î¿ Ï€Î¿Ï… Î´Î·Î¼Î¹Î¿Ï…Ï�Î³ÎµÎ¯Ï„Î±Î¹, ÎºÏ�Ï…Ï€Ï„Î¿Î³Ï�Î±Ï†Î·Î¼Î­Î½Î¿ Î±Ï�Ï‡ÎµÎ¯Î¿ Ï€Î¿Ï�Ï„Î¿Ï†ÏŒÎ»Î¹Î¿Ï…. Î“Î¹Î± Î»ÏŒÎ³Î¿Ï…Ï‚ Î±ÏƒÏ†Î±Î»ÎµÎ¯Î±Ï‚, Ï„Î± Ï€Ï�Î¿Î·Î³Î¿Ï�Î¼ÎµÎ½Î± Î±Î½Ï„Î¯Î³Ï�Î±Ï†Î± Î±ÏƒÏ†Î±Î»ÎµÎ¯Î±Ï‚ Ï„Î¿Ï… Î¼Î· ÎºÏ�Ï…Ï€Ï„Î¿Î³Ï�Î±Ï†Î·Î¼Î­Î½Î¿Ï… Î±Ï�Ï‡ÎµÎ¯Î¿Ï… Ï€Î¿Ï�Ï„Î¿Ï†ÏŒÎ»Î¹Î¿Ï… Î¸Î± ÎºÎ±Ï„Î±ÏƒÏ„Î¿Ï…Î½ Î¬Ï‡Ï�Î·ÏƒÏ„Î± Î¼ÏŒÎ»Î¹Ï‚ Î±Ï�Ï‡Î¯ÏƒÎµÏ„Îµ Î½Î± Ï‡Ï�Î·ÏƒÎ¹Î¼Î¿Ï€Î¿Î¹ÎµÎ¯Ï„Îµ Ï„Î¿ Î½Î­Î¿ ÎºÏ�Ï…Ï€Ï„Î¿Î³Ï�Î±Ï†Î·Î¼Î­Î½Î¿ Ï€Î¿Ï�Ï„Î¿Ï†ÏŒÎ»Î¹. </translation>
-    </message>
-    <message>
-        <location line="+100"/>
-        <location line="+24"/>
-        <source>Warning: The Caps Lock key is on!</source>
-        <translation>Î Ï�Î¿ÏƒÎ¿Ï‡Î·: Ï„Î¿ Ï€Î»Î®ÎºÏ„Ï�Î¿ Caps Lock ÎµÎ¯Î½Î±Î¹ ÎµÎ½ÎµÏ�Î³Î¿.</translation>
-    </message>
-    <message>
-        <location line="-130"/>
-        <location line="+58"/>
-        <source>Wallet encrypted</source>
-        <translation>ÎšÏ�Ï…Ï€Ï„Î¿Î³Ï�Î±Ï†Î·Î¼ÎµÎ½Î¿ Ï€Î¿Ï�Ï„Î¿Ï†Î¿Î»Î¹</translation>
-    </message>
-    <message>
-        <location line="-56"/>
-        <source>Murfcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your murfcoins from being stolen by malware infecting your computer.</source>
-        <translation>Î¤Î¿ Murfcoin Î¸Î± ÎºÎ»ÎµÎ¹ÏƒÎµÎ¹ Ï„ÏŽÏ�Î± Î³Î¹Î± Î½Î± Ï„ÎµÎ»ÎµÎ¹ÏŽÏƒÎµÎ¹ Ï„Î·Î½ Î´Î¹Î±Î´Î¹ÎºÎ±ÏƒÎ¯Î± ÎºÏ�Ï…Ï€Ï„Î¿Î³Ï�Î±Ï†Î·ÏƒÎ·Ï‚. Î˜Ï…Î¼Î·ÏƒÎ¿Ï… ÏŒÏ„Î¹ ÎºÏ�Ï…Ï€Ï„Î¿Î³Ï�Î±Ï†ÏŽÎ½Ï„Î±Ï‚ Ï„Î¿ Ï€Î¿Ï�Ï„Î¿Ï†Î¿Î»Î¹ ÏƒÎ¿Ï… Î´ÎµÎ½ Î¼Ï€Î¿Ï�ÎµÎ¯Ï‚ Î½Î± Ï€Ï�Î¿ÏƒÏ„Î±Ï„Î­ÏˆÎµÎ¹Ï‚ Ï€Î»Î®Ï�Ï‰Ï‚ Ï„Î± murfcoins ÏƒÎ¿Ï… Î±Ï€ÏŒ ÎºÎ»Î¿Ï€Î® ÏƒÏ„Î·Î½ Ï€ÎµÏ�Î¯Ï€Ï„Ï‰ÏƒÎ· ÏŒÏ€Î¿Ï… Î¼Î¿Î»Ï…Î½Î¸ÎµÎ¯ Î¿ Ï…Ï€Î¿Î»Î¿Î³Î¹ÏƒÏ„Î®Ï‚ ÏƒÎ¿Ï… Î¼Îµ ÎºÎ±ÎºÏŒÎ²Î¿Ï…Î»Î¿ Î»Î¿Î³Î¹ÏƒÎ¼Î¹ÎºÎ¿.</translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <location line="+7"/>
-        <location line="+42"/>
-        <location line="+6"/>
-        <source>Wallet encryption failed</source>
-        <translation>Î— ÎºÏ�Ï…Ï€Ï„Î¿Î³Ï�Î±Ï†Î·ÏƒÎ· Ï„Î¿Ï… Ï€Î¿Ï�Ï„Î¿Ï†Î¿Î»Î¹Î¿Ï� Î±Ï€Î­Ï„Ï…Ï‡Îµ</translation>
-    </message>
-    <message>
-        <location line="-54"/>
-        <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Î— ÎºÏ�Ï…Ï€Ï„Î¿Î³Ï�Î¬Ï†Î·ÏƒÎ· Ï„Î¿Ï… Ï€Î¿Ï�Ï„Î¿Ï†Î¿Î»Î¹Î¿Ï� Î±Ï€Î­Ï„Ï…Ï‡Îµ Î»Î¿Î³Ï‰ ÎµÏƒÏ‰Ï„ÎµÏ�Î¹ÎºÎ¿Ï� ÏƒÏ†Î¬Î»Î¼Î±Ï„Î¿Ï‚. Î¤Î¿ Ï€Î¿Ï�Ï„Î¿Ï†Î¿Î»Î¹ Î´ÎµÎ½ ÎºÏ�Ï…Ï€Ï„Î¿Î³Ï�Î±Ï†Î·Î¸Î·ÎºÎµ.</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <location line="+48"/>
-        <source>The supplied passphrases do not match.</source>
-        <translation>ÎŸÎ¹ ÎµÎ¹ÏƒÎ±Ï‡Î¸Î­Î½Ï„ÎµÏ‚ ÎºÏ‰Î´Î¹ÎºÎ¿Î¯ Î´ÎµÎ½ Ï„Î±Î¹Ï�Î¹Î¬Î¶Î¿Ï…Î½.</translation>
-    </message>
-    <message>
-        <location line="-37"/>
         <source>Wallet unlock failed</source>
-        <translation>Ï„Î¿ Î¾ÎµÎºÎ»ÎµÎ¯Î´Ï‰Î¼Î± Ï„Î¿Ï… Ï€Î¿Ï�Ï„Î¿Ï†Î¿Î»Î¹Î¿Ï� Î±Ï€Î­Ï„Ï…Ï‡Îµ</translation>
+        <translation>Το Ξεκλείδωμα του Πορτοφολιού Απέτυχε</translation>
     </message>
-    <message>
-        <location line="+1"/>
-        <location line="+11"/>
-        <location line="+19"/>
-        <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>ÎŸ ÎºÏ‰Î´Î¹ÎºÎ¿Ï‚ Ï€Î¿Ï… ÎµÎ¹ÏƒÎ®Ï‡Î¸Î· Î³Î¹Î± Ï„Î·Î½ Î±Ï€Î¿ÎºÏ�Ï…Ï€Ï„Î¿Î³Ï�Î±Ï†Î·ÏƒÎ· Ï„Î¿Ï… Ï€Î¿Ï�Ï„Î¿Ï†Î¿Î»Î¹Î¿Ï� Î®Ï„Î±Î½ Î»Î±Î¸Î¿Ï‚.</translation>
-    </message>
-    <message>
-        <location line="-20"/>
-        <source>Wallet decryption failed</source>
-        <translation>Î— Î±Ï€Î¿ÎºÏ�Ï…Ï€Ï„Î¿Î³Ï�Î±Ï†Î·ÏƒÎ· Ï„Î¿Ï… Ï€Î¿Ï�Ï„Î¿Ï†Î¿Î»Î¹Î¿Ï� Î±Ï€Î­Ï„Ï…Ï‡Îµ</translation>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>Wallet passphrase was successfully changed.</source>
-        <translation>ÎŸ ÎºÏ‰Î´Î¹ÎºÎ¿Ï‚ Ï„Î¿Ï… Ï€Î¿Ï�Ï„Î¿Ï†Î¿Î»Î¹Î¿Ï� Î¬Î»Î»Î±Î¾Îµ Î¼Îµ ÎµÏ€Î¹Ï„Ï…Ï‡Î¯Î±.</translation>
-    </message>
-</context>
+    </context>
+<context>
+    <name>BanTableModel</name>
+    </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+233"/>
         <source>Sign &amp;message...</source>
-        <translation>Î¥Ï€Î¿Î³Ï�Î±Ï†Î® &amp;ÎœÎ·Î½Ï�Î¼Î±Ï„Î¿Ï‚...</translation>
+        <translation>Υπογραφή &amp;Μηνύματος...</translation>
     </message>
     <message>
-        <location line="+280"/>
         <source>Synchronizing with network...</source>
-        <translation>Î£Ï…Î³Ï‡Ï�Î¿Î½Î¹ÏƒÎ¼ÏŒÏ‚ Î¼Îµ Ï„Î¿ Î´Î¯ÎºÏ„Ï…Î¿...</translation>
+        <translation>Συγχρονισμός με το δίκτυο...</translation>
     </message>
     <message>
-        <location line="-349"/>
         <source>&amp;Overview</source>
-        <translation>&amp;Î•Ï€Î¹ÏƒÎºÏŒÏ€Î·ÏƒÎ·</translation>
+        <translation>&amp;Επισκόπηση</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>Node</source>
+        <translation>Κόμβος</translation>
+    </message>
+    <message>
         <source>Show general overview of wallet</source>
-        <translation>Î•Î¼Ï†Î¬Î½Î¹ÏƒÎµ Î³ÎµÎ½Î¹ÎºÎ® ÎµÎ¹ÎºÎ¿Î½Î± Ï„Î¿Ï… Ï€Î¿Ï�Ï„Î¿Ï†Î¿Î»Î¹Î¿Ï�</translation>
+        <translation>Εμφάνισε τη γενική εικόνα του πορτοφολιού</translation>
     </message>
     <message>
-        <location line="+20"/>
         <source>&amp;Transactions</source>
-        <translation>&amp;Î£Ï…Î½Î±Î»Î»Î±Î³Î­Ï‚</translation>
+        <translation>&amp;Συναλλαγές</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Browse transaction history</source>
-        <translation>Î ÎµÏ�Î¹Î®Î³Î·ÏƒÎ· ÏƒÏ„Î¿ Î¹ÏƒÏ„Î¿Ï�Î¹ÎºÎ¿ ÏƒÏ…Î½Î½Î±Î»Î±Î³Ï‰Î½</translation>
+        <translation>Περιήγηση στο ιστορικό συναλλαγών</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Edit the list of stored addresses and labels</source>
-        <translation>Î•Î¾ÎµÏ�Î³Î±ÏƒÎ¹Î± Ï„Î·Ï‚ Î»Î¹ÏƒÏ„Î±Ï‚ Ï„Ï‰Î½ Î±Ï€Î¿Î¸Î·ÎºÎµÏ…Î¼ÎµÎ½Ï‰Î½ Î´Î¹ÎµÏ…Î¸Ï�Î½ÏƒÎµÏ‰Î½ ÎºÎ±Î¹ ÎµÏ„Î¹ÎºÎµÏ„Ï‰Î½</translation>
-    </message>
-    <message>
-        <location line="-14"/>
-        <source>Show the list of addresses for receiving payments</source>
-        <translation>Î•Î¼Ï†Î¬Î½Î¹ÏƒÎµ Ï„Î·Î½ Î»Î¯ÏƒÏ„Î± Ï„Ï‰Î½ Î´Î¹ÎµÏ…Î¸Ï�Î½ÏƒÎµÏ‰Î½ Î³Î¹Î± Ï„Î·Î½ Ï€Î±Ï�Î±Î»Î±Î²Î® Ï€Î»Î·Ï�Ï‰Î¼Ï‰Î½</translation>
-    </message>
-    <message>
-        <location line="+31"/>
         <source>E&amp;xit</source>
-        <translation>Îˆ&amp;Î¾Î¿Î´Î¿Ï‚</translation>
+        <translation>Έ&amp;ξοδος</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Quit application</source>
-        <translation>Î•Î¾Î¿Î´Î¿Ï‚ Î±Ï€ÏŒ Ï„Î·Î½ ÎµÏ†Î±Ï�Î¼Î¿Î³Î®</translation>
+        <translation>Εξοδος από την εφαρμογή</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Show information about Murfcoin</source>
-        <translation>Î•Î¼Ï†Î¬Î½Î¹ÏƒÎµ Ï€Î»Î·Ï�Î¿Ï†Î¿Ï�Î¯ÎµÏ‚ ÏƒÏ‡ÎµÏ„Î¹ÎºÎ¬ Î¼Îµ Ï„Î¿ Murfcoin</translation>
+        <source>&amp;About %1</source>
+        <translation>&amp;Περί %1</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>About &amp;Qt</source>
-        <translation>Î£Ï‡ÎµÏ„Î¹ÎºÎ¬ Î¼Îµ &amp;Qt</translation>
+        <translation>Σχετικά με &amp;Qt</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show information about Qt</source>
-        <translation>Î•Î¼Ï†Î¬Î½Î¹ÏƒÎµ Ï€Î»Î·Ï�Î¿Ï†Î¿Ï�Î¯ÎµÏ‚ ÏƒÏ‡ÎµÏ„Î¹ÎºÎ¬ Î¼Îµ Qt</translation>
+        <translation>Εμφάνισε πληροφορίες σχετικά με Qt</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Options...</source>
-        <translation>&amp;Î•Ï€Î¹Î»Î¿Î³Î­Ï‚...</translation>
+        <translation>&amp;Επιλογές...</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;ÎšÏ�Ï…Ï€Ï„Î¿Î³Ï�Î¬Ï†Î·ÏƒÎµ Ï„Î¿ Ï€Î¿Ï�Ï„Î¿Ï†ÏŒÎ»Î¹</translation>
+        <translation>&amp;Κρυπτογράφησε το πορτοφόλι</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Î‘Î½Ï„Î¯Î³Ï�Î±Ï†Î¿ Î±ÏƒÏ†Î±Î»ÎµÎ¯Î±Ï‚ Ï„Î¿Ï… Ï€Î¿Ï�Ï„Î¿Ï†Î¿Î»Î¹Î¿Ï�</translation>
+        <translation>&amp;Αντίγραφο ασφαλείας του πορτοφολιού</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Î†Î»Î»Î±Î¾Îµ ÎºÏ‰Î´Î¹ÎºÎ¿ Ï€Ï�ÏŒÏƒÎ²Î±ÏƒÎ·Ï‚</translation>
+        <translation>&amp;Άλλαξε κωδικο πρόσβασης</translation>
     </message>
     <message>
-        <location line="+285"/>
-        <source>Importing blocks from disk...</source>
-        <translation>Î•Î¹ÏƒÎ±Î³Ï‰Î³Î® Î¼Ï€Î»Î¿Îº Î±Ï€ÏŒ Ï„Î¿Î½ ÏƒÎºÎ»Î·Ï�Î¿ Î´Î¯ÏƒÎºÎ¿ ... </translation>
+        <source>&amp;Sending addresses...</source>
+        <translation>Διευθύνσεις αποστολής</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <source>&amp;Receiving addresses...</source>
+        <translation>Διευθύνσεις λήψης</translation>
+    </message>
+    <message>
+        <source>Open &amp;URI...</source>
+        <translation>'Ανοιγμα &amp;URI</translation>
+    </message>
+    <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Î¦ÏŒÏ�Ï„Ï‰ÏƒÎ· ÎµÏ…Ï�ÎµÏ„Î·Ï�Î¯Î¿Ï… Î¼Ï€Î»Î¿Îº ÏƒÏ„Î¿Î½ ÏƒÎºÎ»Î·Ï�Î¿ Î´Î¹ÏƒÎºÎ¿...</translation>
+        <translation>Φόρτωση ευρετηρίου μπλοκ στον σκληρο δισκο...</translation>
     </message>
     <message>
-        <location line="-347"/>
         <source>Send coins to a Murfcoin address</source>
-        <translation>Î£Ï„ÎµÎ¯Î»Îµ Î½Î¿Î¼Î¹ÏƒÎ¼Î±Ï„Î± ÏƒÎµ Î¼Î¹Î± Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ· murfcoin</translation>
+        <translation>Στείλε νομίσματα σε μια διεύθυνση murfcoin</translation>
     </message>
     <message>
-        <location line="+49"/>
-        <source>Modify configuration options for Murfcoin</source>
-        <translation>Î•Ï€ÎµÏ�Î³Î±ÏƒÎ¯Î±  Ï�Ï…Î¸Î¼Î¹ÏƒÎµÏ‰Î½ ÎµÏ€Î¹Î»Î¿Î³ÏŽÎ½ Î³Î¹Î± Ï„Î¿ Murfcoin</translation>
-    </message>
-    <message>
-        <location line="+9"/>
         <source>Backup wallet to another location</source>
-        <translation>Î”Î·Î¼Î¹Î¿Ï…Ï�Î³Î¯Î± Î±Î½Ï„Î¹Î³Ï�Î¬Ï†Î¿Ï… Î±ÏƒÏ†Î±Î»ÎµÎ¯Î±Ï‚ Ï€Î¿Ï�Ï„Î¿Ï†Î¿Î»Î¹Î¿Ï� ÏƒÎµ Î¬Î»Î»Î· Ï„Î¿Ï€Î¿Î¸ÎµÏƒÎ¯Î±</translation>
+        <translation>Δημιουργία αντιγράφου ασφαλείας πορτοφολιού σε άλλη τοποθεσία</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Î‘Î»Î»Î±Î³Î® Ï„Î¿Ï… ÎºÏ‰Î´Î¹ÎºÎ¿Ï� ÎºÏ�Ï…Ï€Ï„Î¿Î³Ï�Î¬Ï†Î·ÏƒÎ·Ï‚ Ï„Î¿Ï… Ï€Î¿Ï�Ï„Î¿Ï†Î¿Î»Î¹Î¿Ï�</translation>
+        <translation>Αλλαγή του κωδικού κρυπτογράφησης του πορτοφολιού</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Debug window</source>
-        <translation>&amp;Î Î±Ï�Î¬Î¸Ï…Ï�Î¿ Î±Ï€Î¿ÏƒÏ†Î±Î»Î¼Î¬Ï„Ï‰ÏƒÎ·Ï‚</translation>
+        <translation>&amp;Παράθυρο αποσφαλμάτωσης</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Open debugging and diagnostic console</source>
-        <translation>Î†Î½Î¿Î¹Î³Î¼Î± ÎºÎ¿Î½ÏƒÏŒÎ»Î±Ï‚ Î±Ï€Î¿ÏƒÏ†Î±Î»Î¼Î¬Ï„Ï‰ÏƒÎ·Ï‚ ÎºÎ±Î¹ Î´Î¹Î±Î³Î½Ï‰ÏƒÏ„Î¹ÎºÏŽÎ½</translation>
+        <translation>Άνοιγμα κονσόλας αποσφαλμάτωσης και διαγνωστικών</translation>
     </message>
     <message>
-        <location line="-4"/>
         <source>&amp;Verify message...</source>
-        <translation>&amp;Î•Ï€Î¹Î²ÎµÎ²Î±Î¯Ï‰ÏƒÎ· Î¼Î·Î½Ï�Î¼Î±Ï„Î¿Ï‚</translation>
+        <translation>&amp;Επιβεβαίωση μηνύματος</translation>
     </message>
     <message>
-        <location line="-165"/>
-        <location line="+530"/>
         <source>Murfcoin</source>
         <translation>Murfcoin</translation>
     </message>
     <message>
-        <location line="-530"/>
         <source>Wallet</source>
-        <translation>Î Î¿Ï�Ï„Î¿Ï†ÏŒÎ»Î¹</translation>
+        <translation>Πορτοφόλι</translation>
     </message>
     <message>
-        <location line="+101"/>
         <source>&amp;Send</source>
-        <translation>&amp;Î‘Ï€Î¿ÏƒÏ„Î¿Î»Î®</translation>
+        <translation>&amp;Αποστολή</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Receive</source>
-        <translation>&amp;Î Î±Ï�Î±Î»Î±Î²Î® </translation>
+        <translation>&amp;Παραλαβή </translation>
     </message>
     <message>
-        <location line="+14"/>
-        <source>&amp;Addresses</source>
-        <translation>&amp;Î”Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎµÎ¹Ï‚</translation>
-    </message>
-    <message>
-        <location line="+22"/>
-        <source>&amp;About Murfcoin</source>
-        <translation>&amp;Î£Ï‡ÎµÏ„Î¹ÎºÎ±:Murfcoin</translation>
-    </message>
-    <message>
-        <location line="+9"/>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Î•Î¼Ï†Î¬Î½Î¹ÏƒÎµ/ÎšÏ�Ï�ÏˆÎµ</translation>
+        <translation>&amp;Εμφάνισε/Κρύψε</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show or hide the main Window</source>
-        <translation>Î•Î¼Ï†Î¬Î½Î¹ÏƒÎ· Î® Î±Ï€Î¿ÎºÏ�Ï�ÏˆÎ· Ï„Î¿Ï… ÎºÎµÎ½Ï„Ï�Î¹ÎºÎ¿Ï… Ï€Î±Ï�Î¬Î¸Ï…Ï�Î¿Ï… </translation>
+        <translation>Εμφάνιση ή αποκρύψη του κεντρικου παράθυρου </translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>ÎšÏ�Ï…Ï€Ï„Î¿Î³Ï�Î±Ï†Î®ÏƒÏ„Îµ Ï„Î± Î¹Î´Î¹Ï‰Ï„Î¹ÎºÎ¬ ÎºÎ»ÎµÎ¹Î´Î¹Î¬ Ï€Î¿Ï… Î±Î½Î®ÎºÎ¿Ï…Î½ ÏƒÏ„Î¿ Ï€Î¿Ï�Ï„Î¿Ï†ÏŒÎ»Î¹ ÏƒÎ±Ï‚ </translation>
+        <translation>Κρυπτογραφήστε τα ιδιωτικά κλειδιά που ανήκουν στο πορτοφόλι σας </translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Sign messages with your Murfcoin addresses to prove you own them</source>
-        <translation>Î¥Ï€Î¿Î³Ï�Î¬ÏˆÏ„Îµ Î­Î½Î± Î¼Î®Î½Ï…Î¼Î± Î³Î¹Î± Î½Î± Î²ÎµÎ²Î±Î¹ÏŽÏƒÎµÏ„Îµ Ï€Ï‰Ï‚ ÎµÎ¯ÏƒÏ„Îµ Î¿ ÎºÎ¬Ï„Î¿Ï‡Î¿Ï‚ Î±Ï…Ï„Î®Ï‚ Ï„Î·Ï‚ Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ·Ï‚</translation>
+        <translation>Υπογράψτε ένα μήνυμα για να βεβαιώσετε πως είστε ο κάτοχος αυτής της διεύθυνσης</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Verify messages to ensure they were signed with specified Murfcoin addresses</source>
-        <translation>Î¥Ï€Î¿Î³Ï�Î¬ÏˆÏ„Îµ Î­Î½Î± Î¼Î®Î½Ï…Î¼Î± Î³Î¹Î± Î½&apos; Î±Ï€Î¿Î´ÎµÎ¯Î¾ÎµÏ„Îµ Ï€Ï‰Ï‚ Î±Î½Î®ÎºÎµÎ¹ Î¼Î¹Î± ÏƒÏ…Î³ÎºÎµÎºÏ�Î¹Î¼Î­Î½Î· Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ· Murfcoin</translation>
+        <translation>Υπογράψτε ένα μήνυμα για ν' αποδείξετε πως ανήκει μια συγκεκριμένη διεύθυνση Murfcoin</translation>
     </message>
     <message>
-        <location line="+28"/>
         <source>&amp;File</source>
-        <translation>&amp;Î‘Ï�Ï‡ÎµÎ¯Î¿</translation>
+        <translation>&amp;Αρχείο</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Settings</source>
-        <translation>&amp;Î¡Ï…Î¸Î¼Î¯ÏƒÎµÎ¹Ï‚</translation>
+        <translation>&amp;Ρυθμίσεις</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Help</source>
-        <translation>&amp;Î’Î¿Î®Î¸ÎµÎ¹Î±</translation>
+        <translation>&amp;Βοήθεια</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Tabs toolbar</source>
-        <translation>Î•Ï�Î³Î±Î»ÎµÎ¹Î¿Î¸Î®ÎºÎ· ÎºÎ±Ï�Ï„ÎµÎ»ÏŽÎ½</translation>
+        <translation>Εργαλειοθήκη καρτελών</translation>
     </message>
     <message>
-        <location line="+17"/>
-        <location line="+10"/>
-        <source>[testnet]</source>
-        <translation>[testnet]</translation>
+        <source>Request payments (generates QR codes and murfcoin: URIs)</source>
+        <translation>Αίτηση πληρωμών (δημιουργεί QR codes και διευθύνσεις murfcoin: )</translation>
     </message>
     <message>
-        <location line="+47"/>
-        <source>Murfcoin client</source>
-        <translation>Î ÎµÎ»Î¬Ï„Î·Ï‚ Murfcoin</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+141"/>
-        <source>%n active connection(s) to Murfcoin network</source>
-        <translation><numerusform>%n ÎµÎ½ÎµÏ�Î³Î® ÏƒÏ�Î½Î´ÎµÏƒÎ· ÏƒÏ„Î¿ Î´Î¯ÎºÏ„Ï…Î¿ Murfcoin</numerusform><numerusform>%n ÎµÎ½ÎµÏ�Î³Î­Ï‚ ÏƒÏ…Î½Î´Î­ÏƒÎµÎ¹Ï‚ ÏƒÏ„Î¿ Î´Î¯ÎºÏ„Ï…Î¿ Î’itcoin</numerusform></translation>
+        <source>Show the list of used sending addresses and labels</source>
+        <translation>Προβολή της λίστας των χρησιμοποιημένων διευθύνσεων και ετικετών αποστολής</translation>
     </message>
     <message>
-        <location line="+22"/>
-        <source>No block source available...</source>
-        <translation>Î— Ï€Î·Î³Î® Ï„Î¿Ï… Î¼Ï€Î»Î¿Îº Î´ÎµÎ½ ÎµÎ¹Î½Î±Î¹ Î´Î¹Î±Î¸Î­ÏƒÎ¹Î¼Î·... </translation>
+        <source>Show the list of used receiving addresses and labels</source>
+        <translation>Προβολή της λίστας των χρησιμοποιημένων διευθύνσεων και ετικετών λήψεως</translation>
     </message>
     <message>
-        <location line="+12"/>
-        <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
-        <translation>ÎœÎµÏ„Î±Ï€Î¿Î¹Î·Î¼Î­Î½Î± %1 Î±Ï€Î¿ % 2 (ÎºÎ±Ï„ &apos;ÎµÎºÏ„Î¯Î¼Î·ÏƒÎ·) Î¼Ï€Î»Î¿Îº Ï„Î·Ï‚ Î¹ÏƒÏ„Î¿Ï�Î¯Î±Ï‚ Ï„Î·Ï‚ ÏƒÏ…Î½Î±Î»Î»Î±Î³Î®Ï‚. </translation>
+        <source>Open a murfcoin: URI or payment request</source>
+        <translation>Άνοιγμα murfcoin: URI αίτησης πληρωμής</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Processed %1 blocks of transaction history.</source>
-        <translation>ÎˆÎ³Î¹Î½Îµ Î»Î®ÏˆÎ· %1 Î¼Ï€Î»Î¿Îº Î¹ÏƒÏ„Î¿Ï�Î¹ÎºÎ¿Ï� ÏƒÏ…Î½Î±Î»Î»Î±Î³ÏŽÎ½</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+20"/>
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n ÏŽÏ�ÎµÏ‚ </numerusform><numerusform>%n ÏŽÏ�ÎµÏ‚ </numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <location line="+4"/>
-        <source>%n day(s)</source>
-        <translation><numerusform>%n Î·Î¼Î­Ï�ÎµÏ‚ </numerusform><numerusform>%n Î·Î¼Î­Ï�ÎµÏ‚ </numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <location line="+4"/>
-        <source>%n week(s)</source>
-        <translation><numerusform>%n ÎµÎ²Î´Î¿Î¼Î±Î´ÎµÏ‚</numerusform><numerusform>%n ÎµÎ²Î´Î¿Î¼Î±Î´ÎµÏ‚</numerusform></translation>
+        <source>&amp;Command-line options</source>
+        <translation>&amp;Επιλογές γραμμής εντολών</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>%1 behind</source>
-        <translation>%1 Ï€Î¯ÏƒÏ‰</translation>
+        <translation>%1 πίσω</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Î¤Î¿ Ï„ÎµÎ»ÎµÏ…Ï„Î±Î¯Î¿ Î¼Ï€Î»Î¿Îº Ï€Î¿Ï… ÎµÎ»Î®Ï†Î¸Î· Î´Î·Î¼Î¹Î¿Ï…Ï�Î³Î®Î¸Î·ÎºÎµ %1 Ï€Ï�Î¹Î½.</translation>
+        <translation>Το τελευταίο μπλοκ που ελήφθη δημιουργήθηκε %1 πριν.</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>ÎŸÎ¹ ÏƒÏ…Î½Î±Î»Î»Î±Î³Î­Ï‚ Î¼ÎµÏ„Î¬ Î±Ï€ÏŒ Î±Ï…Ï„ÏŒ Î´ÎµÎ½ Î¸Î± ÎµÎ¯Î½Î±Î¹ Î±ÎºÏŒÎ¼Î· Î¿Ï�Î±Ï„ÎµÏ‚.</translation>
+        <translation>Οι συναλλαγές μετά από αυτό δεν θα είναι ακόμη ορατες.</translation>
     </message>
     <message>
-        <location line="+22"/>
         <source>Error</source>
-        <translation>Î£Ï†Î¬Î»Î¼Î±</translation>
+        <translation>Σφάλμα</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Warning</source>
-        <translation>Î Ï�Î¿ÎµÎ¹Î´Î¿Ï€Î¿Î¯Î·ÏƒÎ·</translation>
+        <translation>Προειδοποίηση</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Information</source>
-        <translation>Î Î»Î·Ï�Î¿Ï†Î¿Ï�Î¯Î±</translation>
+        <translation>Πληροφορία</translation>
     </message>
     <message>
-        <location line="+70"/>
-        <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation>Î— ÏƒÏ…Î½Î±Î»Î»Î±Î³Î® Î¾ÎµÏ€ÎµÏ�Î½Î¬ÎµÎ¹ Ï„Î¿ ÏŒÏ�Î¹Î¿.
-ÎœÏ€Î¿Ï�ÎµÎ¯ Î½Î± Î¿Î»Î¿ÎºÎ»Î·Ï�Ï‰Î¸ÎµÎ¯ Î¼Îµ Î¼Î¹Î± Î±Î¼Î¿Î¹Î²Î® Ï„Ï‰Î½ %1, Î· Î¿Ï€Î¿Î¯Î± Î±Ï€Î¿Î´Î¯Î´ÎµÏ„Î±Î¹ ÏƒÏ„Î¿Ï…Ï‚ ÎºÏŒÎ¼Î²Î¿Ï…Ï‚ Ï€Î¿Ï… ÎµÏ€ÎµÎ¾ÎµÏ�Î³Î¬Î¶Î¿Î½Ï„Î±Î¹ Ï„Î¹Ï‚ ÏƒÏ…Î½Î±Î»Î»Î±Î³Î­Ï‚ ÎºÎ±Î¹ Î²Î¿Î·Î¸Î¿Ï�Î½ ÏƒÏ„Î·Î½ Ï…Ï€Î¿ÏƒÏ„Î®Ï�Î¹Î¾Î· Ï„Î¿Ï… Î´Î¹ÎºÏ„Ï�Î¿Ï….
-Î˜Î­Î»ÎµÏ„Îµ Î½Î± ÏƒÏ…Î½ÎµÏ‡Î¯ÏƒÎµÏ„Îµ;</translation>
-    </message>
-    <message>
-        <location line="-140"/>
         <source>Up to date</source>
-        <translation>Î•Î½Î·Î¼ÎµÏ�Ï‰Î¼Î­Î½Î¿</translation>
+        <translation>Ενημερωμένο</translation>
     </message>
     <message>
-        <location line="+31"/>
         <source>Catching up...</source>
-        <translation>Î•Î½Î·Î¼Î­Ï�Ï‰ÏƒÎ·...</translation>
+        <translation>Ενημέρωση...</translation>
     </message>
     <message>
-        <location line="+113"/>
-        <source>Confirm transaction fee</source>
-        <translation>Î•Ï€Î¹Î²ÎµÎ²Î±Î¯Ï‰ÏƒÎ· Î±Î¼Î¿Î¹Î²Î®Ï‚ ÏƒÏ…Î½Î±Î»Î»Î±Î³Î®Ï‚</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Sent transaction</source>
-        <translation>Î— ÏƒÏ…Î½Î±Î»Î»Î±Î³Î® Î±Ï€ÎµÏƒÏ„Î¬Î»Î·</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Incoming transaction</source>
-        <translation>Î•Î¹ÏƒÎµÏ�Ï‡ÏŒÎ¼ÎµÎ½Î· ÏƒÏ…Î½Î±Î»Î»Î±Î³Î®</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Date: %1
-Amount: %2
-Type: %3
-Address: %4
 </source>
-        <translation>Î—Î¼ÎµÏ�Î¿Î¼Î·Î½Î¯Î±: %1
-Î Î¿ÏƒÏŒ: %2
-Î¤Ï�Ï€Î¿Ï‚: %3
-Î”Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ·: %4
+        <translation>Ημερομηνία: %1
 </translation>
     </message>
     <message>
-        <location line="+33"/>
-        <location line="+23"/>
-        <source>URI handling</source>
-        <translation>Î§ÎµÎ¹Ï�Î¹ÏƒÎ¼ÏŒÏ‚ URI</translation>
+        <source>Amount: %1
+</source>
+        <translation>Ποσό: %1
+</translation>
     </message>
     <message>
-        <location line="-23"/>
-        <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Murfcoin address or malformed URI parameters.</source>
-        <translation>Î¤Î¿ URI Î´ÎµÎ½ Î¼Ï€Î¿Ï�ÎµÎ¯ Î½Î± Î±Î½Î±Î»Ï…Î¸ÎµÎ¯! Î‘Ï…Ï„ÏŒ Î¼Ï€Î¿Ï�ÎµÎ¯ Î½Î± Ï€Ï�Î¿ÎºÎ»Î·Î¸ÎµÎ¯ Î±Ï€ÏŒ Î¼Î¹Î± Î¼Î· Î­Î³ÎºÏ…Ï�Î· Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ· Murfcoin Î® Î±ÎºÎ±Ï„Î¬Î»Î»Î·Î»Î· Ï€Î±Ï�Î±Î¼Î­Ï„Ï�Î¿ URI.</translation>
+        <source>Type: %1
+</source>
+        <translation>Τύπος: %1
+</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <source>Label: %1
+</source>
+        <translation>Ετικέτα: %1
+</translation>
+    </message>
+    <message>
+        <source>Address: %1
+</source>
+        <translation>Διεύθυνση: %1
+</translation>
+    </message>
+    <message>
+        <source>Sent transaction</source>
+        <translation>Η συναλλαγή απεστάλη</translation>
+    </message>
+    <message>
+        <source>Incoming transaction</source>
+        <translation>Εισερχόμενη συναλλαγή</translation>
+    </message>
+    <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Î¤Î¿ Ï€Î¿Ï�Ï„Î¿Ï†ÏŒÎ»Î¹ ÎµÎ¯Î½Î±Î¹ &lt;b&gt;ÎºÏ�Ï…Ï€Ï„Î¿Î³Ï�Î±Ï†Î·Î¼Î­Î½Î¿&lt;/b&gt; ÎºÎ±Î¹ &lt;b&gt;Î¾ÎµÎºÎ»ÎµÎ¯Î´Ï‰Ï„Î¿&lt;/b&gt;</translation>
+        <translation>Το πορτοφόλι είναι &lt;b&gt;κρυπτογραφημένο&lt;/b&gt; και &lt;b&gt;ξεκλείδωτο&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Î¤Î¿ Ï€Î¿Ï�Ï„Î¿Ï†ÏŒÎ»Î¹ ÎµÎ¯Î½Î±Î¹ &lt;b&gt;ÎºÏ�Ï…Ï€Ï„Î¿Î³Ï�Î±Ï†Î·Î¼Î­Î½Î¿&lt;/b&gt; ÎºÎ±Î¹ &lt;b&gt;ÎºÎ»ÎµÎ¹Î´Ï‰Î¼Î­Î½Î¿&lt;/b&gt;</translation>
+        <translation>Το πορτοφόλι είναι &lt;b&gt;κρυπτογραφημένο&lt;/b&gt; και &lt;b&gt;κλειδωμένο&lt;/b&gt;</translation>
     </message>
-    <message>
-        <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Murfcoin can no longer continue safely and will quit.</source>
-        <translation>Î Î±Ï�Î¿Ï…ÏƒÎ¹Î¬ÏƒÏ„Î·ÎºÎµ Î±Î½ÎµÏ€Î±Î½ÏŒÏ�Î¸Ï‰Ï„Î¿ ÏƒÏ†Î¬Î»Î¼Î±. Î¤Î¿ Murfcoin Î´ÎµÎ½ Î¼Ï€Î¿Ï�ÎµÎ¯ Ï€Î»Î­Î¿Î½ Î½Î± ÏƒÏ…Î½ÎµÏ‡Î¯ÏƒÎµÎ¹ Î¼Îµ Î±ÏƒÏ†Î¬Î»ÎµÎ¹Î± ÎºÎ±Î¹ Î¸Î± Ï„ÎµÏ�Î¼Î±Ï„Î¹ÏƒÎ¸ÎµÎ¹.</translation>
-    </message>
-</context>
+    </context>
 <context>
-    <name>ClientModel</name>
+    <name>CoinControlDialog</name>
     <message>
-        <location filename="../clientmodel.cpp" line="+104"/>
-        <source>Network Alert</source>
-        <translation>Î•Î¹Î´Î¿Ï€Î¿Î¯Î·ÏƒÎ· Î”Î¹ÎºÏ„Ï�Î¿Ï…</translation>
+        <source>Coin Selection</source>
+        <translation>Επιλογή κερμάτων</translation>
     </message>
-</context>
+    <message>
+        <source>Quantity:</source>
+        <translation>Ποσότητα:</translation>
+    </message>
+    <message>
+        <source>Bytes:</source>
+        <translation>Bytes:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Ποσό:</translation>
+    </message>
+    <message>
+        <source>Fee:</source>
+        <translation>Ταρίφα</translation>
+    </message>
+    <message>
+        <source>Dust:</source>
+        <translation>Σκόνη</translation>
+    </message>
+    <message>
+        <source>After Fee:</source>
+        <translation>Ταρίφα αλλαγής</translation>
+    </message>
+    <message>
+        <source>Change:</source>
+        <translation>Ρέστα:</translation>
+    </message>
+    <message>
+        <source>(un)select all</source>
+        <translation>(από)επιλογή όλων</translation>
+    </message>
+    <message>
+        <source>Tree mode</source>
+        <translation>Εμφάνιση τύπου δέντρο</translation>
+    </message>
+    <message>
+        <source>List mode</source>
+        <translation>Λίστα εντολών</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Ποσό</translation>
+    </message>
+    <message>
+        <source>Received with label</source>
+        <translation>Παραλήφθηκε με επιγραφή</translation>
+    </message>
+    <message>
+        <source>Received with address</source>
+        <translation>Παραλείφθηκε με την εξής διεύθυνση</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Ημερομηνία</translation>
+    </message>
+    <message>
+        <source>Confirmations</source>
+        <translation>Επικυρώσεις</translation>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>Επικυρωμένες</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>Αντιγραφή διεύθυνσης</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Αντιγραφή ετικέτας</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Αντιγραφή ποσού</translation>
+    </message>
+    <message>
+        <source>Copy transaction ID</source>
+        <translation>Αντιγραφή ταυτότητας συναλλαγής</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(χωρίς ετικέτα)</translation>
+    </message>
+    </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="+14"/>
         <source>Edit Address</source>
-        <translation>Î•Ï€ÎµÎ¾ÎµÏ�Î³Î±ÏƒÎ¯Î± Î”Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ·Ï‚</translation>
+        <translation>Επεξεργασία Διεύθυνσης</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>&amp;Label</source>
-        <translation>&amp;Î•Ï€Î¹Î³Ï�Î±Ï†Î®</translation>
+        <translation>&amp;Επιγραφή</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>The label associated with this address book entry</source>
-        <translation>Î— ÎµÏ€Î¹Î³Ï�Î±Ï†Î® Ï€Î¿Ï… ÏƒÏ‡ÎµÏ„Î¯Î¶ÎµÏ„Î±Î¹ Î¼Îµ Î±Ï…Ï„Î® Ï„Î·Î½ ÎºÎ±Ï„Î±Ï‡ÏŽÏ�Î·ÏƒÎ· Ï„Î¿Ï… Î²Î¹Î²Î»Î¯Î¿Ï… Î´Î¹ÎµÏ…Î¸Ï�Î½ÏƒÎµÏ‰Î½</translation>
+        <source>The label associated with this address list entry</source>
+        <translation>Η ετικέτα που συνδέεται με αυτήν την καταχώρηση στο βιβλίο διευθύνσεων</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
+        <translation>Η διεύθυνση σχετίζεται με αυτή την καταχώρηση του βιβλίου διευθύνσεων. Μπορεί να τροποποιηθεί μόνο για τις διευθύνσεις αποστολής.</translation>
+    </message>
+    <message>
         <source>&amp;Address</source>
-        <translation>&amp;Î”Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ·</translation>
+        <translation>&amp;Διεύθυνση</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>Î— Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ· Ï€Î¿Ï… ÏƒÏ‡ÎµÏ„Î¯Î¶ÎµÏ„Î±Î¹ Î¼Îµ Î±Ï…Ï„Î® Ï„Î·Î½ ÎºÎ±Ï„Î±Ï‡ÏŽÏ�Î·ÏƒÎ· Ï„Î¿Ï… Î²Î¹Î²Î»Î¯Î¿Ï… Î´Î¹ÎµÏ…Î¸Ï�Î½ÏƒÎµÏ‰Î½. ÎœÏ€Î¿Ï�ÎµÎ¯ Î½Î± Ï„Ï�Î¿Ï€Î¿Ï€Î¿Î¹Î·Î¸ÎµÎ¯ Î¼ÏŒÎ½Î¿ Î³Î¹Î± Ï„Î¹Ï‚ Î´Î¹ÎµÏ…Î¸Ï�Î½ÏƒÎµÎ¹Ï‚ Î±Ï€Î¿ÏƒÏ„Î¿Î»Î®Ï‚.</translation>
-    </message>
-    <message>
-        <location filename="../editaddressdialog.cpp" line="+21"/>
         <source>New receiving address</source>
-        <translation>Î�Î­Î± Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ· Î»Î®ÏˆÎ·Ï‚</translation>
+        <translation>Νέα Διεύθυνση Λήψης</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>New sending address</source>
-        <translation>Î�Î­Î± Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ· Î±Ï€Î¿ÏƒÏ„Î¿Î»Î®Ï‚</translation>
+        <translation>Νέα Διεύθυνση Αποστολής</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Edit receiving address</source>
-        <translation>Î•Ï€ÎµÎ¾ÎµÏ�Î³Î±ÏƒÎ¯Î± Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ·Ï‚ Î»Î®ÏˆÎ·Ï‚</translation>
+        <translation>Διόρθωση Διεύθυνσης Λήψης</translation>
+    </message>
+    </context>
+<context>
+    <name>FreespaceChecker</name>
+    <message>
+        <source>A new data directory will be created.</source>
+        <translation>Θα δημιουργηθεί ένας νέος φάκελος δεδομένων.</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Edit sending address</source>
-        <translation>Î•Ï€ÎµÎ¾ÎµÏ�Î³Î±ÏƒÎ¯Î± Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ·Ï‚ Î±Ï€Î¿ÏƒÏ„Î¿Î»Î®Ï‚</translation>
+        <source>name</source>
+        <translation>όνομα</translation>
     </message>
     <message>
-        <location line="+76"/>
-        <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>Î— Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ· &quot;%1&quot; Î²Ï�Î¯ÏƒÎºÎµÏ„Î±Î¹ Î®Î´Î· ÏƒÏ„Î¿ Î²Î¹Î²Î»Î¯Î¿ Î´Î¹ÎµÏ…Î¸Ï�Î½ÏƒÎµÏ‰Î½.</translation>
+        <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
+        <translation>Κατάλογος ήδη υπάρχει. Προσθήκη %1, αν σκοπεύετε να δημιουργήσετε έναν νέο κατάλογο εδώ.</translation>
     </message>
     <message>
-        <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Murfcoin address.</source>
-        <translation>Î— Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ· &quot;%1&quot; Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏ…Ï�Î· Murfcoin Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ·.</translation>
+        <source>Path already exists, and is not a directory.</source>
+        <translation>Η διαδρομή υπάρχει ήδη αλλά δεν είναι φάκελος</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>Could not unlock wallet.</source>
-        <translation>Î”ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î´Ï…Î½Î±Ï„ÏŒ Ï„Î¿ Î¾ÎµÎºÎ»ÎµÎ¯Î´Ï‰Î¼Î± Ï„Î¿Ï… Ï€Î¿Ï�Ï„Î¿Ï†Î¿Î»Î¹Î¿Ï�.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>New key generation failed.</source>
-        <translation>Î— Î´Î·Î¼Î¹Î¿Ï…Ï�Î³Î¯Î± Î½Î­Î¿Ï… ÎºÎ»ÎµÎ¹Î´Î¹Î¿Ï� Î±Ï€Î­Ï„Ï…Ï‡Îµ.</translation>
+        <source>Cannot create data directory here.</source>
+        <translation>Δεν μπορεί να δημιουργηθεί φάκελος δεδομένων εδώ.</translation>
     </message>
 </context>
 <context>
-    <name>GUIUtil::HelpMessageBox</name>
+    <name>HelpMessageDialog</name>
     <message>
-        <location filename="../guiutil.cpp" line="+424"/>
-        <location line="+12"/>
-        <source>Murfcoin-Qt</source>
-        <translation>murfcoin-qt</translation>
-    </message>
-    <message>
-        <location line="-12"/>
         <source>version</source>
-        <translation>Î­ÎºÎ´Î¿ÏƒÎ·</translation>
+        <translation>έκδοση</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <source>(%1-bit)</source>
+        <translation>(%1-bit)</translation>
+    </message>
+    <message>
+        <source>Command-line options</source>
+        <translation>επιλογής γραμμής εντολών</translation>
+    </message>
+    <message>
         <source>Usage:</source>
-        <translation>Î§Ï�Î®ÏƒÎ·:</translation>
+        <translation>Χρήση:</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>command-line options</source>
-        <translation>ÎµÏ€Î¹Î»Î¿Î³Î®Ï‚ Î³Ï�Î±Î¼Î¼Î®Ï‚ ÎµÎ½Ï„Î¿Î»ÏŽÎ½</translation>
+        <translation>επιλογής γραμμής εντολών</translation>
+    </message>
+    </context>
+<context>
+    <name>Intro</name>
+    <message>
+        <source>Welcome</source>
+        <translation>Καλώς ήρθατε</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>UI options</source>
-        <translation>ÎµÏ€Î¹Î»Î¿Î³Î­Ï‚ UI</translation>
+        <source>Use the default data directory</source>
+        <translation>Χρήση του προεπιλεγμένου φακέλου δεδομένων</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation>ÎŒÏ�Î¹ÏƒÎµ Î³Î»ÏŽÏƒÏƒÎ±, Î³Î¹Î± Ï€Î±Ï�Î¬Î´ÎµÎ¹Î³Î¼Î± &quot;de_DE&quot;(Ï€Ï�Î¿ÎµÏ€Î¹Î»Î¿Î³Î®:Ï„Î¿Ï€Î¹ÎºÎ­Ï‚ Ï�Ï…Î¸Î¼Î¯ÏƒÎµÎ¹Ï‚)</translation>
+        <source>Use a custom data directory:</source>
+        <translation>Προσαρμογή του φακέλου δεδομένων: </translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Start minimized</source>
-        <translation>ÎˆÎ½Î±Ï�Î¾Î· ÎµÎ»Î±Ï‡Î¹ÏƒÏ„Î¿Ï€Î¿Î¹Î·Î¼Î­Î½Î¿</translation>
+        <source>Error: Specified data directory "%1" cannot be created.</source>
+        <translation>Σφάλμα: Ο καθορισμένος φάκελος δεδομένων "%1" δεν μπορεί να δημιουργηθεί.</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Show splash screen on startup (default: 1)</source>
-        <translation>Î•Î¼Ï†Î¬Î½Î¹ÏƒÎµ Ï„Î·Î½ Î¿Î¸ÏŒÎ½Î· ÎµÎºÎºÎ¯Î½Î·ÏƒÎ·Ï‚ ÎºÎ±Ï„Î¬ Ï„Î·Î½ ÎµÎºÎºÎ¯Î½Î·ÏƒÎ·(Ï€Ï�Î¿ÎµÏ€Î¹Î»Î¿Î³Î®:1)</translation>
+        <source>Error</source>
+        <translation>Σφάλμα</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n GB of free space available</source>
+        <translation><numerusform>%n GB ελεύθερου χώρου διαθέσιμα</numerusform><numerusform>%n GB ελεύθερου χώρου διαθέσιμα</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>(of %n GB needed)</source>
+        <translation><numerusform>(από το %n GB που απαιτείται)</numerusform><numerusform>(από τα %n GB που απαιτούνται)</numerusform></translation>
     </message>
 </context>
+<context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>Φόρμα</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>Χρόνος τελευταίου μπλοκ</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Απόκρυψη</translation>
+    </message>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    <message>
+        <source>Open URI</source>
+        <translation>'Ανοιγμα &amp;URI</translation>
+    </message>
+    <message>
+        <source>Open payment request from URI or file</source>
+        <translation>Ανοιχτό αίτημα πληρωμής από URI ή απο αρχείο</translation>
+    </message>
+    <message>
+        <source>URI:</source>
+        <translation>URI:</translation>
+    </message>
+    <message>
+        <source>Select payment request file</source>
+        <translation>Επιλέξτε πληρωμή αρχείου αίτησης</translation>
+    </message>
+    </context>
 <context>
     <name>OptionsDialog</name>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="+14"/>
         <source>Options</source>
-        <translation>Î¡Ï…Î¸Î¼Î¯ÏƒÎµÎ¹Ï‚</translation>
+        <translation>Ρυθμίσεις</translation>
     </message>
     <message>
-        <location line="+16"/>
         <source>&amp;Main</source>
-        <translation>&amp;ÎšÏ�Ï�Î¹Î¿</translation>
+        <translation>&amp;Κύριο</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
-        <translation>Î— Ï€Ï�Î¿Î±Î¹Ï�ÎµÏ„Î¹ÎºÎ® Î±Î¼Î¿Î¹Î²Î® Î³Î¹Î± ÎºÎ¬Î¸Îµ kB ÎµÏ€Î¹ÏƒÏ€ÎµÏ�Î´ÎµÎ¹ Ï„Î·Î½ ÎµÏ€ÎµÎ¾ÎµÏ�Î³Î±ÏƒÎ¯Î± Ï„Ï‰Î½ ÏƒÏ…Î½Î±Î»Î»Î±Î³ÏŽÎ½ ÏƒÎ±Ï‚. ÎŸÎ¹ Ï€ÎµÏ�Î¹ÏƒÏƒÏŒÏ„ÎµÏ�ÎµÏ‚ ÏƒÏ…Î½Î±Î»Î»Î±Î³Î­Ï‚ ÎµÎ¯Î½Î±Î¹ 1 kB. </translation>
+        <source>Size of &amp;database cache</source>
+        <translation>Μέγεθος κρυφής μνήμης βάσης δεδομένων.</translation>
     </message>
     <message>
-        <location line="+15"/>
-        <source>Pay transaction &amp;fee</source>
-        <translation>Î‘Î¼Î¿Î¹Î²Î® &amp;ÏƒÏ…Î½Î±Î»Î»Î±Î³Î®Ï‚</translation>
+        <source>MB</source>
+        <translation>MB</translation>
     </message>
     <message>
-        <location line="+31"/>
-        <source>Automatically start Murfcoin after logging in to the system.</source>
-        <translation>Î‘Ï…Ï„ÏŒÎ¼Î±Ï„Î· ÎµÎºÎºÎ¯Î½Î·ÏƒÎ· Ï„Î¿Ï… Murfcoin Î¼ÎµÏ„Î¬ Ï„Î·Î½ ÎµÎ¹ÏƒÎ±Î³Ï‰Î³Î® ÏƒÏ„Î¿ ÏƒÏ�ÏƒÏ„Î·Î¼Î±</translation>
+        <source>Number of script &amp;verification threads</source>
+        <translation>Αριθμός script και γραμμές επαλήθευσης </translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Start Murfcoin on system login</source>
-        <translation>&amp;ÎˆÎ½Î±Ï�Î¾Î· Ï„Î¿Ï… Î’Î¹tcoin ÎºÎ±Ï„Î¬ Ï„Î·Î½ ÎµÎºÎºÎ¯Î½Î·ÏƒÎ· Ï„Î¿Ï… ÏƒÏ…ÏƒÏ„Î®Î¼Î±Ï„Î¿Ï‚</translation>
+        <source>Accept connections from outside</source>
+        <translation>Αποδοχή συνδέσεων απο έξω</translation>
     </message>
     <message>
-        <location line="+35"/>
+        <source>Allow incoming connections</source>
+        <translation>Αποδοχή εισερχόμενων συναλλαγών</translation>
+    </message>
+    <message>
+        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
+        <translation>Διεύθυνση IP του διαμεσολαβητή (π.χ. 127.0.0.1  / IPv6: ::1)</translation>
+    </message>
+    <message>
+        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
+        <translation>Ελαχιστοποίηση αντί για έξοδο κατά το κλείσιμο του παραθύρου. Όταν αυτή η επιλογή είναι ενεργοποιημένη, η εφαρμογή θα κλείνει μόνο αν επιλεχθεί η Έξοδος στο μενού.</translation>
+    </message>
+    <message>
+        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
+        <translation>URLs από τρίτους (π.χ. ένας εξερευνητής μπλοκ) τα οποία εμφανίζονται στην καρτέλα συναλλαγών ως στοιχεία μενού. Το %s στα URL αντικαθιστάται από την τιμή της κατατεμαχισμένης συναλλαγής.</translation>
+    </message>
+    <message>
+        <source>Third party transaction URLs</source>
+        <translation>Διευθύνσεις τρίτων συναλλαγών.</translation>
+    </message>
+    <message>
+        <source>Active command-line options that override above options:</source>
+        <translation>Ενεργές επιλογές γραμμής-εντολών που παρακάμπτουν τις παραπάνω επιλογές:</translation>
+    </message>
+    <message>
         <source>Reset all client options to default.</source>
-        <translation>Î•Ï€Î±Î½Î±Ï†Î¿Ï�Î± ÏŒÎ»Ï‰Î½ Ï„Ï‰Î½ ÎµÏ€Î¹Î»Î¿Î³Ï‰Î½ Ï„Î¿Ï… Ï€ÎµÎ»Î¬Ï„Î· ÏƒÎµ default.</translation>
+        <translation>Επαναφορα όλων των επιλογων του πελάτη σε default.</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Reset Options</source>
-        <translation>Î•Ï€Î±Î½Î±Ï†Î¿Ï�Î± Ï�Ï…Î¸Î¼Î¯ÏƒÎµÏ‰Î½</translation>
+        <translation>Επαναφορα ρυθμίσεων</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>&amp;Network</source>
-        <translation>&amp;Î”Î¯ÎºÏ„Ï…Î¿</translation>
+        <translation>&amp;Δίκτυο</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <source>(0 = auto, &lt;0 = leave that many cores free)</source>
+        <translation>(0 = αυτόματο, &lt;0 = ελεύθεροι πυρήνες)</translation>
+    </message>
+    <message>
+        <source>W&amp;allet</source>
+        <translation>Π&amp;ορτοφόλι</translation>
+    </message>
+    <message>
+        <source>Expert</source>
+        <translation>Έμπειρος</translation>
+    </message>
+    <message>
+        <source>Enable coin &amp;control features</source>
+        <translation>Επιλογή κατα πόσο να αναδείχνονται οι δυνατότητες ελέγχου κερμάτων.</translation>
+    </message>
+    <message>
+        <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
+        <translation>Εάν απενεργοποιήσετε το ξόδεμα μη επικυρωμένων ρέστων, τα ρέστα από μια συναλλαγή δεν μπορούν να χρησιμοποιηθούν έως ότου αυτή η συναλλαγή έχει έστω μια επικύρωση. Αυτό επίσης επηρεάζει το πως υπολογίζεται το υπόλοιπό σας.</translation>
+    </message>
+    <message>
+        <source>&amp;Spend unconfirmed change</source>
+        <translation>&amp;Ξόδεμα μη επικυρωμένων ρέστων</translation>
+    </message>
+    <message>
         <source>Automatically open the Murfcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Î‘Ï…Ï„ÏŒÎ¼Î±Ï„Î¿ Î¬Î½Î¿Î¹Î³Î¼Î± Ï„Ï‰Î½ Î¸Ï…Ï�ÏŽÎ½ Murfcoin ÏƒÏ„Î¿Î½ Î´Ï�Î¿Î¼Î¿Î»Î¿Î³Î·Ï„Î®. Î›ÎµÎ¹Ï„Î¿Ï…Ï�Î³ÎµÎ¯ Î¼ÏŒÎ½Î¿ Î±Î½ Î¿ Î´Ï�Î¿Î¼Î¿Î»Î¿Î³Î·Ï„Î®Ï‚ ÏƒÎ±Ï‚ Ï…Ï€Î¿ÏƒÏ„Î·Ï�Î¯Î¶ÎµÎ¹ Ï„Î· Î»ÎµÎ¹Ï„Î¿Ï…Ï�Î³Î¯Î± UPnP.</translation>
+        <translation>Αυτόματο άνοιγμα των θυρών Murfcoin στον δρομολογητή. Λειτουργεί μόνο αν ο δρομολογητής σας υποστηρίζει τη λειτουργία UPnP.</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Map port using &amp;UPnP</source>
-        <translation>Î‘Ï€ÏŒÎ´Î¿ÏƒÎ· Î¸Ï…Ï�ÏŽÎ½ Î¼Îµ Ï‡Ï�Î®ÏƒÏ„Î· &amp;UPnP</translation>
+        <translation>Απόδοση θυρών με χρήστη &amp;UPnP</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Connect to the Murfcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Î£Ï�Î½Î´ÎµÏƒÎ· ÏƒÏ„Î¿ Murfcoin Î´Î¯ÎºÏ„Ï…Î¿ Î¼Î­ÏƒÏ‰ Î´Î¹Î±Î¼ÎµÏƒÎ¿Î»Î±Î²Î·Ï„Î® SOCKS4 (Ï€.Ï‡. Î³Î¹Î± ÏƒÏ�Î½Î´ÎµÏƒÎ· Î¼Î­ÏƒÏ‰ Tor)</translation>
+        <source>Connect to the Murfcoin network through a SOCKS5 proxy.</source>
+        <translation>Σύνδεση στο Murfcoin δίκτυο μέσω διαμεσολαβητή SOCKS5 (π.χ. για σύνδεση μέσω Tor)</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Connect through SOCKS proxy:</source>
-        <translation>&amp;Î£Ï�Î½Î´ÎµÏƒÎ· Î¼Î­ÏƒÏ‰ Î´Î¹Î±Î¼ÎµÏƒÎ¿Î»Î±Î²Î·Ï„Î® SOCKS</translation>
+        <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
+        <translation>&amp;Σύνδεση μέσω διαμεσολαβητή SOCKS5 (προεπιλεγμένος)</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Proxy &amp;IP:</source>
-        <translation>&amp;IP Î´Î¹Î±Î¼ÎµÏƒÎ¿Î»Î±Î²Î·Ï„Î®:</translation>
+        <translation>&amp;IP διαμεσολαβητή:</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>IP address of the proxy (e.g. 127.0.0.1)</source>
-        <translation>Î”Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ· IP Ï„Î¿Ï… Î´Î¹Î±Î¼ÎµÏƒÎ¿Î»Î±Î²Î·Ï„Î® (Ï€.Ï‡. 127.0.0.1)</translation>
-    </message>
-    <message>
-        <location line="+7"/>
         <source>&amp;Port:</source>
-        <translation>&amp;Î˜Ï�Ï�Î±:</translation>
+        <translation>&amp;Θύρα:</translation>
     </message>
     <message>
-        <location line="+19"/>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Î˜Ï�Ï�Î± Î´Î¹Î±Î¼ÎµÏƒÎ¿Î»Î±Î²Î·Ï„Î®</translation>
+        <translation>Θύρα διαμεσολαβητή</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>SOCKS &amp;Version:</source>
-        <translation>SOCKS &amp;ÎˆÎºÎ´Î¿ÏƒÎ·:</translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <source>SOCKS version of the proxy (e.g. 5)</source>
-        <translation>SOCKS ÎµÎºÎ´Î¿ÏƒÎ· Ï„Î¿Ï… Î´Î¹Î±Î¼ÎµÏƒÎ¿Î»Î±Î²Î·Ï„Î· (e.g. 5)</translation>
-    </message>
-    <message>
-        <location line="+36"/>
         <source>&amp;Window</source>
-        <translation>&amp;Î Î±Ï�Î¬Î¸Ï…Ï�Î¿</translation>
+        <translation>&amp;Παράθυρο</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Î•Î¼Ï†Î¬Î½Î¹ÏƒÎ·  Î¼ÏŒÎ½Î¿ ÎµÎ¹ÎºÎ¿Î½Î¹Î´Î¯Î¿Ï… ÏƒÏ„Î·Î½ Ï€ÎµÏ�Î¹Î¿Ï‡Î® ÎµÎ¹Î´Î¿Ï€Î¿Î¹Î®ÏƒÎµÏ‰Î½ ÎºÎ±Ï„Î¬ Ï„Î·Î½ ÎµÎ»Î±Ï‡Î¹ÏƒÏ„Î¿Ï€Î¿Î¯Î·ÏƒÎ·</translation>
+        <translation>Εμφάνιση  μόνο εικονιδίου στην περιοχή ειδοποιήσεων κατά την ελαχιστοποίηση</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;Î•Î»Î±Ï‡Î¹ÏƒÏ„Î¿Ï€Î¿Î¯Î·ÏƒÎ· ÏƒÏ„Î·Î½ Ï€ÎµÏ�Î¹Î¿Ï‡Î® ÎµÎ¹Î´Î¿Ï€Î¿Î¹Î®ÏƒÎµÏ‰Î½ Î±Î½Ï„Î¯ Ï„Î·Ï‚ Î³Ï�Î±Î¼Î¼Î®Ï‚ ÎµÏ�Î³Î±ÏƒÎ¹ÏŽÎ½</translation>
+        <translation>&amp;Ελαχιστοποίηση στην περιοχή ειδοποιήσεων αντί της γραμμής εργασιών</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Î•Î»Î±Ï‡Î¹ÏƒÏ„Î¿Ï€Î¿Î¯Î·ÏƒÎ· Î±Î½Ï„Î¯ Î³Î¹Î± Î­Î¾Î¿Î´Î¿ ÎºÎ±Ï„Î¬ Ï„Î¿ ÎºÎ»ÎµÎ¯ÏƒÎ¹Î¼Î¿ Ï„Î¿Ï… Ï€Î±Ï�Î±Î¸Ï�Ï�Î¿Ï…</translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>M&amp;inimize on close</source>
-        <translation>Î•&amp;Î»Î±Ï‡Î¹ÏƒÏ„Î¿Ï€Î¿Î¯Î·ÏƒÎ· ÎºÎ±Ï„Î¬ Ï„Î¿ ÎºÎ»ÎµÎ¯ÏƒÎ¹Î¼Î¿</translation>
+        <translation>Ε&amp;λαχιστοποίηση κατά το κλείσιμο</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>&amp;Display</source>
-        <translation>%Î‘Ï€ÎµÎ¹ÎºÏŒÎ½Î¹ÏƒÎ·</translation>
+        <translation>&amp;Απεικόνιση</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>User Interface &amp;language:</source>
-        <translation>Î“Î»ÏŽÏƒÏƒÎ± Ï€ÎµÏ�Î¹Î²Î¬Î»Î»Î¿Î½Ï„Î¿Ï‚ ÎµÏ�Î³Î±ÏƒÎ¯Î±Ï‚: </translation>
+        <translation>Γλώσσα περιβάλλοντος εργασίας: </translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Murfcoin.</source>
-        <translation>Î•Î´ÏŽ Î¼Ï€Î¿Ï�ÎµÎ¯ Î½Î± Ï�Ï…Î¸Î¼Î¹ÏƒÏ„ÎµÎ¯ Î· Î³Î»ÏŽÏƒÏƒÎ± Î´Î¹ÎµÏ€Î±Ï†Î®Ï‚ Ï‡Ï�Î®ÏƒÏ„Î·. Î‘Ï…Ï„Î® Î· Ï�Ï�Î¸Î¼Î¹ÏƒÎ· Î¸Î± Î¹ÏƒÏ‡Ï�ÏƒÎµÎ¹ Î¼ÎµÏ„Î¬ Ï„Î·Î½ ÎµÏ€Î±Î½ÎµÎºÎºÎ¯Î½Î·ÏƒÎ· Ï„Î¿Ï… Murfcoin.</translation>
-    </message>
-    <message>
-        <location line="+11"/>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;ÎœÎ¿Î½Î¬Î´Î± Î¼Î­Ï„Ï�Î·ÏƒÎ·Ï‚:</translation>
+        <translation>&amp;Μονάδα μέτρησης:</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Î”Î¹Î±Î»Î­Î¾Ï„Îµ Ï„Î·Î½ Ï€Ï�Î¿ÎµÏ€Î¹Î»ÎµÎ³Î¼Î­Î½Î· Ï…Ï€Î¿Î´Î¹Î±Î¯Ï�ÎµÏƒÎ· Ï€Î¿Ï… Î¸Î± ÎµÎ¼Ï†Î±Î½Î¯Î¶ÎµÏ„Î±Î¹ ÏŒÏ„Î±Î½ ÏƒÏ„Î­Î»Î½ÎµÏ„Îµ Î½Î¿Î¼Î¯ÏƒÎ¼Î±Ï„Î±.</translation>
+        <translation>Διαλέξτε την προεπιλεγμένη υποδιαίρεση που θα εμφανίζεται όταν στέλνετε νομίσματα.</translation>
     </message>
     <message>
-        <location line="+9"/>
-        <source>Whether to show Murfcoin addresses in the transaction list or not.</source>
-        <translation>Î•Ï€Î¹Î»Î­Î¾Ï„Îµ Î±Î½ Î¸Î­Î»ÎµÏ„Îµ Î½Î± ÎµÎ¼Ï†Î±Î½Î¯Î¶Î¿Î½Ï„Î±Î¹ Î¿Î¹ Î´Î¹ÎµÏ…Î¸Ï�Î½ÏƒÎµÎ¹Ï‚ Murfcoin ÏƒÏ„Î· Î»Î¯ÏƒÏ„Î± ÏƒÏ…Î½Î±Î»Î»Î±Î³ÏŽÎ½.</translation>
+        <source>Whether to show coin control features or not.</source>
+        <translation>Επιλογή κατα πόσο να αναδείχνονται οι δυνατότητες ελέγχου κερμάτων.
+</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Display addresses in transaction list</source>
-        <translation>Î•Î¼Ï†Î¬Î½Î¹ÏƒÎ· Î´Î¹ÎµÏ…Î¸Ï�Î½ÏƒÎµÏ‰Î½ ÏƒÏ„Î· Î»Î¯ÏƒÏ„Î± ÏƒÏ…Î½Î±Î»Î»Î±Î³ÏŽÎ½</translation>
-    </message>
-    <message>
-        <location line="+71"/>
         <source>&amp;OK</source>
-        <translation>&amp;ÎŸÎš</translation>
+        <translation>&amp;ΟΚ</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Cancel</source>
-        <translation>&amp;Î‘ÎºÏ�Ï�Ï‰ÏƒÎ·</translation>
+        <translation>&amp;Ακύρωση</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>&amp;Apply</source>
-        <translation>&amp;Î•Ï†Î±Ï�Î¼Î¿Î³Î®</translation>
-    </message>
-    <message>
-        <location filename="../optionsdialog.cpp" line="+53"/>
         <source>default</source>
-        <translation>Ï€Ï�Î¿ÎµÏ€Î¹Î»Î¿Î³Î®</translation>
+        <translation>προεπιλογή</translation>
     </message>
     <message>
-        <location line="+130"/>
+        <source>none</source>
+        <translation>κανένα</translation>
+    </message>
+    <message>
         <source>Confirm options reset</source>
-        <translation>Î•Ï€Î¹Î²ÎµÎ²Î±Î¹ÏŽÏƒÎ· Ï„Ï‰Î½ ÎµÏ€Î¹Î»Î¿Î³Ï‰Î½ ÎµÏ€Î±Î½Î±Ï†Î¿Ï�Î¬Ï‚ </translation>
+        <translation>Επιβεβαιώση των επιλογων επαναφοράς </translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Some settings may require a client restart to take effect.</source>
-        <translation>Î“Î¹Î± Î¿Ï�Î¹ÏƒÎ¼Î­Î½ÎµÏ‚ Ï�Ï…Î¸Î¼Î¯ÏƒÎµÎ¹Ï‚ Ï€Ï�ÎµÏ€ÎµÎ¹ Î· ÎµÏ€Î±Î½ÎµÎºÎºÎ¯Î½Î·ÏƒÎ· Î½Î± Ï„ÎµÎ¸ÎµÎ¯ ÏƒÎµ Î¹ÏƒÏ‡Ï�.</translation>
+        <source>Client restart required to activate changes.</source>
+        <translation>Χρειάζεται επανεκκίνηση του προγράμματος για να ενεργοποιηθούν οι αλλαγές.</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Do you want to proceed?</source>
-        <translation>Î˜Î­Î»ÎµÏ„Îµ Î½Î± Ï€Ï�Î¿Ï‡Ï‰Ï�Î®ÏƒÎµÏ„Îµ;</translation>
+        <source>This change would require a client restart.</source>
+        <translation>Η αλλαγή αυτή θα χρειαστεί επανεκκίνηση του προγράμματος</translation>
     </message>
     <message>
-        <location line="+42"/>
-        <location line="+9"/>
-        <source>Warning</source>
-        <translation>Î Ï�Î¿ÎµÎ¹Î´Î¿Ï€Î¿Î¯Î·ÏƒÎ·</translation>
-    </message>
-    <message>
-        <location line="-9"/>
-        <location line="+9"/>
-        <source>This setting will take effect after restarting Murfcoin.</source>
-        <translation>Î‘Ï…Ï„Î® Î· Ï�Ï�Î¸Î¼Î¹ÏƒÎ· Î¸Î± Î¹ÏƒÏ‡Ï�ÏƒÎµÎ¹ Î¼ÎµÏ„Î¬ Ï„Î·Î½ ÎµÏ€Î±Î½ÎµÎºÎºÎ¯Î½Î·ÏƒÎ· Ï„Î¿Ï… Murfcoin.</translation>
-    </message>
-    <message>
-        <location line="+29"/>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Î”ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏ…Ï�Î· Î· Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ· Î´Î¹Î±Î¼ÎµÏƒÎ¿Î»Î±Î²Î·Ï„Î®</translation>
+        <translation>Δεν είναι έγκυρη η διεύθυνση διαμεσολαβητή</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
-        <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
-        <translation>Î¦ÏŒÏ�Î¼Î±</translation>
+        <translation>Φόρμα</translation>
     </message>
     <message>
-        <location line="+50"/>
-        <location line="+166"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Murfcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>ÎŸÎ¹ Ï€Î»Î·Ï�Î¿Ï†Î¿Ï�Î¯ÎµÏ‚ Ï€Î¿Ï… ÎµÎ¼Ï†Î±Î½Î¯Î¶Î¿Î½Ï„Î±Î¹ Î¼Ï€Î¿Ï�ÎµÎ¯ Î½Î± ÎµÎ¯Î½Î±Î¹ Î¾ÎµÏ€ÎµÏ�Î±ÏƒÎ¼Î­Î½ÎµÏ‚. Î¤Î¿ Ï€Î¿Ï�Ï„Î¿Ï†ÏŒÎ»Î¹ ÏƒÎ±Ï‚ ÏƒÏ…Î³Ï‡Ï�Î¿Î½Î¯Î¶ÎµÏ„Î±Î¹ Î±Ï…Ï„ÏŒÎ¼Î±Ï„Î± Î¼Îµ Ï„Î¿ Î´Î¯ÎºÏ„Ï…Î¿ Murfcoin Î¼ÎµÏ„Î¬ Î±Ï€ÏŒ Î¼Î¹Î± ÏƒÏ�Î½Î´ÎµÏƒÎ·, Î±Î»Î»Î¬ Î±Ï…Ï„Î® Î· Î´Î¹Î±Î´Î¹ÎºÎ±ÏƒÎ¯Î± Î´ÎµÎ½ Î­Ï‡ÎµÎ¹ Î±ÎºÏŒÎ¼Î· Î¿Î»Î¿ÎºÎ»Î·Ï�Ï‰Î¸ÎµÎ¯. </translation>
+        <translation>Οι πληροφορίες που εμφανίζονται μπορεί να είναι ξεπερασμένες. Το πορτοφόλι σας συγχρονίζεται αυτόματα με το δίκτυο Murfcoin μετά από μια σύνδεση, αλλά αυτή η διαδικασία δεν έχει ακόμη ολοκληρωθεί. </translation>
     </message>
     <message>
-        <location line="-124"/>
-        <source>Balance:</source>
-        <translation>Î¥Ï€ÏŒÎ»Î¿Î¹Ï€Î¿</translation>
+        <source>Watch-only:</source>
+        <translation>Επίβλεψη μόνο:</translation>
     </message>
     <message>
-        <location line="+29"/>
-        <source>Unconfirmed:</source>
-        <translation>Î‘Î½ÎµÏ€Î¹Î²ÎµÎ²Î±Î¯Ï‰Ï„ÎµÏ‚</translation>
+        <source>Available:</source>
+        <translation>Διαθέσιμο:</translation>
     </message>
     <message>
-        <location line="-78"/>
-        <source>Wallet</source>
-        <translation>Î Î¿Ï�Ï„Î¿Ï†ÏŒÎ»Î¹</translation>
+        <source>Your current spendable balance</source>
+        <translation>Το τρέχον διαθέσιμο υπόλοιπο</translation>
     </message>
     <message>
-        <location line="+107"/>
+        <source>Pending:</source>
+        <translation>Εκκρεμούν:</translation>
+    </message>
+    <message>
+        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
+        <translation>Το άθροισμα των συναλλαγών που δεν έχουν ακόμα επιβεβαιωθεί και δεν προσμετρώνται στο τρέχον διαθέσιμο υπόλοιπό σας</translation>
+    </message>
+    <message>
         <source>Immature:</source>
-        <translation>Î‘Î½ÏŽÏ�Î¹Î¼Î¿Ï‚</translation>
+        <translation>Ανώριμος</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Mined balance that has not yet matured</source>
-        <translation>Î•Î¾Î¿Ï�Ï…Î³Î¼ÎµÎ½Î¿ Ï…Ï€ÏŒÎ»Î¿Î¹Ï€Î¿ Ï€Î¿Ï… Î´ÎµÎ½ Î­Ï‡ÎµÎ¹ Î±ÎºÏŒÎ¼Î± Ï‰Ï�Î¹Î¼Î¬ÏƒÎµÎ¹ </translation>
+        <translation>Εξορυγμενο υπόλοιπο που δεν έχει ακόμα ωριμάσει </translation>
     </message>
     <message>
-        <location line="+46"/>
-        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Î Ï�ÏŒÏƒÏ†Î±Ï„ÎµÏ‚ ÏƒÏ…Î½Î±Î»Î»Î±Î³Î­Ï‚&lt;/b&gt;</translation>
+        <source>Balances</source>
+        <translation>Υπόλοιπο:</translation>
     </message>
     <message>
-        <location line="-101"/>
-        <source>Your current balance</source>
-        <translation>Î¤Î¿ Ï„Ï�Î­Ï‡Î¿Î½ Ï…Ï€ÏŒÎ»Î¿Î¹Ï€Î¿</translation>
+        <source>Total:</source>
+        <translation>Σύνολο:</translation>
     </message>
     <message>
-        <location line="+29"/>
-        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Î¤Î¿ Î¬Î¸Ï�Î¿Î¹ÏƒÎ¼Î± Ï„Ï‰Î½ ÏƒÏ…Î½Î±Î»Î»Î±Î³ÏŽÎ½ Ï€Î¿Ï… Î´ÎµÎ½ Î­Ï‡Î¿Ï…Î½ Î±ÎºÏŒÎ¼Î± ÎµÏ€Î¹Î²ÎµÎ²Î±Î¹Ï‰Î¸ÎµÎ¯ ÎºÎ±Î¹ Î´ÎµÎ½ Ï€Ï�Î¿ÏƒÎ¼ÎµÏ„Ï�ÏŽÎ½Ï„Î±Î¹ ÏƒÏ„Î¿ Ï„Ï�Î­Ï‡Î¿Î½ Ï…Ï€ÏŒÎ»Î¿Î¹Ï€ÏŒ ÏƒÎ±Ï‚</translation>
+        <source>Your current total balance</source>
+        <translation>Το τρέχον συνολικό υπόλοιπο</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="+116"/>
-        <location line="+1"/>
-        <source>out of sync</source>
-        <translation>ÎµÎºÏ„ÏŒÏ‚ ÏƒÏ…Î³Ï‡Ï�Î¿Î½Î¹ÏƒÎ¼Î¿Ï�</translation>
+        <source>Your current balance in watch-only addresses</source>
+        <translation>Το τρέχον υπόλοιπο σας σε διευθύνσεις παρακολούθησης μόνο</translation>
+    </message>
+    <message>
+        <source>Spendable:</source>
+        <translation>Ξοδεμένα:</translation>
+    </message>
+    <message>
+        <source>Recent transactions</source>
+        <translation>Πρόσφατες συναλλαγές</translation>
+    </message>
+    <message>
+        <source>Unconfirmed transactions to watch-only addresses</source>
+        <translation>Μη επικυρωμένες συναλλαγές σε διευθύνσεις παρακολούθησης μόνο</translation>
+    </message>
+    <message>
+        <source>Mined balance in watch-only addresses that has not yet matured</source>
+        <translation>Εξορυγμένο υπόλοιπο σε διευθύνσεις παρακολούθησης μόνο που δεν έχει ωριμάσει ακόμα</translation>
+    </message>
+    <message>
+        <source>Current total balance in watch-only addresses</source>
+        <translation>Το τρέχον συνολικό υπόλοιπο σε διευθύνσεις παρακολούθησης μόνο</translation>
     </message>
 </context>
 <context>
     <name>PaymentServer</name>
-    <message>
-        <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start murfcoin: click-to-pay handler</source>
-        <translation>Î”ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î´Ï…Î½Î±Ï„Î® Î· ÎµÎºÎºÎ¯Î½Î·ÏƒÎ· Ï„Î¿Ï… Murfcoin: click-to-pay handler</translation>
-    </message>
-</context>
+    </context>
 <context>
-    <name>QRCodeDialog</name>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
     <message>
-        <location filename="../forms/qrcodedialog.ui" line="+14"/>
-        <source>QR Code Dialog</source>
-        <translation>ÎšÏŽÎ´Î¹ÎºÎ±Ï‚ QR</translation>
+        <source>Amount</source>
+        <translation>Ποσό</translation>
     </message>
     <message>
-        <location line="+59"/>
-        <source>Request Payment</source>
-        <translation>Î‘Î¯Ï„Î·ÏƒÎ· Ï€Î»Î·Ï�Ï‰Î¼Î®Ï‚</translation>
+        <source>Enter a Murfcoin address (e.g. %1)</source>
+        <translation>Εισάγετε μια διεύθυνση Murfcoin (π.χ. %1)</translation>
     </message>
     <message>
-        <location line="+56"/>
-        <source>Amount:</source>
-        <translation>Î Î¿ÏƒÏŒ:</translation>
+        <source>%1 d</source>
+        <translation>%1 d</translation>
     </message>
     <message>
-        <location line="-44"/>
-        <source>Label:</source>
-        <translation>Î•Ï€Î¹Î³Ï�Î±Ï†Î®:</translation>
+        <source>%1 h</source>
+        <translation>%1 ώ</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>Message:</source>
-        <translation>ÎœÎ®Î½Ï…Î¼Î±:</translation>
+        <source>%1 m</source>
+        <translation>%1 λ</translation>
     </message>
     <message>
-        <location line="+71"/>
-        <source>&amp;Save As...</source>
-        <translation>&amp;Î‘Ï€Î¿Î¸Î®ÎºÎµÏ…ÏƒÎ· Ï‰Ï‚...</translation>
+        <source>%1 s</source>
+        <translation>%1 s</translation>
     </message>
     <message>
-        <location filename="../qrcodedialog.cpp" line="+62"/>
-        <source>Error encoding URI into QR Code.</source>
-        <translation>Î£Ï†Î¬Î»Î¼Î± ÎºÎ±Ï„Î¬ Ï„Î·Î½ ÎºÏ‰Î´Î¹ÎºÎ¿Ï€Î¿Î¯Î·ÏƒÎ· Ï„Î¿Ï… URI ÏƒÎµ ÎºÏŽÎ´Î¹ÎºÎ± QR</translation>
+        <source>None</source>
+        <translation>Κανένα</translation>
     </message>
     <message>
-        <location line="+40"/>
-        <source>The entered amount is invalid, please check.</source>
-        <translation>Î¤Î¿ Î±Î½Î±Î³Ï�Î±Ï†ÏŒÎ¼ÎµÎ½Î¿ Ï€Î¿ÏƒÏŒ Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏ…Ï�Î¿, Ï€Î±Ï�Î±ÎºÎ±Î»Î¿Ï�Î¼Îµ Î½Î± Ï„Î¿ ÎµÎ»Î­Î³Î¾ÎµÏ„Îµ.</translation>
+        <source>N/A</source>
+        <translation>Μη διαθέσιμο</translation>
     </message>
     <message>
-        <location line="+23"/>
-        <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>Î¤Î¿ Î±Ï€Î¿Ï„Î­Î»ÎµÏƒÎ¼Î± Ï„Î·Ï‚ Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ·Ï‚ ÎµÎ¯Î½Î±Î¹ Ï€Î¿Î»Ï� Î¼ÎµÎ³Î¬Î»Î¿. ÎœÎµÎ¹ÏŽÏƒÏ„Îµ Ï„Î¿ Î¼Î­Î³ÎµÎ¸Î¿Ï‚ Î³Î¹Î± Ï„Î¿ ÎºÎµÎ¯Î¼ÎµÎ½Î¿ Ï„Î·Ï‚ ÎµÏ„Î¹ÎºÎ­Ï„Î±Ï‚/ Î¼Î·Î½Ï�Î¼Î±Ï„Î¿Ï‚.</translation>
+        <source>%1 ms</source>
+        <translation>%1 ms</translation>
     </message>
     <message>
-        <location line="+25"/>
-        <source>Save QR Code</source>
-        <translation>Î‘Ï€Î¿Î¸Î®ÎºÎµÏ…ÏƒÎ· ÎºÏŽÎ´Î¹ÎºÎ± QR</translation>
+        <source>%1 and %2</source>
+        <translation>%1 και %2</translation>
     </message>
-    <message>
-        <location line="+0"/>
-        <source>PNG Images (*.png)</source>
-        <translation>Î•Î¹ÎºÏŒÎ½ÎµÏ‚ PNG (*.png)</translation>
-    </message>
-</context>
+    </context>
+<context>
+    <name>QObject::QObject</name>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
 <context>
     <name>RPCConsole</name>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="+46"/>
-        <source>Client name</source>
-        <translation>ÎŒÎ½Î¿Î¼Î± Î ÎµÎ»Î¬Ï„Î·</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <location line="+23"/>
-        <location line="+26"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+36"/>
-        <location line="+53"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location filename="../rpcconsole.cpp" line="+339"/>
         <source>N/A</source>
-        <translation>ÎœÎ· Î´Î¹Î±Î¸Î­ÏƒÎ¹Î¼Î¿</translation>
+        <translation>Μη διαθέσιμο</translation>
     </message>
     <message>
-        <location line="-217"/>
         <source>Client version</source>
-        <translation>ÎˆÎºÎ´Î¿ÏƒÎ· Î ÎµÎ»Î¬Ï„Î·</translation>
+        <translation>Έκδοση Πελάτη</translation>
     </message>
     <message>
-        <location line="-45"/>
         <source>&amp;Information</source>
-        <translation>&amp;Î Î»Î·Ï�Î¿Ï†Î¿Ï�Î¯Î±</translation>
+        <translation>&amp;Πληροφορία</translation>
     </message>
     <message>
-        <location line="+68"/>
-        <source>Using OpenSSL version</source>
-        <translation>Î§Ï�Î·ÏƒÎ¹Î¼Î¿Ï€Î¿Î¹Î·ÏƒÎ· Ï„Î·Ï‚ OpenSSL ÎµÎºÎ´Î¿ÏƒÎ·Ï‚</translation>
+        <source>Debug window</source>
+        <translation>Παράθυρο αποσφαλμάτωσης</translation>
     </message>
     <message>
-        <location line="+49"/>
+        <source>General</source>
+        <translation>Γενικά</translation>
+    </message>
+    <message>
+        <source>Using BerkeleyDB version</source>
+        <translation>Χρήση BerkeleyDB έκδοσης</translation>
+    </message>
+    <message>
         <source>Startup time</source>
-        <translation>Î§Ï�ÏŒÎ½Î¿Ï‚ ÎµÎºÎºÎ¯Î½Î·ÏƒÎ·Ï‚</translation>
+        <translation>Χρόνος εκκίνησης</translation>
     </message>
     <message>
-        <location line="+29"/>
         <source>Network</source>
-        <translation>Î”Î¯ÎºÏ„Ï…Î¿</translation>
+        <translation>Δίκτυο</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <source>Name</source>
+        <translation>Όνομα</translation>
+    </message>
+    <message>
         <source>Number of connections</source>
-        <translation>Î‘Ï�Î¹Î¸Î¼ÏŒÏ‚ ÏƒÏ…Î½Î´Î­ÏƒÎµÏ‰Î½</translation>
+        <translation>Αριθμός συνδέσεων</translation>
     </message>
     <message>
-        <location line="+23"/>
-        <source>On testnet</source>
-        <translation>Î£Ï„Î¿ testnet</translation>
-    </message>
-    <message>
-        <location line="+23"/>
         <source>Block chain</source>
-        <translation>Î±Î»Ï…ÏƒÎ¯Î´Î± ÎµÎ¼Ï€Î¿Î´Î¹ÏƒÎ¼Î¿Ï�</translation>
+        <translation>Αλυσίδα μπλοκ</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Current number of blocks</source>
-        <translation>Î¤Ï�Î­Ï‡Î¿Î½ Î±Ï�Î¹Î¸Î¼ÏŒÏ‚ Î¼Ï€Î»Î¿Îº</translation>
+        <translation>Τρέχον αριθμός μπλοκ</translation>
     </message>
     <message>
-        <location line="+23"/>
-        <source>Estimated total blocks</source>
-        <translation>ÎšÎ±Ï„&apos; ÎµÎºÏ„Î¯Î¼Î·ÏƒÎ· ÏƒÏ…Î½Î¿Î»Î¹ÎºÎ¬ Î¼Ï€Î»Î¿ÎºÏ‚</translation>
+        <source>Received</source>
+        <translation>Παραλήφθησαν</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <source>Sent</source>
+        <translation>Αποστολή</translation>
+    </message>
+    <message>
+        <source>&amp;Peers</source>
+        <translation>&amp;Χρήστες</translation>
+    </message>
+    <message>
+        <source>Select a peer to view detailed information.</source>
+        <translation>Επιλέξτε ένα χρήστη για να δείτε αναλυτικές πληροφορίες.</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Έκδοση</translation>
+    </message>
+    <message>
+        <source>Services</source>
+        <translation>Υπηρεσίες</translation>
+    </message>
+    <message>
+        <source>Ban Score</source>
+        <translation>Σκορ αποκλησμού</translation>
+    </message>
+    <message>
+        <source>Connection Time</source>
+        <translation>Χρόνος σύνδεσης</translation>
+    </message>
+    <message>
+        <source>Last Send</source>
+        <translation>Τελευταία αποστολή</translation>
+    </message>
+    <message>
+        <source>Last Receive</source>
+        <translation>Τελευταία λήψη</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>Χρόνος καθυστέρησης</translation>
+    </message>
+    <message>
         <source>Last block time</source>
-        <translation>Î§Ï�ÏŒÎ½Î¿Ï‚ Ï„ÎµÎ»ÎµÏ…Ï„Î±Î¯Î¿Ï… Î¼Ï€Î»Î¿Îº</translation>
+        <translation>Χρόνος τελευταίου μπλοκ</translation>
     </message>
     <message>
-        <location line="+52"/>
         <source>&amp;Open</source>
-        <translation>&amp;Î†Î½Î¿Î¹Î³Î¼Î±</translation>
+        <translation>&amp;Άνοιγμα</translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>Command-line options</source>
-        <translation>ÎµÏ€Î¹Î»Î¿Î³Î®Ï‚ Î³Ï�Î±Î¼Î¼Î®Ï‚ ÎµÎ½Ï„Î¿Î»ÏŽÎ½</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Show the Murfcoin-Qt help message to get a list with possible Murfcoin command-line options.</source>
-        <translation>Î•Î¼Ï†Î±Î½Î¹ÏƒÎ· Ï„Î¿Ï… Murfcoin-Qt Î¼Î®Î½Ï…Î¼Î±Ï„Î¿Ï‚ Î²Î¿Î®Î¸ÎµÎ¹Î±Ï‚ Î³Î¹Î± Î½Î± Ï€Î¬Ï�ÎµÏ„Îµ Î¼Î¹Î± Î»Î¯ÏƒÏ„Î± Î¼Îµ Ï„Î¹Ï‚ Ï€Î¹Î¸Î±Î½Î­Ï‚ ÎµÏ€Î¹Î»Î¿Î³Î­Ï‚ Murfcoin Î³Ï�Î±Î¼Î¼Î®Ï‚ ÎµÎ½Ï„Î¿Î»ÏŽÎ½.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Show</source>
-        <translation>&amp;Î•Î¼Ï†Î¬Î½Î¹ÏƒÎ·</translation>
-    </message>
-    <message>
-        <location line="+24"/>
         <source>&amp;Console</source>
-        <translation>&amp;ÎšÎ¿Î½ÏƒÏŒÎ»Î±</translation>
+        <translation>&amp;Κονσόλα</translation>
     </message>
     <message>
-        <location line="-260"/>
-        <source>Build date</source>
-        <translation>Î—Î¼ÎµÏ�Î¿Î¼Î·Î½Î¯Î± ÎºÎ±Ï„Î±ÏƒÎºÎµÏ…Î®Ï‚</translation>
+        <source>&amp;Network Traffic</source>
+        <translation>&amp;Κίνηση δικτύου</translation>
     </message>
     <message>
-        <location line="-104"/>
-        <source>Murfcoin - Debug window</source>
-        <translation>Murfcoin - Î Î±Ï�Î¬Î¸Ï…Ï�Î¿ Î±Ï€Î¿ÏƒÏ†Î±Î»Î¼Î¬Ï„Ï‰ÏƒÎ·Ï‚</translation>
+        <source>&amp;Clear</source>
+        <translation>&amp;Εκκαθάριση</translation>
     </message>
     <message>
-        <location line="+25"/>
-        <source>Murfcoin Core</source>
-        <translation>Murfcoin Core</translation>
+        <source>Totals</source>
+        <translation>Σύνολα</translation>
     </message>
     <message>
-        <location line="+279"/>
+        <source>In:</source>
+        <translation>Εισερχόμενα:</translation>
+    </message>
+    <message>
+        <source>Out:</source>
+        <translation>Εξερχόμενα:</translation>
+    </message>
+    <message>
         <source>Debug log file</source>
-        <translation>Î‘Ï�Ï‡ÎµÎ¯Î¿ ÎºÎ±Ï„Î±Î³Ï�Î±Ï†Î®Ï‚ ÎµÎ½Ï„Î¿Ï€Î¹ÏƒÎ¼Î¿Ï� ÏƒÏ†Î±Î»Î¼Î¬Ï„Ï‰Î½ </translation>
+        <translation>Αρχείο καταγραφής εντοπισμού σφαλμάτων </translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Open the Murfcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Î‘Î½Î¿Î¯Î¾Ï„Îµ Ï„Î¿ Î±Ï�Ï‡ÎµÎ¯Î¿ ÎºÎ±Ï„Î±Î³Ï�Î±Ï†Î®Ï‚ ÎµÎ½Ï„Î¿Ï€Î¹ÏƒÎ¼Î¿Ï� ÏƒÏ†Î±Î»Î¼Î¬Ï„Ï‰Î½ Î±Ï€ÏŒ Ï„Î¿Î½ Ï„Ï�Î­Ï‡Î¿Î½Ï„Î± ÎºÎ±Ï„Î¬Î»Î¿Î³Î¿ Î´ÎµÎ´Î¿Î¼Î­Î½Ï‰Î½. Î‘Ï…Ï„ÏŒ Î¼Ï€Î¿Ï�ÎµÎ¯ Î½Î± Ï€Î¬Ï�ÎµÎ¹ Î¼ÎµÏ�Î¹ÎºÎ¬ Î´ÎµÏ…Ï„ÎµÏ�ÏŒÎ»ÎµÏ€Ï„Î± Î³Î¹Î± Ï„Î± Î¼ÎµÎ³Î¬Î»Î± Î±Ï�Ï‡ÎµÎ¯Î± ÎºÎ±Ï„Î±Î³Ï�Î±Ï†Î®Ï‚. </translation>
-    </message>
-    <message>
-        <location line="+102"/>
         <source>Clear console</source>
-        <translation>ÎšÎ±Î¸Î±Ï�Î¹ÏƒÎ¼ÏŒÏ‚ ÎºÎ¿Î½ÏƒÏŒÎ»Î±Ï‚</translation>
+        <translation>Καθαρισμός κονσόλας</translation>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Murfcoin RPC console.</source>
-        <translation>ÎšÎ±Î»ÏŽÏ‚ Î®Ï�Î¸Î±Ï„Îµ ÏƒÏ„Î·Î½ Murfcoin RPC ÎºÎ¿Î½ÏƒÏŒÎ»Î±.</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Î§Ï�Î·ÏƒÎ¹Î¼Î¿Ï€Î¿Î¹Î®ÏƒÏ„Îµ Ï„Î¿ Ï€Î¬Î½Ï‰ ÎºÎ±Î¹ ÎºÎ¬Ï„Ï‰ Î²Î­Î»Î¿Ï‚ Î³Î¹Î± Î½Î± Ï€ÎµÏ�Î¹Î·Î³Î·Î¸ÎµÎ¯Ï„Îµ ÏƒÏ„Î¿ Î¹ÏƒÏ„Î¿Ï�Î¹ÎºÎ¿, ÎºÎ±Î¹ &lt;b&gt;Ctrl-L&lt;/b&gt; Î³Î¹Î± ÎµÎºÎºÎ±Î¸Î±Ï�Î¹ÏƒÎ· Î¿Î¸Î¿Î½Î·Ï‚.</translation>
+        <translation>Χρησιμοποιήστε το πάνω και κάτω βέλος για να περιηγηθείτε στο ιστορικο, και &lt;b&gt;Ctrl-L&lt;/b&gt; για εκκαθαριση οθονης.</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Î“Ï�Î¬ÏˆÏ„Îµ &lt;b&gt;Î²Î¿Î®Î¸ÎµÎ¹Î±&lt;/b&gt; Î³Î¹Î± Î¼Î¹Î± ÎµÏ€Î¹ÏƒÎºÏŒÏ€Î·ÏƒÎ· Ï„Ï‰Î½ Î´Î¹Î±Î¸Î­ÏƒÎ¹Î¼Ï‰Î½ ÎµÎ½Ï„Î¿Î»ÏŽÎ½</translation>
+        <translation>Γράψτε &lt;b&gt;help&lt;/b&gt; για μια επισκόπηση των διαθέσιμων εντολών</translation>
+    </message>
+    <message>
+        <source>%1 B</source>
+        <translation>%1 B</translation>
+    </message>
+    <message>
+        <source>%1 KB</source>
+        <translation>%1 KB</translation>
+    </message>
+    <message>
+        <source>%1 MB</source>
+        <translation>%1 MB</translation>
+    </message>
+    <message>
+        <source>%1 GB</source>
+        <translation>%1 GB</translation>
+    </message>
+    <message>
+        <source>via %1</source>
+        <translation>μέσω %1</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>ποτέ</translation>
+    </message>
+    <message>
+        <source>Inbound</source>
+        <translation>Εισερχόμενα</translation>
+    </message>
+    <message>
+        <source>Outbound</source>
+        <translation>Εξερχόμενα</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Άγνωστο(α)</translation>
     </message>
 </context>
 <context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Amount:</source>
+        <translation>&amp;Ποσό:</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;Επιγραφή</translation>
+    </message>
+    <message>
+        <source>&amp;Message:</source>
+        <translation>&amp;Μήνυμα:</translation>
+    </message>
+    <message>
+        <source>R&amp;euse an existing receiving address (not recommended)</source>
+        <translation>Ε&amp;παναχρησιμοποίηση υπάρχουσας διεύθυνσης λήψης (δεν συνιστάται)</translation>
+    </message>
+    <message>
+        <source>Clear all fields of the form.</source>
+        <translation>Καθαρισμός όλων των πεδίων της φόρμας.</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Καθαρισμός</translation>
+    </message>
+    <message>
+        <source>&amp;Request payment</source>
+        <translation>&amp;Αίτηση πληρωμής</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Εμφάνιση</translation>
+    </message>
+    <message>
+        <source>Remove the selected entries from the list</source>
+        <translation>Αφαίρεση επιλεγμένων καταχωρίσεων από τη λίστα</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Αφαίρεση</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Αντιγραφή ετικέτας</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Αντιγραφή ποσού</translation>
+    </message>
+</context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>QR Code</source>
+        <translation>Κώδικας QR</translation>
+    </message>
+    <message>
+        <source>Copy &amp;URI</source>
+        <translation>Αντιγραφη της επιλεγμενης διεύθυνσης στο πρόχειρο του συστηματος</translation>
+    </message>
+    <message>
+        <source>Copy &amp;Address</source>
+        <translation>Αντιγραφή &amp;Διεύθυνσης</translation>
+    </message>
+    <message>
+        <source>&amp;Save Image...</source>
+        <translation>&amp;Αποθήκευση εικόνας...</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Διεύθυνση</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Ετικέτα</translation>
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Ημερομήνια</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Ετικέτα</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(χωρίς ετικέτα)</translation>
+    </message>
+    </context>
+<context>
     <name>SendCoinsDialog</name>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
-        <location filename="../sendcoinsdialog.cpp" line="+124"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+6"/>
-        <location line="+5"/>
-        <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Î‘Ï€Î¿ÏƒÏ„Î¿Î»Î® Î½Î¿Î¼Î¹ÏƒÎ¼Î¬Ï„Ï‰Î½</translation>
+        <translation>Αποστολή νομισμάτων</translation>
     </message>
     <message>
-        <location line="+50"/>
+        <source>Coin Control Features</source>
+        <translation>Χαρακτηρηστικά επιλογής κερμάτων</translation>
+    </message>
+    <message>
+        <source>Inputs...</source>
+        <translation>Εισροές...</translation>
+    </message>
+    <message>
+        <source>automatically selected</source>
+        <translation>επιλεγμένο αυτόματα</translation>
+    </message>
+    <message>
+        <source>Insufficient funds!</source>
+        <translation>Ανεπαρκές κεφάλαιο!</translation>
+    </message>
+    <message>
+        <source>Quantity:</source>
+        <translation>Ποσότητα:</translation>
+    </message>
+    <message>
+        <source>Bytes:</source>
+        <translation>Bytes:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Ποσό:</translation>
+    </message>
+    <message>
+        <source>Fee:</source>
+        <translation>Ταρίφα</translation>
+    </message>
+    <message>
+        <source>After Fee:</source>
+        <translation>Ταρίφα αλλαγής</translation>
+    </message>
+    <message>
+        <source>Change:</source>
+        <translation>Ρέστα:</translation>
+    </message>
+    <message>
+        <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
+        <translation>Όταν ενεργό, αλλά η διεύθυνση ρέστων είναι κενή ή άκυρη, τα ρέστα θα σταλούν σε μία πρόσφατα δημιουργημένη διεύθυνση.</translation>
+    </message>
+    <message>
+        <source>Custom change address</source>
+        <translation>Προσαρμοσμένη διεύθυνση ρέστων</translation>
+    </message>
+    <message>
+        <source>Transaction Fee:</source>
+        <translation>Τέλος συναλλαγής:</translation>
+    </message>
+    <message>
+        <source>Choose...</source>
+        <translation>Επιλογή...</translation>
+    </message>
+    <message>
+        <source>per kilobyte</source>
+        <translation>ανά kilobyte</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Απόκρυψη</translation>
+    </message>
+    <message>
+        <source>total at least</source>
+        <translation>συνολικά τουλάχιστον</translation>
+    </message>
+    <message>
+        <source>Recommended:</source>
+        <translation>Προτεινόμενο: </translation>
+    </message>
+    <message>
+        <source>Custom:</source>
+        <translation>Προσαρμογή:</translation>
+    </message>
+    <message>
+        <source>normal</source>
+        <translation>κανονικό</translation>
+    </message>
+    <message>
+        <source>fast</source>
+        <translation>Γρήγορο</translation>
+    </message>
+    <message>
         <source>Send to multiple recipients at once</source>
-        <translation>Î‘Ï€Î¿ÏƒÏ„Î¿Î»Î® ÏƒÎµ Ï€Î¿Î»Î»Î¿Ï�Ï‚ Î±Ï€Î¿Î´Î­ÎºÏ„ÎµÏ‚ Ï„Î±Ï…Ï„ÏŒÏ‡Ï�Î¿Î½Î±</translation>
+        <translation>Αποστολή σε πολλούς αποδέκτες ταυτόχρονα</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Add &amp;Recipient</source>
-        <translation>&amp;Î Ï�Î¿ÏƒÎ¸Î®ÎºÎ· Î±Ï€Î¿Î´Î­ÎºÏ„Î·</translation>
+        <translation>&amp;Προσθήκη αποδέκτη</translation>
     </message>
     <message>
-        <location line="+20"/>
-        <source>Remove all transaction fields</source>
-        <translation>Î”Î¹Î±Î³Ï�Î±Ï†Î® ÏŒÎ»Ï‰Î½ Ï„Ï‰Î½ Ï€ÎµÎ´Î¯Ï‰Î½ ÏƒÏ…Î½Î±Î»Î»Î±Î³Î®Ï‚</translation>
+        <source>Clear all fields of the form.</source>
+        <translation>Καθαρισμός όλων των πεδίων της φόρμας.</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <source>Dust:</source>
+        <translation>Σκόνη</translation>
+    </message>
+    <message>
         <source>Clear &amp;All</source>
-        <translation>ÎšÎ±Î¸Î±Ï�Î¹ÏƒÎ¼ÏŒÏ‚ &amp;ÎŒÎ»Ï‰Î½</translation>
+        <translation>Καθαρισμός &amp;Όλων</translation>
     </message>
     <message>
-        <location line="+22"/>
         <source>Balance:</source>
-        <translation>Î¥Ï€ÏŒÎ»Î¿Î¹Ï€Î¿:</translation>
+        <translation>Υπόλοιπο:</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>123.456 BTC</source>
-        <translation>123,456 BTC</translation>
-    </message>
-    <message>
-        <location line="+31"/>
         <source>Confirm the send action</source>
-        <translation>Î•Ï€Î¹Î²ÎµÎ²Î±Î¯Ï‰ÏƒÎ· Î±Ï€Î¿ÏƒÏ„Î¿Î»Î®Ï‚</translation>
+        <translation>Επιβεβαίωση αποστολής</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>S&amp;end</source>
-        <translation>Î‘Ï€Î¿ÏƒÏ„Î¿Î»Î·</translation>
+        <translation>Αποστολη</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="-59"/>
-        <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt; ÏƒÎµ %2 (%3)</translation>
+        <source>Copy amount</source>
+        <translation>Αντιγραφή ποσού</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Confirm send coins</source>
-        <translation>Î•Ï€Î¹Î²ÎµÎ²Î±Î¯Ï‰ÏƒÎ· Î±Ï€Î¿ÏƒÏ„Î¿Î»Î®Ï‚ Î½Î¿Î¼Î¹ÏƒÎ¼Î¬Ï„Ï‰Î½</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Are you sure you want to send %1?</source>
-        <translation>Î•Î¯ÏƒÏ„Îµ Î²Î­Î²Î±Î¹Î¿Î¹ Î³Î¹Î± Ï„Î·Î½ Î±Ï€Î¿ÏƒÏ„Î¿Î»Î® %1;</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source> and </source>
-        <translation>ÎºÎ±Î¹</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>The recipient address is not valid, please recheck.</source>
-        <translation>Î— Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ· Ï„Î¿Ï… Î±Ï€Î¿Î´Î­ÎºÏ„Î· Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ ÏƒÏ‰ÏƒÏ„Î®. Î Î±Ï�Î±ÎºÎ±Î»ÏŽ ÎµÎ»Î­Î³Î¾Ï„Îµ Î¾Î±Î½Î¬.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>The amount to pay must be larger than 0.</source>
-        <translation>Î¤Î¿ Ï€Î¿ÏƒÏŒ Ï€Î»Î·Ï�Ï‰Î¼Î®Ï‚ Ï€Ï�Î­Ï€ÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ Î¼ÎµÎ³Î±Î»Ï�Ï„ÎµÏ�Î¿ Î±Ï€ÏŒ 0.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>The amount exceeds your balance.</source>
-        <translation>Î¤Î¿ Ï€Î¿ÏƒÏŒ Î¾ÎµÏ€ÎµÏ�Î½Î¬ÎµÎ¹ Ï„Î¿ Î´Î¹Î±Î¸Î­ÏƒÎ¹Î¼Î¿ Ï…Ï€ÏŒÎ»Î¿Î¹Ï€Î¿</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Î¤Î¿ ÏƒÏ�Î½Î¿Î»Î¿ Ï…Ï€ÎµÏ�Î²Î±Î¯Î½ÎµÎ¹ Ï„Î¿ Ï…Ï€ÏŒÎ»Î¿Î¹Ï€ÏŒ ÏƒÎ±Ï‚ ÏŒÏ„Î±Î½ ÏƒÏ…Î¼Ï€ÎµÏ�Î¹Î»Î·Ï†Î¸ÎµÎ¯ ÎºÎ±Î¹ Î· Î±Î¼Î¿Î¹Î²Î® %1</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Î’Ï�Î­Î¸Î·ÎºÎµ Î· Î¯Î´Î¹Î± Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ· Î´Ï�Î¿ Ï†Î¿Ï�Î­Ï‚. Î•Ï€Î¹Ï„Ï�Î­Ï€ÎµÏ„Î±Î¹ Î¼Î¯Î± Î¼ÏŒÎ½Î¿ ÎµÎ³Î³Ï�Î±Ï†Î® Î³Î¹Î± ÎºÎ¬Î¸Îµ Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ·, ÏƒÎµ ÎºÎ¬Î¸Îµ Î´Î¹Î±Î´Î¹ÎºÎ±ÏƒÎ¯Î± Î±Ï€Î¿ÏƒÏ„Î¿Î»Î®Ï‚.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Error: Transaction creation failed!</source>
-        <translation>Î£Ï†Î¬Î»Î¼Î±: Î— Î´Î·Î¼Î¹Î¿Ï…Ï�Î³Î¯Î± Ï„Î·Ï‚ ÏƒÏ…Î½Î±Î»Î»Î±Î³Î®Ï‚ Î±Ï€Î­Ï„Ï…Ï‡Îµ</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Î£Ï†Î¬Î»Î¼Î±: Î— ÏƒÏ…Î½Î±Î»Î»Î±Î³Î® Î±Ï€ÎµÏ�Ï�Î¯Ï†Î¸Î·. Î‘Ï…Ï„ÏŒ ÎµÎ½Î´Î­Ï‡ÎµÏ„Î±Î¹ Î½Î± ÏƒÏ…Î¼Î²Î±Î¯Î½ÎµÎ¹ Î±Î½ ÎºÎ¬Ï€Î¿Î¹Î± Î±Ï€ÏŒ Ï„Î± Î½Î¿Î¼Î¯ÏƒÎ¼Î±Ï„Î± Î­Ï‡Î¿Ï…Î½ Î®Î´Î· Î¾Î¿Î´ÎµÏ…Î¸ÎµÎ¯, ÏŒÏ€Ï‰Ï‚ Î±Î½ Ï‡Ï�Î·ÏƒÎ¹Î¼Î¿Ï€Î¿Î¹Î®ÏƒÎ±Ï„Îµ Î±Î½Ï„Î¯Î³Ï�Î±Ï†Î¿ Ï„Î¿Ï… wallet.dat ÎºÎ±Î¹ Ï„Î± Î½Î¿Î¼Î¯ÏƒÎ¼Î±Ï„Î± Î¾Î¿Î´ÎµÏ�Î¸Î·ÎºÎ±Î½ ÎµÎºÎµÎ¯.</translation>
+        <source>(no label)</source>
+        <translation>(χωρίς ετικέτα)</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="+14"/>
-        <source>Form</source>
-        <translation>Î¦ÏŒÏ�Î¼Î±</translation>
-    </message>
-    <message>
-        <location line="+15"/>
         <source>A&amp;mount:</source>
-        <translation>&amp;Î Î¿ÏƒÏŒ:</translation>
+        <translation>&amp;Ποσό:</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Pay &amp;To:</source>
-        <translation>Î Î»Î·Ï�Ï‰Î¼Î® &amp;ÏƒÎµ:</translation>
+        <translation>Πληρωμή &amp;σε:</translation>
     </message>
     <message>
-        <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Î”Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ· Î±Ï€Î¿ÏƒÏ„Î¿Î»Î®Ï‚ Ï„Î·Ï‚ Ï€Î»Î·Ï�Ï‰Î¼Î®Ï‚  (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="+60"/>
-        <location filename="../sendcoinsentry.cpp" line="+26"/>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Î•Î¹ÏƒÎ¬Î³ÎµÏ„Îµ Î¼Î¹Î± ÎµÏ€Î¹Î³Ï�Î±Ï†Î® Î³Î¹Î± Î±Ï…Ï„Î® Ï„Î· Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ· ÏŽÏƒÏ„Îµ Î½Î± ÎºÎ±Ï„Î±Ï‡Ï‰Ï�Î·Î¸ÎµÎ¯ ÏƒÏ„Î¿ Î²Î¹Î²Î»Î¯Î¿ Î´Î¹ÎµÏ…Î¸Ï�Î½ÏƒÎµÏ‰Î½</translation>
-    </message>
-    <message>
-        <location line="-78"/>
         <source>&amp;Label:</source>
-        <translation>&amp;Î•Ï€Î¹Î³Ï�Î±Ï†Î®</translation>
+        <translation>&amp;Επιγραφή</translation>
     </message>
     <message>
-        <location line="+28"/>
-        <source>Choose address from address book</source>
-        <translation>Î•Ï€Î¹Î»Î¿Î³Î® Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ·Ï‚ Î±Ï€ÏŒ Ï„Î¿ Î²Î¹Î²Î»Î¯Î¿ Î´Î¹ÎµÏ…Î¸Ï�Î½ÏƒÎµÏ‰Î½</translation>
+        <source>Choose previously used address</source>
+        <translation>Επιλογή διεύθυνσης που έχει ήδη χρησιμοποιηθεί</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <source>This is a normal payment.</source>
+        <translation>Αυτή είναι μια απλή πληρωμή.</translation>
+    </message>
+    <message>
+        <source>The Murfcoin address to send the payment to</source>
+        <translation>Η διεύθυνση Murfcoin που θα σταλεί η πληρωμή</translation>
+    </message>
+    <message>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Paste address from clipboard</source>
-        <translation>Î•Ï€Î¹ÎºÏŒÎ»Î»Î·ÏƒÎ· Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ·Ï‚ Î±Ï€ÏŒ Ï„Î¿ Ï€Ï�ÏŒÏ‡ÎµÎ¹Ï�Î¿</translation>
+        <translation>Επικόλληση διεύθυνσης από το βιβλίο διευθύνσεων</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Remove this recipient</source>
-        <translation>Î‘Ï†Î±Î¯Ï�ÎµÏƒÎ· Î±Ï€Î¿Î´Î­ÎºÏ„Î·</translation>
+        <source>Remove this entry</source>
+        <translation>Αφαίρεση αυτής της καταχώρησης</translation>
     </message>
     <message>
-        <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Murfcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Î•Î¹ÏƒÎ¬Î³ÎµÏ„Îµ Î¼Î¹Î± Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ· Murfcoin (Ï€.Ï‡. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Message:</source>
+        <translation>Μήνυμα:</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to the list of used addresses</source>
+        <translation>Εισάγεται μία ετικέτα για αυτή την διεύθυνση για να προστεθεί στη λίστα με τις χρησιμοποιημένες διευθύνσεις</translation>
+    </message>
+    <message>
+        <source>Pay To:</source>
+        <translation>Πληρωμή σε:</translation>
+    </message>
+    <message>
+        <source>Memo:</source>
+        <translation>Σημείωση:</translation>
+    </message>
+    </context>
+<context>
+    <name>SendConfirmationDialog</name>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    <message>
+        <source>Do not shut down the computer until this window disappears.</source>
+        <translation>Μην απενεργοποιήσετε τον υπολογιστή μέχρι να κλείσει αυτό το παράθυρο.</translation>
     </message>
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="+14"/>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>Î¥Ï€Î¿Î³Ï�Î±Ï†Î­Ï‚ - Î•Î¯ÏƒÎ¿Î´Î¿Ï‚ / Î•Ï€Î±Î»Î®Î¸ÎµÏ…ÏƒÎ· Î¼Î®Î½Ï…Î¼Î±Ï„Î¿Ï‚ </translation>
+        <translation>Υπογραφές - Είσοδος / Επαλήθευση μήνυματος </translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>&amp;Sign Message</source>
-        <translation>&amp;Î¥Ï€Î¿Î³Ï�Î±Ï†Î® ÎœÎ·Î½Ï�Î¼Î±Ï„Î¿Ï‚</translation>
+        <translation>&amp;Υπογραφή Μηνύματος</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>ÎœÏ€Î¿Ï�ÎµÎ¯Ï„Îµ Î½Î± Ï…Ï€Î¿Î³Ï�Î¬Ï†ÎµÏ„Îµ Î¼Î·Î½Ï�Î¼Î±Ï„Î± Î¼Îµ Ï„Î¹Ï‚ Î´Î¹ÎµÏ…Î¸Ï�Î½ÏƒÎµÎ¹Ï‚ ÏƒÎ±Ï‚, ÏŽÏƒÏ„Îµ Î½&apos; Î±Ï€Î¿Î´ÎµÎ¹ÎºÎ½Ï�ÎµÏ„Îµ Ï€Ï‰Ï‚ Î±Ï…Ï„Î­Ï‚ ÏƒÎ±Ï‚ Î±Î½Î®ÎºÎ¿Ï…Î½. Î‘Ï€Î¿Ï†ÎµÏ�Î³ÎµÏ„Îµ Î½Î± Ï…Ï€Î¿Î³Ï�Î¬Ï†ÎµÏ„Îµ ÎºÎ¬Ï„Î¹ Î±ÏŒÏ�Î¹ÏƒÏ„Î¿ ÎºÎ±Î¸ÏŽÏ‚ ÎµÎ½Î´Î­Ï‡ÎµÏ„Î±Î¹ Î½Î± ÎµÎ¾Î±Ï€Î±Ï„Î·Î¸ÎµÎ¯Ï„Îµ. Î¥Ï€Î¿Î³Ï�Î¬Ï†ÎµÏ„Îµ Î¼ÏŒÎ½Î¿ Ï€Î»Î®Ï�Î·Ï‚ Î´Î·Î»ÏŽÏƒÎµÎ¹Ï‚ Î¼Îµ Ï„Î¹Ï‚ Î¿Ï€Î¿Î¯ÎµÏ‚ ÏƒÏ…Î¼Ï†Ï‰Î½ÎµÎ¯Ï„Îµ.</translation>
+        <source>The Murfcoin address to sign the message with</source>
+        <translation>Διεύθυνση Murfcoin που θα σταλεί το μήνυμα</translation>
     </message>
     <message>
-        <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Î•Î¹ÏƒÎ¬Î³ÎµÏ„Îµ Î¼Î¹Î± Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ· Murfcoin (Ï€.Ï‡. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Choose previously used address</source>
+        <translation>Επιλογή διεύθυνσης που έχει ήδη χρησιμοποιηθεί</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <location line="+213"/>
-        <source>Choose an address from the address book</source>
-        <translation>Î•Ï€Î¹Î»Î¿Î³Î® Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ·Ï‚ Î±Ï€ÏŒ Ï„Î¿ Î²Î¹Î²Î»Î¯Î¿ Î´Î¹ÎµÏ…Î¸Ï�Î½ÏƒÎµÏ‰Î½</translation>
-    </message>
-    <message>
-        <location line="-203"/>
-        <location line="+213"/>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
     <message>
-        <location line="-203"/>
         <source>Paste address from clipboard</source>
-        <translation>Î•Ï€Î¹ÎºÏŒÎ»Î»Î·ÏƒÎ· Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ·Ï‚ Î±Ï€ÏŒ Ï„Î¿ Î²Î¹Î²Î»Î¯Î¿ Î´Î¹ÎµÏ…Î¸Ï�Î½ÏƒÎµÏ‰Î½</translation>
+        <translation>Επικόλληση διεύθυνσης από το βιβλίο διευθύνσεων</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <location line="+12"/>
         <source>Enter the message you want to sign here</source>
-        <translation>Î•Î¹ÏƒÎ¬Î³ÎµÏ„Îµ ÎµÎ´ÏŽ Ï„Î¿ Î¼Î®Î½Ï…Î¼Î± Ï€Î¿Ï… Î¸Î­Î»ÎµÏ„Îµ Î½Î± Ï…Ï€Î¿Î³Ï�Î¬ÏˆÎµÏ„Îµ</translation>
+        <translation>Εισάγετε εδώ το μήνυμα που θέλετε να υπογράψετε</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Signature</source>
-        <translation>Î¥Ï€Î¿Î³Ï�Î±Ï†Î®</translation>
+        <translation>Υπογραφή</translation>
     </message>
     <message>
-        <location line="+27"/>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>Î‘Î½Ï„Î­Î³Ï�Î±Ï†Î· Ï„Î·Ï‚ ÎµÏ€Î¹Î»ÎµÎ³Î¼ÎµÎ½Î·Ï‚ Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ·Ï‚ ÏƒÏ„Î¿ Ï€Ï�ÏŒÏ‡ÎµÎ¹Ï�Î¿ Ï„Î¿Ï… ÏƒÏ…ÏƒÏ„Î·Î¼Î±Ï„Î¿Ï‚</translation>
+        <translation>Αντέγραφη της επιλεγμενης διεύθυνσης στο πρόχειρο του συστηματος</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>Sign the message to prove you own this Murfcoin address</source>
-        <translation>Î¥Ï€Î¿Î³Ï�Î¬ÏˆÏ„Îµ Î­Î½Î± Î¼Î®Î½Ï…Î¼Î± Î³Î¹Î± Î½&apos; Î±Ï€Î¿Î´ÎµÎ¯Î¾ÎµÏ„Îµ Ï€Ï‰Ï‚ ÏƒÎ±Ï‚ Î±Î½Î®ÎºÎµÎ¹ Î¼Î¹Î± ÏƒÏ…Î³ÎºÎµÎºÏ�Î¹Î¼Î­Î½Î· Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ· Murfcoin</translation>
+        <translation>Υπογράψτε ένα μήνυμα για ν' αποδείξετε πως σας ανήκει μια συγκεκριμένη διεύθυνση Murfcoin</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Sign &amp;Message</source>
-        <translation>Î¥Ï€Î¿Î³Ï�Î±Ï†Î· Î¼Î®Î½Ï…Î¼Î±Ï„Î¿Ï‚</translation>
+        <translation>Υπογραφη μήνυματος</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Reset all sign message fields</source>
-        <translation>Î•Ï€Î±Î½Î±Ï†Î¿Ï�Î¬ ÏŒÎ»Ï‰Î½ Ï„Ï‰Î½ Ï€ÎµÎ´Î¯Ï‰Î½ Î¼Î®Î½Ï…Î¼Î±Ï„Î¿Ï‚</translation>
+        <translation>Επαναφορά όλων των πεδίων μήνυματος</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <location line="+146"/>
         <source>Clear &amp;All</source>
-        <translation>ÎšÎ±Î¸Î±Ï�Î¹ÏƒÎ¼ÏŒÏ‚ &amp;ÎŒÎ»Ï‰Î½</translation>
+        <translation>Καθαρισμός &amp;Όλων</translation>
     </message>
     <message>
-        <location line="-87"/>
         <source>&amp;Verify Message</source>
-        <translation>&amp;Î•Ï€Î¹Î²ÎµÎ²Î±Î¯Ï‰ÏƒÎ· Î¼Î·Î½Ï�Î¼Î±Ï„Î¿Ï‚</translation>
+        <translation>&amp;Επιβεβαίωση μηνύματος</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
-        <translation>Î Î»Î·ÎºÏ„Ï�Î¿Î»Î¿Î³Î®ÏƒÏ„Îµ Ï„Î·Î½ Ï…Ï€Î¿Î³Ï�Î±Ï†Î® Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ·Ï‚, Î¼Î®Î½Ï…Î¼Î± (Î²ÎµÎ²Î±Î¹Ï‰Î¸ÎµÎ¯Ï„Îµ ÏŒÏ„Î¹ Î­Ï‡ÎµÏ„Îµ Î±Î½Ï„Î¹Î³Ï�Î¬ÏˆÎµÎ¹ Ï„Î¹Ï‚ Î±Î»Î»Î±Î³Î­Ï‚ Î³Ï�Î±Î¼Î¼Î®Ï‚, ÎºÎµÎ½Î¬, tabs, Îº.Î»Ï€. Î±ÎºÏ�Î¹Î²ÏŽÏ‚) ÎºÎ±Î¹ Ï„Î·Î½ Ï…Ï€Î¿Î³Ï�Î±Ï†Î® Ï€Î±Ï�Î±ÎºÎ¬Ï„Ï‰, Î³Î¹Î± Î½Î± ÎµÎ»Î­Î³Î¾ÎµÎ¹ Ï„Î¿ Î¼Î®Î½Ï…Î¼Î±. Î�Î± ÎµÎ¯ÏƒÏ„Îµ Ï€Ï�Î¿ÏƒÎµÎºÏ„Î¹ÎºÎ¿Î¯ Î³Î¹Î± Î½Î± Î¼Î·Î½ Î´Î¹Î±Î²Î¬ÏƒÎµÏ„Îµ Ï€ÎµÏ�Î¹ÏƒÏƒÏŒÏ„ÎµÏ�Î± ÏƒÏ„Î·Î½ Ï…Ï€Î¿Î³Ï�Î±Ï†Î® ÏŒ, Ï„Î¹ ÎµÎ¯Î½Î±Î¹ ÏƒÏ„Î·Î½ Ï…Ï€Î¿Î³Ï�Î±Ï†Î® Î¯Î´Î¹Î¿ Ï„Î¿ Î¼Î®Î½Ï…Î¼Î± , Î³Î¹Î± Î½Î± Î¼Î·Î½ ÎµÎ¾Î±Ï€Î±Ï„Î·Î¸Î¿Ï�Î½ Î±Ï€ÏŒ Î­Î½Î±Î½ Î¬Î½Î¸Ï�Ï‰Ï€Î¿ -in - the-middle ÎµÏ€Î¯Î¸ÎµÏƒÎ·.</translation>
+        <source>The Murfcoin address the message was signed with</source>
+        <translation>Διεύθυνση Murfcoin η οποία το μήνυμα έχει υπογραφεί</translation>
     </message>
     <message>
-        <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Î•Î¹ÏƒÎ¬Î³ÎµÏ„Îµ Î¼Î¹Î± Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ· Murfcoin (Ï€.Ï‡. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="+40"/>
         <source>Verify the message to ensure it was signed with the specified Murfcoin address</source>
-        <translation>Î¥Ï€Î¿Î³Ï�Î¬ÏˆÏ„Îµ Î­Î½Î± Î¼Î®Î½Ï…Î¼Î± Î³Î¹Î± Î½&apos; Î±Ï€Î¿Î´ÎµÎ¯Î¾ÎµÏ„Îµ Ï€Ï‰Ï‚ Ï…Ï€Î¿Î³Ï�Î±Ï†Î¸Î·ÎºÎµ Î±Ï€Î¿ Î¼Î¹Î± ÏƒÏ…Î³ÎºÎµÎºÏ�Î¹Î¼Î­Î½Î· Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ· Murfcoin</translation>
+        <translation>Υπογράψτε ένα μήνυμα για ν' αποδείξετε πως υπογραφθηκε απο μια συγκεκριμένη διεύθυνση Murfcoin</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Verify &amp;Message</source>
-        <translation>Î•Ï€Î¹Î²ÎµÎ²Î±Î¯Ï‰ÏƒÎ· Î¼Î·Î½Ï�Î¼Î±Ï„Î¿Ï‚</translation>
+        <translation>Επιβεβαίωση μηνύματος</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Reset all verify message fields</source>
-        <translation>Î•Ï€Î±Î½Î±Ï†Î¿Ï�Î¬ ÏŒÎ»Ï‰Î½ ÎµÏ€Î±Î»Î®Î¸ÎµÏ…Î¼ÎµÎ½Ï‰Î½ Ï€ÎµÎ´Î¯Ï‰Î½ Î¼Î®Î½Ï…Î¼Î±Ï„Î¿Ï‚ </translation>
+        <translation>Επαναφορά όλων επαλήθευμενων πεδίων μήνυματος </translation>
     </message>
-    <message>
-        <location filename="../signverifymessagedialog.cpp" line="+27"/>
-        <location line="+3"/>
-        <source>Enter a Murfcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Î•Î¹ÏƒÎ¬Î³ÎµÏ„Îµ Î¼Î¹Î± Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ· Murfcoin (Ï€.Ï‡. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="-2"/>
-        <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation>ÎšÎ¬Î½Ï„Îµ ÎºÎ»Î¹Îº ÏƒÏ„Î¿ &quot;Î¥Ï€Î¿Î³Ï�Î±Ï†Î® ÎœÎ·Î½Ï�Î¼Î±Ï„Î¿Ï‚&quot; Î³Î¹Î± Î½Î± Î»Î¬Î²ÎµÏ„Îµ Ï„Î·Î½ Ï…Ï€Î¿Î³Ï�Î±Ï†Î®</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Enter Murfcoin signature</source>
-        <translation>Î•Î¹ÏƒÎ±Î³Ï‰Î³Î® Ï…Ï€Î¿Î³Ï�Î±Ï†Î®Ï‚ Murfcoin</translation>
-    </message>
-    <message>
-        <location line="+82"/>
-        <location line="+81"/>
-        <source>The entered address is invalid.</source>
-        <translation>Î— Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ· Ï€Î¿Ï… ÎµÎ¹ÏƒÎ®Ï‡Î¸Î· ÎµÎ¯Î½Î±Î¹ Î»Î¬Î¸Î¿Ï‚.</translation>
-    </message>
-    <message>
-        <location line="-81"/>
-        <location line="+8"/>
-        <location line="+73"/>
-        <location line="+8"/>
-        <source>Please check the address and try again.</source>
-        <translation>Î Î±Ï�Î±ÎºÎ±Î»Î¿Ï�Î¼Îµ ÎµÎ»Î­Î³Î¾Ï„Îµ Ï„Î·Î½ Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ· ÎºÎ±Î¹ Î´Î¿ÎºÎ¹Î¼Î¬ÏƒÏ„Îµ Î¾Î±Î½Î¬.</translation>
-    </message>
-    <message>
-        <location line="-81"/>
-        <location line="+81"/>
-        <source>The entered address does not refer to a key.</source>
-        <translation>Î— Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ· Ï€Î¿Ï… Î­Ï‡ÎµÎ¹ ÎµÎ¹ÏƒÎ±Ï‡Î¸ÎµÎ¯ Î´ÎµÎ½ Î±Î½Î±Ï†Î­Ï�ÎµÏ„Î±Î¹ ÏƒÎµ Î­Î½Î± Ï€Î»Î®ÎºÏ„Ï�Î¿.</translation>
-    </message>
-    <message>
-        <location line="-73"/>
-        <source>Wallet unlock was cancelled.</source>
-        <translation>Ï„Î¿ Î¾ÎµÎºÎ»ÎµÎ¯Î´Ï‰Î¼Î± Ï„Î¿Ï… Ï€Î¿Ï�Ï„Î¿Ï†Î¿Î»Î¹Î¿Ï� Î±Ï€Î­Ï„Ï…Ï‡Îµ</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Private key for the entered address is not available.</source>
-        <translation>Î¤Î¿ Ï€Ï�Î¿ÏƒÏ‰Ï€Î¹ÎºÏŒ ÎºÎ»ÎµÎ¹Î´Î¯ ÎµÎ¹ÏƒÎ±Î³Î¼ÎµÎ½Î·Ï‚ Î´Î¹ÎµÏ…Î¸Ï…Î½ÏƒÎ·Ï‚ Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î´Î¹Î±Î¸Î­ÏƒÎ¹Î¼Î¿.</translation>
-    </message>
-    <message>
-        <location line="+12"/>
-        <source>Message signing failed.</source>
-        <translation>Î— Ï…Ï€Î¿Î³Ï�Î±Ï†Î® Ï„Î¿Ï… Î¼Î·Î½Ï�Î¼Î±Ï„Î¿Ï‚ Î±Ï€Î­Ï„Ï…Ï‡Îµ.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Message signed.</source>
-        <translation>ÎœÎ®Î½Ï…Î¼Î± Ï…Ï€ÎµÎ³Ï�Î¬Ï†Î·.</translation>
-    </message>
-    <message>
-        <location line="+59"/>
-        <source>The signature could not be decoded.</source>
-        <translation>Î— Ï…Ï€Î¿Î³Ï�Î±Ï†Î® Î´ÎµÎ½ Î¼Ï€ÏŒÏ�ÎµÏƒÎµ Î½Î± Î±Ï€Î¿ÎºÏ�Ï…Ï€Ï„Î¿Î³Ï�Î±Ï†Î·Î¸ÎµÎ¯.</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <location line="+13"/>
-        <source>Please check the signature and try again.</source>
-        <translation>Î Î±Ï�Î±ÎºÎ±Î»Î¿Ï�Î¼Îµ ÎµÎ»Î­Î³Î¾Ï„Îµ Ï„Î·Î½ Ï…Ï€Î¿Î³Ï�Î±Ï†Î® ÎºÎ±Î¹ Î´Î¿ÎºÎ¹Î¼Î¬ÏƒÏ„Îµ Î¾Î±Î½Î¬.</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>The signature did not match the message digest.</source>
-        <translation>Î— Ï…Ï€Î¿Î³Ï�Î±Ï†Î® Î´ÎµÎ½ Ï„Î±Î¹Ï�Î¹Î¬Î¶ÎµÎ¹ Î¼Îµ Ï„Î¿ Î¼Î®Î½Ï…Î¼Î±. </translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Message verification failed.</source>
-        <translation>Î— ÎµÏ€Î¹Î²ÎµÎ²Î±Î¯Ï‰ÏƒÎ· Ï„Î¿Ï… Î¼Î·Î½Ï�Î¼Î±Ï„Î¿Ï‚ Î±Ï€Î­Ï„Ï…Ï‡Îµ</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Message verified.</source>
-        <translation>ÎœÎ®Î½Ï…Î¼Î± ÎµÏ€Î¹Î²ÎµÎ²Î±Î¹ÏŽÎ¸Î·ÎºÎµ.</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>SplashScreen</name>
     <message>
-        <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Murfcoin developers</source>
-        <translation>ÎŸÎ¹ Murfcoin Ï€Ï�Î¿Î³Ï�Î±Î¼Î¼Î±Ï„Î¹ÏƒÏ„Î­Ï‚ </translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
 </context>
 <context>
-    <name>TransactionDesc</name>
+    <name>TrafficGraphWidget</name>
     <message>
-        <location filename="../transactiondesc.cpp" line="+20"/>
-        <source>Open until %1</source>
-        <translation>Î‘Î½Î¿Î¹Ï‡Ï„ÏŒ Î¼Î­Ï‡Ï�Î¹ %1</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>%1/offline</source>
-        <translation>%1/Ï‡Ï‰Ï�Î¯Ï‚ ÏƒÏ�Î½Î´ÎµÏƒÎ·;</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>%1/unconfirmed</source>
-        <translation>%1/Ï‡Ï‰Ï�Î¯Ï‚ ÎµÏ€Î¹Î²ÎµÎ²Î±Î¯Ï‰ÏƒÎ·</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>%1 confirmations</source>
-        <translation>%1 ÎµÏ€Î¹Î²ÎµÎ²Î±Î¹ÏŽÏƒÎµÎ¹Ï‚</translation>
-    </message>
-    <message>
-        <location line="+18"/>
-        <source>Status</source>
-        <translation>ÎšÎ±Ï„Î¬ÏƒÏ„Î±ÏƒÎ·</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+7"/>
-        <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, Î­Ï‡ÎµÎ¹ Î¼ÎµÏ„Î±Î´Î¿Î¸ÎµÎ¯ Î¼Î­ÏƒÏ‰ %n ÎºÏŒÎ¼Î²Ï‰Î½</numerusform><numerusform>, Î­Ï‡ÎµÎ¹ Î¼ÎµÏ„Î±Î´Î¿Î¸ÎµÎ¯ Î¼Î­ÏƒÏ‰ %n ÎºÏŒÎ¼Î²Ï‰Î½</numerusform></translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Date</source>
-        <translation>Î—Î¼ÎµÏ�Î¿Î¼Î·Î½Î¯Î±</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Source</source>
-        <translation>Î Î·Î³Î®</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Generated</source>
-        <translation>Î”Î·Î¼Î¹Î¿Ï…Ï�Î³Î¯Î± </translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <location line="+17"/>
-        <source>From</source>
-        <translation>Î‘Ï€ÏŒ</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <location line="+22"/>
-        <location line="+58"/>
-        <source>To</source>
-        <translation>Î Ï�Î¿Ï‚</translation>
-    </message>
-    <message>
-        <location line="-77"/>
-        <location line="+2"/>
-        <source>own address</source>
-        <translation> Î´Î¹ÎºÎ® ÏƒÎ±Ï‚ Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ· </translation>
-    </message>
-    <message>
-        <location line="-2"/>
-        <source>label</source>
-        <translation>eÏ€Î¹Î³Ï�Î±Ï†Î®</translation>
-    </message>
-    <message>
-        <location line="+37"/>
-        <location line="+12"/>
-        <location line="+45"/>
-        <location line="+17"/>
-        <location line="+30"/>
-        <source>Credit</source>
-        <translation>Î Î¯ÏƒÏ„Ï‰ÏƒÎ· </translation>
-    </message>
-    <message numerus="yes">
-        <location line="-102"/>
-        <source>matures in %n more block(s)</source>
-        <translation><numerusform>Ï‰Ï�Î¯Î¼Î±Î½ÏƒÎ· ÏƒÎµ %n ÎµÏ€Î¹Ï€Î»Î­Î¿Î½ Î¼Ï€Î»Î¿Îº</numerusform><numerusform>Ï‰Ï�Î¯Î¼Î±Î½ÏƒÎ· ÏƒÎµ %n ÎµÏ€Î¹Ï€Î»Î­Î¿Î½ Î¼Ï€Î»Î¿Îº</numerusform></translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>not accepted</source>
-        <translation>Î¼Î· Î±Ï€Î¿Î´ÎµÎºÏ„ÏŒ</translation>
-    </message>
-    <message>
-        <location line="+44"/>
-        <location line="+8"/>
-        <location line="+15"/>
-        <location line="+30"/>
-        <source>Debit</source>
-        <translation>Debit</translation>
-    </message>
-    <message>
-        <location line="-39"/>
-        <source>Transaction fee</source>
-        <translation>Î¤Î­Î»Î¿Ï‚ ÏƒÏ…Î½Î±Î»Î»Î±Î³Î®Ï‚ </translation>
-    </message>
-    <message>
-        <location line="+16"/>
-        <source>Net amount</source>
-        <translation>ÎšÎ±Î¸Î±Ï�ÏŒ Ï€Î¿ÏƒÏŒ</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Message</source>
-        <translation>ÎœÎ®Î½Ï…Î¼Î±</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Comment</source>
-        <translation>Î£Ï‡ÏŒÎ»Î¹Î¿:</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Transaction ID</source>
-        <translation>ID Î£Ï…Î½Î±Î»Î»Î±Î³Î®Ï‚:</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Î Ï�Î­Ï€ÎµÎ¹ Î½Î± Ï€ÎµÏ�Î¹Î¼Î­Î½ÎµÏ„Îµ 120 Î¼Ï€Î»Î¿Îº Ï€Ï�Î¹Î½ Î¼Ï€Î¿Ï�Î­ÏƒÎµÏ„Îµ Î½Î± Ï‡Ï�Î·ÏƒÎ¹Î¼Î¿Ï€Î¿Î¹Î®ÏƒÎµÏ„Îµ Ï„Î± Î½Î¿Î¼Î¯ÏƒÎ¼Î±Ï„Î± Ï€Î¿Ï… Î­Ï‡ÎµÏ„Îµ Î´Î·Î¼Î¹Î¿Ï…Ï�Î³Î®ÏƒÎµÎ¹. Î¤Î¿ Î¼Ï€Î»Î¿Îº Ï€Î¿Ï… Î´Î·Î¼Î¹Î¿Ï…Ï�Î³Î®ÏƒÎ±Ï„Îµ Î¼ÎµÏ„Î±Î´ÏŒÎ¸Î·ÎºÎµ ÏƒÏ„Î¿ Î´Î¯ÎºÏ„Ï…Î¿ Î³Î¹Î± Î½Î± ÏƒÏ…Î¼Ï€ÎµÏ�Î¹Î»Î·Ï†Î¸ÎµÎ¯ ÏƒÏ„Î·Î½ Î±Î»Ï…ÏƒÎ¯Î´Î± Ï„Ï‰Î½ Î¼Ï€Î»Î¿Îº. Î‘Î½ Î´ÎµÎ½ Î¼Ï€ÎµÎ¹ ÏƒÎµ Î±Ï…Ï„Î® Î¸Î± Î¼ÎµÏ„Î±Ï„Ï�Î±Ï€ÎµÎ¯ ÏƒÎµ &quot;Î¼Î· Î±Ï€Î¿Î´ÎµÎºÏ„ÏŒ&quot; ÎºÎ±Î¹ Î´Îµ Î¸Î± Î¼Ï€Î¿Ï�ÎµÎ¯ Î½Î± ÎºÎ±Ï„Î±Î½Î±Î»Ï‰Î¸ÎµÎ¯. Î‘Ï…Ï„ÏŒ ÏƒÏ…Î¼Î²Î±Î¯Î½ÎµÎ¹ ÏƒÏ€Î¬Î½Î¹Î± ÏŒÏ„Î±Î½ ÎºÎ¬Ï€Î¿Î¹Î¿Ï‚ Î¬Î»Î»Î¿Ï‚ ÎºÏŒÎ¼Î²Î¿Ï‚ Î´Î·Î¼Î¹Î¿Ï…Ï�Î³Î®ÏƒÎµÎ¹ Î­Î½Î± Î¼Ï€Î»Î¿Îº Î»Î¯Î³Î± Î´ÎµÏ…Ï„ÎµÏ�ÏŒÎ»ÎµÏ€Ï„Î± Ï€Ï�Î¹Î½ Î±Ï€ÏŒ ÎµÏƒÎ¬Ï‚.</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Debug information</source>
-        <translation>Î Î»Î·Ï�Î¿Ï†Î¿Ï�Î¯ÎµÏ‚ Î±Ï€Î¿ÏƒÏ†Î±Î»Î¼Î¬Ï„Ï‰ÏƒÎ·Ï‚</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Transaction</source>
-        <translation>Î£Ï…Î½Î±Î»Î»Î±Î³Î®</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Inputs</source>
-        <translation>ÎµÎ¹ÏƒÏ�Î¿Î­Ï‚ </translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Amount</source>
-        <translation>Î Î¿ÏƒÏŒ</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>true</source>
-        <translation>Î±Î»Î·Î¸Î®Ï‚</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>false</source>
-        <translation>Î±Î½Î±Î»Î·Î¸Î®Ï‚ </translation>
-    </message>
-    <message>
-        <location line="-209"/>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>, Î´ÎµÎ½ Î­Ï‡ÎµÎ¹ Î±ÎºÏŒÎ¼Î± Î¼ÎµÏ„Î±Î´Î¿Î¸ÎµÎ¯ Î¼&apos; ÎµÏ€Î¹Ï„Ï…Ï‡Î¯Î±</translation>
-    </message>
-    <message numerus="yes">
-        <location line="-35"/>
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>Î‘Î½Î¿Î¹Ï‡Ï„ÏŒ Î³Î¹Î± %n Î¼Ï€Î»Î¿Îº</numerusform><numerusform>Î‘Î½Î¿Î¹Ï‡Ï„ÏŒ Î³Î¹Î± %n Î¼Ï€Î»Î¿Îº</numerusform></translation>
-    </message>
-    <message>
-        <location line="+70"/>
-        <source>unknown</source>
-        <translation>Î¬Î³Î½Ï‰ÏƒÏ„Î¿</translation>
+        <source>KB/s</source>
+        <translation>KB/s</translation>
     </message>
 </context>
+<context>
+    <name>TransactionDesc</name>
+    <message>
+        <source>Open until %1</source>
+        <translation>Ανοιχτό μέχρι %1</translation>
+    </message>
+    <message>
+        <source>%1/offline</source>
+        <translation>%1/αποσυνδεδεμένο</translation>
+    </message>
+    <message>
+        <source>0/unconfirmed, %1</source>
+        <translation>0/ανεπιβεβαίωτο, %1</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Ημερομηνία</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Πηγή</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Παράχθηκε</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Από</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>Άγνωστο</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Προς</translation>
+    </message>
+    <message>
+        <source>own address</source>
+        <translation>δική σας διεύθυνση</translation>
+    </message>
+    <message>
+        <source>watch-only</source>
+        <translation>παρακολούθηση-μόνο</translation>
+    </message>
+    <message>
+        <source>label</source>
+        <translation>ετικέτα</translation>
+    </message>
+    <message>
+        <source>Credit</source>
+        <translation>Πίστωση</translation>
+    </message>
+    <message>
+        <source>not accepted</source>
+        <translation>μη έγκυρο</translation>
+    </message>
+    <message>
+        <source>Total credit</source>
+        <translation>Συνολική πίστωση</translation>
+    </message>
+    <message>
+        <source>Transaction fee</source>
+        <translation>Κόστος συναλλαγής</translation>
+    </message>
+    </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
-        <location filename="../forms/transactiondescdialog.ui" line="+14"/>
-        <source>Transaction details</source>
-        <translation>Î›ÎµÏ€Ï„Î¿Î¼Î­Ï�ÎµÎ¹ÎµÏ‚ ÏƒÏ…Î½Î±Î»Î»Î±Î³Î®Ï‚</translation>
-    </message>
-    <message>
-        <location line="+6"/>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Î‘Ï…Ï„ÏŒ Ï„Î¿ Ï€Î±Ï�Î¬Î¸Ï…Ï�Î¿ Î´ÎµÎ¯Ï‡Î½ÎµÎ¹ Î¼Î¹Î± Î»ÎµÏ€Ï„Î¿Î¼ÎµÏ�Î® Ï€ÎµÏ�Î¹Î³Ï�Î±Ï†Î® Ï„Î·Ï‚ ÏƒÏ…Î½Î±Î»Î»Î±Î³Î®Ï‚</translation>
+        <translation>Αυτό το παράθυρο δείχνει μια λεπτομερή περιγραφή της συναλλαγής</translation>
     </message>
-</context>
+    </context>
 <context>
     <name>TransactionTableModel</name>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="+225"/>
         <source>Date</source>
-        <translation>Î—Î¼ÎµÏ�Î¿Î¼Î·Î½Î¯Î±</translation>
+        <translation>Ημερομήνια</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Type</source>
-        <translation>Î¤Ï�Ï€Î¿Ï‚</translation>
+        <source>Label</source>
+        <translation>Ετικέτα</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Address</source>
-        <translation>Î”Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ·</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Amount</source>
-        <translation>Î Î¿ÏƒÏŒ</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+57"/>
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>Î‘Î½Î¿Î¹Ï‡Ï„ÏŒ Î³Î¹Î± %n Î¼Ï€Î»Î¿Îº</numerusform><numerusform>Î‘Î½Î¿Î¹Ï‡Ï„ÏŒ Î³Î¹Î± %n Î¼Ï€Î»Î¿Îº</numerusform></translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>Open until %1</source>
-        <translation>Î‘Î½Î¿Î¹Ï‡Ï„ÏŒ Î¼Î­Ï‡Ï�Î¹ %1</translation>
+        <translation>Ανοιχτό μέχρι %1</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Offline (%1 confirmations)</source>
-        <translation>Î§Ï‰Ï�Î¯Ï‚ ÏƒÏ�Î½Î´ÎµÏƒÎ· (%1 ÎµÏ€Î¹ÎºÏ…Ï�ÏŽÏƒÎµÎ¹Ï‚)</translation>
+        <source>watch-only</source>
+        <translation>παρακολούθηση-μόνο</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Unconfirmed (%1 of %2 confirmations)</source>
-        <translation>Î§Ï‰Ï�Î¯Ï‚ ÎµÏ€Î¹Î²ÎµÎ²Î±Î¯Ï‰ÏƒÎ· (%1 Î±Ï€ÏŒ %2 ÎµÏ€Î¹ÎºÏ…Ï�ÏŽÏƒÎµÎ¹Ï‚)</translation>
+        <source>(no label)</source>
+        <translation>(χωρίς ετικέτα)</translation>
     </message>
-    <message>
-        <location line="+3"/>
-        <source>Confirmed (%1 confirmations)</source>
-        <translation>Î•Ï€Î¹ÎºÏ…Ï�Ï‰Î¼Î­Î½Î· (%1 ÎµÏ€Î¹ÎºÏ…Ï�ÏŽÏƒÎµÎ¹Ï‚)</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+8"/>
-        <source>Mined balance will be available when it matures in %n more block(s)</source>
-        <translation><numerusform>Î¤Î¿ Ï…Ï€ÏŒÎ»Î¿Î¹Ï€Î¿ Î±Ï€ÏŒ Ï„Î·Î½ ÎµÎ¾ÏŒÏ�Ï…Î¾Î· Î¸Î± ÎµÎ¯Î½Î±Î¹ Î´Î¹Î±Î¸Î­ÏƒÎ¹Î¼Î¿ Î¼ÎµÏ„Î¬ Î±Ï€ÏŒ %n Î¼Ï€Î»Î¿Îº</numerusform><numerusform>Î¤Î¿ Ï…Ï€ÏŒÎ»Î¿Î¹Ï€Î¿ Î±Ï€ÏŒ Ï„Î·Î½ ÎµÎ¾ÏŒÏ�Ï…Î¾Î· Î¸Î± ÎµÎ¯Î½Î±Î¹ Î´Î¹Î±Î¸Î­ÏƒÎ¹Î¼Î¿ Î¼ÎµÏ„Î¬ Î±Ï€ÏŒ %n Î¼Ï€Î»Î¿Îº</numerusform></translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Î‘Ï…Ï„ÏŒ Ï„Î¿ Î¼Ï€Î»Î¿Îº Î´ÎµÎ½ Î­Ï‡ÎµÎ¹ Ï€Î±Ï�Î±Î»Î·Ï†Î¸ÎµÎ¯ Î±Ï€ÏŒ ÎºÎ±Î½Î­Î½Î±Î½ Î¬Î»Î»Î¿ ÎºÏŒÎ¼Î²Î¿ ÎºÎ±Î¹ ÎºÎ±Ï„Î¬ Ï€Î¬ÏƒÎ± Ï€Î¹Î¸Î±Î½ÏŒÏ„Î·Ï„Î± Î¸Î± Î±Ï€Î¿Ï�Ï�Î¹Ï†Î¸ÎµÎ¯!</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Generated but not accepted</source>
-        <translation>Î”Î·Î¼Î¹Î¿Ï…Ï�Î³Î®Î¸Î·ÎºÎµ Î±Î»Î»Î¬ Î±Ï€Î¿Ï�Ï�Î¯Ï†Î¸Î·ÎºÎµ</translation>
-    </message>
-    <message>
-        <location line="+43"/>
-        <source>Received with</source>
-        <translation>Î Î±Ï�Î±Î»Î±Î²Î® Î¼Îµ</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Received from</source>
-        <translation>Î•Î»Î®Ï†Î¸Î· Î±Ï€ÏŒ</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Sent to</source>
-        <translation>Î‘Ï€Î¿ÏƒÏ„Î¿Î»Î® Ï€Ï�Î¿Ï‚</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Payment to yourself</source>
-        <translation>Î Î»Î·Ï�Ï‰Î¼Î® Ï€Ï�Î¿Ï‚ ÎµÏƒÎ¬Ï‚</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Mined</source>
-        <translation>Î•Î¾ÏŒÏ�Ï…Î¾Î·</translation>
-    </message>
-    <message>
-        <location line="+38"/>
-        <source>(n/a)</source>
-        <translation>(Î´/Î±)</translation>
-    </message>
-    <message>
-        <location line="+199"/>
-        <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>ÎšÎ±Ï„Î¬ÏƒÏ„Î±ÏƒÎ· ÏƒÏ…Î½Î±Î»Î»Î±Î³Î®Ï‚. Î Î·Î³Î±Î¯Î½ÎµÏ„Îµ Ï„Î¿ Ï€Î¿Î½Ï„Î¯ÎºÎ¹ Ï€Î¬Î½Ï‰ Î±Ï€ÏŒ Î±Ï…Ï„ÏŒ Ï„Î¿ Ï€ÎµÎ´Î¯Î¿ Î³Î¹Î± Î½Î± Î´ÎµÎ¯Ï„Îµ Ï„Î¿Î½ Î±Ï�Î¹Î¸Î¼ÏŒ Ï„Ï‰Î½ ÎµÏ€Î¹ÎºÏ…Ï�ÏŽÏƒÎµÏ‰Î½</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Date and time that the transaction was received.</source>
-        <translation>Î—Î¼ÎµÏ�Î¿Î¼Î·Î½Î¯Î± ÎºÎ¹ ÏŽÏ�Î± Î»Î®ÏˆÎ·Ï‚ Ï„Î·Ï‚ ÏƒÏ…Î½Î±Î»Î»Î±Î³Î®Ï‚.</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Type of transaction.</source>
-        <translation>Î•Î¯Î´Î¿Ï‚ ÏƒÏ…Î½Î±Î»Î»Î±Î³Î®Ï‚.</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Destination address of transaction.</source>
-        <translation>Î”Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ· Î±Ï€Î¿ÏƒÏ„Î¿Î»Î®Ï‚ Ï„Î·Ï‚ ÏƒÏ…Î½Î±Î»Î»Î±Î³Î®Ï‚.</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Amount removed from or added to balance.</source>
-        <translation>Î Î¿ÏƒÏŒ Ï€Î¿Ï… Î±Ï†Î±Î¹Ï�Î­Î¸Î·ÎºÎµ Î® Ï€Ï�Î¿ÏƒÏ„Î­Î¸Î·ÎºÎµ ÏƒÏ„Î¿ Ï…Ï€ÏŒÎ»Î¿Î¹Ï€Î¿.</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>TransactionView</name>
     <message>
-        <location filename="../transactionview.cpp" line="+52"/>
-        <location line="+16"/>
-        <source>All</source>
-        <translation>ÎŒÎ»Î±</translation>
-    </message>
-    <message>
-        <location line="-15"/>
-        <source>Today</source>
-        <translation>Î£Î®Î¼ÎµÏ�Î±</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>This week</source>
-        <translation>Î‘Ï…Ï„Î® Ï„Î·Î½ ÎµÎ²Î´Î¿Î¼Î¬Î´Î±</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>This month</source>
-        <translation>Î‘Ï…Ï„ÏŒÎ½ Ï„Î¿Î½ Î¼Î®Î½Î±</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Last month</source>
-        <translation>Î¤Î¿Î½ Ï€Ï�Î¿Î·Î³Î¿Ï�Î¼ÎµÎ½Î¿ Î¼Î®Î½Î±</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>This year</source>
-        <translation>Î‘Ï…Ï„ÏŒ Ï„Î¿ Î­Ï„Î¿Ï‚</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Range...</source>
-        <translation>ÎˆÎºÏ„Î±ÏƒÎ·...</translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>Received with</source>
-        <translation>Î•Î»Î®Ï†Î¸Î· Î¼Îµ</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Sent to</source>
-        <translation>Î‘Ï€ÎµÏƒÏ„Î¬Î»Î· Ï€Ï�Î¿Ï‚</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>To yourself</source>
-        <translation>Î Ï�Î¿Ï‚ ÎµÏƒÎ¬Ï‚</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Mined</source>
-        <translation>Î•Î¾ÏŒÏ�Ï…Î¾Î·</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Other</source>
-        <translation>Î†Î»Î»Î¿</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Enter address or label to search</source>
-        <translation>Î‘Î½Î±Î¶Î®Ï„Î·ÏƒÎ· Î¼Îµ Î²Î¬ÏƒÎ· Ï„Î· Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ· Î® Ï„Î·Î½ ÎµÏ€Î¹Î³Ï�Î±Ï†Î®</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Min amount</source>
-        <translation>Î•Î»Î¬Ï‡Î¹ÏƒÏ„Î¿ Ï€Î¿ÏƒÏŒ</translation>
-    </message>
-    <message>
-        <location line="+34"/>
         <source>Copy address</source>
-        <translation>Î‘Î½Ï„Î¹Î³Ï�Î±Ï†Î® Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ·Ï‚</translation>
+        <translation>Αντιγραφή διεύθυνσης</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Copy label</source>
-        <translation>Î‘Î½Ï„Î¹Î³Ï�Î±Ï†Î® ÎµÏ€Î¹Î³Ï�Î±Ï†Î®Ï‚</translation>
+        <translation>Αντιγραφή ετικέτας</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Copy amount</source>
-        <translation>Î‘Î½Ï„Î¹Î³Ï�Î±Ï†Î® Ï€Î¿ÏƒÎ¿Ï�</translation>
+        <translation>Αντιγραφή ποσού</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Copy transaction ID</source>
-        <translation>Î‘Î½Ï„Î¹Î³Ï�Î±Ï†Î· Ï„Î¿Ï… ID Î£Ï…Î½Î±Î»Î»Î±Î³Î®Ï‚</translation>
+        <translation>Αντιγραφή ταυτότητας συναλλαγής</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>Copy raw transaction</source>
+        <translation>Αντιγραφή ανεπεξέργαστης συναλλαγής</translation>
+    </message>
+    <message>
         <source>Edit label</source>
-        <translation>Î•Ï€ÎµÎ¾ÎµÏ�Î³Î±ÏƒÎ¯Î± ÎµÏ€Î¹Î³Ï�Î±Ï†Î®Ï‚</translation>
+        <translation>Επεξεργασία ετικέτας</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Show transaction details</source>
-        <translation>Î•Î¼Ï†Î¬Î½Î¹ÏƒÎ· Î»ÎµÏ€Ï„Î¿Î¼ÎµÏ�ÎµÎ¹ÏŽÎ½ ÏƒÏ…Î½Î±Î»Î»Î±Î³Î®Ï‚</translation>
-    </message>
-    <message>
-        <location line="+139"/>
-        <source>Export Transaction Data</source>
-        <translation>Î•Î¾Î±Î³Ï‰Î³Î® Î£Ï„Î¿Î¹Ï‡ÎµÎ¯Ï‰Î½ Î£Ï…Î½Î±Î»Î»Î±Î³ÏŽÎ½</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>Î‘Ï�Ï‡ÎµÎ¯Î¿ Î¿Ï�Î¹Î¿Î¸ÎµÏ„Î·Î¼Î­Î½Î¿ Î¼Îµ ÎºÏŒÎ¼Î¼Î±Ï„Î± (*.csv)</translation>
+        <translation>Αρχείο οριοθετημένο με κόμματα (*.csv)</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>Confirmed</source>
-        <translation>Î•Ï€Î¹ÎºÏ…Ï�Ï‰Î¼Î­Î½ÎµÏ‚</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Date</source>
-        <translation>Î—Î¼ÎµÏ�Î¿Î¼Î·Î½Î¯Î±</translation>
+        <translation>Ημερομήνια</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Type</source>
-        <translation>Î¤Ï�Ï€Î¿Ï‚</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Label</source>
-        <translation>Î•Ï€Î¹Î³Ï�Î±Ï†Î®</translation>
+        <translation>Ετικέτα</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Address</source>
-        <translation>Î”Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ·</translation>
+        <translation>Διεύθυνση</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Amount</source>
-        <translation>Î Î¿ÏƒÏŒ</translation>
+        <source>Exporting Failed</source>
+        <translation>Αποτυχία Εξαγωγής</translation>
     </message>
+    </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
     <message>
-        <location line="+1"/>
-        <source>ID</source>
-        <translation>ID</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Error exporting</source>
-        <translation>Î£Ï†Î¬Î»Î¼Î± ÎµÎ¾Î±Î³Ï‰Î³Î®Ï‚</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Could not write to file %1.</source>
-        <translation>Î‘Î´Ï…Î½Î±Î¼Î¯Î± ÎµÎ³Î³Ï�Î±Ï†Î®Ï‚ ÏƒÏ„Î¿ Î±Ï�Ï‡ÎµÎ¯Î¿ %1.</translation>
-    </message>
-    <message>
-        <location line="+100"/>
-        <source>Range:</source>
-        <translation>ÎˆÎºÏ„Î±ÏƒÎ·:</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>to</source>
-        <translation>Î­Ï‰Ï‚</translation>
+        <source>Unit to show amounts in. Click to select another unit.</source>
+        <translation>Μονάδα μέτρησης προβολής ποσών. Κάντε κλικ για επιλογή άλλης μονάδας.</translation>
     </message>
 </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
 <context>
     <name>WalletModel</name>
-    <message>
-        <location filename="../walletmodel.cpp" line="+193"/>
-        <source>Send Coins</source>
-        <translation>Î‘Ï€Î¿ÏƒÏ„Î¿Î»Î® Î½Î¿Î¼Î¹ÏƒÎ¼Î¬Ï„Ï‰Î½</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>WalletView</name>
-    <message>
-        <location filename="../walletview.cpp" line="+42"/>
-        <source>&amp;Export</source>
-        <translation>&amp;Î•Î¾Î±Î³Ï‰Î³Î®</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Export the data in the current tab to a file</source>
-        <translation>Î•Î¾Î±Î³Ï‰Î³Î® Î´ÎµÎ´Î¿Î¼Î­Î½Ï‰Î½ ÎºÎ±Ï�Ï„Î­Î»Î±Ï‚ ÏƒÎµ Î±Ï�Ï‡ÎµÎ¯Î¿</translation>
-    </message>
-    <message>
-        <location line="+193"/>
-        <source>Backup Wallet</source>
-        <translation>Î‘Î½Ï„Î¯Î³Ï�Î±Ï†Î¿ Î±ÏƒÏ†Î±Î»ÎµÎ¯Î±Ï‚ Ï„Î¿Ï… Ï€Î¿Ï�Ï„Î¿Ï†Î¿Î»Î¹Î¿Ï�</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Wallet Data (*.dat)</source>
-        <translation>Î‘Ï�Ï‡ÎµÎ¯Î± Î´ÎµÎ´Î¿Î¼Î­Î½Ï‰Î½ Ï€Î¿Ï�Ï„Î¿Ï†Î¿Î»Î¹Î¿Ï� (*.dat)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Backup Failed</source>
-        <translation>Î‘Ï€Î¿Ï„Ï…Ï‡Î¯Î± ÎºÎ±Ï„Î¬ Ï„Î· Î´Î·Î¼Î¹Î¿Ï…Ï�Î³Î¯Î± Î±Î½Ï„Î¹Î³Ï�Î¬Ï†Î¿Ï…</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>There was an error trying to save the wallet data to the new location.</source>
-        <translation>Î Î±Ï�Î¿Ï…ÏƒÎ¹Î¬ÏƒÏ„Î·ÎºÎµ ÏƒÏ†Î¬Î»Î¼Î± ÎºÎ±Ï„Î¬ Ï„Î·Î½ Î±Ï€Î¿Î¸Î®ÎºÎµÏ…ÏƒÎ· Ï„Ï‰Î½ Î´ÎµÎ´Î¿Î¼Î­Î½Ï‰Î½ Ï€Î¿Ï�Ï„Î¿Ï†Î¿Î»Î¹Î¿Ï� ÏƒÏ„Î· Î½Î­Î± Ï„Î¿Ï€Î¿Î¸ÎµÏƒÎ¯Î±.</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Backup Successful</source>
-        <translation>Î— Î´Î·Î¼Î¹Î¿Ï…Ï�Î³Î¹Î± Î±Î½Ï„Î¹Î³Ï�Î±Ï†Î¿Ï… Î±ÏƒÏ†Î±Î»ÎµÎ¹Î±Ï‚ Ï€ÎµÏ„Ï…Ï‡Îµ</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>The wallet data was successfully saved to the new location.</source>
-        <translation>Î¤Î± Î´ÎµÎ´Î¿Î¼Î­Î½Î± Ï€Î¿Ï�Ï„Î¿Ï†ÏŒÎ»Î¹Î¿Ï… Î±Ï€Î¿Î¸Î·ÎºÎµÏ�Ï„Î·ÎºÎ±Î½ Î¼Îµ ÎµÏ€Î¹Ï„Ï…Ï‡Î¯Î± ÏƒÏ„Î· Î½Î­Î± Î¸Î­ÏƒÎ·. </translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>bitcoin-core</name>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Murfcoin version</source>
-        <translation>ÎˆÎºÎ´Î¿ÏƒÎ· Murfcoin</translation>
-    </message>
-    <message>
-        <location line="+102"/>
-        <source>Usage:</source>
-        <translation>Î§Ï�Î®ÏƒÎ·:</translation>
-    </message>
-    <message>
-        <location line="-29"/>
-        <source>Send command to -server or murfcoind</source>
-        <translation>Î‘Ï€Î¿ÏƒÏ„Î¿Î»Î® ÎµÎ½Ï„Î¿Î»Î®Ï‚ ÏƒÏ„Î¿Î½ ÎµÎ¾Ï…Ï€Î·Ï�ÎµÏ„Î·Ï„Î® Î® ÏƒÏ„Î¿ murfcoind</translation>
-    </message>
-    <message>
-        <location line="-23"/>
-        <source>List commands</source>
-        <translation>Î›Î¯ÏƒÏ„Î± ÎµÎ½Ï„Î¿Î»ÏŽÎ½</translation>
-    </message>
-    <message>
-        <location line="-12"/>
-        <source>Get help for a command</source>
-        <translation>Î•Ï€ÎµÎ¾Î®Î³Î·ÏƒÎ· ÎµÎ½Ï„Î¿Î»Î®Ï‚</translation>
-    </message>
-    <message>
-        <location line="+24"/>
         <source>Options:</source>
-        <translation>Î•Ï€Î¹Î»Î¿Î³Î­Ï‚:</translation>
+        <translation>Επιλογές:</translation>
     </message>
     <message>
-        <location line="+24"/>
-        <source>Specify configuration file (default: murfcoin.conf)</source>
-        <translation>ÎŸÏ�Î¯ÏƒÏ„Îµ Î±Ï�Ï‡ÎµÎ¯Î¿ Ï�Ï…Î¸Î¼Î¯ÏƒÎµÏ‰Î½ (Ï€Ï�Î¿ÎµÏ€Î¹Î»Î¿Î³Î®: murfcoin.conf)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Specify pid file (default: murfcoind.pid)</source>
-        <translation>ÎŸÏ�Î¯ÏƒÏ„Îµ Î±Ï�Ï‡ÎµÎ¯Î¿ pid (Ï€Ï�Î¿ÎµÏ€Î¹Î»Î¿Î³Î®: murfcoind.pid)</translation>
-    </message>
-    <message>
-        <location line="-1"/>
         <source>Specify data directory</source>
-        <translation>ÎŸÏ�Î¹ÏƒÎ¼ÏŒÏ‚ Ï†Î±ÎºÎ­Î»Î¿Ï… Î´ÎµÎ´Î¿Î¼Î­Î½Ï‰Î½</translation>
+        <translation>Ορισμός φακέλου δεδομένων</translation>
     </message>
     <message>
-        <location line="-9"/>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>ÎŒÏ�Î¹ÏƒÎµ Ï„Î¿ Î¼Î­Î³ÎµÎ¸Î¿Ï‚ Ï„Î·Ï‚ Î²Î¬ÏƒÎ·Ï‚ Ï€Ï�Î¿ÏƒÏ‰Ï�Î¹Î½Î®Ï‚ Î±Ï€Î¿Î¸Î®ÎºÎµÏ…ÏƒÎ·Ï‚ ÏƒÎµ megabytes(Ï€Ï�Î¿ÎµÏ€Î¹Î»Î¿Î³Î®:25)</translation>
-    </message>
-    <message>
-        <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 7333 or testnet: 17333)</source>
-        <translation>Î•Î¹ÏƒÎµÏ�Ï‡ÏŒÎ¼ÎµÎ½ÎµÏ‚ ÏƒÏ…Î½Î´Î­ÏƒÎµÎ¹Ï‚ ÏƒÏ„Î· Î¸Ï�Ï�Î± &lt;port&gt; (Ï€Ï�Î¿ÎµÏ€Î¹Î»Î¿Î³Î®: 7333 Î® ÏƒÏ„Î¿ testnet: 17333)</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>ÎœÎ­Î³Î¹ÏƒÏ„ÎµÏ‚ Î±Ï�Î¹Î¸Î¼ÏŒÏ‚ ÏƒÏ…Î½Î´Î­ÏƒÎµÏ‰Î½ Î¼Îµ Ï„Î¿Ï…Ï‚ peers &lt;n&gt; (Ï€Ï�Î¿ÎµÏ€Î¹Î»Î¿Î³Î®: 125)</translation>
-    </message>
-    <message>
-        <location line="-48"/>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Î£Ï�Î½Î´ÎµÏƒÎ· ÏƒÎµ Î­Î½Î±Î½ ÎºÏŒÎ¼Î²Î¿ Î³Î¹Î± Ï„Î·Î½ Î±Î½Î¬ÎºÏ„Î·ÏƒÎ· Î´Î¹ÎµÏ…Î¸Ï�Î½ÏƒÎµÏ‰Î½ Î±Ï€ÏŒ Î¿Î¼Î¿Ï„Î¯Î¼Î¿Ï…Ï‚, ÎºÎ±Î¹ Î±Ï€Î¿ÏƒÏ…Î½Î´Î­Ïƒh</translation>
+        <translation>Σύνδεση σε έναν κόμβο για την ανάκτηση διευθύνσεων από ομοτίμους, και αποσυνδέσh</translation>
     </message>
     <message>
-        <location line="+82"/>
         <source>Specify your own public address</source>
-        <translation>Î”Î¹ÎµÏ…ÎºÏ�Î¹Î½Î¯ÏƒÏ„Îµ Ï„Î· Î´Î¹ÎºÎ¹Î¬ ÏƒÎ±Ï‚ Î´Î·Î¼ÏŒÏƒÎ¹Î± Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ·.</translation>
+        <translation>Διευκρινίστε τη δικιά σας δημόσια διεύθυνση.</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>ÎŒÏ�Î¹Î¿ Î±Ï€Î¿ÏƒÏ�Î½Î´ÎµÏƒÎ·Ï‚ Ï€Ï�Î¿Î²Î»Î·Î¼Î±Ï„Î¹ÎºÏŽÎ½ peers (Ï€Ï�Î¿ÎµÏ€Î¹Î»Î¿Î³Î®: 100)</translation>
-    </message>
-    <message>
-        <location line="-134"/>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Î”ÎµÏ…Ï„ÎµÏ�ÏŒÎ»ÎµÏ€Ï„Î± Ï€Ï�Î¹Î½ ÎµÏ€Î¹Ï„Ï�Î±Ï€ÎµÎ¯ Î¾Î±Î½Î¬ Î· ÏƒÏ�Î½Î´ÎµÏƒÎ· Ï„Ï‰Î½ Ï€Ï�Î¿Î²Î»Î·Î¼Î±Ï„Î¹ÎºÏŽÎ½ peers (Ï€Ï�Î¿ÎµÏ€Î¹Î»Î¿Î³Î®: 86400)</translation>
-    </message>
-    <message>
-        <location line="-29"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
-        <translation>ÎˆÎ½Î± ÏƒÏ†Î¬Î»Î¼Î± ÏƒÏ…Î½Î­Î²Î· ÎºÎ±Î¸ÏŽÏ‚ Ï€Ï�Î¿ÎµÏ„Î¿Î¹Î¼Î±Î¶ÏŒÏ„Î±Î½ Î· Ï€ÏŒÏ�Ï„Î± RPC %u Î³Î¹Î± Î±Î½Î±Î¼Î¿Î½Î® IPv4: %s</translation>
-    </message>
-    <message>
-        <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 7332 or testnet: 17332)</source>
-        <translation>Î•Î¹ÏƒÎµÏ�Ï‡ÏŒÎ¼ÎµÎ½ÎµÏ‚ ÏƒÏ…Î½Î´Î­ÏƒÎµÎ¹Ï‚ JSON-RPC ÏƒÏ„Î· Î¸Ï�Ï�Î± &lt;port&gt; (Ï€Ï�Î¿ÎµÏ€Î¹Î»Î¿Î³Î®: 7332 or testnet: 17332)</translation>
-    </message>
-    <message>
-        <location line="+37"/>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>Î‘Ï€Î¿Î´Î¿Ï‡Î® ÎµÎ½Ï„Î¿Î»ÏŽÎ½ ÎºÎ¿Î½ÏƒÏŒÎ»Î±Ï‚ ÎºÎ±Î¹ JSON-RPC</translation>
+        <translation>Αποδοχή εντολών κονσόλας και JSON-RPC</translation>
     </message>
     <message>
-        <location line="+76"/>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Î•ÎºÏ„Î­Î»ÎµÏƒÎ· ÏƒÏ„Î¿ Ï€Î±Ï�Î±ÏƒÎºÎ®Î½Î¹Î¿ ÎºÎ¹ Î±Ï€Î¿Î´Î¿Ï‡Î® ÎµÎ½Ï„Î¿Î»ÏŽÎ½</translation>
+        <translation>Εκτέλεση στο παρασκήνιο κι αποδοχή εντολών</translation>
     </message>
     <message>
-        <location line="+37"/>
-        <source>Use the test network</source>
-        <translation>Î§Ï�Î®ÏƒÎ· Ï„Î¿Ï… Î´Î¿ÎºÎ¹Î¼Î±ÏƒÏ„Î¹ÎºÎ¿Ï� Î´Î¹ÎºÏ„Ï�Î¿Ï…</translation>
+        <source>Murfcoin Core</source>
+        <translation>Murfcoin Core</translation>
     </message>
     <message>
-        <location line="-112"/>
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Î�Î± Î´Î­Ï‡ÎµÏƒÎ±Î¹ ÏƒÏ…Î½Î´Î­ÏƒÎµÎ¹Ï‚ Î±Ï€ÏŒ Î­Î¾Ï‰(Ï€Ï�Î¿ÎµÏ€Î¹Î»Î¿Î³Î®:1)</translation>
-    </message>
-    <message>
-        <location line="-80"/>
-        <source>%s, you must set a rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=murfcoinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Murfcoin Alert&quot; admin@foo.com
-</source>
-        <translation>%s, you must set a rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=murfcoinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Murfcoin Alert&quot; admin@foo.com
-</translation>
-    </message>
-    <message>
-        <location line="+17"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation>ÎˆÎ½Î± ÏƒÏ†Î¬Î»Î¼Î± ÏƒÏ…Î½Î­Î²Î· ÎºÎ±Î¸ÏŽÏ‚ Ï€Ï�Î¿ÎµÏ„Î¿Î¹Î¼Î±Î¶ÏŒÏ„Î±Î½ Î· Ï…Ï€Î¿Î´Î¿Ï‡Î· RPC %u Î³Î¹Î± Î±Î½Î±Î¼Î¿Î½Î· Ï„Î¿Ï… IPv6, ÎµÏ€ÎµÏƒÎµ Ï€Î¹ÏƒÏ‰ ÏƒÏ„Î¿ IPv4:%s</translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>Î‘Ï€Î¿Î¸Î·ÎºÎµÏ…ÏƒÎ· ÏƒÎµ ÏƒÏ…Î³ÎºÎµÎºÏ�Î¹Î¼Î­Î½Î· Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ·. Î§Ï�Î·ÏƒÎ¹Î¼Î¿Ï€Î¿Î¹Î®ÏƒÏ„Îµ Ï„Î± Ï€Î»Î®ÎºÏ„Ï�Î± [Host] : ÏƒÏ…Î¼Î²Î¿Î»Î¹ÏƒÎ¼ÏŒÏ‚ Î¸Ï�Ï�Î± Î³Î¹Î± IPv6</translation>
+        <translation>Αποθηκευση σε συγκεκριμένη διεύθυνση. Χρησιμοποιήστε τα πλήκτρα [Host] : συμβολισμός θύρα για IPv6</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Murfcoin is probably already running.</source>
-        <translation>Î‘Î´Ï…Î½Î±Î¼Î¯Î± ÎºÎ»ÎµÎ¹Î´ÏŽÎ¼Î±Ï„Î¿Ï‚ Ï„Î¿Ï… Ï†Î±ÎºÎ­Î»Î¿Ï… Î´ÎµÎ´Î¿Î¼Î­Î½Ï‰Î½ %s. Î Î¹Î¸Î±Î½ÏŽÏ‚ Ï„Î¿ Murfcoin Î½Î± ÎµÎ¯Î½Î±Î¹ Î®Î´Î· ÎµÎ½ÎµÏ�Î³ÏŒ.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Î£Ï†Î¬Î»Î¼Î±: Î— ÏƒÏ…Î½Î±Î»Î»Î±Î³Î® Î±Ï€Î¿Ï�Ï�Î¯Ï†Î¸Î·ÎºÎµ.
-Î‘Ï…Ï„ÏŒ Î¯ÏƒÏ‰Ï‚ Î¿Ï†ÎµÎ¯Î»ÎµÏ„Î±Î¹ ÏƒÏ„Î¿ ÏŒÏ„Î¹ Ï„Î± Î½Î¿Î¼Î¯ÏƒÎ¼Î±Ï„Î¬ ÏƒÎ±Ï‚ Î­Ï‡Î¿Ï…Î½ Î®Î´Î· Î¾Î¿Î´ÎµÏ…Ï„ÎµÎ¯, Ï€.Ï‡. Î¼Îµ Ï„Î·Î½ Î±Î½Ï„Î¹Î³Ï�Î±Ï†Î® Ï„Î¿Ï… wallet.dat ÏƒÎµ Î¬Î»Î»Î¿ ÏƒÏ�ÏƒÏ„Î·Î¼Î± ÎºÎ±Î¹ Ï„Î·Î½ Ï‡Ï�Î®ÏƒÎ· Ï„Î¿Ï…Ï‚ ÎµÎºÎµÎ¯, Ï‡Ï‰Ï�Î¯Ï‚ Î· ÏƒÏ…Î½Î±Î»Î»Î±Î³Î® Î½Î± Î­Ï‡ÎµÎ¹ ÎºÎ±Ï„Î±Î³Ï�Î±Ï†ÎµÎ¯ ÏƒÏ„Î¿ Ï€Î±Ï�ÏŒÎ½ ÏƒÏ�ÏƒÏ„Î·Î¼Î±.</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>Î£Ï†Î¬Î»Î¼Î±: Î‘Ï…Ï„Î® Î· ÏƒÏ…Î½Î±Î»Î»Î±Î³Î® Î±Ï€Î±Î¹Ï„ÎµÎ¯ Î±Î¼Î¿Î¹Î²Î® ÏƒÏ…Î½Î±Î»Î»Î±Î³Î®Ï‚ Ï„Î¿Ï…Î»Î¬Ï‡Î¹ÏƒÏ„Î¿Î½ %s Î»ÏŒÎ³Ï‰ Ï„Î¿Ï… Î¼ÎµÎ³Î­Î¸Î¿Ï…Ï‚, Ï€Î¿Î»Ï…Ï€Î»Î¿ÎºÏŒÏ„Î·Ï„Î±Ï‚ Î® Ï„Î·Ï‚ Ï‡Ï�Î®ÏƒÎ·Ï‚ Ï€Ï�ÏŒÏƒÏ†Î±Ï„Î·Ï‚ Ï€Î±Ï�Î±Î»Î±Î²Î®Ï‚ ÎºÎµÏ†Î±Î»Î±Î¯Î¿Ï…</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
-        <translation>Î•ÎºÏ„Î­Î»ÎµÏƒÎ· Ï„Î·Ï‚ ÎµÎ½Ï„Î¿Î»Î®Ï‚ ÏŒÏ„Î±Î½ Ï„Î¿ ÎºÎ±Î»Ï�Ï„ÎµÏ�Î¿ Î¼Ï€Î»Î¿Îº Î±Î»Î»Î¬Î¾ÎµÎ¹(%s ÏƒÏ„Î·Î½ ÎµÎ½Ï„Î¿Î»Î® Î±Î½Ï„Î¹ÎºÎ±Î¸Î¯ÏƒÏ„Î±Ï„Î±Î¹ Î±Ï€ÏŒ Ï„Î¿ hash Ï„Î¿Ï… Î¼Ï€Î»Î¿Îº)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Î•ÎºÏ„Î­Î»ÎµÏƒÎµ Ï„Î·Î½ ÎµÎ½Ï„Î¿Î»Î® ÏŒÏ„Î±Î½ Ï„Î¿ ÎºÎ±Î»Ï�Ï„ÎµÏ�Î¿ Î¼Ï€Î»Î¿Îº Î±Î»Î»Î¬Î¾ÎµÎ¹(%s ÏƒÏ„Î·Î½ ÎµÎ½Ï„Î¿Î»Î® Î±Î½Ï„Î¹ÎºÎ±Î¸Î¯ÏƒÏ„Î±Ï„Î±Î¹ Î±Ï€ÏŒ Ï„Î¿ hash Ï„Î¿Ï… Î¼Ï€Î»Î¿Îº)</translation>
+        <translation>Εκτέλεσε την εντολή όταν το καλύτερο μπλοκ αλλάξει(%s στην εντολή αντικαθίσταται από το hash του μπλοκ)</translation>
     </message>
     <message>
-        <location line="+11"/>
-        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
-        <translation>ÎŸÏ�Î¯ÏƒÏ„Îµ Ï„Î¿ Î¼Î­Î³Î¹ÏƒÏ„Î¿ Î¼Î­Î³ÎµÎ¸Î¿Ï‚ Ï„Ï‰Î½ high-priority/low-fee ÏƒÏ…Î½Î±Î»Î»Î±Î³Ï‰Î½ ÏƒÎµ bytes (Ï€Ï�Î¿ÎµÏ€Î¹Î»Î¿Î³Î®: 27000)</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Î‘Ï…Ï„ÏŒ ÎµÎ¯Î½Î±Î¹ Î­Î½Î± Ï€Ï�Î¿-Ï„ÎµÏƒÏ„ ÎºÏ…ÎºÎ»Î¿Ï†Î¿Ï�Î¯Î±Ï‚ - Ï‡Ï�Î·ÏƒÎ¹Î¼Î¿Ï€Î¿Î¹Î®ÏƒÏ„Îµ Ï„Î¿ Î¼Îµ Î´Î¹ÎºÎ® ÏƒÎ±Ï‚ ÎµÏ…Î¸Ï�Î½Î· - Î´ÎµÎ½ Ï‡Ï�Î·ÏƒÎ¹Î¼Î¿Ï€Î¿Î¹ÎµÎ¯Ï„Îµ Î³Î¹Î± ÎµÎ¾ÏŒÏ�Ï…Î¾Î· Î® Î³Î¹Î± Î±Î»Î»ÎµÏ‚ ÎµÏ†Î±Ï�Î¼Î¿Î³Î­Ï‚</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Î Ï�Î¿ÎµÎ¹Î´Î¿Ï€Î¿Î¯Î·ÏƒÎ·: Î— Ï€Î±Ï�Î¬Î¼ÎµÏ„Ï�Î¿Ï‚ -paytxfee ÎµÎ¯Î½Î±Î¹ Ï€Î¿Î»Ï� Ï…ÏˆÎ·Î»Î®. Î Ï�ÏŒÎºÎµÎ¹Ï„Î±Î¹ Î³Î¹Î± Ï„Î·Î½ Î±Î¼Î¿Î¹Î²Î® Ï€Î¿Ï… Î¸Î± Ï€Î»Î·Ï�ÏŽÎ½ÎµÏ„Îµ Î³Î¹Î± ÎºÎ¬Î¸Îµ ÏƒÏ…Î½Î±Î»Î»Î±Î³Î® Ï€Î¿Ï… Î¸Î± ÏƒÏ„Î­Î»Î½ÎµÏ„Îµ.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>Î Ï�Î¿ÎµÎ¹Î´Î¿Ï€Î¿Î¯Î·ÏƒÎ·: Î•Î¼Ï†Î±Î½Î¯ÏƒÎµÎ¹Ï‚ ÏƒÏ…Î½Î±Î»Î»Î±Î³Ï‰Î½ Î´ÎµÎ½ Î¼Ï€Î¿Ï�ÎµÎ¯ Î½Î± ÎµÎ¯Î½Î±Î¹ ÏƒÏ‰ÏƒÏ„ÎµÏ‚! ÎœÏ€Î¿Ï�ÎµÎ¯ Î½Î± Ï‡Ï�ÎµÎ¹Î±ÏƒÏ„ÎµÎ¯ Î½Î± Î±Î½Î±Î²Î±Î¸Î¼Î¯ÏƒÎµÏ„Îµ, Î® Î¬Î»Î»Î¿Î¹ ÎºÏŒÎ¼Î²Î¿Î¹ Î¼Ï€Î¿Ï�ÎµÎ¯ Î½Î± Ï‡Ï�ÎµÎ¹Î±ÏƒÏ„ÎµÎ¯ Î½Î± Î±Î½Î±Î²Î±Î¸Î¼Î¯ÏƒÏ„Î¿Ï…Î½. </translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Murfcoin will not work properly.</source>
-        <translation>Î Ï�Î¿ÎµÎ¹Î´Î¿Ï€Î¿Î¯Î·ÏƒÎ·: Î Î±Ï�Î±ÎºÎ±Î»ÏŽ Î²ÎµÎ²Î±Î¹Ï‰Î¸ÎµÎ¯Ï„Îµ Ï€Ï‰Ï‚ Î· Î·Î¼ÎµÏ�Î¿Î¼Î·Î½Î¯Î± ÎºÎ¹ ÏŽÏ�Î± Ï„Î¿Ï… ÏƒÏ…ÏƒÏ„Î®Î¼Î±Ï„ÏŒÏ‚ ÏƒÎ±Ï‚ ÎµÎ¯Î½Î±Î¹ ÏƒÏ‰ÏƒÏ„Î­Ï‚. Î‘Î½ Ï„Î¿ Ï�Î¿Î»ÏŒÎ¹ Ï„Î¿Ï… Ï…Ï€Î¿Î»Î¿Î³Î¹ÏƒÏ„Î® ÏƒÎ±Ï‚ Ï€Î¬ÎµÎ¹ Î»Î¬Î¸Î¿Ï‚, ÎµÎ½Î´Î­Ï‡ÎµÏ„Î±Î¹ Î½Î± Î¼Î· Î»ÎµÎ¹Ï„Î¿Ï…Ï�Î³ÎµÎ¯ ÏƒÏ‰ÏƒÏ„Î¬ Ï„Î¿ Murfcoin.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Î Ï�Î¿ÎµÎ¹Î´Î¿Ï€Î¿Î¯Î·ÏƒÎ· : Î£Ï†Î¬Î»Î¼Î± wallet.dat ÎºÎ±Ï„Î± Ï„Î·Î½ Î±Î½Î¬Î³Î½Ï‰ÏƒÎ· ! ÎŒÎ»Î± Ï„Î± ÎºÎ»ÎµÎ¹Î´Î¹Î¬ Î±Î½Î±Î³Î½Ï‰Ï�Î¹ÏƒÎ¸Î·ÎºÎ±Î½ ÏƒÏ‰ÏƒÏ„Î¬, Î±Î»Î»Î¬ Ï„Î± Î´ÎµÎ´Î¿Î¼Î­Î½Î± Ï„Ï‰Î½ ÏƒÏ…Î½Î±Î»Î»Î±Î³ÏŽÎ½ Î® ÎºÎ±Ï„Î±Ï‡Ï‰Ï�Î®ÏƒÎµÎ¹Ï‚ ÏƒÏ„Î¿ Î²Î¹Î²Î»Î¯Î¿ Î´Î¹ÎµÏ…Î¸Ï�Î½ÏƒÎµÏ‰Î½ Î¼Ï€Î¿Ï�ÎµÎ¯ Î½Î± ÎµÎ¯Î½Î±Î¹ ÎµÎ»Î»Î¹Ï€ÎµÎ¯Ï‚ Î® Î»Î±Î½Î¸Î±ÏƒÎ¼Î­Î½Î±. </translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>Î Ï�Î¿ÎµÎ¹Î´Î¿Ï€Î¿Î¯Î·ÏƒÎ· : Ï„Î¿ Î±Ï�Ï‡ÎµÎ¹Î¿ wallet.dat ÎµÎ¹Î½Î±Î¹ Î´Î¹ÎµÏ†Î¸Î±Ï�Î¼Î­Î½Î¿, Ï„Î± Î´ÎµÎ´Î¿Î¼Î­Î½Î± ÏƒÏŽÎ¶Î¿Î½Ï„Î±Î¹ ! Original wallet.dat Î±Ï€Î¿Î¸Î·ÎºÎµÏ�Î¿Î½Ï„Î±Î¹ Ï‰Ï‚ Ï€Î¿Ï�Ï„Î¿Ï†ÏŒÎ»Î¹ { timestamp } bak ÏƒÏ„Î¿ % s ? . . Î‘Î½ Ï„Î¿ Ï…Ï€ÏŒÎ»Î¿Î¹Ï€Î¿ Ï„Î¿Ï… Î® Ï„Î¹Ï‚ ÏƒÏ…Î½Î±Î»Î»Î±Î³Î­Ï‚ ÏƒÎ±Ï‚, ÎµÎ¯Î½Î±Î¹ Î»Î¬Î¸Î¿Ï‚ Î¸Î± Ï€Ï�Î­Ï€ÎµÎ¹ Î½Î± ÎµÏ€Î±Î½Î±Ï†Î­Ï�ÎµÏ„Îµ Î±Ï€ÏŒ Î­Î½Î± Î±Î½Ï„Î¯Î³Ï�Î±Ï†Î¿ Î±ÏƒÏ†Î±Î»ÎµÎ¯Î±Ï‚</translation>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation>Î Ï�Î¿ÏƒÏ€Î¬Î¸ÎµÎ¹Î± Î³Î¹Î± Î±Î½Î±ÎºÏ„Î·ÏƒÎµÎ¹ Î¹Î´Î¹Ï‰Ï„Î¹ÎºÏ‰Î½ ÎºÎ»ÎµÎ¹Î´Î¹Ï‰Î½ Î±Ï€ÏŒ ÎµÎ½Î± Î´Î¹ÎµÏ†Î¸Î±Ï�Î¼Î­Î½Î¿ Î±Ï�Ï‡ÎµÎ¹Î¿ wallet.dat </translation>
-    </message>
-    <message>
-        <location line="+2"/>
         <source>Block creation options:</source>
-        <translation>Î‘Ï€Î¿ÎºÎ»ÎµÎ¹ÏƒÎ¼ÏŒÏ‚ ÎµÏ€Î¹Î»Î¿Î³Ï‰Î½ Î´Î·Î¼Î¹Î¿Ï…Ï�Î³Î¯Î±Ï‚: </translation>
+        <translation>Αποκλεισμός επιλογων δημιουργίας: </translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Connect only to the specified node(s)</source>
-        <translation>Î£Ï�Î½Î´ÎµÏƒÎ· Î¼ÏŒÎ½Î¿ Î¼Îµ Î¿Ï�Î¹ÏƒÎ¼Î­Î½Î¿Ï…Ï‚ ÎºÏŒÎ¼Î²Î¿Ï…Ï‚</translation>
+        <source>Connection options:</source>
+        <translation>Επιλογές σύνδεσης:</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Corrupted block database detected</source>
-        <translation>Î•Î½Ï„Î¿Ï€Î¹ÏƒÎ¸Î·ÎºÎµ Î´Î¹ÎµÏ†Î¸Î±Ï�Î¼ÎµÎ½Î· Î²Î±ÏƒÎ· Î´ÎµÎ´Î¿Î¼ÎµÎ½Ï‰Î½ Ï„Ï‰Î½ Î¼Ï€Î»Î¿Îº</translation>
+        <translation>Εντοπισθηκε διεφθαρμενη βαση δεδομενων των μπλοκ</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation>Î‘Î½Î±ÎºÎ±Î»Ï�ÏˆÏ„Îµ Ï„Î·Î½ Î´Î¹ÎºÎ· ÏƒÎ±Ï‚ IP Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ· (Ï€Ï�Î¿ÎµÏ€Î¹Î»Î¿Î³Î®: 1 ÏŒÏ„Î±Î½ Î±ÎºÎ¿Ï�ÎµÎ¹ ÎºÎ±Î¹ Î´ÎµÎ½ - externalip) </translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Do you want to rebuild the block database now?</source>
-        <translation>Î˜ÎµÎ»ÎµÏ„Îµ Î½Î± Î´Î·Î¼Î¹Î¿Ï…Ï�Î³Î·Î¸ÎµÎ¹ Ï„Ï‰Ï�Î± Î· Î²Î±ÏƒÎ· Î´ÎµÎ´Î¿Î¼ÎµÎ½Ï‰Î½ Ï„Î¿Ï… Î¼Ï€Î»Î¿Îº? </translation>
+        <translation>Θελετε να δημιουργηθει τωρα η βαση δεδομενων του μπλοκ? </translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Error initializing block database</source>
-        <translation>Î£Ï†Î¬Î»Î¼Î± ÎºÎ±Ï„Î¬ Ï„Î·Î½ ÎµÎ½ÎµÏ�Î³Î¿Ï€Î¿Î¯Î·ÏƒÎ· Ï„Î·Ï‚ Î²Î¬ÏƒÎ·Ï‚ Î´ÎµÎ´Î¿Î¼Î­Î½Ï‰Î½ Î¼Ï€Î»Î¿Îº</translation>
+        <translation>Σφάλμα κατά την ενεργοποίηση της βάσης δεδομένων μπλοκ</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>Î£Ï†Î¬Î»Î¼Î± ÎºÎ±Ï„Î¬ Ï„Î·Î½ ÎµÎ½ÎµÏ�Î³Î¿Ï€Î¿Î¯Î·ÏƒÎ· Ï„Î·Ï‚ Î²Î¬ÏƒÎ·Ï‚ Î´ÎµÎ´Î¿Î¼Î­Î½Ï‰Î½ Ï€Î¿Ï�Ï„Î¿Ï†ÏŒÎ»Î¹Î¿Ï… %s!</translation>
+        <translation>Σφάλμα κατά την ενεργοποίηση της βάσης δεδομένων πορτοφόλιου %s!</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Error loading block database</source>
-        <translation>Î£Ï†Î¬Î»Î¼Î± Ï†Î¿Ï�Ï„Ï‰ÏƒÎ·Ï‚ Ï„Î·Ï‚ Î²Î±ÏƒÎ·Ï‚ Î´ÎµÎ´Î¿Î¼ÎµÎ½Ï‰Î½ Ï„Ï‰Î½ Î¼Ï€Î»Î¿Îº</translation>
+        <translation>Σφάλμα φορτωσης της βασης δεδομενων των μπλοκ</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Error opening block database</source>
-        <translation>Î£Ï†Î¬Î»Î¼Î± Ï†Î¿Ï�Ï„Ï‰ÏƒÎ·Ï‚ Ï„Î·Ï‚ Î²Î±ÏƒÎ·Ï‚ Î´ÎµÎ´Î¿Î¼ÎµÎ½Ï‰Î½ Ï„Ï‰Î½ Î¼Ï€Î»Î¿Îº</translation>
+        <translation>Σφάλμα φορτωσης της βασης δεδομενων των μπλοκ</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Error: Disk space is low!</source>
-        <translation>Î Ï�Î¿ÎµÎ¹Î´Î¿Ï€Î¿Î¯Î·ÏƒÎ·: Î§Î±Î¼Î·Î»ÏŒÏ‚ Ï‡ÏŽÏ�Î¿Ï‚ ÏƒÏ„Î¿ Î´Î¯ÏƒÎºÎ¿  </translation>
+        <translation>Προειδοποίηση: Χαμηλός χώρος στο δίσκο  </translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation>Î£Ï†Î¬Î»Î¼Î±: Ï„Î¿ Ï€Î¿Ï�Ï„Î¿Ï†ÏŒÎ»Î¹ ÎµÎ¯Î½Î±Î¹ ÎºÎ»ÎµÎ¹Î´Ï‰Î¼Î­Î½Î¿, Î´ÎµÎ½ Î¼Ï€Î¿Ï�ÎµÎ¯ Î½Î± Î´Î·Î¼Î¹Î¿Ï…Ï�Î³Î·Î¸ÎµÎ¯ ÏƒÏ…Î½Î±Î»Î»Î±Î³Î®</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Error: system error: </source>
-        <translation>Î›Î¬Î¸Î¿Ï‚: Î»Î¬Î¸Î¿Ï‚ ÏƒÏ…ÏƒÏ„Î®Î¼Î±Ï„Î¿Ï‚:</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Ï„Î±Î»Î±Î¹Ï€Ï‰Ï�Î·Î¸ÎµÎ¹Ï„Îµ Î³Î¹Î± Î½Î± Î±ÎºÎ¿Ï�ÏƒÎµÏ„Îµ ÏƒÎµ Î¿Ï€Î¿Î¹Î±Î´Î®Ï€Î¿Ï„Îµ Î¸Ï�Ï�Î±. Î§Ï�Î®ÏƒÎ· - Î±ÎºÎ¿Ï�ÏƒÏ„Îµ = 0 , Î±Î½ Î¸Î­Î»ÎµÏ„Îµ Î±Ï…Ï„ÏŒ.</translation>
+        <translation>ταλαιπωρηθειτε για να ακούσετε σε οποιαδήποτε θύρα. Χρήση - ακούστε = 0 , αν θέλετε αυτό.</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to read block info</source>
-        <translation>Î‘Ï€Î¿Ï„Ï…Ï‡Î¯Î± Î±Î½Î±Î³Î½Ï‰ÏƒÎ·Ï‚ Ï„Ï‰Î½ block Ï€Î»Î·Ï�Î¿Ï†Î¿Ï�Î¹Ï‰Î½</translation>
+        <source>Importing...</source>
+        <translation>ΕΙσαγωγή...</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to read block</source>
-        <translation>Î— Î±Î½Î±Î³Î½Ï‰ÏƒÎ· Ï„Î¿Ï… Î¼Ï€Î»Î¿Îº Î±Ï€ÎµÏ„Ï…Ï‡Îµ</translation>
+        <source>Invalid -onion address: '%s'</source>
+        <translation>Άκυρη διεύθυνση -onion : '%s'</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to sync block index</source>
-        <translation>ÎŸ ÏƒÏ…Î³Ï‡Ï�Î¿Î½Î¹ÏƒÎ¼Î¿Ï‚ Ï„Î¿Ï… Î¼Ï€Î»Î¿Îº ÎµÏ…Ï�ÎµÏ„Î·Ï�Î¹Î¿Ï… Î±Ï€ÎµÏ„Ï…Ï‡Îµ</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write block index</source>
-        <translation>Î— Î´Î·Î¼Î¹Î¿Ï…Ï�Î³Î¹Î± Ï„Î¿Ï… Î¼Ï€Î»Î¿Îº ÎµÏ…Ï�ÎµÏ„Î·Ï�Î¹Î¿Ï… Î±Ï€ÎµÏ„Ï…Ï‡Îµ</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write block info</source>
-        <translation>Î— Î´Î·Î¼Î¹Î¿Ï…Ï�Î³Î¹Î± Ï„Ï‰Î½ Î¼Ï€Î»Î¿Îº Ï€Î»Î·Ï�Î¿Ï†Î¿Ï�Î¹Ï‰Î½ Î±Ï€ÎµÏ„Ï…Ï‡Îµ</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write block</source>
-        <translation>Î— Î´Î·Î¼Î¹Î¿Ï…Ï�Î³Î¹Î± Ï„Î¿Ï… Î¼Ï€Î»Î¿Îº Î±Ï€ÎµÏ„Ï…Ï‡Îµ</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write file info</source>
-        <translation>Î‘Î´Ï…Î½Î±Î¼Î¯Î± ÎµÎ³Î³Ï�Î±Ï†Î®Ï‚ Ï€Î»Î·Ï�Î¿Ï†Î¿Ï�Î¹Ï‰Î½ Î±Ï�Ï‡ÎµÎ¹Î¿Ï…</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write to coin database</source>
-        <translation>Î‘Ï€Î¿Ï„Ï…Ï‡Î¯Î± ÎµÎ³Î³Ï�Î±Ï†Î®Ï‚ ÏƒÏ„Î· Î²Î¬ÏƒÎ· Î´ÎµÎ´Î¿Î¼Î­Î½Ï‰Î½ Î½Î¿Î¼Î¯ÏƒÎ¼Î±Ï„Î¿Ï‚</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write transaction index</source>
-        <translation>Î‘Ï€Î¿Ï„Ï…Ï‡Î¯Î± ÎµÎ³Î³Ï�Î±Ï†Î®Ï‚ Î´ÎµÎ¯ÎºÏ„Î· ÏƒÏ…Î½Î±Î»Î»Î±Î³ÏŽÎ½ </translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write undo data</source>
-        <translation>Î‘Ï€Î¿Ï„Ï…Ï‡Î¯Î± ÎµÎ³Î³Ï�Î±Ï†Î®Ï‚ Î±Î½Î±Î¯Ï�ÎµÏƒÎ·Ï‚ Î´ÎµÎ´Î¿Î¼Î­Î½Ï‰Î½ </translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
-        <translation>Î’Ï�ÎµÏ‚ Î¿Î¼ÏŒÏ„Î¹Î¼Î¿Ï…Ï‚ Ï…Ï€Î¿Î»Î¿Î³Î¹ÏƒÏ„Î­Ï‚ Ï‡Ï�Î·ÏƒÎ¹Î¼Î¿Ï€Î¿Î¹ÏŽÎ½Ï„Î±Ï‚ Î±Î½Î±Î¶Î®Ï„Î·ÏƒÎ· DNS(Ï€Ï�Î¿ÎµÏ€Î¹Î»Î¿Î³Î®:1)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Generate coins (default: 0)</source>
-        <translation>Î”Î·Î¼Î¹Î¿Ï…Ï�Î³Î¯Î± Î½Î¿Î¼Î¹ÏƒÎ¼Î¬Ï„Ï‰Î½ (Ï€Ï�Î¿ÎºÎ±Î¸Î¿Ï�Î¹ÏƒÎ¼Î¿Ï‚: 0)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>How many blocks to check at startup (default: 288, 0 = all)</source>
-        <translation>Î ÏŒÏƒÎ± Î¼Ï€Î»Î¿Îº Î½Î± ÎµÎ»Î­Î³Ï‡Î¸Î¿Ï…Î½ ÎºÎ±Ï„Î¬ Ï„Î·Î½ ÎµÎºÎºÎ¯Î½Î·ÏƒÎ· (Ï€Ï�Î¿ÎµÏ€Î¹Î»Î¿Î³Î®:288,0=ÏŒÎ»Î±)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>How thorough the block verification is (0-4, default: 3)</source>
-        <translation>Î ÏŒÏƒÎ¿ ÎµÎ¾Î¿Î½Ï…Ï‡Î¹ÏƒÏ„Î¹ÎºÎ® Î½Î± ÎµÎ¯Î½Î±Î¹ Î· ÎµÏ€Î¹Î²ÎµÎ²Î±Î¯Ï‰ÏƒÎ· Ï„Î¿Ï… Î¼Ï€Î»Î¿Îº(0-4, Ï€Ï�Î¿ÎµÏ€Î¹Î»Î¿Î³Î®:3)</translation>
-    </message>
-    <message>
-        <location line="+19"/>
         <source>Not enough file descriptors available.</source>
-        <translation>Î”ÎµÎ½ ÎµÎ¹Î½Î±Î¹ Î±Ï�ÎºÎµÏ„ÎµÏ‚ Ï€ÎµÏ�Î¹Î³Ï�Î±Ï†ÎµÏ‚ Î±Ï�Ï‡ÎµÎ¯Ï‰Î½ Î´Î¹Î±Î¸Î­ÏƒÎ¹Î¼ÎµÏ‚.</translation>
+        <translation>Δεν ειναι αρκετες περιγραφες αρχείων διαθέσιμες.</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>Rebuild block chain index from current blk000??.dat files</source>
-        <translation>Î•Î¹ÏƒÎ±Î³Ï‰Î³Î® Î¼Ï€Î»Î¿Îº Î±Ï€ÏŒ ÎµÎ¾Ï‰Ï„ÎµÏ�Î¹ÎºÏŒ Î±Ï�Ï‡ÎµÎ¯Î¿ blk000?.dat</translation>
+        <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
+        <translation>Μόνο σύνδεση σε κόμβους του δικτύου &lt;net&gt; (ipv4, ipv6 ή onion)</translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>Set the number of threads to service RPC calls (default: 4)</source>
-        <translation>ÎŸÏ�Î¯ÏƒÎ¼Î¿Ï‚ Ï„Î¿Ï… Î±Ï�Î¹Î¸Î¼ÏŒÏ… Î¸ÎµÎ¼Î±Ï„Ï‰Î½ ÏƒÏ„Î·Î½ Ï…Ï€Î·Ï�ÎµÏƒÎ¯Î± ÎºÎ»Î®ÏƒÎµÏ‰Î½ RPC (Ï€Ï�Î¿ÎµÏ€Î¹Î»Î¿Î³Î®: 4) </translation>
+        <source>Set maximum block size in bytes (default: %d)</source>
+        <translation>Ορίστε το μέγιστο μέγεθος block σε bytes (προεπιλογή: %d)</translation>
     </message>
     <message>
-        <location line="+26"/>
+        <source>Specify wallet file (within data directory)</source>
+        <translation>Επιλέξτε αρχείο πορτοφολιού (μέσα απο κατάλογο δεδομένων)</translation>
+    </message>
+    <message>
         <source>Verifying blocks...</source>
-        <translation>Î•Ï€Î±Î»Î®Î¸ÎµÏ…ÏƒÎ· Ï„Ï‰Î½ Î¼Ï€Î»Î¿Îº... </translation>
+        <translation>Επαλήθευση των μπλοκ... </translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Verifying wallet...</source>
-        <translation>Î•Ï€Î±Î»Î®Î¸ÎµÏ…ÏƒÎ· Ï€Î¿Ï�Ï„Î¿Ï†Î¿Î»Î¹Î¿Ï…... </translation>
+        <translation>Επαλήθευση πορτοφολιου... </translation>
     </message>
     <message>
-        <location line="-69"/>
-        <source>Imports blocks from external blk000??.dat file</source>
-        <translation>Î•Î¹ÏƒÎ±Î³Ï‰Î³Î® Î¼Ï€Î»Î¿Îº Î±Ï€ÏŒ ÎµÎ¾Ï‰Ï„ÎµÏ�Î¹ÎºÏŒ Î±Ï�Ï‡ÎµÎ¯Î¿ blk000?.dat</translation>
+        <source>Wallet %s resides outside data directory %s</source>
+        <translation>Το πορτοφόλι %s βρίσκεται έξω από το φάκελο δεδομένων %s</translation>
     </message>
     <message>
-        <location line="-76"/>
-        <source>Set the number of script verification threads (up to 16, 0 = auto, &lt;0 = leave that many cores free, default: 0)</source>
-        <translation>ÎŸÏ�Î¯ÏƒÎ¼Î¿Ï‚ Ï„Î¿Ï… Î±Ï�Î¹Î¸Î¼ÏŒ Ï„Ï‰Î½ Î½Î·Î¼Î¬Ï„Ï‰Î½ ÎµÎ»Î­Î³Ï‡Î¿Ï… ÏƒÎµÎ½Î±Ï�Î¯Î¿Ï… (Î¼Î­Ï‡Ï�Î¹ 16, 0 = auto, &lt;0 = Î±Ï†Î®Î½Î¿Ï…Î½ Ï„Î¿Ï…Ï‚ Ï€Î¿Î»Î»Î¿Ï…Ï‚ Ï€Ï…Ï�Î®Î½ÎµÏ‚ Î´Ï‰Ï�ÎµÎ¬Î½, default: 0)</translation>
+        <source>Wallet options:</source>
+        <translation>Επιλογές πορτοφολιού:</translation>
     </message>
     <message>
-        <location line="+77"/>
+        <source>Connect through SOCKS5 proxy</source>
+        <translation>Σύνδεση μέσω διαμεσολαβητή SOCKS5</translation>
+    </message>
+    <message>
+        <source>Error reading from database, shutting down.</source>
+        <translation>Σφάλμα ανάγνωσης από τη βάση δεδομένων, γίνεται τερματισμός.</translation>
+    </message>
+    <message>
         <source>Information</source>
-        <translation>Î Î»Î·Ï�Î¿Ï†Î¿Ï�Î¯Î±</translation>
+        <translation>Πληροφορία</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Invalid -tor address: &apos;%s&apos;</source>
-        <translation>Î”ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏ…Ï�Î· Î· Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ· Î´Î¹Î±Î¼ÎµÏƒÎ¿Î»Î±Î²Î·Ï„Î®: &apos;%s&apos;</translation>
+        <source>Node relay options:</source>
+        <translation>Επιλογές αναμετάδοσης κόμβου: </translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>ÎœÎ· Î­Î³ÎºÏ…Ï�Î¿ Ï€Î¿ÏƒÏŒ Î³Î¹Î± Ï„Î·Î½ Ï€Î±Ï�Î¬Î¼ÎµÏ„Ï�Î¿ -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
+        <source>RPC server options:</source>
+        <translation>Επιλογές διακομιστή RPC:</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>ÎœÎ· Î­Î³ÎºÏ…Ï�Î¿ Ï€Î¿ÏƒÏŒ Î³Î¹Î± Ï„Î·Î½ Ï€Î±Ï�Î¬Î¼ÎµÏ„Ï�Î¿ -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Maintain a full transaction index (default: 0)</source>
-        <translation>Î”Î¹Î±Ï„Î·Ï�Î®ÏƒÎ· Î­Î½Î¿Ï‚ Ï€Î»Î®Ï�ÎµÏ‚ ÎµÏ…Ï�ÎµÏ„Î®Ï�Î¹Î¿Ï… ÏƒÏ…Î½Î±Î»Î»Î±Î³ÏŽÎ½ (Ï€Ï�Î¿ÎµÏ€Î¹Î»Î¿Î³Î®: 0) </translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
-        <translation>ÎœÎ­Î³Î¹ÏƒÏ„Î¿Ï‚ buffer Î»Î®ÏˆÎ·Ï‚ Î±Î½Î¬ ÏƒÏ�Î½Î´ÎµÏƒÎ·, &lt;n&gt;*1000 bytes (Ï€Ï�Î¿ÎµÏ€Î¹Î»Î¿Î³Î®: 5000)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
-        <translation>ÎœÎ­Î³Î¹ÏƒÏ„Î¿Ï‚ buffer Î±Ï€Î¿ÏƒÏ„Î¿Î»Î®Ï‚ Î±Î½Î¬ ÏƒÏ�Î½Î´ÎµÏƒÎ·, &lt;n&gt;*1000 bytes (Ï€Ï�Î¿ÎµÏ€Î¹Î»Î¿Î³Î®: 1000)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
-        <translation>ÎœÎ¿Î½Î¿ Î±Ï€Î¿Î´Î¿Ï‡Î· Î±Î»Ï…ÏƒÎ¯Î´Î±Ï‚ Î¼Ï€Î»Î¿Îº Ï€Î¿Ï… Ï„Î±Î¹Ï�Î¹Î¬Î¶ÎµÎ¹ Î¼Îµ Ï„Î± ÎµÎ½ÏƒÏ‰Î¼Î±Ï„Ï‰Î¼Î­Î½Î± ÏƒÎ·Î¼ÎµÎ¯Î± ÎµÎ»Î­Î³Ï‡Î¿Ï… (Ï€Ï�Î¿ÎµÏ€Î¹Î»Î¿Î³Î®: 1) </translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
-        <translation> Î£Ï…Î½Î´Î­ÏƒÎ· Î¼ÏŒÎ½Î¿ ÏƒÎµ ÎºÏŒÎ¼Î²Î¿Ï…Ï‚ Ï„Î¿Ï… Î´Î¹ÎºÏ„Ï�Î¿Ï… &lt;net&gt; (IPv4, IPv6 Î® Tor) </translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Output extra debugging information. Implies all other -debug* options</source>
-        <translation>ÎˆÎ¾Î¿Î´Î¿Ï‚ ÎµÏ€Î¹Ï€Î»Î­Î¿Î½ Ï€Î»Î·Ï�Î¿Ï†Î¿Ï�Î¹ÏŽÎ½ ÎµÎ½Ï„Î¿Ï€Î¹ÏƒÎ¼Î¿Ï� ÏƒÏ†Î±Î»Î¼Î¬Ï„Ï‰Î½</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Output extra network debugging information</source>
-        <translation>ÎˆÎ¾Î¿Î´Î¿Ï‚ ÎµÏ€Î¹Ï€Î»Î­Î¿Î½ Ï€Î»Î·Ï�Î¿Ï†Î¿Ï�Î¹ÏŽÎ½ ÎµÎ½Ï„Î¿Ï€Î¹ÏƒÎ¼Î¿Ï� ÏƒÏ†Î±Î»Î¼Î¬Ï„Ï‰Î½</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Prepend debug output with timestamp</source>
-        <translation>Î§Ï�Î¿Î½Î¿ÏƒÏ†Ï�Î±Î³Î¯Î´Î± Ï€Î»Î·Ï�Î¿Ï†Î¿Ï�Î¹ÏŽÎ½ ÎµÎ½Ï„Î¿Ï€Î¹ÏƒÎ¼Î¿Ï� ÏƒÏ†Î±Î»Î¼Î¬Ï„Ï‰Î½</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>SSL options: (see the Murfcoin Wiki for SSL setup instructions)</source>
-        <translation>Î¡Ï…Î¸Î¼Î¯ÏƒÎµÎ¹Ï‚ SSL: (Î±Î½Î±Ï„Ï�Î­Î¾Ï„Îµ ÏƒÏ„Î¿ Murfcoin Wiki Î³Î¹Î± Î¿Î´Î·Î³Î¯ÎµÏ‚ Ï�Ï…Î¸Î¼Î¯ÏƒÎµÏ‰Î½ SSL)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Select the version of socks proxy to use (4-5, default: 5)</source>
-        <translation>Î•Ï€Î¹Î»Î­Î¾Ï„Îµ Ï„Î·Î½ Î­ÎºÎ´Î¿ÏƒÎ· Ï„Î¿Ï… Î´Î¹Î±Î¼ÎµÏƒÎ¿Î»Î±Î²Î·Ï„Î· Î³Î¹Î± Î½Î± Ï‡Ï�Î·ÏƒÎ¹Î¼Î¿Ï€Î¿Î¹Î®ÏƒÎµÏ„Îµ (4-5 , Ï€Ï�Î¿ÎµÏ€Î¹Î»Î¿Î³Î®: 5)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Î‘Ï€Î¿ÏƒÏ„Î¿Î»Î® Ï€Î»Î·Ï�Î¿Ï†Î¿Ï�Î¹ÏŽÎ½ ÎµÎ½Ï„Î¿Ï€Î¹ÏƒÎ¼Î¿Ï� ÏƒÏ†Î±Î»Î¼Î¬Ï„Ï‰Î½ ÏƒÏ„Î·Î½ ÎºÎ¿Î½ÏƒÏŒÎ»Î± Î±Î½Ï„Î¯ Ï„Î¿Ï… Î±Ï�Ï‡ÎµÎ¯Î¿Ï… debug.log</translation>
+        <translation>Αποστολή πληροφοριών εντοπισμού σφαλμάτων στην κονσόλα αντί του αρχείου debug.log</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Send trace/debug info to debugger</source>
-        <translation>Î‘Ï€Î¿ÏƒÏ„Î¿Î»Î® Ï€Î»Î·Ï�Î¿Ï†Î¿Ï�Î¹ÏŽÎ½ ÎµÎ½Ï„Î¿Ï€Î¹ÏƒÎ¼Î¿Ï� ÏƒÏ†Î±Î»Î¼Î¬Ï„Ï‰Î½ ÏƒÏ„Î¿Î½ debugger</translation>
+        <source>Show all debugging options (usage: --help -help-debug)</source>
+        <translation>Προβολή όλων των επιλογών εντοπισμού σφαλμάτων (χρήση: --help -help-debug)</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Set maximum block size in bytes (default: 250000)</source>
-        <translation>ÎŸÏ�Î¯ÏƒÎ¼Î¿Ï‚ Ï„Î¿Ï… Î¼Î­Î³Î¹ÏƒÏ„Î¿Ï… Î¼Î­Î³ÎµÎ¸Î¿Ï‚ block ÏƒÎµ bytes (Ï€Ï�Î¿ÎµÏ€Î¹Î»Î¿Î³Î®: 250000)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Set minimum block size in bytes (default: 0)</source>
-        <translation>ÎŸÏ�Î¯ÏƒÏ„Îµ Ï„Î¿ Î¼Î­Î³Î¹ÏƒÏ„Î¿ Î¼Î­Î³ÎµÎ¸Î¿Ï‚ block ÏƒÎµ bytes (Ï€Ï�Î¿ÎµÏ€Î¹Î»Î¿Î³Î®: 0)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>Î£Ï…Ï�Ï�Î¯ÎºÎ½Ï‰ÏƒÎ· Ï„Î¿Ï… Î±Ï�Ï‡ÎµÎ¯Î¿ debug.log ÎºÎ±Ï„Î± Ï„Î·Î½ ÎµÎºÎºÎ¯Î½Î·ÏƒÎ· Ï„Î¿Ï… Ï€ÎµÎ»Î¬Ï„Î· (Ï€Ï�Î¿ÎµÏ€Î¹Î»Î¿Î³Î®: 1 ÏŒÏ„Î±Î½ Î´ÎµÎ½-debug)</translation>
+        <translation>Συρρίκνωση του αρχείο debug.log κατα την εκκίνηση του πελάτη (προεπιλογή: 1 όταν δεν-debug)</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Signing transaction failed</source>
-        <translation>Î— Ï…Ï€Î¿Î³Ï�Î±Ï†Î® ÏƒÏ…Î½Î±Î»Î»Î±Î³Î®Ï‚ Î±Ï€Î­Ï„Ï…Ï‡Îµ </translation>
+        <translation>Η υπογραφή συναλλαγής απέτυχε </translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Specify connection timeout in milliseconds (default: 5000)</source>
-        <translation>ÎŸÏ�Î¹ÏƒÎ¼ÏŒÏ‚ Î»Î®Î¾Î·Ï‚ Ï‡Ï�Î¿Î½Î¹ÎºÎ¿Ï� Î¿Ï�Î¯Î¿Ï… ÏƒÎµ Ï‡Î¹Î»Î¹Î¿ÏƒÏ„Î¬ Ï„Î¿Ï… Î´ÎµÏ…Ï„ÎµÏ�Î¿Î»Î­Ï€Ï„Î¿Ï…(Ï€Ï�Î¿ÎµÏ€Î¹Î»Î¿Î³Î®:5000)</translation>
+        <source>This is experimental software.</source>
+        <translation>Η εφαρμογή είναι σε πειραματικό στάδιο.</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>System error: </source>
-        <translation>Î›Î¬Î¸Î¿Ï‚ Î£Ï…ÏƒÏ„Î®Î¼Î±Ï„Î¿Ï‚:</translation>
-    </message>
-    <message>
-        <location line="+4"/>
         <source>Transaction amount too small</source>
-        <translation>Î¤Î¿ Ï€Î¿ÏƒÏŒ Ï„Î·Ï‚ ÏƒÏ…Î½Î±Î»Î»Î±Î³Î®Ï‚ ÎµÎ¯Î½Î±Î¹ Ï€Î¿Î»Ï� Î¼Î¹ÎºÏ�Î¿ </translation>
+        <translation>Το ποσό της συναλλαγής είναι πολύ μικρο </translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Transaction amounts must be positive</source>
-        <translation>Î¤Î± Ï€Î¿ÏƒÎ¬ Ï„Ï‰Î½ ÏƒÏ…Î½Î±Î»Î»Î±Î³ÏŽÎ½ Ï€Ï�Î­Ï€ÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ Î¸ÎµÏ„Î¹ÎºÎ±</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Transaction too large</source>
-        <translation>Î— ÏƒÏ…Î½Î±Î»Î»Î±Î³Î® ÎµÎ¹Î½Î±Î¹ Ï€Î¿Î»Ï� Î¼ÎµÎ³Î¬Î»Î· </translation>
+        <translation>Η συναλλαγή ειναι πολύ μεγάλη </translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Use UPnP to map the listening port (default: 0)</source>
-        <translation>Î§Ï�Î·ÏƒÎ¹Î¼Î¿Ï€Î¿Î¯Î·ÏƒÎ· Ï„Î¿Ï…  UPnP Î³Î¹Î± Ï„Î·Î½ Ï‡Ï�Î®ÏƒÎ· Ï„Î·Ï‚ Ï€ÏŒÏ�Ï„Î±Ï‚ Î±Î½Î±Î¼Î¿Î½Î®Ï‚ (Ï€Ï�Î¿ÎµÏ€Î¹Î»Î¿Î³Î®:0)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation>Î§Ï�Î·ÏƒÎ¹Î¼Î¿Ï€Î¿Î¯Î·ÏƒÎ· Ï„Î¿Ï…  UPnP Î³Î¹Î± Ï„Î·Î½ Ï‡Ï�Î®ÏƒÎ· Ï„Î·Ï‚ Ï€ÏŒÏ�Ï„Î±Ï‚ Î±Î½Î±Î¼Î¿Î½Î®Ï‚ (Ï€Ï�Î¿ÎµÏ€Î¹Î»Î¿Î³Î®:1)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
-        <translation>Î§Ï�Î®ÏƒÎ· Î´Î¹Î±ÎºÎ¿Î¼Î¹ÏƒÏ„Î® Î¼ÎµÏƒÎ¿Î»Î¬Î²Î·ÏƒÎ·Ï‚ Î³Î¹Î± Ï„Î·Î½ ÎµÏ€Î¯Ï„ÎµÏ…Î¾Î· Ï„Ï‰Î½ Tor ÎºÏ�Ï…Î¼Î¼Î­Î½Ï‰Î½ Ï…Ï€Î·Ï�ÎµÏƒÎ¹Ï‰Î½ (Ï€Ï�Î¿ÎµÏ€Î¹Î»Î¿Î³Î®: Î¯Î´Î¹Î¿ Î¼Îµ Ï„Î¿-proxy) </translation>
-    </message>
-    <message>
-        <location line="+2"/>
         <source>Username for JSON-RPC connections</source>
-        <translation>ÎŒÎ½Î¿Î¼Î± Ï‡Ï�Î®ÏƒÏ„Î· Î³Î¹Î± Ï„Î¹Ï‚ ÏƒÏ…Î½Î´Î­ÏƒÎµÎ¹Ï‚ JSON-RPC</translation>
+        <translation>Όνομα χρήστη για τις συνδέσεις JSON-RPC</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Warning</source>
-        <translation>Î Ï�Î¿ÎµÎ¹Î´Î¿Ï€Î¿Î¯Î·ÏƒÎ·</translation>
+        <translation>Προειδοποίηση</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation>Î Ï�Î¿ÎµÎ¹Î´Î¿Ï€Î¿Î¯Î·ÏƒÎ·: Î‘Ï…Ï„Î® Î· Î­ÎºÎ´Î¿ÏƒÎ· ÎµÎ¯Î½Î±Î¹ Î¾ÎµÏ€ÎµÏ�Î±ÏƒÎ¼Î­Î½Î·, Î±Ï€Î±Î¹Ï„ÎµÎ¯Ï„Î±Î¹ Î±Î½Î±Î²Î¬Î¸Î¼Î¹ÏƒÎ· </translation>
+        <source>Zapping all transactions from wallet...</source>
+        <translation>Μεταφορά όλων των συναλλαγών απο το πορτοφόλι</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>You need to rebuild the databases using -reindex to change -txindex</source>
-        <translation>Î˜Î± Ï€Ï�Î­Ï€ÎµÎ¹ Î½Î± Î¾Î±Î½Î±Ï‡Ï„Î¯ÏƒÏ„Î¿Ï…Î½ Î¿Î¹ Î²Î¬ÏƒÎµÎ¹Ï‚ Î´ÎµÎ´Î¿Î¼Î­Î½Ï‰Î½ Ï€Î¿Ï… Ï‡Ï�Î·ÏƒÎ¹Î¼Î¿Ï€Î¿Î¹Î¿Ï�Î½Ï„Îµ-Î‘Î½Î±Î´Î·Î¼Î¹Î¿Ï…Ï�Î³Î¯Î± Î±Î»Î»Î¬Î³Ï‰Î½-txindex </translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>wallet.dat corrupt, salvage failed</source>
-        <translation>Î¤Î¿ Î±Ï�Ï‡ÎµÎ¹Î¿ wallet.dat ÎµÎ¹Î½Î±Î¹ Î´Î¹ÎµÏ†Î¸Î±Ï�Î¼Î­Î½Î¿, Î· Î´Î¹Î¬ÏƒÏ‰ÏƒÎ· Î±Ï€Î­Ï„Ï…Ï‡Îµ</translation>
-    </message>
-    <message>
-        <location line="-50"/>
         <source>Password for JSON-RPC connections</source>
-        <translation>ÎšÏ‰Î´Î¹ÎºÏŒÏ‚ Î³Î¹Î± Ï„Î¹Ï‚ ÏƒÏ…Î½Î´Î­ÏƒÎµÎ¹Ï‚ JSON-RPC</translation>
+        <translation>Κωδικός για τις συνδέσεις JSON-RPC</translation>
     </message>
     <message>
-        <location line="-67"/>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>Î‘Ï€Î¿Î´Î¿Ï‡Î® ÏƒÏ…Î½Î´Î­ÏƒÎµÏ‰Î½ JSON-RPC Î±Ï€ÏŒ ÏƒÏ…Î³ÎºÎµÎºÏ�Î¹Î¼Î­Î½Î· Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ· IP</translation>
-    </message>
-    <message>
-        <location line="+76"/>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Î‘Ï€Î¿ÏƒÏ„Î¿Î»Î® ÎµÎ½Ï„Î¿Î»ÏŽÎ½ ÏƒÏ„Î¿Î½ ÎºÏŒÎ¼Î²Î¿ &lt;ip&gt; (Ï€Ï�Î¿ÎµÏ€Î¹Î»Î¿Î³Î®: 127.0.0.1)</translation>
-    </message>
-    <message>
-        <location line="-120"/>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Î•ÎºÏ„Î­Î»ÎµÏƒÎµ Ï„Î·Î½ ÎµÎ½Ï„Î¿Î»Î® ÏŒÏ„Î±Î½ Ï„Î¿ ÎºÎ±Î»Ï�Ï„ÎµÏ�Î¿ Î¼Ï€Î»Î¿Îº Î±Î»Î»Î¬Î¾ÎµÎ¹(%s ÏƒÏ„Î·Î½ ÎµÎ½Ï„Î¿Î»Î® Î±Î½Ï„Î¹ÎºÎ±Î¸Î¯ÏƒÏ„Î±Ï„Î±Î¹ Î±Ï€ÏŒ Ï„Î¿ hash Ï„Î¿Ï… Î¼Ï€Î»Î¿Îº)</translation>
+        <translation>Εκτέλεσε την εντολή όταν το καλύτερο μπλοκ αλλάξει(%s στην εντολή αντικαθίσταται από το hash του μπλοκ)</translation>
     </message>
     <message>
-        <location line="+147"/>
-        <source>Upgrade wallet to latest format</source>
-        <translation>Î‘Î½Î±Î²Î¬Î¸Î¼Î¹ÏƒÎµ Ï„Î¿ Ï€Î¿Ï�Ï„Î¿Ï†ÏŒÎ»Î¹ ÏƒÏ„Î·Î½ Ï„ÎµÎ»ÎµÏ…Ï„Î±Î¯Î± Î­ÎºÎ´Î¿ÏƒÎ·</translation>
-    </message>
-    <message>
-        <location line="-21"/>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>ÎŒÏ�Î¹Î¿ Ï€Î»Î®Î¸Î¿Ï…Ï‚ ÎºÎ»ÎµÎ¹Î´Î¹ÏŽÎ½ pool &lt;n&gt; (Ï€Ï�Î¿ÎµÏ€Î¹Î»Î¿Î³Î®: 100)</translation>
-    </message>
-    <message>
-        <location line="-12"/>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Î•Ï€Î±Î½Î­Î»ÎµÎ³Ï‡Î¿Ï‚ Ï„Î·Ï‚ Î±Î»Ï…ÏƒÎ¯Î´Î±Ï‚ Î¼Ï€Î»Î¿Îº Î³Î¹Î± Î±Ï€Î¿Ï�ÏƒÎµÏ‚ ÏƒÏ…Î½Î±Î»Î»Î±Î³Î­Ï‚</translation>
-    </message>
-    <message>
-        <location line="+35"/>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Î§Ï�Î®ÏƒÎ· Ï„Î¿Ï… OpenSSL (https) Î³Î¹Î± ÏƒÏ…Î½Î´Î­ÏƒÎµÎ¹Ï‚ JSON-RPC</translation>
-    </message>
-    <message>
-        <location line="-26"/>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation>Î‘Ï�Ï‡ÎµÎ¯Î¿ Ï€Î¹ÏƒÏ„Î¿Ï€Î¿Î¹Î·Ï„Î¹ÎºÎ¿Ï� Ï„Î¿Ï… Î´Î¹Î±ÎºÎ¿Î¼Î¹ÏƒÏ„Î®  (Ï€Ï�Î¿ÎµÏ€Î¹Î»Î¿Î³Î®: server.cert)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Server private key (default: server.pem)</source>
-        <translation>Î Ï�Î¿ÏƒÏ‰Ï€Î¹ÎºÏŒ ÎºÎ»ÎµÎ¹Î´Î¯ Ï„Î¿Ï… Î´Î¹Î±ÎºÎ¿Î¼Î¹ÏƒÏ„Î® (Ï€Ï�Î¿ÎµÏ€Î¹Î»Î¿Î³Î®: server.pem)</translation>
-    </message>
-    <message>
-        <location line="-151"/>
-        <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
-        <translation>Î‘Ï€Î¿Î´ÎµÎºÏ„Î¬ ÎºÏ�Ï…Ï€Ï„Î¿Î³Ï�Î±Ï†Î®Î¼Î±Ï„Î± (Ï€Ï�Î¿ÎµÏ€Î¹Î»Î¿Î³Î®: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
-    </message>
-    <message>
-        <location line="+165"/>
-        <source>This help message</source>
-        <translation>Î‘Ï…Ï„ÏŒ Ï„Î¿ ÎºÎµÎ¯Î¼ÎµÎ½Î¿ Î²Î¿Î®Î¸ÎµÎ¹Î±Ï‚</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>Î‘Î´Ï�Î½Î±Ï„Î· Î· ÏƒÏ�Î½Î´ÎµÏƒÎ· Î¼Îµ Ï„Î· Î¸Ï�Ï�Î± %s Î±Ï…Ï„Î¿Ï� Ï„Î¿Ï… Ï…Ï€Î¿Î»Î¿Î³Î¹ÏƒÏ„Î® (bind returned error %d, %s) </translation>
-    </message>
-    <message>
-        <location line="-91"/>
-        <source>Connect through socks proxy</source>
-        <translation>Î£Ï�Î½Î´ÎµÏƒÎ· Î¼Î­ÏƒÏ‰ Î´Î¹Î±Î¼ÎµÏƒÎ¿Î»Î±Î²Î·Ï„Î® socks</translation>
-    </message>
-    <message>
-        <location line="-10"/>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Î�Î± ÎµÏ€Î¹Ï„Ï�Î­Ï€Î¿Î½Ï„Î±Î¹ Î¿Î¹ Î­Î»ÎµÎ³Ï‡Î¿Î¹ DNS Î³Î¹Î± Ï€Ï�Î¿ÏƒÎ¸Î®ÎºÎ· ÎºÎ±Î¹ ÏƒÏ�Î½Î´ÎµÏƒÎ· ÎºÏŒÎ¼Î²Ï‰Î½</translation>
+        <translation>Να επιτρέπονται οι έλεγχοι DNS για προσθήκη και σύνδεση κόμβων</translation>
     </message>
     <message>
-        <location line="+55"/>
         <source>Loading addresses...</source>
-        <translation>Î¦ÏŒÏ�Ï„Ï‰ÏƒÎ· Î´Î¹ÎµÏ…Î¸Ï�Î½ÏƒÎµÏ‰Î½...</translation>
+        <translation>Φόρτωση διευθύνσεων...</translation>
     </message>
     <message>
-        <location line="-35"/>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Î£Ï†Î¬Î»Î¼Î± Ï†ÏŒÏ�Ï„Ï‰ÏƒÎ·Ï‚ wallet.dat: ÎšÎ±Ï„ÎµÏƒÏ„Ï�Î±Î¼Î¼Î­Î½Î¿ Î Î¿Ï�Ï„Î¿Ï†ÏŒÎ»Î¹</translation>
+        <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
+        <translation>Πόσο εξονυχιστική να είναι η επιβεβαίωση του μπλοκ (0-4, προεπιλογή: %u)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Murfcoin</source>
-        <translation>Î£Ï†Î¬Î»Î¼Î± Ï†ÏŒÏ�Ï„Ï‰ÏƒÎ·Ï‚ wallet.dat: Î¤Î¿ Î Î¿Ï�Ï„Î¿Ï†ÏŒÎ»Î¹ Î±Ï€Î±Î¹Ï„ÎµÎ¯ Î¼Î¹Î± Î½ÎµÏŒÏ„ÎµÏ�Î· Î­ÎºÎ´Î¿ÏƒÎ· Ï„Î¿Ï… Murfcoin</translation>
+        <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
+        <translation>Διατηρήση ένος πλήρες ευρετήριου συναλλαγών (προεπιλογή: %u) </translation>
     </message>
     <message>
-        <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Murfcoin to complete</source>
-        <translation>Î‘Ï€Î±Î¹Ï„ÎµÎ¯Ï„Î±Î¹ Î· ÎµÏ€Î±Î½ÎµÎ³Î³Ï�Î±Ï†Î® Ï„Î¿Ï… Î Î¿Ï�Ï„Î¿Ï†Î¿Î»Î¹Î¿Ï�, Î· Î¿Ï€Î¿Î¯Î± Î¸Î± Î¿Î»Î¿ÎºÎ»Î·Ï�Ï‰Î¸ÎµÎ¯ ÏƒÏ„Î·Î½ ÎµÏ€Î±Î½ÎµÎºÎºÎ¯Î½Î·ÏƒÎ· Ï„Î¿Ï… Murfcoin</translation>
+        <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
+        <translation>Δευτερόλεπτα πριν επιτραπεί ξανά η σύνδεση των προβληματικών peers (προεπιλογή: %u)</translation>
     </message>
     <message>
-        <location line="-95"/>
-        <source>Error loading wallet.dat</source>
-        <translation>Î£Ï†Î¬Î»Î¼Î± Ï†ÏŒÏ�Ï„Ï‰ÏƒÎ·Ï‚ Î±Ï�Ï‡ÎµÎ¯Î¿Ï… wallet.dat</translation>
+        <source>How many blocks to check at startup (default: %u, 0 = all)</source>
+        <translation>Πόσα μπλοκ να ελέγχθουν κατά την εκκίνηση (προεπιλογή: %u, 0 = όλα)</translation>
     </message>
     <message>
-        <location line="+28"/>
-        <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation>Î”ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏ…Ï�Î· Î· Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ· Î´Î¹Î±Î¼ÎµÏƒÎ¿Î»Î±Î²Î·Ï„Î®: &apos;%s&apos;</translation>
+        <source>Include IP addresses in debug output (default: %u)</source>
+        <translation>Να συμπεριληφθεί η διεύθυνση IP στην αναφορά? (προεπιλογή: %u)</translation>
     </message>
     <message>
-        <location line="+56"/>
-        <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
-        <translation>Î†Î³Î½Ï‰ÏƒÏ„o Î´Î¯ÎºÏ„Ï…Î¿ Î¿Ï�Î¯Î¶ÎµÏ„Î±Î¹ ÏƒÎµ onlynet: &apos;%s&apos;</translation>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Δεν είναι έγκυρη η διεύθυνση διαμεσολαβητή: '%s'</translation>
     </message>
     <message>
-        <location line="-1"/>
-        <source>Unknown -socks proxy version requested: %i</source>
-        <translation>Î†Î³Î½Ï‰ÏƒÏ„o Î´Î¯ÎºÏ„Ï…Î¿ Î¿Ï�Î¯Î¶ÎµÏ„Î±Î¹: %i</translation>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
+        <translation>Μέγιστες αριθμός συνδέσεων με τους peers &lt;n&gt; (προεπιλογή: %u)</translation>
     </message>
     <message>
-        <location line="-96"/>
-        <source>Cannot resolve -bind address: &apos;%s&apos;</source>
-        <translation>Î”ÎµÎ½ Î¼Ï€Î¿Ï�ÏŽ Î½Î± Î³Ï�Î¬ÏˆÏ‰ Ï„Î·Î½ Ï€Ï�Î¿ÎµÏ€Î¹Î»ÎµÎ³Î¼Î­Î½Î· Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ·: &apos;%s&apos;</translation>
+        <source>Specify configuration file (default: %s)</source>
+        <translation>Ορίστε αρχείο ρυθμίσεων (προεπιλογή: %s)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
-        <translation>Î”ÎµÎ½ Î¼Ï€Î¿Ï�ÏŽ Î½Î± Î³Ï�Î¬ÏˆÏ‰ Ï„Î·Î½ Ï€Ï�Î¿ÎµÏ€Î¹Î»ÎµÎ³Î¼Î­Î½Î· Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ·: &apos;%s&apos;</translation>
+        <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
+        <translation>Ορισμός λήξης χρονικού ορίου σε χιλιοστά του δευτερολέπτου(προεπιλογή: %d)</translation>
     </message>
     <message>
-        <location line="+44"/>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>ÎœÎ· Î­Î³ÎºÏ…Ï�Î¿ Ï€Î¿ÏƒÏŒ Î³Î¹Î± Ï„Î·Î½ Ï€Î±Ï�Î¬Î¼ÎµÏ„Ï�Î¿ -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
+        <source>Specify pid file (default: %s)</source>
+        <translation>Ορίστε αρχείο pid (προεπιλογή: %s)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Invalid amount</source>
-        <translation>Î›Î¬Î¸Î¿Ï‚ Ï€Î¿ÏƒÏŒÏ„Î·Ï„Î±</translation>
+        <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
+        <translation>Όριο αποσύνδεσης προβληματικών peers (προεπιλογή: %u)</translation>
     </message>
     <message>
-        <location line="-6"/>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Άγνωστo δίκτυο ορίζεται σε onlynet: '%s'</translation>
+    </message>
+    <message>
         <source>Insufficient funds</source>
-        <translation>Î‘Î½ÎµÏ€Î±Ï�ÎºÎ­Ï‚ ÎºÎµÏ†Î¬Î»Î±Î¹Î¿</translation>
+        <translation>Ανεπαρκές κεφάλαιο</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Loading block index...</source>
-        <translation>Î¦ÏŒÏ�Ï„Ï‰ÏƒÎ· ÎµÏ…Ï�ÎµÏ„Î·Ï�Î¯Î¿Ï… Î¼Ï€Î»Î¿Îº...</translation>
+        <translation>Φόρτωση ευρετηρίου μπλοκ...</translation>
     </message>
     <message>
-        <location line="-57"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Î Ï�Î¿ÏƒÎ­Î¸ÎµÏƒÎµ Î­Î½Î± ÎºÏŒÎ¼Î²Î¿ Î³Î¹Î± ÏƒÏ�Î½Î´ÎµÏƒÎ· ÎºÎ±Î¹ Ï€Ï�Î¿ÏƒÏ€Î¬Î¸Î·ÏƒÎµ Î½Î± ÎºÏ�Î±Ï„Î®ÏƒÎµÎ¹Ï‚ Ï„Î·Î½ ÏƒÏ�Î½Î´ÎµÏƒÎ· Î±Î½Î¿Î¹Ï‡Ï„Î®</translation>
+        <translation>Προσέθεσε ένα κόμβο για σύνδεση και προσπάθησε να κρατήσεις την σύνδεση ανοιχτή</translation>
     </message>
     <message>
-        <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Murfcoin is probably already running.</source>
-        <translation>Î‘Î´Ï�Î½Î±Ï„Î· Î· ÏƒÏ�Î½Î´ÎµÏƒÎ· Î¼Îµ Ï„Î· Î¸Ï�Ï�Î± %s Î±Ï…Ï„Î¿Ï� Ï„Î¿Ï… Ï…Ï€Î¿Î»Î¿Î³Î¹ÏƒÏ„Î®. Î¤Î¿ Murfcoin ÎµÎ¯Î½Î±Î¹ Ï€Î¹Î¸Î±Î½ÏŽÏ‚ Î®Î´Î· ÎµÎ½ÎµÏ�Î³ÏŒ.</translation>
-    </message>
-    <message>
-        <location line="+64"/>
-        <source>Fee per KB to add to transactions you send</source>
-        <translation>Î‘Î¼Î¿Î¹Î²Î® Î±Î½Î¬ KB Ï€Î¿Ï… Î¸Î± Ï€Ï�Î¿ÏƒÏ„Î¯Î¸ÎµÏ„Î±Î¹ ÏƒÏ„Î¹Ï‚ ÏƒÏ…Î½Î±Î»Î»Î±Î³Î­Ï‚ Ï€Î¿Ï… ÏƒÏ„Î­Î»Î½ÎµÎ¹Ï‚</translation>
-    </message>
-    <message>
-        <location line="+19"/>
         <source>Loading wallet...</source>
-        <translation>Î¦ÏŒÏ�Ï„Ï‰ÏƒÎ· Ï€Î¿Ï�Ï„Î¿Ï†Î¿Î»Î¹Î¿Ï�...</translation>
+        <translation>Φόρτωση πορτοφολιού...</translation>
     </message>
     <message>
-        <location line="-52"/>
         <source>Cannot downgrade wallet</source>
-        <translation>Î”ÎµÎ½ Î¼Ï€Î¿Ï�ÏŽ Î½Î± Ï…Ï€Î¿Î²Î±Î¸Î¼Î¯ÏƒÏ‰ Ï„Î¿ Ï€Î¿Ï�Ï„Î¿Ï†ÏŒÎ»Î¹</translation>
+        <translation>Δεν μπορώ να υποβαθμίσω το πορτοφόλι</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Cannot write default address</source>
-        <translation>Î”ÎµÎ½ Î¼Ï€Î¿Ï�ÏŽ Î½Î± Î³Ï�Î¬ÏˆÏ‰ Ï„Î·Î½ Ï€Ï�Î¿ÎµÏ€Î¹Î»ÎµÎ³Î¼Î­Î½Î· Î´Î¹ÎµÏ�Î¸Ï…Î½ÏƒÎ·</translation>
+        <translation>Δεν μπορώ να γράψω την προεπιλεγμένη διεύθυνση</translation>
     </message>
     <message>
-        <location line="+64"/>
         <source>Rescanning...</source>
-        <translation>Î‘Î½Î¯Ï‡Î½ÎµÏ…ÏƒÎ·...</translation>
+        <translation>Ανίχνευση...</translation>
     </message>
     <message>
-        <location line="-57"/>
         <source>Done loading</source>
-        <translation>Î— Ï†ÏŒÏ�Ï„Ï‰ÏƒÎ· Î¿Î»Î¿ÎºÎ»Î·Ï�ÏŽÎ¸Î·ÎºÎµ</translation>
+        <translation>Η φόρτωση ολοκληρώθηκε</translation>
     </message>
     <message>
-        <location line="+82"/>
-        <source>To use the %s option</source>
-        <translation>Î§Ï�Î®ÏƒÎ· Ï„Î·Ï‚ %s ÎµÏ€Î¹Î»Î¿Î³Î®Ï‚</translation>
-    </message>
-    <message>
-        <location line="-74"/>
         <source>Error</source>
-        <translation>Î£Ï†Î¬Î»Î¼Î±</translation>
-    </message>
-    <message>
-        <location line="-31"/>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>Î Ï�Î­Ï€ÎµÎ¹ Î½Î± Î²Î¬Î»ÎµÎ¹Ï‚ Î­Î½Î± ÎºÏ‰Î´Î¹ÎºÏŒ  ÏƒÏ„Î¿ Î±Ï�Ï‡ÎµÎ¯Î¿ Ï€Î±Ï�Î±Î¼Î­Ï„Ï�Ï‰Î½: %s
-Î•Î¬Î½ Ï„Î¿ Î±Ï�Ï‡ÎµÎ¯Î¿ Î´ÎµÎ½ Ï…Ï€Î¬Ï�Ï‡ÎµÎ¹, Î´Î·Î¼Î¹Î¿Ï�Ï�Î³Î·ÏƒÎµ Ï„Î¿ Î¼Îµ Î´Î¹ÎºÎ±Î¹ÏŽÎ¼Î±Ï„Î± Î¼ÏŒÎ½Î¿ Î³Î¹Î± Î±Î½Î¬Î³Î½Ï‰ÏƒÎ· Î±Ï€ÏŒ Ï„Î¿Î½ Î´Î·Î¼Î¹Î¿Ï…Ï�Î³ÏŒ</translation>
+        <translation>Σφάλμα</translation>
     </message>
 </context>
 </TS>
