@@ -176,10 +176,10 @@ public:
     CTestNetParams() {
         strNetworkID = "test";
         consensus.nSubsidyHalvingInterval = 230000;
-        consensus.BIP34Height = 2210;
+        consensus.BIP34Height = 600;
         consensus.BIP34Hash = uint256S("55d7107d8c0b74da850a8c2aaab38c16d4c90301a2f951e7b300413b69c026e4");
-        consensus.BIP65Height = 2210; // 8075c771ed8b495ffd943980a95f702ab34fce3c8c54e379548bda33cc8c0573
-        consensus.BIP66Height = 2210; // 8075c771ed8b495ffd943980a95f702ab34fce3c8c54e379548bda33cc8c0573
+        consensus.BIP65Height = 600; // 8075c771ed8b495ffd943980a95f702ab34fce3c8c54e379548bda33cc8c0573
+        consensus.BIP66Height = 600; // 8075c771ed8b495ffd943980a95f702ab34fce3c8c54e379548bda33cc8c0573
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 1 * 24 * 60 * 60; // 3.5 days
         consensus.nPowTargetSpacing = 60;
