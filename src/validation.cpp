@@ -1552,6 +1552,7 @@ int32_t ComputeBlockVersion(const CBlockIndex* pindexPrev, const Consensus::Para
 
     for (int i = 0; i < (int)Consensus::MAX_VERSION_BITS_DEPLOYMENTS; i++) {
         ThresholdState state = VersionBitsState(pindexPrev, params, (Consensus::DeploymentPos)i, versionbitscache);
+        LogPrintf("Threshhold state of block %d is %s for deployment %d\n",pindexPrev->nHeight,state, (Consensus::DeploymentPos)i);
         if (state == THRESHOLD_LOCKED_IN || state == THRESHOLD_STARTED) {
             nVersion |= VersionBitsMask(params, (Consensus::DeploymentPos)i);
         }
@@ -2030,10 +2031,10 @@ void static UpdateTip(CBlockIndex *pindexNew, const CChainParams& chainParams) {
         {
             int32_t nExpectedVersion = ComputeBlockVersion(pindex->pprev, chainParams.GetConsensus());
 
-            LogPrintf("Expected version %d\n", nExpectedVersion);
+            //LogPrintf("Expected version %d\n", nExpectedVersion);
 
             if (pindex->nVersion > VERSIONBITS_LAST_OLD_BLOCK_VERSION && (pindex->nVersion & ~nExpectedVersion) != 0){
-            	 LogPrintf("Got version %d\n",pindex->pprev->nVersion);
+            	 //LogPrintf("Got version %d\n",pindex->pprev->nVersion);
             	++nUpgraded;
             }
             pindex = pindex->pprev;
