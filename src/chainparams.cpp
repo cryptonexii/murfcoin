@@ -75,10 +75,10 @@ public:
     CMainParams() {
         strNetworkID = "main";
         consensus.nSubsidyHalvingInterval = 230000;
-        consensus.BIP34Height = 15655;  // DevMurfCoin - When BIP34 becomes enforced
-        consensus.BIP34Hash = uint256S("b9f7a8cd379bb1d8ce7eb9553f7ca915af09a673dbab91ca0b145b56901e6544"); // DevMurfCoin - When BIP34 becomes enforced
-        consensus.BIP65Height = 15655; // b9f7a8cd379bb1d8ce7eb9553f7ca915af09a673dbab91ca0b145b56901e6544
-        consensus.BIP66Height = 15655; // b9f7a8cd379bb1d8ce7eb9553f7ca915af09a673dbab91ca0b145b56901e6544
+        consensus.BIP34Height = 12350;  // DevMurfCoin - When BIP34 becomes enforced
+        consensus.BIP34Hash = uint256S("f628ba1a51e7a03056ac513696d3cb99e4264a1accb58946b426413f12946e8f"); // DevMurfCoin - When BIP34 becomes enforced
+        consensus.BIP65Height = 12350; // b9f7a8cd379bb1d8ce7eb9553f7ca915af09a673dbab91ca0b145b56901e6544
+        consensus.BIP66Height = 12350; // b9f7a8cd379bb1d8ce7eb9553f7ca915af09a673dbab91ca0b145b56901e6544
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); 
         consensus.nPowTargetTimespan = 1 * 24 * 60 * 60; // DevMurfCoin: Readjust difficulty every day
         consensus.nPowTargetSpacing = 60; // DevMurfCoin: Produce one block every 60 seconds
