@@ -2032,11 +2032,11 @@ void static UpdateTip(CBlockIndex *pindexNew, const CChainParams& chainParams) {
 
             LogPrintf("Expected version %d", nExpectedVersion);
 
-            if (pindex->nVersion > VERSIONBITS_LAST_OLD_BLOCK_VERSION && (pindex->nVersion & ~nExpectedVersion) != 0) {
-                ++nUpgraded;
-                pindex->nVersion
+            if (pindex->nVersion > VERSIONBITS_LAST_OLD_BLOCK_VERSION && (pindex->nVersion & ~nExpectedVersion) != 0){
+            	 LogPrintf("Got version %d",pindex->pprev);
+            	++nUpgraded;
             }
-            LogPrintf("Got version %d",pindex->pprev);
+            pindex = pindex->pprev;
         }
         if (nUpgraded > 0)
             warningMessages.push_back(strprintf(_("%d of last 100 blocks have unexpected version"), nUpgraded));
