@@ -2030,10 +2030,10 @@ void static UpdateTip(CBlockIndex *pindexNew, const CChainParams& chainParams) {
         {
             int32_t nExpectedVersion = ComputeBlockVersion(pindex->pprev, chainParams.GetConsensus());
 
-            LogPrintf("Expected version %d", nExpectedVersion);
+            LogPrintf("Expected version %d\n", nExpectedVersion);
 
             if (pindex->nVersion > VERSIONBITS_LAST_OLD_BLOCK_VERSION && (pindex->nVersion & ~nExpectedVersion) != 0){
-            	 LogPrintf("Got version %d",pindex->pprev);
+            	 LogPrintf("Got version %d\n",pindex->pprev->nVersion);
             	++nUpgraded;
             }
             pindex = pindex->pprev;
