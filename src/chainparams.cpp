@@ -104,10 +104,10 @@ public:
 
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000000000");
+        consensus.nMinimumChainWork = uint256S("0000000000000000000000000000000000000000000000000003c558e1e4b4b7");
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x042ae0d3311d1de0a817cf686b8e70e1706673606db5c9f6af3c4e1860ae79c9"); // DevMurfCoin - Block 10326
+        consensus.defaultAssumeValid = uint256S("fccfb6a2d83fa03c2584a425fabac66cf12fa8a78f73aa32c02925bd0b10e860"); // DevMurfCoin - Block 19854
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -154,14 +154,14 @@ public:
 
         checkpointData = (CCheckpointData) {
             {
-                {  437, uint256S("8aadd5c687216500c300e979a801b6b4a715e195b63ae961193b528f86b124a4")}
+                {  19854, uint256S("fccfb6a2d83fa03c2584a425fabac66cf12fa8a78f73aa32c02925bd0b10e860")}
             }
         };
 
         chainTxData = ChainTxData{
             // Data as of block db42d00d824950a125f9b08b6b6c282c484781562fa8b3bd29d6ce4a2627c348 (height 1259851).
-        	1516251216, // * UNIX timestamp of last known number of transactions - DevMurfCoin 2018-01-18 04:53:36
-			6007,  // * total number of transactions between genesis and that timestamp - DevMurfCoin - From debug.log
+        	1517166427, // * UNIX timestamp of last known number of transactions - DevMurfCoin 2018-01-18 04:53:36
+			21244,  // * total number of transactions between genesis and that timestamp - DevMurfCoin - From debug.log
                     //   (the tx=... number in the SetBestChain debug.log lines)
             0.06     // * estimated number of transactions per second after that timestamp
         };
