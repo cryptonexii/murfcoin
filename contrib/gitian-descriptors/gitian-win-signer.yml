@@ -8,7 +8,7 @@ packages:
 - "libssl-dev"
 - "autoconf"
 remotes:
-- "url": "https://github.com/murfcoin-project/murfcoin-detached-sigs.git"
+- "url": "https://github.com/cryptonexii/murfcoin-detached-sigs.git"
   "dir": "signature"
 files:
 - "osslsigncode-1.7.1.tar.gz"

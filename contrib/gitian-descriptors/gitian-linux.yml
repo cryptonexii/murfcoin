@@ -28,7 +28,7 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/murfcoin-project/murfcoin.git"
+- "url": "https://github.com/cryptonexii/murfcoin.git"
   "dir": "murfcoin"
 files: []
 script: |

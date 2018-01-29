@@ -28,7 +28,7 @@ packages:
 - "python-setuptools"
 - "fonts-tuffy"
 remotes:
-- "url": "https://github.com/murfcoin-project/murfcoin.git"
+- "url": "https://github.com/cryptonexii/murfcoin.git"
   "dir": "murfcoin"
 files:
 - "MacOSX10.11.sdk.tar.gz"

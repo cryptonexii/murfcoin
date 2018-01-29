@@ -7,7 +7,7 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/murfcoin-project/murfcoin-detached-sigs.git"
+- "url": "https://github.com/cryptonexii/murfcoin-detached-sigs.git"
   "dir": "signature"
 files:
 - "murfcoin-osx-unsigned.tar.gz"
