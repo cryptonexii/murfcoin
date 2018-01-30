@@ -1,7 +1,7 @@
 Murfcoin Core integration/staging tree
 =====================================
 
-[![Build Status](https://travis-ci.org/murfcoin-project/murfcoin.svg?branch=master)](https://travis-ci.org/murfcoin-project/murfcoin)
+[![Build Status](https://travis-ci.org/cryptonexii/murfcoin.svg?branch=master)](https://travis-ci.org/cryptonexii/murfcoin)
 
 https://murfcoin.org
 
@@ -27,7 +27,7 @@ Development Process
 -------------------
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/murfcoin-project/murfcoin/tags) are created
+completely stable. [Tags](https://github.com/cryptonexii/murfcoin/tags) are created
 regularly to indicate new official, stable release versions of Murfcoin Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
