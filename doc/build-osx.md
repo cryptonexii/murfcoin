@@ -33,7 +33,7 @@ Build Murfcoin Core
 
 1. Clone the murfcoin source code and cd into `murfcoin`
 
-        git clone https://github.com/murfcoin-project/murfcoin
+        git clone https://github.com/cryptonexii/murfcoin
         cd murfcoin
 
 2.  Build murfcoin-core:
