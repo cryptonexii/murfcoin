@@ -64,6 +64,7 @@ public:
     CMainParams() {
         strNetworkID = "main";
         consensus.nSubsidyHalvingInterval = 230000;
+        consensus.BIP16Height = 12350;
         consensus.BIP34Height = 12350;  // DevMurfCoin - When BIP34 becomes enforced
         consensus.BIP34Hash = uint256S("10eaf6039995c5a56b7f1aa910f12cebda0df9edb838e63e41188df35c3acdf9"); // DevMurfCoin - When BIP34 becomes enforced
         consensus.BIP65Height = 12350; // b9f7a8cd379bb1d8ce7eb9553f7ca915af09a673dbab91ca0b145b56901e6544
@@ -172,6 +173,7 @@ public:
     CTestNetParams() {
         strNetworkID = "test";
         consensus.nSubsidyHalvingInterval = 230000;
+        consensus.BIP16Height = 600;
         consensus.BIP34Height = 600;
         consensus.BIP34Hash = uint256S("55d7107d8c0b74da850a8c2aaab38c16d4c90301a2f951e7b300413b69c026e4");
         consensus.BIP65Height = 600; // 8075c771ed8b495ffd943980a95f702ab34fce3c8c54e379548bda33cc8c0573
@@ -185,7 +187,7 @@ public:
 
 
         consensus.nMinerConfirmationWindow = 2016; // nPowTargetTimespan / nPowTargetSpacing
-        /**
+
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].bit = 28;
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].nStartTime = 1199145601; // January 1, 2008
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].nTimeout = 1230767999; // December 31, 2008
@@ -199,7 +201,7 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].bit = 1;
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nStartTime = 1483228800; // January 1, 2017
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 1517356801; // January 31st, 2018
-		**/
+
         // The best chain should have at least this much work.
         consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000000000");
 
@@ -236,7 +238,7 @@ public:
         base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x35, 0x87, 0xCF};
         base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x35, 0x83, 0x94};
 
-        bech32_hrp = "tltc";
+        bech32_hrp = "tfluff";
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_test, pnSeed6_test + ARRAYLEN(pnSeed6_test));
 
@@ -339,7 +341,7 @@ public:
         base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x35, 0x87, 0xCF};
         base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x35, 0x83, 0x94};
 
-        bech32_hrp = "rltc";
+        bech32_hrp = "rfluff";
 
         /* enable fallback fee on regtest */
         m_fallback_fee_enabled = true;
