@@ -66,14 +66,17 @@ ThresholdState AbstractThresholdConditionChecker::GetStateFor(const CBlockIndex*
             case THRESHOLD_DEFINED: {
                 if (pindexPrev->GetMedianTimePast() >= nTimeTimeout) {
                     stateNext = THRESHOLD_FAILED;
+                    LogPrintf("THRESHOLD_FAILED from THRESHOLD_DEFINED due to timeout\n");
                 } else if (pindexPrev->GetMedianTimePast() >= nTimeStart) {
                     stateNext = THRESHOLD_STARTED;
+                    LogPrintf("THRESHOLD_STARTED from THRESHOLD_DEFINED\n");
                 }
                 break;
             }
             case THRESHOLD_STARTED: {
                 if (pindexPrev->GetMedianTimePast() >= nTimeTimeout) {
                     stateNext = THRESHOLD_FAILED;
+                    LogPrintf("THRESHOLD_FAILED from THRESHOLD_STARTED due to timeout\n");
                     break;
                 }
                 // We need to count
@@ -85,19 +88,25 @@ ThresholdState AbstractThresholdConditionChecker::GetStateFor(const CBlockIndex*
                     }
                     pindexCount = pindexCount->pprev;
                 }
+
+                LogPrintf("THRESHOLD_STARTED - count is %d and threshold to LOCK IN is %d \n",count,nThreshold);
+
                 if (count >= nThreshold) {
                     stateNext = THRESHOLD_LOCKED_IN;
+                    LogPrintf("THRESHOLD_LOCKED_IN activated\n");
                 }
                 break;
             }
             case THRESHOLD_LOCKED_IN: {
                 // Always progresses into ACTIVE.
                 stateNext = THRESHOLD_ACTIVE;
+                LogPrintf("THRESHOLD_ACTIVE from THRESHOLD_LOCKED_IN\n");
                 break;
             }
             case THRESHOLD_FAILED:
             case THRESHOLD_ACTIVE: {
                 // Nothing happens, these are terminal states.
+            	LogPrintf("THRESHOLD_ACTIVE activated\n");
                 break;
             }
         }

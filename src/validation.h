@@ -122,7 +122,9 @@ static const int64_t BLOCK_DOWNLOAD_TIMEOUT_BASE = 1000000;
 /** Additional block download timeout per parallel downloading peer (i.e. 5 min) */
 static const int64_t BLOCK_DOWNLOAD_TIMEOUT_PER_PEER = 500000;
 
-static const int64_t DEFAULT_MAX_TIP_AGE = 24 * 60 * 60 * 30; // DevMurfCoin - Increase Max Tip Age for Softfork to work.
+// DevMurfCoin - 2018 - Max Tip Age was increased to 30 Days for Softfork to work.
+// DevMurfCoin - 2021 - Max Tip Age was increased to 4000 Days for testnet to get back into operation
+static const int64_t DEFAULT_MAX_TIP_AGE = 24 * 60 * 60 * 4000; 
 /** Maximum age of our tip in seconds for us to be considered current for fee estimation */
 static const int64_t MAX_FEE_ESTIMATION_TIP_AGE = 3 * 60 * 60;
 
