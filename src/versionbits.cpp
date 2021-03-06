@@ -13,7 +13,7 @@ ThresholdState AbstractThresholdConditionChecker::GetStateFor(const CBlockIndex*
     int64_t nTimeStart = BeginTime(params);
     int64_t nTimeTimeout = EndTime(params);
 
-    LogPrintf("Processed Block %d Header\n", &pindexPrev->nHeight);
+    //LogPrintf("Processed Block %d Header\n", &pindexPrev->nHeight); DevMurfCoin
 
     // Check if this deployment is always active.
     if (nTimeStart == Consensus::BIP9Deployment::ALWAYS_ACTIVE) {

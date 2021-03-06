@@ -173,11 +173,11 @@ public:
     CTestNetParams() {
         strNetworkID = "test";
         consensus.nSubsidyHalvingInterval = 230000;
-        consensus.BIP16Height = 600;
-        consensus.BIP34Height = 600;
-        consensus.BIP34Hash = uint256S("55d7107d8c0b74da850a8c2aaab38c16d4c90301a2f951e7b300413b69c026e4");
-        consensus.BIP65Height = 600; // 8075c771ed8b495ffd943980a95f702ab34fce3c8c54e379548bda33cc8c0573
-        consensus.BIP66Height = 600; // 8075c771ed8b495ffd943980a95f702ab34fce3c8c54e379548bda33cc8c0573
+        consensus.BIP16Height = 10350;
+        consensus.BIP34Height = 10350;
+        consensus.BIP34Hash = uint256S("e7fd48851174cbae052e2e1dd50202b8a2db5de7ae273a71c82e7503e94b3a98");
+        consensus.BIP65Height = 10350; // 8075c771ed8b495ffd943980a95f702ab34fce3c8c54e379548bda33cc8c0573
+        consensus.BIP66Height = 10350; // 8075c771ed8b495ffd943980a95f702ab34fce3c8c54e379548bda33cc8c0573
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 1 * 24 * 60 * 60; // 3.5 days
         consensus.nPowTargetSpacing = 60;
@@ -206,7 +206,7 @@ public:
         consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000000000");
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x863b119d76361c2f6949037a2386b233def6d42aef2a9e13dcdca4bdb87b0547"); //153490
+        consensus.defaultAssumeValid = uint256S("e7fd48851174cbae052e2e1dd50202b8a2db5de7ae273a71c82e7503e94b3a98"); //10350
 
         pchMessageStart[0] = 0xfd;
         pchMessageStart[1] = 0xc8;

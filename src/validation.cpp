@@ -1690,7 +1690,7 @@ int32_t ComputeBlockVersion(const CBlockIndex* pindexPrev, const Consensus::Para
 
     for (int i = 0; i < (int)Consensus::MAX_VERSION_BITS_DEPLOYMENTS; i++) {
         ThresholdState state = VersionBitsState(pindexPrev, params, static_cast<Consensus::DeploymentPos>(i), versionbitscache);
-        LogPrintf("Threshold state of block %d is %d for deployment %d\n",pindexPrev->nHeight,(int)state, static_cast<Consensus::DeploymentPos>(i));
+        //LogPrintf("Threshold state of block %d is %d for deployment %d\n",pindexPrev->nHeight,(int)state, static_cast<Consensus::DeploymentPos>(i)); DevMurfCoin
         if (state == ThresholdState::LOCKED_IN || state == ThresholdState::STARTED) {
             nVersion |= VersionBitsMask(params, static_cast<Consensus::DeploymentPos>(i));
         }
@@ -2248,7 +2248,7 @@ void static UpdateTip(const CBlockIndex *pindexNew, const CChainParams& chainPar
             }
             pindex = pindex->pprev;
 
-            LogPrintf("Got version %d\n",pindex->pprev);
+            //LogPrintf("Got version %d\n",pindex->pprev); DevMurfCoin
         }
         if (nUpgraded > 0)
             AppendWarning(warningMessages, strprintf(_("%d of last 100 blocks have unexpected version"), nUpgraded));
