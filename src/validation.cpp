@@ -2245,8 +2245,8 @@ void static UpdateTip(const CBlockIndex *pindexNew, const CChainParams& chainPar
             WarningBitsConditionChecker checker(bit);
             ThresholdState state = checker.GetStateFor(pindex, chainParams.GetConsensus(), warningcache[bit]);
 
-            if(bit<3)
-            LogPrintf("Checking bit %d @ block height %d which has version %d\n",bit, pindex->nHeight, pindex->nVersion);
+            //if(bit<3)
+            //LogPrintf("Checking bit %d @ block height %d which has version %d\n",bit, pindex->nHeight, pindex->nVersion);
 
             if (state == ThresholdState::ACTIVE || state == ThresholdState::LOCKED_IN) {
                 const std::string strWarning = strprintf(_("Warning: unknown new rules activated (versionbit %i) caused by block %d"), bit, pindex->nHeight);
