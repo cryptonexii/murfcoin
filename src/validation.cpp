@@ -1690,7 +1690,10 @@ int32_t ComputeBlockVersion(const CBlockIndex* pindexPrev, const Consensus::Para
 
     for (int i = 0; i < (int)Consensus::MAX_VERSION_BITS_DEPLOYMENTS; i++) {
         ThresholdState state = VersionBitsState(pindexPrev, params, static_cast<Consensus::DeploymentPos>(i), versionbitscache);
-        //LogPrintf("Threshold state of block %d is %d for deployment %d\n",pindexPrev->nHeight,(int)state, static_cast<Consensus::DeploymentPos>(i)); DevMurfCoin
+
+        if((int)state!=3)
+        LogPrintf("Threshold state of block %d is %d for deployment %d\n",pindexPrev->nHeight,(int)state, static_cast<Consensus::DeploymentPos>(i)); //DevMurfCoin
+
         if (state == ThresholdState::LOCKED_IN || state == ThresholdState::STARTED) {
             nVersion |= VersionBitsMask(params, static_cast<Consensus::DeploymentPos>(i));
         }
@@ -1717,9 +1720,19 @@ public:
 
     bool Condition(const CBlockIndex* pindex, const Consensus::Params& params) const override
     {
-        return ((pindex->nVersion & VERSIONBITS_TOP_MASK) == VERSIONBITS_TOP_BITS) &&
-               ((pindex->nVersion >> bit) & 1) != 0 &&
-               ((ComputeBlockVersion(pindex->pprev, params) >> bit) & 1) == 0;
+    	//LogPrintf("Is %d == to %d? [Checking if %d (pindex->nVersion) & %d (VERSIONBITS_TOP_MASK) == %d (VERSIONBITS_TOP_BITS)]\n",bit, pindex->nVersion & VERSIONBITS_TOP_MASK, VERSIONBITS_TOP_BITS, pindex->nVersion, VERSIONBITS_TOP_MASK, VERSIONBITS_TOP_BITS);
+    	if((((pindex->nVersion & VERSIONBITS_TOP_MASK) == VERSIONBITS_TOP_BITS) &&
+                ((pindex->nVersion >> bit) & 1) != 0 &&
+                ((ComputeBlockVersion(pindex->pprev, params) >> bit) & 1) == 0) == 1) {
+			LogPrintf("Warning Bit is %d for %d\n",((pindex->nVersion & VERSIONBITS_TOP_MASK) == VERSIONBITS_TOP_BITS) &&
+					((pindex->nVersion >> bit) & 1) != 0 &&
+					((ComputeBlockVersion(pindex->pprev, params) >> bit) & 1) == 0, pindex->nHeight);
+    	}
+
+
+		return ((pindex->nVersion & VERSIONBITS_TOP_MASK) == VERSIONBITS_TOP_BITS) &&
+		   ((pindex->nVersion >> bit) & 1) != 0 &&
+		   ((ComputeBlockVersion(pindex->pprev, params) >> bit) & 1) == 0;
     }
 };
 
@@ -2227,10 +2240,16 @@ void static UpdateTip(const CBlockIndex *pindexNew, const CChainParams& chainPar
         int nUpgraded = 0;
         const CBlockIndex* pindex = pindexNew;
         for (int bit = 0; bit < VERSIONBITS_NUM_BITS; bit++) {
+
+
             WarningBitsConditionChecker checker(bit);
             ThresholdState state = checker.GetStateFor(pindex, chainParams.GetConsensus(), warningcache[bit]);
+
+            if(bit<3)
+            LogPrintf("Checking bit %d @ block height %d which has version %d\n",bit, pindex->nHeight, pindex->nVersion);
+
             if (state == ThresholdState::ACTIVE || state == ThresholdState::LOCKED_IN) {
-                const std::string strWarning = strprintf(_("Warning: unknown new rules activated (versionbit %i)"), bit);
+                const std::string strWarning = strprintf(_("Warning: unknown new rules activated (versionbit %i) caused by block %d"), bit, pindex->nHeight);
                 if (state == ThresholdState::ACTIVE) {
                     DoWarning(strWarning);
                 } else {

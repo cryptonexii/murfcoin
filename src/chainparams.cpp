@@ -64,33 +64,33 @@ public:
     CMainParams() {
         strNetworkID = "main";
         consensus.nSubsidyHalvingInterval = 230000;
-        consensus.BIP16Height = 12350;
-        consensus.BIP34Height = 12350;  // DevMurfCoin - When BIP34 becomes enforced
-        consensus.BIP34Hash = uint256S("10eaf6039995c5a56b7f1aa910f12cebda0df9edb838e63e41188df35c3acdf9"); // DevMurfCoin - When BIP34 becomes enforced
-        consensus.BIP65Height = 12350; // b9f7a8cd379bb1d8ce7eb9553f7ca915af09a673dbab91ca0b145b56901e6544
-        consensus.BIP66Height = 12350; // b9f7a8cd379bb1d8ce7eb9553f7ca915af09a673dbab91ca0b145b56901e6544
+        consensus.BIP16Height = 1526527;
+        consensus.BIP34Height = 1526527;  // DevMurfCoin - When BIP34 becomes enforced
+        consensus.BIP34Hash = uint256S("c269e96142a54cca4ca62a42eaa0843bd05808b7a8316bb1507fefac6fb1ecb6"); // DevMurfCoin - When BIP34 becomes enforced
+        consensus.BIP65Height = 1526527; // b9f7a8cd379bb1d8ce7eb9553f7ca915af09a673dbab91ca0b145b56901e6544
+        consensus.BIP66Height = 1526527; // b9f7a8cd379bb1d8ce7eb9553f7ca915af09a673dbab91ca0b145b56901e6544
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); 
         consensus.nPowTargetTimespan = 1 * 24 * 60 * 60; // DevMurfCoin: Readjust difficulty every day
         consensus.nPowTargetSpacing = 60; // DevMurfCoin: Produce one block every 60 seconds
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
-        consensus.nRuleChangeActivationThreshold = 6048; // 75% of 8064
-        consensus.nMinerConfirmationWindow = 8064; // nPowTargetTimespan / nPowTargetSpacing * 4
+        consensus.nRuleChangeActivationThreshold = 5; // 75% of 8064
+        consensus.nMinerConfirmationWindow = 10; // nPowTargetTimespan / nPowTargetSpacing * 4
 
         //DevMurfCoin - We already inherit these soft forks
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].bit = 28;
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].nStartTime = 1199145601; // January 1, 2008
-        consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].nTimeout = 1230767999; // December 31, 2008
+        consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].nTimeout = 1622163600; // Friday, May 28, 2021 1:00:00 AM
 
         // Deployment of BIP68, BIP112, and BIP113.
         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].bit = 0;
         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nStartTime = 1516748231; // January 23, 2018
-        consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nTimeout = 1517353031; // January 30th, 2018
+        consensus.vDeployments[Consensus::DEPLOYMENT_CSV].nTimeout = 1622163600; // Friday, May 28, 2021 1:00:00 AM
 
         // Deployment of SegWit (BIP141, BIP143, and BIP147)
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].bit = 1;
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nStartTime = 1516748231; // January 23, 2018
-        consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 1517353031; // January 30th, 2018
+        consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 1622163600; // Friday, May 28, 2021 1:00:00 AM
 
 
         // The best chain should have at least this much work.
