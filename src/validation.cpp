@@ -1691,8 +1691,8 @@ int32_t ComputeBlockVersion(const CBlockIndex* pindexPrev, const Consensus::Para
     for (int i = 0; i < (int)Consensus::MAX_VERSION_BITS_DEPLOYMENTS; i++) {
         ThresholdState state = VersionBitsState(pindexPrev, params, static_cast<Consensus::DeploymentPos>(i), versionbitscache);
 
-        if((int)state!=3)
-        LogPrintf("Threshold state of block %d is %d for deployment %d\n",pindexPrev->nHeight,(int)state, static_cast<Consensus::DeploymentPos>(i)); //DevMurfCoin
+        //if((int)state!=3)
+        //LogPrintf("Threshold state of block %d is %d for deployment %d\n",pindexPrev->nHeight,(int)state, static_cast<Consensus::DeploymentPos>(i)); //DevMurfCoin
 
         if (state == ThresholdState::LOCKED_IN || state == ThresholdState::STARTED) {
             nVersion |= VersionBitsMask(params, static_cast<Consensus::DeploymentPos>(i));
